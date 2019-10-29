@@ -1,0 +1,149 @@
+var TableAdvanced = function () {
+
+    var initTable1 = function() {
+    var nCloneTh = document.createElement( 'th' );
+        var nCloneTd = document.createElement( 'td' );
+        var oTable = $('#sample_1').dataTable( {
+            "aoColumnDefs": [
+                {"bSortable": false, "aTargets": [ -1 ] }
+            ],
+            "aaSorting": [[0, 'asc']],
+             "aLengthMenu": [
+                [5, 15, 20, -1],
+                [5, 15, 20, "All"] // change per page values here
+            ],
+            // set the initial value
+            "iDisplayLength": 10,
+        });
+        jQuery('#sample_1_wrapper .dataTables_filter input').addClass("m-wrap small"); // modify table search input
+        jQuery('#sample_1_wrapper .dataTables_length select').addClass("m-wrap small"); // modify table per page dropdown
+        jQuery('#sample_1_wrapper .dataTables_length select').select2(); // initialzie select2 dropdown
+        
+        $('#sample_1').on('click', ' tbody td .row-details', function () {
+            var nTr = $(this).parents('tr')[0];
+            if ( oTable.fnIsOpen(nTr) )
+            {
+                /* This row is already open - close it */
+                $(this).addClass("row-details-close").removeClass("row-details-open");
+                oTable.fnClose( nTr );
+            }
+            else
+            {
+                /* Open this row */                
+                $(this).addClass("row-details-open").removeClass("row-details-close");
+                oTable.fnOpen( nTr, fnFormatDetails(oTable, nTr), 'details' );
+            }
+        });
+    }
+	
+	var initTable2 = function() {
+    var nCloneTh = document.createElement( 'th' );
+        var nCloneTd = document.createElement( 'td' );
+        var oTable = $('#sample_2').dataTable( {
+            "aoColumnDefs": [
+                {"bSortable": false, "aTargets": [ -1 ] }
+            ],
+            "aaSorting": [[0, 'asc']],
+             "aLengthMenu": [
+                [5, 15, 20, -1],
+                [5, 15, 20, "All"] // change per page values here
+            ],
+            // set the initial value
+            "iDisplayLength": 10,
+        });
+        jQuery('#sample_2_wrapper .dataTables_filter input').addClass("m-wrap small"); // modify table search input
+        jQuery('#sample_2_wrapper .dataTables_length select').addClass("m-wrap small"); // modify table per page dropdown
+        jQuery('#sample_2_wrapper .dataTables_length select').select2(); // initialzie select2 dropdown
+        
+        $('#sample_2').on('click', ' tbody td .row-details', function () {
+            var nTr = $(this).parents('tr')[0];
+            if ( oTable.fnIsOpen(nTr) )
+            {
+                /* This row is already open - close it */
+                $(this).addClass("row-details-close").removeClass("row-details-open");
+                oTable.fnClose( nTr );
+            }
+            else
+            {
+                /* Open this row */                
+                $(this).addClass("row-details-open").removeClass("row-details-close");
+                oTable.fnOpen( nTr, fnFormatDetails(oTable, nTr), 'details' );
+            }
+        });
+    }
+	
+	var initTable3 = function() {
+    var nCloneTh = document.createElement( 'th' );
+        var nCloneTd = document.createElement( 'td' );
+        var oTable = $('#sample_3').dataTable( {
+            "aoColumnDefs": [
+                {"bSortable": false, "aTargets": [ -1 ] }
+            ],
+            "aaSorting": [[0, 'asc']],
+             "aLengthMenu": [
+                [5, 15, 20, -1],
+                [5, 15, 20, "All"] // change per page values here
+            ],
+            // set the initial value
+            "iDisplayLength": 10,
+        });
+        jQuery('#sample_3_wrapper .dataTables_filter input').addClass("m-wrap small"); // modify table search input
+        jQuery('#sample_3_wrapper .dataTables_length select').addClass("m-wrap small"); // modify table per page dropdown
+        jQuery('#sample_3_wrapper .dataTables_length select').select2(); // initialzie select2 dropdown
+        
+        $('#sample_3').on('click', ' tbody td .row-details', function () {
+            var nTr = $(this).parents('tr')[0];
+            if ( oTable.fnIsOpen(nTr) )
+            {
+                /* This row is already open - close it */
+                $(this).addClass("row-details-close").removeClass("row-details-open");
+                oTable.fnClose( nTr );
+            }
+            else
+            {
+                /* Open this row */                
+                $(this).addClass("row-details-open").removeClass("row-details-close");
+                oTable.fnOpen( nTr, fnFormatDetails(oTable, nTr), 'details' );
+            }
+        });
+    }
+ return {
+ //main function to initiate the module
+        init: function () {
+            if (!jQuery().dataTable) {
+                return;
+            }
+
+            initTable1();
+            initTable2();
+			initTable3();
+        }
+        };
+
+}();
+
+//qiehuan
+function setTab4(name,cursel,n){
+for(i=1;i<=n;i++){
+var menu=document.getElementById(name+i);
+var con=document.getElementById(name+"_"+i);
+//menu.checked=i==cursel?"true":"";
+menu.className = i== cursel?"lab_pg_xz":"lab_pg_yl";
+con.style.display=i==cursel?"block":"none";
+}
+}
+$(document).ready(function() {
+$('#editorM').click(function(event) {
+		event.stopPropagation();
+		$('.edit-wrap-qx').toggle();
+		$('#editorM').addClass('active');
+	    });
+	    $(document).click(function() {
+	    $('.edit-wrap-qx').hide();
+		$('#editorM').removeClass('active');
+	    });
+//钻取选择
+	 $(".zdList li").click(function(){
+		$(this).addClass("hot").siblings("li").removeClass();
+	});		
+})

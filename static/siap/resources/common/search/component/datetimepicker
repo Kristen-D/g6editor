@@ -1,0 +1,206 @@
+<div  class="popdown-dialog options-wrap dialog-k" id="popdown_timerangepicker">
+  <div class="arrow"></div>
+  <div class="timerangepicker-dialog">
+    <div class="accordion-heading"> <span class="accordion-toggle-active" href="#"> <i class="icon-down-small"></i> 预设 </span> </div>
+    <table width="100%" border="0" class="shared-timerangepicker-dialog">
+      <tr>
+        <td class="td_div">
+        <!--<ul class="unstyled presets-group">
+            <li>实时</li>
+            <li><a href="#" data-latest="rt" data-earliest="rt-30s">30 秒窗口</a></li>
+            <li><a href="#" data-latest="rt" data-earliest="rt-1m">1 分钟窗口</a></li>
+            <li><a href="#" data-latest="rt" data-earliest="rt-5m">5 分钟窗口</a></li>
+            <li><a href="#" data-latest="rt" data-earliest="rt-30m">30 分钟窗口</a></li>
+            <li><a href="#" data-latest="rt" data-earliest="rt-1h">1 小时窗口</a></li>
+            <li><a href="#" data-latest="rt" data-earliest="rt">所有时间 (实时)</a></li>
+          </ul>
+          <div class="presets-divider-wrap">
+            <div class="presets-divider"></div>
+          </div>-->
+          <ul class="unstyled presets-group">
+            <li>相对</li>
+            <li><a href="#" id="a_t" class ="a_opposite" data-latest="now" data-earliest="@d">今天</a></li>
+            <li><a href="#" id="a_ow" class ="a_opposite" data-latest="now" data-earliest="@w0">本周迄今</a></li>
+            <li><a href="#" id="a_om" class ="a_opposite" data-latest="now" data-earliest="@mon">本月迄今</a></li>
+            <li><a href="#" id="a_oy" class ="a_opposite" data-latest="now" data-earliest="@y">年度迄今</a></li>
+            <li><a href="#" id="a_y" class ="a_opposite" data-latest="@d" data-earliest="-1d@d">昨天</a></li>
+            <li><a href="#" id="a_lw" class ="a_opposite" data-latest="@w0" data-earliest="-7d@w0">前一周</a></li>
+            <li><a href="#" id="a_lm" class ="a_opposite" data-latest="@mon" data-earliest="-1mon@mon">上月</a></li>
+            <li><a href="#" id="a_ly" class ="a_opposite" data-latest="@y" data-earliest="-1y@y">上一年</a></li>
+          </ul>
+          <ul class="unstyled presets-group">
+            <li>&nbsp;</li>
+            <li><a href="#" id="a_m15" class ="a_opposite" data-latest="now" data-earliest="-15m">前 15 分钟</a></li>
+            <li><a href="#" id="a_h1" class ="a_opposite" data-latest="now" data-earliest="-60m@m">前 60 分钟</a></li>
+            <li><a href="#" id="a_h4" class ="a_opposite" data-latest="now" data-earliest="-4h@m">前 4 小时</a></li>
+            <li><a href="#" id="a_d1" class ="a_opposite" data-latest="now" data-earliest="-24h@h">前 24 小时</a></li>
+            <li><a href="#" id="a_d7" class ="a_opposite" data-latest="now" data-earliest="-7d@h">前 7 天</a></li>
+            <li><a href="#" id="a_d30" class ="a_opposite" data-latest="now" data-earliest="-30d@d">前 30 天</a></li>
+          </ul>
+          <div class="presets-divider-wrap">
+            <div class="presets-divider"></div>
+          </div>
+          <ul class="unstyled presets-group">
+            <li>其他</li>
+            <li><a href="#" class ="a_other"  data-latest="" data-earliest="0">所有时间</a></li>
+          </ul></td>
+      </tr>
+    </table>
+    <div class="accordion-heading"> <span class="accordion-toggle" href="#"> <i class="icon-right-small"></i> 相对 </span> </div>
+    <table width="100%" border="0" class="shared-timerangepicker-dialog">
+      <tr>
+        <td class="td_div"><div class="relative-time-container">
+            <div class="control-group col-1 earliest_time">
+              <label title="最早:" class="control-label" for="earliest_view3431">最早:</label>
+              <div class="controls">
+                <div class="input-append">
+                  <div class="btn-group">
+                    <input  id="in_opposite_time_start" class="earliest_input" type="text" size="5">
+                    <button class="btn_s cother timerangepicker-range_unit" data-field-name="host"><span id="s_opposite_time_choose">秒前</span><span class="caret"></span></button>
+                  </div>
+                  <div class="editor-bg edit-wrap timer-tkw hide dialog-k">
+      				  <div class="arrow"></div>
+      				  <div class="edit-dialog2 draghandle_b">
+      			    <ul>
+          			  <li class="a_opposite_time_choose" name="a_s" start-data="秒开始" end-data="当前秒开始"><a href="#">秒前</a></li>
+           			  <li class="a_opposite_time_choose" name="a_mm" start-data="分钟开始" end-data="当前分钟开始"><a href="#">分钟前</a></li>
+           			  <li class="a_opposite_time_choose" name="a_h" start-data="小时开始" end-data="当前小时开始"><a href="#">小时前</a></li>
+          			  <li class="a_opposite_time_choose" name="a_d" start-data="一天开始" end-data="今日开始"><a href="#">天前</a></li>
+          			  <li class="a_opposite_time_choose" name="a_w" start-data="每周的第一天" end-data="本周的第一天"><a href="#">周前</a></li>
+          			  <li class="a_opposite_time_choose" name="a_m" start-data="每月的第一天" end-data="本月的第一天"><a href="#">个月前</a></li>
+          			  <li class="a_opposite_time_choose" name="a_se" start-data="每季度第一天" end-data="本季度第一天"><a href="#">季度前</a></li>
+          			  <li class="a_opposite_time_choose" name="a_y" start-data="每年第一天" end-data="本年度第一天"><a href="#">年前</a></li>
+       			   </ul>
+       			 </div>
+    			  </div>
+                  <label class="radio" for="earliest_no_snap_to_view3431">
+                    <input class="in_opposite_time_early" id="in_opposite_time_from_now" name="earliest_snap" type="radio" checked="checked" value="0">
+                    未对齐到 </label>
+                  <label  class="radio" for="earliest_no_snap_to_view3431">
+                    <input  class="in_opposite_time_early" id="in_opposite_time_from_zero" name="earliest_snap" type="radio"  value="0">
+                    <span id="s_opposite_time_start_msg">秒开始</span> </label>
+                   </div>
+              </div>
+            </div>
+            <div class="control-group col-2 latest_time">
+              <label title="最晚:" class="control-label" for="earliest_view3431">最晚:</label>
+              <div class="controls">
+                <div class="input-append">
+                  <label class="radio" for="earliest_no_snap_to_view3431">
+                    <input  class="in_opposite_time_late" id="in_opposite_time_now" name="latest_snap" type="radio" checked="checked" value="0">
+                    立即 </label>
+                  <label  class="radio" for="earliest_no_snap_to_view3431">
+                    <input  class="in_opposite_time_late" id="in_opposite_time_curr" name="latest_snap" type="radio"  value="0">
+                   <span id="s_opposite_time_end_msg"> 当前秒开始 </span></label>
+                   </div>
+              </div>
+            </div>
+            <div class="control-group col-3"> <a href="#" id="a_opposite_time_apply" class="btn_cancel_bg timepicker-modal-btn-cancel">应用</a> </div>
+          </div></td>
+      </tr>
+    </table>
+    <!-- <div class="accordion-heading"> <span class="accordion-toggle" href="#"> <i class="icon-right-small"></i> 实时 </span> </div>
+    <table width="100%" border="0" class="shared-timerangepicker-dialog">
+      <tr>
+        <td class="td_div"><div class="relative-time-container">
+            <div class="control-group col-1 earliest_time">
+              <label title="最早:" class="control-label" for="earliest_view3431">最早:</label>
+              <div class="controls">
+                <div class="input-append">
+                  <div class="btn-group">
+                    <input class="earliest_input" type="text" size="5" value="0" id="in_real_time_start">
+                    <button id="b_real_time" class="btn_s cother timerangepicker-range_unit" data-field-name="host"><span id="s_real_time_choose">秒前</span><span class="caret"></span></button>
+                    </div>
+                    <div class="editor-bg edit-wrap timer-tkw hide dialog-k">
+        <div class="arrow"></div>
+        <div class="edit-dialog2 draghandle_b">
+          <ul>
+            <li class="a_real_time_choose" name="a_s"><a href="#">秒前</a></li>
+            <li class="a_real_time_choose" name="a_mm"><a href="#">分钟前</a></li>
+            <li class="a_real_time_choose" name="a_h"><a href="#">小时前</a></li>
+            <li class="a_real_time_choose" name="a_d"><a href="#">天前</a></li>
+            <li class="a_real_time_choose" name="a_w"><a href="#">周前</a></li>
+            <li class="a_real_time_choose" name="a_m"><a href="#">个月前</a></li>
+            <li class="a_real_time_choose" name="a_se"><a href="#">季度前</a></li>
+            <li class="a_real_time_choose" name="a_y"><a href="#">年前</a></li>
+          </ul>
+        </div>
+      </div>
+                   </div>
+              </div>
+            </div>
+            <div class="control-group col-2 latest_time">
+              <label title="最晚:" class="control-label" for="earliest_view3431">最晚:</label>
+              <div class="controls">
+                <div class="input-append">
+                  <div class="btn-group">
+                    <input readonly="readonly" class="earliest_input earliest_siyj" type="text" size="5" value="now">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="control-group col-3"> <a href="#" id="a_real_time_apply" class="btn_cancel_bg timepicker-modal-btn-cancel">应用</a> </div>
+          </div></td>
+      </tr>
+    </table>-->
+    <div class="accordion-heading"> <span class="accordion-toggle" href="#"> <i class="icon-right-small"></i> 日期范围 </span> </div>
+    <table width="100%" border="0" class="shared-timerangepicker-dialog">
+       <tr><td colspan="7"><span id="date_range_msg" style="color:red"></span></td></tr>
+      <tr>
+        <td class="td_one" width="80">
+        <div class="timerangepicker-p">
+        <div class="btn-group"><button id="b_date_range_choose" class="btn_s cother timerangepicker-range_unit" data-field-name="host"><span id="s_date_range">之前</span><span class="caret"></span></button></div>
+        <!----时间下拉------>
+                       <div class="editor-bg edit-wrap timer-tkw2 hide dialog-k">
+        <div class="arrow"></div>
+        <div class="edit-dialog2 draghandle_b">
+          <ul>
+            <li id="a_between"><a href="#">介于</a></li>
+            <li id="a_before"><a href="#">之前</a></li>
+            <li id="a_after"><a href="#">之后</a></li>
+          </ul>
+        </div>
+      </div>
+        <!----下拉结束------>
+        </div>
+        </td>
+        <td></td>
+        <td id="td_date_range_startDate" class="td_two"><input  id="in_date_range_startDate" class="input-liest" type="text" size="10" />
+          <span class="help-block">00:00:00</span></td>
+          <td id="td_date_range_endDate" class="td_two" id="td_date_range_endDate"><input id="in_date_range_endDate" class="input-liest" type="text" size="10"  />
+          <span class="help-block">00:00:00</span></td>
+        <td class="td_one"><button  id="b_date_range_apply" class="apply btn2 pull-left">应用</button></td>
+        <td id="b_data_range_td"></td>
+      </tr>  
+    </table>
+    <div class="accordion-heading"> <span class="accordion-toggle accordion-toggle-b" href="#"> <i class="icon-right-small"></i> 日期和时间范围 </span> </div>
+    <table width="100%" border="0" class="shared-timerangepicker-dialog">
+      <tr><td colspan="7"><span id="range_msg" style="color:red"></span></td></tr>
+      <tr>
+        <td class="td_one">最早：</td>
+        <td><input id="in_range_startDate" class="input-liest" type="text" size="8"  /></td>
+        <td><input id="in_range_startTime" class="input-liest" type="text" size="10" />
+          <span class="help-block">HH:MM:SS.SS</span></td>
+        <td class="td_one">最晚：</td>
+        <td><input id="in_range_endDate" class="input-liest" type="text" size="8" /></td>
+        <td><input id="in_range_endTime" class="input-liest" type="text" size="10" />
+          <span class="help-block">HH:MM:SS.SS</span></td>
+        <td><button id="b_range_apply" class="apply btn2 pull-left">应用</button></td>
+      </tr>
+    </table>
+    <div class="accordion-heading"> <span class="accordion-toggle accordion-toggle-b" href="#"> <i class="icon-right-small"></i> 高级</span> </div>
+    <table width="100%" border="0" class="shared-timerangepicker-dialog">
+    <tr><td colspan="7"><span id="high_msg" style="color:red"></span></td></tr>
+      <tr>
+        <td class="td_one" width="45">最早：</td>
+        <td width="155"><input id="in_high_startDateTime" class="input-liest" type="text" size="29" value="" />
+          <span class="help-block help-block-timestamp">1970/01/01 00:00:00 </span></td>
+        <td class="td_one" width="45">最晚：</td>
+        <td width="155"><input id="in_high_endDateTime" class="input-liest" type="text" size="29" value="" />
+          <span class="help-block help-block-timestamp s_curr_time"> </span></td>
+        <td width="15"></td>
+        <td><button id="b_high_apply" class="apply btn2 pull-left btn_apply">应用</button>
+      </tr>
+    </table>
+  </div>
+</div>

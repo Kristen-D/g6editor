@@ -1,0 +1,16 @@
+<svg id="监控中心" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #5292f5;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="bg" class="cls-1" width="20" height="17" rx="2" ry="2"/>
+  <path id="bg-2" data-name="bg" class="cls-2" d="M1003.61,734.764a0.9,0.9,0,0,1,0,1.474l-5.1,3.59a0.964,0.964,0,0,1-1,.08,0.891,0.891,0,0,1-.522-0.816V731.91a0.891,0.891,0,0,1,.522-0.816,0.964,0.964,0,0,1,1,.079Z" transform="translate(-990 -727)"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dadada;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="展开_" data-name="展开 " class="cls-1" d="M229.11,356.093l5.136,4.8a0.363,0.363,0,0,0,.507,0l5.136-4.8a0.309,0.309,0,0,0,0-.474l-0.551-.515a0.363,0.363,0,0,0-.507,0l-4.331,4.05-4.332-4.05a0.363,0.363,0,0,0-.507,0l-0.551.515A0.31,0.31,0,0,0,229.11,356.093Z" transform="translate(-229 -355)"/>
+</svg>

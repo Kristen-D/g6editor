@@ -1,0 +1,174 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" class="translated-ltr"><head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-62667723-1"></script>
+        <script src="../theme/scripts/analytics.js"></script>
+        <meta name="google-site-verification" content="2oJKLqNN62z6AOCb0A0IXGtbQuj-lev5YPAHFF_cbHQ" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="../theme/favicon.ico" type="image/x-icon" />
+        <title>策略：凭证访问 -  MITRE ATT＆CK™</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../theme/style/bootstrap.min.css" />
+        <link rel="stylesheet" href="../theme/style/bootstrap-glyphicon.min.css" />
+        <link href="../theme/style/style.css" rel="stylesheet" type="text/css" /> <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css" /></head>
+
+<body>
+<!--stopindex-->
+<header style="height: 78.5469px;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-mitre-red border-bottom">
+            <a class="navbar-brand" href="../index.html"><img src="../theme/images/mitre_attack.png" height="50px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" onclick="search('')"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav nav-tabs ml-auto">
+                            <li class="nav-item"><a href="../matrices/enterprise" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">矩阵</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../techniques/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../techniques/pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="../techniques/enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="../techniques/mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="../groups/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组</font></font></b></a></li>
+                            <li class="nav-item"><a href="../software/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../resources.1" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="../resources.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一般</font></font></a>
+                                    <a class="dropdown-item" href="../resources/getting-started.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></a>
+                                    <a class="dropdown-item" href="../resources/attackcon.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT和CKcon </font></font></a>
+                                    <a class="dropdown-item" href="../resources/faq/index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常见问题解答</font></font></a>
+                                    <a class="dropdown-item" href="../resources/updates.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></a>
+                                    <!-- <a class="dropdown-item" href="/resources/supporters/">Supporters</a>
+                                            <a class="dropdown-item" href="/resources/industry-news/">Industry News</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="https://medium.com/mitre-attack/" target="_blank" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></b> <img src="../theme/images/external-site.svg" alt="外部网站" class="external-icon" /></a></li>
+                            <li class="nav-item"><a href="../contact/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系</font></font></b></a></li>
+                </ul>
+                <ul class="navbar-nav flex-row d-md-flex" style="float: right">  <!-- ml-md-auto d-none-->
+                    <li>
+                        <form class="form-inline pl-2">
+                            <input class="form-control" type="text" placeholder="Search site" aria-label="Search" id="search" autocomplete="off" />
+                        </form>
+                        <div class="search-results"></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+            <div class="container-fluid under-development"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                在</font></font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">attackevals.mitre.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们第一轮ATT和CK评估的</font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;">结果</font></a><font style="vertical-align: inherit;">！
+            </font></font></div>
+        <!--startindex-->
+<div id="content">    <div class="container-fluid">
+        <div class="row">
+ 
+             
+<!--stopindex-->
+    <div class="nav flex-column col-xl-2 col-lg-2 col-md-3  sidebar nav pt-5 pb-3 pl-3 border-right" id="v-tab" role="tablist" aria-orientation="vertical">
+        <button class="btn btn-default dropdown-toggle heading-dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></button><br />
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ENTERPRISE </font></font></a>
+            <a class="dropdown-item" href="mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MOBILE </font></font></a>
+            <a class="dropdown-item" href="pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK</font></font></a>
+        </div>
+        <span class="heading" id="v-home-tab" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TACTICS </font></font></span>
+        <!-- <a class="nav-link side active show" id="v-overview-tab" data-toggle="tab" href="#v-overview" role="tab" aria-controls="v-overview" aria-selected="false">Overview</a> -->
+       <a class="nav-link side" id="v-overview-tab" href="enterprise" aria-controls="v-overview" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有</font></font></a><a class="nav-link side" id="v-initial-access-tab" href="TA0001.1" aria-controls="v-initial-access" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">初始访问</font></font></a><a class="nav-link side" id="v-execution-tab" href="TA0002.1" aria-controls="v-execution" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执行</font></font></a><a class="nav-link side" id="v-persistence-tab" href="TA0003.1" aria-controls="v-persistence" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">持久性</font></font></a><a class="nav-link side" id="v-privilege-escalation-tab" href="TA0004.1" aria-controls="v-privilege-escalation" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">权限升级</font></font></a><a class="nav-link side" id="v-defense-evasion-tab" href="TA0005.1" aria-controls="v-defense-evasion" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">防御逃避</font></font></a><a class="nav-link side active show" id="v-credential-access-tab" href="TA0006.1" aria-controls="v-credential-access" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">凭证访问</font></font></a><a class="nav-link side" id="v-discovery-tab" href="TA0007.1" aria-controls="v-discovery" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发现</font></font></a><a class="nav-link side" id="v-lateral-movement-tab" href="TA0008.1" aria-controls="v-lateral-movement" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">横向移动</font></font></a><a class="nav-link side" id="v-collection-tab" href="TA0009.1" aria-controls="v-collection" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集合</font></font></a><a class="nav-link side" id="v-exfiltration-tab" href="TA0010.1" aria-controls="v-exfiltration" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Exfiltration </font></font></a><a class="nav-link side" id="v-command-and-control-tab" href="TA0011.1" aria-controls="v-command-and-control" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令和控制</font></font></a>
+    </div>
+<!--startindex-->
+
+             
+            <div class="tab-content col-xl-10 col-lg-10 col-md-9 pt-4" id="v-tabContent">
+                <div class="tab-pane fade show active" id="v-attckmatrix" role="tabpanel" aria-labelledby="v-attckmatrix-tab">
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="../index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">家</font></font></a></li>
+      <li class="breadcrumb-item"><a href="enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略</font></font></a></li>
+  <li class="breadcrumb-item"><a href="enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a></li>
+  <li class="breadcrumb-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">凭证访问</font></font></li>
+</ol>
+<div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
+<div class="row">
+   <div class="col-xl-12">
+      <div class="jumbotron jumbotron-fluid bg-white">
+         <div class="container-fluid">
+            <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+               凭证访问
+            </font></font></h1>
+            <div class="row">
+                <div class="col-md-8 description-body"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                   凭据访问表示导致访问或控制在企业环境中使用的系统，域或服务凭据的技术。</font><font style="vertical-align: inherit;">攻击者可能会尝试从用户或管理员帐户（具有管理员访问权限的本地系统管理员或域用户）获取合法凭据，以便在网络中使用。</font><font style="vertical-align: inherit;">这允许攻击者承担帐户的身份，拥有该帐户在系统和网络上的所有权限，并使防御者更难以发现攻击者。</font><font style="vertical-align: inherit;">通过在网络内充分访问，攻击者可以创建帐户以供以后在环境中使用。
+                </font></font></div>
+                <div class="col-md-4">
+                   <div class="card">
+                      <div class="card-body">
+                         <div class="card-data"><span class="h5 card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：TA0006</font></font></div>                  
+                      </div>
+                   </div>
+                </div>
+            </div>
+            <h2 class="pt-3" id="techniques"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></h2><h6 class="table-statistics"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技巧：19</font></font></h6><table class="table table-bordered table-light mt-2"><thead><tr><th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></th><th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">名称</font></font></th><th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述</font></font></th></tr></thead><tbody class="bg-white"><tr><td><a class="technique-mapping" id="v-Account Manipulation-credential access-tab" href="../techniques/T1098"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1098</font></font></a></td><td><a class="technique-mapping" id="v-Account Manipulation-credential access-tab" href="../techniques/T1098"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">账户操纵</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">帐户操作可以帮助攻击者维护对环境中的凭证和某些权限级别的访问。</font><font style="vertical-align: inherit;">操作可以包括修改权限，修改凭据，添加或更改权限组，修改帐户设置或修改身份验证的执行方式。</font><font style="vertical-align: inherit;">这些操作还可以包括旨在破坏安全策略的帐户活动，例如执行迭代密码更新以破坏密码持续时间策略并保留受损凭据的生命周期。</font><font style="vertical-align: inherit;">为了创建或操纵帐户，攻击者必须已经拥有对系统或域的足够权限。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Bash History-credential access-tab" href="../techniques/T1139"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1139</font></font></a></td><td><a class="technique-mapping" id="v-Bash History-credential access-tab" href="../techniques/T1139"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bash历史</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bash使用“history”实用程序跟踪用户在命令行上键入的命令。</font><font style="vertical-align: inherit;">用户注销后，会将历史记录刷新到用户的</font></font><code>.bash_history</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件中。</font><font style="vertical-align: inherit;">对于每个用户，此文件位于同一位置：</font></font><code>~/.bash_history</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">通常，此文件会跟踪用户的最近500个命令。</font><font style="vertical-align: inherit;">用户通常在命令行上键入用户名和密码作为程序的参数，然后在注销时将其保存到此文件中。</font><font style="vertical-align: inherit;">攻击者可以通过查看文件来查看潜在凭据来滥用此功能。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Brute Force-credential access-tab" href="../techniques/T1110"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1110</font></font></a></td><td><a class="technique-mapping" id="v-Brute Force-credential access-tab" href="../techniques/T1110"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">蛮力</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当密码未知或获得密码哈希值时，攻击者可以使用强力技术尝试访问帐户。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Credential Dumping-credential access-tab" href="../techniques/T1003"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1003</font></font></a></td><td><a class="technique-mapping" id="v-Credential Dumping-credential access-tab" href="../techniques/T1003"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">凭证倾销</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">凭证转储是从操作系统和软件获取帐户登录和密码信息的过程，通常以散列或明文密码的形式。</font><font style="vertical-align: inherit;">然后可以使用凭据执行横向移动并访问受限信息。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Credentials in Files-credential access-tab" href="../techniques/T1081"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1081</font></font></a></td><td><a class="technique-mapping" id="v-Credentials in Files-credential access-tab" href="../techniques/T1081"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件中的凭据</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者可以在本地文件系统和远程文件共享中搜索包含密码的文件。</font><font style="vertical-align: inherit;">这些文件可以是用户创建的文件，用于存储自己的凭据，一组个人的共享凭证存储，包含系统或服务密码的配置文件，或包含嵌入密码的源代码/二进制文件。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Credentials in Registry-credential access-tab" href="../techniques/T1214"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1214</font></font></a></td><td><a class="technique-mapping" id="v-Credentials in Registry-credential access-tab" href="../techniques/T1214"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注册表中的凭据</font></font></a></td><td><p>The Windows Registry stores configuration information that can be used by the system or other programs. Adversaries may query the Registry looking for credentials and passwords that have been stored for use by other programs or services. Sometimes these credentials are used for automatic logons.</p></td></tr><tr><td><a class="technique-mapping" id="v-Exploitation for Credential Access-credential access-tab" href="../techniques/T1212">T1212</a></td><td><a class="technique-mapping" id="v-Exploitation for Credential Access-credential access-tab" href="../techniques/T1212">Exploitation for Credential Access</a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当攻击者利用程序，服务或操作系统软件或内核本身中的编程错误来执行对手控制的代码时，就会利用软件漏洞。</font><font style="vertical-align: inherit;">身份验证和身份验证机制可能会被攻击者利用，作为获取有用凭据访问权限或绕过流程以获取系统访问权的手段。</font><font style="vertical-align: inherit;">其中一个例子是MS14-068，它以Kerberos为目标，可用于使用域用户权限伪造Kerberos票证。</font><font style="vertical-align: inherit;">对凭据访问的利用还可能导致权限提升，具体取决于所针对的流程或获得的凭据。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Forced Authentication-credential access-tab" href="../techniques/T1187"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1187</font></font></a></td><td><a class="technique-mapping" id="v-Forced Authentication-credential access-tab" href="../techniques/T1187"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">强制认证</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务器消息块（SMB）协议通常用于Windows网络中，用于系统之间的身份验证和通信，以访问资源和文件共享。</font><font style="vertical-align: inherit;">当Windows系统尝试连接到SMB资源时，它将自动尝试进行身份验证，并将当前用户的凭据信息发送到远程系统。</font><font style="vertical-align: inherit;">此行为在企业环境中很常见，因此用户无需输入凭据即可访问网络资源。</font><font style="vertical-align: inherit;">当SMB被阻止或失败时，Windows分布式创作和版本控制（WebDAV）通常被Windows系统用作备份协议。</font><font style="vertical-align: inherit;">WebDAV是HTTP的扩展，通常在TCP端口80和443上运行。  </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Hooking-credential access-tab" href="../techniques/T1179"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1179</font></font></a></td><td><a class="technique-mapping" id="v-Hooking-credential access-tab" href="../techniques/T1179"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">挂钩</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows进程通常利用应用程序编程接口（API）函数来执行需要可重用系统资源的任务。</font><font style="vertical-align: inherit;">Windows API函数通常作为导出函数存储在动态链接库（DLL）中。</font><font style="vertical-align: inherit;">挂钩涉及将呼叫重定向到这些功能，可以通过以下方式实现：</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Input Capture-credential access-tab" href="../techniques/T1056"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1056</font></font></a></td><td><a class="technique-mapping" id="v-Input Capture-credential access-tab" href="../techniques/T1056"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">输入捕获</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者可以使用捕获用户输入的方法来获取</font></font><a href="../techniques/T1078"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有效帐户</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和信息收集的</font><font style="vertical-align: inherit;">凭据，</font><font style="vertical-align: inherit;">其中包括键盘记录和用户输入字段拦截。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Input Prompt-credential access-tab" href="../techniques/T1141"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1141</font></font></a></td><td><a class="technique-mapping" id="v-Input Prompt-credential access-tab" href="../techniques/T1141"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">输入提示</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当执行需要比当前用户上下文中存在的权限更多的权限的程序时，操作系统通常会提示用户输入正确的凭据以授权该任务的提升权限。</font><font style="vertical-align: inherit;">攻击者可以模仿此功能，以提示用户提供具有正常外观提示的凭据。</font><font style="vertical-align: inherit;">可以使用AppleScript完成此类提示：</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Kerberoasting-credential access-tab" href="../techniques/T1208"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1208</font></font></a></td><td><a class="technique-mapping" id="v-Kerberoasting-credential access-tab" href="../techniques/T1208"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kerberoasting</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务主体名称（SPN）用于唯一标识Windows服务的每个实例。</font><font style="vertical-align: inherit;">要启用身份验证，Kerberos要求SPN与至少一个服务登录帐户（专门负责运行服务的帐户）相关联。    </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Keychain-credential access-tab" href="../techniques/T1142"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1142</font></font></a></td><td><a class="technique-mapping" id="v-Keychain-credential access-tab" href="../techniques/T1142"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">钥匙扣</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">密钥链是macOS跟踪用户密码和凭据的内置方式，用于许多服务和功能，如WiFi密码，网站，安全备注，证书和Kerberos。</font><font style="vertical-align: inherit;">钥匙扣文件位于</font></font><code>~/Library/Keychains/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>/Library/Keychains/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>/Network/Library/Keychains/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">该</font></font><code>security</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令行实用程序，它内建于Mac系统，提供管理这些证书的有效途径。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-LLMNR/NBT-NS Poisoning-credential access-tab" href="../techniques/T1171"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1171</font></font></a></td><td><a class="technique-mapping" id="v-LLMNR/NBT-NS Poisoning-credential access-tab" href="../techniques/T1171"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LLMNR / NBT-NS中毒</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链路本地多播名称解析（LLMNR）和NetBIOS名称服务（NBT-NS）是Microsoft Windows组件，可用作主机标识的备用方法。</font><font style="vertical-align: inherit;">LLMNR基于域名系统（DNS）格式，允许同一本地链路上的主机为其他主机执行名称解析。</font><font style="vertical-align: inherit;">NBT-NS通过其NetBIOS名称识别本地网络上的系统。  </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Network Sniffing-credential access-tab" href="../techniques/T1040"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1040</font></font></a></td><td><a class="technique-mapping" id="v-Network Sniffing-credential access-tab" href="../techniques/T1040"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络嗅探</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络嗅探是指使用系统上的网络接口来监视或捕获通过有线或无线连接发送的信息。</font><font style="vertical-align: inherit;">攻击者可以将网络接口置于混杂模式以通过网络被动地访问传输中的数据，或者使用跨接端口来捕获更大量的数据。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Password Filter DLL-credential access-tab" href="../techniques/T1174"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1174</font></font></a></td><td><a class="technique-mapping" id="v-Password Filter DLL-credential access-tab" href="../techniques/T1174"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">密码过滤DLL</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows密码过滤器是域和本地帐户的密码策略实施机制。</font><font style="vertical-align: inherit;">过滤器实现为动态链接库（DLL），其中包含根据密码策略验证潜在密码的方法。</font><font style="vertical-align: inherit;">过滤器DLL可以位于本地计算机上，用于本地帐户和/或域帐户的域控制器。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Private Keys-credential access-tab" href="../techniques/T1145"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1145</font></font></a></td><td><a class="technique-mapping" id="v-Private Keys-credential access-tab" href="../techniques/T1145"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">私钥</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">私有加密密钥和证书用于身份验证，加密/解密和数字签名。 </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Securityd Memory-credential access-tab" href="../techniques/T1167"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1167</font></font></a></td><td><a class="technique-mapping" id="v-Securityd Memory-credential access-tab" href="../techniques/T1167"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安全记忆</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在El Capitan之前的OS X中，具有root访问权限的用户可以读取已登录用户的明文密钥链密码，因为Apple的密钥链实现允许缓存这些凭据，以便不会反复提示用户输入密码。</font><font style="vertical-align: inherit;">Apple的安全实用程序获取用户的登录密码，使用PBKDF2对其进行加密，并将此主密钥存储在内存中。</font><font style="vertical-align: inherit;">Apple还使用一组密钥和算法来加密用户的密码，但是一旦找到主密钥，攻击者只需要迭代其他值来解锁最终密码。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Two-Factor Authentication Interception-credential access-tab" href="../techniques/T1111"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1111</font></font></a></td><td><a class="technique-mapping" id="v-Two-Factor Authentication Interception-credential access-tab" href="../techniques/T1111"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">双因素身份验证拦截</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建议使用双因素或多因素身份验证，并提供比单独的用户名和密码更高级别的安全性，但组织应了解可用于拦截和绕过这些安全机制的技术。</font><font style="vertical-align: inherit;">攻击者可以将身份验证机制（例如智能卡）作为目标，以获取对系统，服务和网络资源的访问权限。</font></font></p></td></tr></tbody></table>
+         </div>
+      </div>
+   </div>
+   <!-- <div class="col-xl-2 col-lg-2 col-md-0 d-block d-sm-none d-md-none d-lg-block">
+      <p>Content</p>
+      <div><a href="#description">Description</a></div>
+      <div><a href="#techniques">Techniques</a></div>
+   </div> -->
+</div>
+</div>
+
+                </div>
+            </div>
+        </div>  
+    </div>
+
+<!--stopindex-->
+<footer class="footer pt-3 pb-2">
+    <div class="container-fluid text-center">
+        <a class="btn btn-primary float-right mr-4" href="https://twitter.com/MITREattack" target="_blank" rel="noopener" aria-label="Twitter">
+            <img src="../theme/images/twitter.png" class="mx-auto d-block" width="28" height="28" /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 跟着我们！</font></font></a>
+        <a href="https://www.mitre.org" target="_blank" rel="noopener" aria-label="MITRE" class="float-left ml-4">
+            <img src="../theme/images/mitrelogowhiteontrans.gif" width="144" height="66" /></a>
+        <br />
+        <p>
+            <br /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权所有©2018，MITRE Corporation。</font><font style="vertical-align: inherit;">MITRE ATT＆CK和ATT＆CK是The MITRE Corporation的商标。</font></font></p>
+        <small><a href="../resources/privacy" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐私政策</font></font></a>  <a href="../resources/terms-of-use" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用条款</font></font></a></small>
+    </div>
+</footer>
+
+    <!--SCRIPTS-->
+    <script src="../theme/scripts/jquery-3.2.1.min.js"></script>
+    <script src="../theme/scripts/popper.min.js"></script>
+    <script src="../theme/scripts/bootstrap.min.js"></script>
+    <script src="../theme/scripts/site.js"></script>
+    <script src="../theme/scripts/lunr-2.3.3.js"></script>
+    <script src="../theme/scripts/search.js"></script>
+    <script src="../theme/scripts/index.js"></script>
+
+<!--SCRIPTS-->
+<script src="../theme/scripts/techniques.js"></script>
+
+
+
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google 翻译" /></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">原文</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">提供更好的翻译建议</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;" /><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><!--startindex--><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"/></svg></div></div></body></html>

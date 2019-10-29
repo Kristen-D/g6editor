@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ <commands>
+  <command id="accum">
+    <explain>保留指定数值型字段的累计值。</explain>
+    <example>&lt;p&gt;将 "count"的累计值保存在名为 "total_count" 的字段中。&lt;br&gt;... | accum count as total_count&lt;/p&gt;</example>
+  </command>
+  <command id="head">
+    <explain>返回前 n 个指定结果。</explain>
+    <example>&lt;p&gt;返回前 20 个结果。&lt;br&gt;... | head 20&lt;/p&gt;</example>
+  </command>
+  <command id="table">
+    <explain>创建只有在给定的顺序给出的字段的表。</explain>
+    <example>&lt;p&gt;生成的表格含有 foo 字段，然后是 bar 字段，之后是所有以 'baz' 开头的字段&lt;br&gt;... | table foo bar baz*&lt;/p&gt;</example>
+  </command>
+  <command id="addtotals">
+    <explain>计算每个结果的所有数值型字段值的总和。</explain>
+    <example>&lt;p&gt;计算每个结果的数值型字段的总和，并将总和保存在“总和”字段中。&lt;br&gt;... | addtotals fieldname=sum&lt;/p&gt;&lt;p&gt;计算所有字段的总和，并将总和放在名为 "change_name" 的汇总事件中。&lt;br&gt;... | addtotals col=t labelfield=change_name label=ALL&lt;/p&gt;</example>
+  </command>
+  <command id="dedup">
+    <explain>删除与指定条件相匹配的后续结果。</explain>
+    <example>&lt;p&gt;删除主机值相同的重复结果。&lt;br&gt;... | dedup host&lt;/p&gt;&lt;p&gt;对于 'source' 值相同的事件，保留出现的前 3 个事件，删除所有后续事件。&lt;br&gt;... | dedup 3 source&lt;/p&gt;&lt;p&gt;删除来源值相同的重复结果，按 '_time' 字段以升序排序事件。&lt;br&gt;... | dedup source sortby + _time&lt;/p&gt;</example>
+  </command>
+ <!--  <command id="fields">
+    <explain>保留或删除搜索结果中的字段。</explain>
+    <example>&lt;p&gt;删除 "host" 和 "ip" 字段。&lt;br&gt;... | fields - host, ip&lt;/p&gt;&lt;p&gt;只保留 "host" 和 "ip" 字段，并按此顺序显示这些字段："host"、"ip"。&lt;br&gt;... | fields host, ip&lt;/p&gt;&lt;p&gt;只保留字段 'source'、'sourcetype'、'host' 及所有以 'error' 开头的字段。&lt;br&gt;... | fields source, sourcetype, host, error*&lt;/p&gt;</example>
+  </command> -->
+   <command id="fields">
+    <explain>保留搜索结果中的字段。</explain>
+    <example>只保留 "host" 和 "ip" 字段，并按此顺序显示这些字段："host"、"ip"。&lt;br&gt;... | fields host, ip&lt;/p&gt;&lt;p&gt;只保留字段 'source'、'sourcetype'、'host' 及所有以 'error' 开头的字段。&lt;br&gt;... | fields source, sourcetype, host, error*&lt;/p&gt;</example>
+  </command>
+  <command id="multikv">
+    <explain>从表格形式的事件中提取字段-值。</explain>
+    <example>&lt;p&gt;在包含 "splunkd" 的行中进行提取时，提取 "COMMAND" 字段。&lt;br&gt;... | multikv fields COMMAND filter splunkd&lt;/p&gt;&lt;p&gt;提取 "pid" 和 "command" 字段。&lt;br&gt;... | multikv fields pid command&lt;/p&gt;</example>
+  </command>
+  <command id="strcat">
+    <explain>连接字符串值。</explain>
+    <example>&lt;p&gt;添加字段 comboIP，以合并来源和目标 IP 地址并使用正斜线字符分隔它们。&lt;br&gt;... | strcat sourceIP "/" destIP comboIP&lt;/p&gt;&lt;p&gt;添加字段 (地址)，以将主机和端口值合并为 :: 格式。&lt;br&gt;... | strcat host "::" port address&lt;/p&gt;&lt;p&gt;添加字段 comboIP，然后创建一个表示字段值出现次数的图表。&lt;br&gt;host="mailserver" | strcat sourceIP "/" destIP comboIP | chart count by comboIP&lt;/p&gt;</example>
+  </command>
+  <command id="sort">
+    <explain>按照指定的字段对搜索结果进行排序。</explain>
+    <example>&lt;p&gt; 按照 "ip" 字段的值以升序顺序对结果排序。&lt;br&gt;... | sort +ip&lt;/p&gt;&lt;p&gt;按照 "size" 字段的值以降序顺序对前 100 个结果进行排序。&lt;br&gt;... | sort 100 -size&lt;/p&gt;</example>
+  </command>
+  <command id="tail">
+    <explain>返回后 n 个指定结果。</explain>
+    <example>&lt;p&gt;返回后 20 个结果(相反顺序)。&lt;br&gt;... | tail 20&lt;/p&gt;</example>
+  </command>
+  <command id="where">
+    <explain>运行 eval 表达式来过滤结果。此表达式的结果必须为布尔值。</explain>
+    <example>&lt;p&gt;返回与 IP 匹配或在指定子网中的 "CheckPoint" 事件。&lt;br&gt;host="CheckPoint" | where (src LIKE "10.9.165.%") OR cidrmatch("10.9.165.0/25", dst)&lt;/p&gt;&lt;p&gt;返回速度大于 100 的 "physicjobs" 事件。&lt;br&gt;sourcetype=physicsobjs | where distance/time > 100&lt;/p&gt;</example>
+  </command>
+  <command id="rex">
+    <explain>指定 Perl 正则表达式命名的组，以在搜索时提取字段。</explain>
+    <example>&lt;p&gt;使用正则表达式提取“发件人”和“收件人”字段。&lt;br&gt;... | rex field=_raw "From: (?&lt;from&gt;.*) To: (?&lt;to&gt;.*)"&lt;/p&gt;</example>
+  </command>
+  <command id="cofilter">
+    <explain>查找 field1 和 field2 值一起出现的次数。</explain>
+    <example>&lt;p&gt;必须先指定用户字段，然后再指定商品字段。&lt;br&gt;... | cofilter field1 field2&lt;/p&gt;</example>
+  </command>
+ <!--  <command id="stats">
+    <explain>提供统计信息 (可以选择按字段进行分组)。</explain>
+    <example>&lt;p&gt;根据字段 "port"对"id"字段的个数进行统计。&lt;br&gt;... | stats count(id) by port&lt;/p&gt;</example>
+  </command> -->
+  <command id="stats">
+    <explain>提供统计信息 (可以选择按字段进行分组)。</explain>
+    <example>&lt;p&gt;对字段"field"的个数进行统计。&lt;br&gt;... | stats  field count  &lt;/p&gt;
+    			&lt;p&gt;根据"facet"进行分组，对字段"field"的个数进行统计。&lt;br&gt;... | stats  field facet count  &lt;/p&gt;
+    			&lt;p&gt;统计统计类型取值范围(不区分大小写):min(最小值); max(最大值);sum(和);count(非空值数);missing(空值数);sumOfSquares(平方和);mean(平均);stddev(标准差);&lt;/p&gt;
+    </example>
+  </command>
+ <!--  <command id="replace">
+    <explain>将指定字段的值替换为指定的新值。</explain>
+    <example>&lt;p&gt;将以 "localhost"结尾的主机值更改为"localhost"。&lt;br&gt;... | replace *localhost with localhost in host&lt;/p&gt;</example>
+  </command> -->
+  <command id="rename">
+    <explain>重新命名指定字段(可以使用通配符指定多个字段)。</explain>
+    <example>&lt;p&gt;将 "_ip" 字段重命名为 "IPAddress"。&lt;br&gt;... | rename _ip as IPAddress&lt;/p&gt;&lt;p&gt;重命名 "count" 字段。&lt;br&gt;... | rename count as "Count of Events"&lt;/p&gt;&lt;p&gt;重命名以 "foo" 开头的字段。&lt;br&gt;... | rename foo* as bar*&lt;/p&gt;</example>
+  </command>
+ <!--  <command id="top">
+    <explain>显示字段的最常见值。</explain>
+    <example>&lt;p&gt;返回 "url"字段的 20个最常见值。&lt;br&gt;... | top limit=20 url&lt;/p&gt;&lt;p&gt;返回前10个最常见的URL的值。&lt;br&gt;... | top url&lt;/p&gt;</example>
+  </command> -->
+   <command id="top">
+    <explain>显示字段的最常见值。</explain>
+    <example>&lt;p&gt;返回前10个最常见的URL的值。&lt;br&gt;... | top url&lt;/p&gt;
+             &lt;p&gt;返回前10个最常见的URL的值,并且替换表格的列名(也可指定部分列名)。&lt;br&gt;... | top url title=title1,title2,title3&lt;/p&gt;
+             &lt;p&gt;返回前10个最常见的URL的值,并且替换URL的值。&lt;br&gt;... | top url replace oldValue1 as newValue1,oldValue2 as newValue2&lt;/p&gt;
+             &lt;p&gt;替换表格的列名与替换URL的值可组合使用。&lt;br&gt;... | top url title=title1,title2,title3 replace oldValue1 as newValue1,oldValue2 as newValue2&lt;/p&gt;
+    </example>
+  </command>
+  <command id="dategap">
+    <explain>根据时间间隔统计事件量。</explain>
+    <example>&lt;p&gt;返回统计结果。&lt;br&gt;... | dategap collectTime 1971-01-01 00:00:00 1971-02-01 00:00:00 +1DAY&lt;/p&gt;</example>
+  </command>
+  <command id="rare">
+    <explain>显示最不常用的字段值。</explain>
+    <example>&lt;p&gt;返回最不常用的 "url" 字段值。&lt;br&gt;... | rare url&lt;/p&gt;&lt;p&gt;查找 "host" 的最不常用的 "user" 值。&lt;br&gt;... | rare user by host&lt;/p&gt;</example>
+  </command>
+  <command id="chart">
+    <explain>在用于制作图表的表格输出中返回结果。</explain>
+    <example>&lt;p&gt;根据主机对level字段进行统计。&lt;br&gt;... | chart count(level) by host&lt;/p&gt;</example>
+  </command>
+  <command id="timechart">
+    <explain>使用相应的统计信息表创建时间系列图表。</explain>
+    <example>&lt;p&gt;按"主机"创建 "web" 来源计数的时间图表。&lt;br&gt;... | timechart count by host&lt;/p&gt;</example>
+  </command>
+  <command id="eventcount">
+    <explain>在索引中返回事件数。</explain>
+    <example>&lt;p&gt;按每个索引/服务器对指定事件计数。&lt;br&gt;... | eventcount summarize=false index=*&lt;/p&gt;&lt;p&gt;显示所有索引对的事件计数。&lt;br&gt;... | eventcount&lt;/p&gt;&lt;p&gt;在 '_internal' 索引中返回事件数。&lt;br&gt;... | eventcount index=_internal&lt;/p&gt;</example>
+  </command>
+  <command id="reverse">
+    <explain>颠倒结果的顺序。</explain>
+    <example>&lt;p&gt;颠倒结果集的顺序。&lt;br&gt;... | reverse&lt;/p&gt;</example>
+  </command>
+  <command id="transpose">
+    <explain>将行转换为列。</explain>
+    <example>&lt;p&gt;不带参数,默认前5条。&lt;br&gt;... | transpose&lt;/p&gt;&lt;p&gt;将前10条转为列。&lt;br&gt;... | transpose 10&lt;/p&gt;&lt;p&gt;将第10001条和第30000转换为列进行比较。&lt;br&gt;... | transpose 10001 30000&lt;/p&gt;&lt;p&gt;将第100条至110条转换为列。&lt;br&gt;... | transpose 100 to 110&lt;/p&gt;</example>
+  </command>
+  <command id="regex">
+    <explain>删除与指定正则表达式不匹配的结果。</explain>
+    <example>&lt;p&gt;返回rawMsg字段匹配正则表达"Built ICMP.*"的值。&lt;br&gt;... | regex rawMsg="Built ICMP.*"&lt;/p&gt;</example>
+  </command>
+  <command id="trendline">
+    <explain>计算字段的移动平均线。</explain>
+    <example>&lt;p&gt;对字段 "port"以10条记录为一个单元，计算移动平均线，结果存在新字段 "newport"中。&lt;br&gt;... | trendline sma10(port) as newport&lt;/p&gt;</example>
+  </command>
+  <command id="xmlunescape">
+    <explain>取消转义XML字符</explain>
+    <example>&lt;p&gt;取消转义所有 XML字符。&lt;br&gt;... | xmlunescape&lt;/p&gt;</example>
+  </command>
+  <command id="iplocation">
+    <explain>根据IP和索引库合并两个文档记录</explain>
+    <example>&lt;p&gt;在74.111:8081的索引库中，查询字段为ipField，字段值为10.220.67.80的记录，合并已有数据记录中。&lt;br&gt;... | iplocation ip=10.220.67.80 ipField=ipaddress indexLib=http://192.168.74.111:8081/solr&lt;/p&gt;</example>
+  </command>
+  <command id="sendemail">
+    <explain>将解析的结果邮件发送出去</explain>
+    <example>&lt;p&gt;to:发送方。subject:邮件主题。&lt;br&gt;... | sendemail to="elvis@splunk.com,john@splunk.com" subject=myresults&lt;/p&gt;</example>
+  </command>
+  <command id="uniq">
+    <explain>筛选出重复的相邻结果</explain>
+    <example>&lt;p&gt;对于当前搜索，只保留唯一结果。&lt;br&gt;... | uniq&lt;/p&gt;</example>
+  </command>
+  <command id="xmlkv">
+    <explain>从 XML格式的数据提取字段/值对。 "xmlkv"会自动提取 XML标记之间的值。</explain>
+    <example>&lt;p&gt;从 XML格式的数据提取字段/值对。"xmlkv"会自动提取 XML标记之间的值。&lt;br&gt;... | xmlkv&lt;/p&gt;</example>
+  </command>
+  <command id="filldown">
+    <explain>用最后的非空值替换空值。</explain>
+    <example>&lt;p&gt;仅为计数字段向下填充空值。&lt;br&gt;... | filldown count &lt;/p&gt;&lt;p&gt;为计数字段及以 'score' 开头的任何字段向下填充空值。&lt;br&gt;... | filldown count score* &lt;/p&gt;&lt;p&gt;为所有字段向下填充空值。&lt;br&gt;... | filldown&lt;/p&gt;</example>
+  </command>
+  <command id="fillnull">
+    <explain>用指定值替换空值。</explain>
+    <example>&lt;p&gt;对于当前搜索结果，用空值填充所有空字段。&lt;br&gt;... | fillnull value=NULL &lt;/p&gt;&lt;p&gt;对于当前搜索结果，用空值填充 "foo" 和 "bar" 的所有空字段值。&lt;br&gt;... | fillnull value=NULL foo bar &lt;/p&gt;</example>
+  </command>
+  <command id="fieldsummary">
+    <explain>为所有或字段的一个子集生成摘要信息。</explain>
+    <example>&lt;p&gt;为所有或字段的一个子集生成摘要信息。&lt;br&gt;... | fieldsummary&lt;/p&gt;</example>
+  </command>
+  <command id="mvcombine">
+    <explain>将搜索结果中有单个不同字段值的事件合并到一个结果中，该结果的不同字段为多值字段。</explain>
+    <example>&lt;p&gt;用 ":" 分隔符合并 "foo" 的值。&lt;br&gt;... | mvcombine delim=":" foo&lt;/p&gt;</example>
+  </command>
+  <command id="transaction">
+    <explain>将事件聚合成一个事务，如果事件满足在命令中定义的约束条件，就会被聚合在一起。</explain>
+    <example>&lt;p&gt;transaction field1 field2&lt;/p&gt;</example>
+  </command>
+  <command id="pivot">
+    <explain>对字段两个维度分组进行统计。 </explain>
+    <example>&lt;p&gt;字段属性要等于2个  &lt;br&gt; ... | pivot field1 ,field2&lt;/p&gt;</example>
+  </command>
+</commands>

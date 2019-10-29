@@ -1,0 +1,105 @@
+
+
+/******** 1、General ********/
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+.hidden{ display: none;}
+.ishidden{display: block;}
+.float-l{ float: left !important;}
+.float-r{ float: right !important;}
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+
+/*.flex{display:flex;display: -webkit-flex; justify-content:space-around;}*/
+.flexCenter{display:flex;display:-webkit-flex;justify-content:center; align-items: center;}
+.flexAround{display:flex;display:-webkit-flex;justify-content:space-around;align-items:center;}
+.flexStart{display:flex;display:-webkit-flex;justify-content:start;align-items:center;}
+.flexBetween{display:flex;display:-webkit-flex;justify-content:space-between;align-items:center}
+.flexEnd{display:flex;display:-webkit-flex;justify-content:flex-end;align-items:center}
+.flexTop{display: flex;display: -webkit-flex;justify-content: center;flex-direction: column;align-items: center;}
+
+
+
+
+/******** 2 @font ********/
+@font-face{
+	font-family: "Roboto-Regular";/*英文、数字常用字体1*/
+	src:url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+@font-face{
+	font-family: "Roboto-Bold";/*英文、数字常用字体2*/
+	src:url('../fonts/Roboto/Roboto-Bold.ttf');
+}
+@font-face{
+	font-family: "Roboto-Black";
+	src:url('../fonts/Roboto/Roboto-Black.ttf');
+}
+@font-face{
+	font-family: "Roboto-BoldCondensed";
+	src:url('../fonts/Roboto/Roboto-BoldCondensed.ttf');
+}
+@font-face{
+	font-family: "Roboto-Condensed";
+	src:url('../fonts/Roboto/Roboto-Condensed.ttf');
+}
+@font-face{
+	font-family: "Roboto-Light";
+	src:url('../fonts/Roboto/Roboto-Light.ttf');
+}
+@font-face{
+	font-family: "Roboto-Medium";
+	src:url('../fonts/Roboto/Roboto-Medium.ttf');
+}
+@font-face{
+	font-family: "Roboto-Thin";
+	src:url('../fonts/Roboto/Roboto-Thin.ttf');
+}
+
+
+
+
+
+/********* 3. Padding & Margin *********/
+.m-r-10{margin-right: 10px;}
+
+
+/******** 4. square & circle icon ********/
+.square{padding:2px 3px;color:#fff;font-size:10px; font-weight: 500; border:1px solid #2196f3; margin-right: 10px; background-color: #2196f3;}
+.ssquare { width: 5px; height: 6px; background-color: #00f6ff;}
+.squareborder{border:1px solid #3d4e6c;width:18px;height:22px;background-color:#0a1a35;text-align:center;margin:0 auto}
+.circle{display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 10px; background-color:#b5c2ca;}
+.circle-location{margin-top: 4px; vertical-align: top;}
+
+
+
+.level-square{ padding:3px 14px;text-align: center; border-radius: 3px; color: #fff;}
+
+
+.high-risk{ background-color: #ffb822; }
+.middle-risk{background-color: #5485f7; }
+.low-risk{background-color: #2eca9c; }
+
+
+/******** 5.text color **********/
+.text-c33{color: #333333;}
+.text-c66{color: #666666;}
+.text-c99{color: #999999;}
+.text-blue{color: #324889;}
+.text-red{ color: #ec3e3e; }
+.text-white{color: #ffffff;}
+
+/******** 6.text sizes **********/
+.text-xs { font-size: 12px; }
+.text-s  { font-size: 14px; }
+.text-sm { font-size: 16px; }
+.text-m  { font-size: 18px; }
+.text-md { font-size: 20px; }
+.text-l  { font-size: 24px; }
+.text-lg { font-size: 28px; }
+
+
+
+
+
+

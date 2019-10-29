@@ -1,0 +1,52 @@
+
+<div id="tab-container" class="tab-container">
+  <ul class='nav-tabs'>
+    <li class='timeline-btn'><a href="#tab-events" id="tab_events">事件</a></li>
+    <li class='timeline-btn'><a href="#tab-statistics" id="tab_statistics">统计信息</a></li>
+    <li class='timeline-btn'><a href="#tab-visualization" id="tab_visualization">可视化</a></li>
+  </ul>
+  <div id="tab-events" class="tab-div" data-view="/search/events/events.html">
+    <!-- content -->
+  </div>
+  <div id="tab-statistics" data-view="/search/statistics/statistics.html">
+    <!-- content -->
+  </div>
+  <div id="tab-visualization" data-view="/search/visualization/visualization.html">
+    <!-- content -->
+  </div>
+</div>
+<div id="more_dialog" class="modal" style="display:none;min-width:400px;background-color:white;width:700px">
+	<div class="modal-header" style="border-bottom:0px">
+		<span class="more_close" href="#"><i class="icon-close"></i></span>
+		<span class="more_max" href="#"><i class="icon-close"></i></span>
+        <span class="more_normal" href="#"><i class="icon-close"></i></span>
+        <h4 id = "table_more_head"></h4>
+	</div>
+	<div>
+      	<ul class="nav-tabs">
+    		<li class="timeline-btn active cursor_p" id="tab_text">text</li>
+    		<li class="timeline-btn" id="tab_html">html</li>
+    		<li class="timeline-btn" id="tab_xml">xml</li>
+    		<li class="timeline-btn" id="tab_json">json</li>
+  		</ul>
+	</div>
+	<div id="more_content">
+		<div id="textView" >
+	     	<div class="modal-body" id = "table_more_div" style="height:500px;overflow:auto;">
+				<pre style="word-break:break-all;word-wrap:break-word;line-height:24px;white-space:pre-wrap" id="table_more_content"></pre>
+			</div>
+	     	<div class="modal-footer" id ="text_footer" style="text-align:center" >
+	          <span class="btn_more btn_more_pre">pre</span>
+	          <span href="javascript:void(0)" class="btn_more btn_more_next">next</span>
+	     	</div>
+		</div>
+		<div class="modal-body" id ="htmlView" style="display:none; height:500px;overflow:auto">
+		</div>
+		<div class="modal-body" id ="xmlView" style="display:none;overflow:auto; height:500px;overflow:auto;line-height:24px">
+	          <pre></pre>
+		</div>
+		<div class="modal-body" id ="jsonView" style="display:none;overflow:auto; height:500px;overflow:auto;line-height:24px">
+	          <pre></pre>
+		</div>
+	</div>
+</div>

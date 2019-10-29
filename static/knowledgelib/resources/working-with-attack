@@ -1,0 +1,127 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" class="translated-ltr"><head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-62667723-1"></script>
+        <script src="../theme/scripts/analytics.js"></script>
+        <meta name="google-site-verification" content="2oJKLqNN62z6AOCb0A0IXGtbQuj-lev5YPAHFF_cbHQ" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="../theme/favicon.ico" type="image/x-icon" />
+        <title>资源：使用ATT和CK的接口 -  MITRE ATT＆CK™</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../theme/style/bootstrap.min.css" />
+        <link rel="stylesheet" href="../theme/style/bootstrap-glyphicon.min.css" />
+        <link href="../theme/style/style.css" rel="stylesheet" type="text/css" /> <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css" /></head>
+
+<body>
+<!--stopindex-->
+<header style="height: 78.5469px;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-mitre-red border-bottom">
+            <a class="navbar-brand" href="../index.html"><img src="../theme/images/mitre_attack.png" height="50px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" onclick="search('')"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav nav-tabs ml-auto">
+                            <li class="nav-item"><a href="../matrices/enterprise" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">矩阵</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../tactics/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../tactics/pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="../tactics/enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="../tactics/mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../techniques/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../techniques/pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="../techniques/enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="../techniques/mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="../groups/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组</font></font></b></a></li>
+                            <li class="nav-item"><a href="../software/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../resources.1" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="../resources.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一般</font></font></a>
+                                    <a class="dropdown-item" href="getting-started.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></a>
+                                    <a class="dropdown-item" href="attackcon.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT和CKcon </font></font></a>
+                                    <a class="dropdown-item" href="faq/index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常见问题解答</font></font></a>
+                                    <a class="dropdown-item" href="updates.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></a>
+                                    <!-- <a class="dropdown-item" href="/resources/supporters/">Supporters</a>
+                                            <a class="dropdown-item" href="/resources/industry-news/">Industry News</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="https://medium.com/mitre-attack/" target="_blank" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></b> <img src="../theme/images/external-site.svg" alt="外部网站" class="external-icon" /></a></li>
+                            <li class="nav-item"><a href="../contact/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系</font></font></b></a></li>
+                </ul>
+                <ul class="navbar-nav flex-row d-md-flex" style="float: right">  <!-- ml-md-auto d-none-->
+                    <li>
+                        <form class="form-inline pl-2">
+                            <input class="form-control" type="text" placeholder="Search site" aria-label="Search" id="search" autocomplete="off" />
+                        </form>
+                        <div class="search-results"></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+            <div class="container-fluid under-development"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                在</font></font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">attackevals.mitre.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们第一轮ATT和CK评估的</font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;">结果</font></a><font style="vertical-align: inherit;">！
+            </font></font></div>
+        <!--startindex-->
+<div id="content">      
+<div class="container">
+    <div class="container-fluid">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">家</font></font></a></li>
+            <li class="breadcrumb-item"><a href="../resources.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></a></li>
+            <li class="breadcrumb-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用ATT和CK的接口</font></font></li>
+        </ol>
+        <div class="blog-post p-3">
+            <h1 class="blog-post-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用ATT和CK的接口</font></font></h1><br />
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过两种不同的方式访问ATT和CK内容：
+</font></font><br /></p>
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过我们的ATT和CK在STIX 2.0 GitHub存储库中表达</font></font></h4>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过几种不同的方式与此</font></font><a href="https://github.com/mitre/cti" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回购中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的ATT和CK内容进行交互</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果使用Python，最好的方法是使用</font></font><a href="https://github.com/oasis-open/cti-python-stix2" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cti-python-stix2</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我们</font><font style="vertical-align: inherit;">在此回购中</font><font style="vertical-align: inherit;">有一个</font></font><a href="https://github.com/mitre/cti/blob/master/USAGE.md" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">USAGE</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档可以帮助您解决此问题。</font><font style="vertical-align: inherit;">由于STIX 2.0是JSON，您还可以使用您选择的编程语言中的JSON库并与原始内容进行交互，例如您可以在</font></font><a href="https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到的完整的Enterprise ATT和CK内容集</font><font style="vertical-align: inherit;">。</font></font></p>
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过我们的TAXII服务器</font></font></h4>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的TAXII服务器与我们的GitHub存储库中的内容保持同步，因此您也可以在此处访问ATT和CK内容。</font><font style="vertical-align: inherit;">正如TAXII服务器发布</font></font><a href="https://medium.com/mitre-attack/att-ck-content-available-in-stix-2-0-via-public-taxii-2-0-server-317e5c41e214" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客文章</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所述，您可以使用</font></font><a href="https://github.com/oasis-open/cti-python-stix2" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cti-python-stix2</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://github.com/oasis-open/cti-taxii-client" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cti-taxii-client</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从TAXII服务器获取ATT和CK内容。</font></font></p>
+        </div>
+    </div>
+</div>
+</div>
+<!--stopindex-->
+<footer class="footer pt-3 pb-2">
+    <div class="container-fluid text-center">
+        <a class="btn btn-primary float-right mr-4" href="https://twitter.com/MITREattack" target="_blank" rel="noopener" aria-label="Twitter">
+            <img src="../theme/images/twitter.png" class="mx-auto d-block" width="28" height="28" /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 跟着我们！</font></font></a>
+        <a href="https://www.mitre.org" target="_blank" rel="noopener" aria-label="MITRE" class="float-left ml-4">
+            <img src="../theme/images/mitrelogowhiteontrans.gif" width="144" height="66" /></a>
+        <br />
+        <p>
+            <br /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权所有©2018，MITRE Corporation。</font><font style="vertical-align: inherit;">MITRE ATT＆CK和ATT＆CK是The MITRE Corporation的商标。</font></font></p>
+        <small><a href="privacy" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐私政策</font></font></a>  <a href="terms-of-use" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用条款</font></font></a></small>
+    </div>
+</footer>
+
+     <!--SCRIPTS-->
+    <script src="../theme/scripts/jquery-3.2.1.min.js"></script>
+    <script src="../theme/scripts/popper.min.js"></script>
+    <script src="../theme/scripts/bootstrap.min.js"></script>
+    <script src="../theme/scripts/site.js"></script>
+    <script src="../theme/scripts/lunr-2.3.3.js"></script>
+    <script src="../theme/scripts/search.js"></script>
+    <script src="../theme/scripts/index.js"></script>
+
+<script src="../theme/scripts/tables.js"></script>
+
+
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google 翻译" /></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">原文</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">提供更好的翻译建议</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;" /><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><!--startindex--><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"/></svg></div></div></body></html>

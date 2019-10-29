@@ -1,0 +1,1079 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" class="translated-ltr"><head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-62667723-1"></script>
+        <script src="../theme/scripts/analytics.js"></script>
+        <meta name="google-site-verification" content="2oJKLqNN62z6AOCb0A0IXGtbQuj-lev5YPAHFF_cbHQ" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="../theme/favicon.ico" type="image/x-icon" />
+        <title>技术：PRE-ATT＆CK  -  MITER ATT＆CK</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../theme/style/bootstrap.min.css" />
+        <link rel="stylesheet" href="../theme/style/bootstrap-glyphicon.min.css" />
+        <link href="../theme/style/style.css" rel="stylesheet" type="text/css" /> <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css" /></head>
+
+<body>
+<!--stopindex-->
+<header style="height: 86.1875px;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-mitre-red border-bottom">
+            <a class="navbar-brand" href="../index.html"><img src="../theme/images/mitre_attack.png" height="50px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" onclick="search('')"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav nav-tabs ml-auto">
+                            <li class="nav-item"><a href="../matrices/enterprise" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">矩阵</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../tactics/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../tactics/pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="../tactics/enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="../tactics/mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="../groups/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组</font></font></b></a></li>
+                            <li class="nav-item"><a href="../software/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../resources.1" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="../resources.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一般</font></font></a>
+                                    <a class="dropdown-item" href="../resources/getting-started.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></a>
+                                    <a class="dropdown-item" href="../resources/attackcon.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT和CKcon </font></font></a>
+                                    <a class="dropdown-item" href="../resources/faq/index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常见问题解答</font></font></a>
+                                    <a class="dropdown-item" href="../resources/updates.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></a>
+                                    <!-- <a class="dropdown-item" href="/resources/supporters/">Supporters</a>
+                                            <a class="dropdown-item" href="/resources/industry-news/">Industry News</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="https://medium.com/mitre-attack/" target="_blank" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></b> <img src="../theme/images/external-site.svg" alt="外部网站" class="external-icon" /></a></li>
+                            <li class="nav-item"><a href="../contact/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系</font></font></b></a></li>
+                </ul>
+                <ul class="navbar-nav flex-row d-md-flex" style="float: right">  <!-- ml-md-auto d-none-->
+                    <li>
+                        <form class="form-inline pl-2">
+                            <input class="form-control" type="text" placeholder="Search site" aria-label="Search" id="search" autocomplete="off" />
+                        </form>
+                        <div class="search-results"></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+            <div class="container-fluid under-development"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                在</font></font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">attackevals.mitre.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们第一轮ATT和CK评估的</font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;">结果</font></a><font style="vertical-align: inherit;">！
+            </font></font></div>
+        <!--startindex-->
+<div id="content">    <div class="container-fluid">
+        <div class="row">
+ 
+             
+<!--stopindex-->
+    <div class="nav flex-column col-xl-2 col-lg-2 col-md-3  sidebar nav pt-5 pb-3 pl-3 border-right" id="v-tab" role="tablist" aria-orientation="vertical">
+        <button class="btn btn-default dropdown-toggle heading-dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK</font></font></button><br />
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ENTERPRISE </font></font></a>
+                <a class="dropdown-item" href="mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MOBILE </font></font></a>
+                <a class="dropdown-item" href="pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK</font></font></a>
+        </div>
+        <span class="heading" id="v-home-tab" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></span>
+        <!-- <a class="nav-link side active show" id="v-overview-tab" data-toggle="tab" href="#v-overview" role="tab" aria-controls="v-overview" aria-selected="false">Overview</a> -->
+        <a class="nav-link side expand-title active show" id="v-{}-tab" href="pre" role="tab" aria-expanded="false" aria-controls="{}"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有</font></font></a> <a class="nav-link side expand-title" id="v-priority definition planning-tab" data-toggle="collapse" href="pre#priority definition planning" role="tab" aria-expanded="false" aria-controls="priority definition planning"><span id="priority_definition_planning-tooltip" title="优先级定义规划"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">优先级定义Pl ...</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="priority definition planning" aria-labelledby="v-priority definition planning-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Assess current holdings, needs, and wants-priority definition planning-tab" href="T1236" aria-controls="v-Assess current holdings, needs, and wants-priority definition planning" aria-selected="false">Assess current holdings, needs, and wants</a>
+ <a class="nav-link side" id="v-Assess KITs/KIQs benefits-priority definition planning-tab" href="T1229" aria-controls="v-Assess KITs/KIQs benefits-priority definition planning" aria-selected="false">Assess KITs/KIQs benefits</a>
+ <a class="nav-link side" id="v-Assess leadership areas of interest-priority definition planning-tab" href="T1224" aria-controls="v-Assess leadership areas of interest-priority definition planning" aria-selected="false">Assess leadership areas of interest</a>
+ <a class="nav-link side" id="v-Assign KITs/KIQs into categories-priority definition planning-tab" href="T1228" aria-controls="v-Assign KITs/KIQs into categories-priority definition planning" aria-selected="false">Assign KITs/KIQs into categories</a>
+ <a class="nav-link side" id="v-Conduct cost/benefit analysis-priority definition planning-tab" href="T1226" aria-controls="v-Conduct cost/benefit analysis-priority definition planning" aria-selected="false">Conduct cost/benefit analysis</a>
+ <a class="nav-link side" id="v-Create implementation plan-priority definition planning-tab" href="T1232" aria-controls="v-Create implementation plan-priority definition planning" aria-selected="false">Create implementation plan</a>
+ <a class="nav-link side" id="v-Create strategic plan-priority definition planning-tab" href="T1231" aria-controls="v-Create strategic plan-priority definition planning" aria-selected="false">Create strategic plan</a>
+ <a class="nav-link side" id="v-Derive intelligence requirements-priority definition planning-tab" href="T1230" aria-controls="v-Derive intelligence requirements-priority definition planning" aria-selected="false">Derive intelligence requirements</a>
+ <a class="nav-link side" id="v-Develop KITs/KIQs-priority definition planning-tab" href="T1227" aria-controls="v-Develop KITs/KIQs-priority definition planning" aria-selected="false">Develop KITs/KIQs</a>
+ <a class="nav-link side" id="v-Generate analyst intelligence requirements-priority definition planning-tab" href="T1234" aria-controls="v-Generate analyst intelligence requirements-priority definition planning" aria-selected="false">Generate analyst intelligence requirements</a>
+ <a class="nav-link side" id="v-Identify analyst level gaps-priority definition planning-tab" href="T1233" aria-controls="v-Identify analyst level gaps-priority definition planning" aria-selected="false">Identify analyst level gaps</a>
+ <a class="nav-link side" id="v-Identify gap areas-priority definition planning-tab" href="T1225" aria-controls="v-Identify gap areas-priority definition planning" aria-selected="false">Identify gap areas</a>
+ <a class="nav-link side" id="v-Receive operator KITs/KIQs tasking-priority definition planning-tab" href="T1235" aria-controls="v-Receive operator KITs/KIQs tasking-priority definition planning" aria-selected="false">Receive operator KITs/KIQs tasking</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-priority definition direction-tab" data-toggle="collapse" href="pre#priority definition direction" role="tab" aria-expanded="false" aria-controls="priority definition direction"><span id="priority_definition_direction-tooltip" title="优先级定义方向"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">优先级定义Di ...</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="priority definition direction" aria-labelledby="v-priority definition direction-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Assign KITs, KIQs, and/or intelligence requirements-priority definition direction-tab" href="T1238" aria-controls="v-Assign KITs, KIQs, and/or intelligence requirements-priority definition direction" aria-selected="false">Assign KITs, KIQs, and/or intelligence requirements</a>
+ <a class="nav-link side" id="v-Receive KITs/KIQs and determine requirements-priority definition direction-tab" href="T1239" aria-controls="v-Receive KITs/KIQs and determine requirements-priority definition direction" aria-selected="false">Receive KITs/KIQs and determine requirements</a>
+ <a class="nav-link side" id="v-Submit KITs, KIQs, and intelligence requirements-priority definition direction-tab" href="T1237" aria-controls="v-Submit KITs, KIQs, and intelligence requirements-priority definition direction" aria-selected="false">Submit KITs, KIQs, and intelligence requirements</a>
+ <a class="nav-link side" id="v-Task requirements-priority definition direction-tab" href="T1240" aria-controls="v-Task requirements-priority definition direction" aria-selected="false">Task requirements</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-target selection-tab" data-toggle="collapse" href="pre#target selection" role="tab" aria-expanded="false" aria-controls="target selection"><span id="target_selection-tooltip" title="目标选择"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目标选择</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="target selection" aria-labelledby="v-target selection-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Determine approach/attack vector-target selection-tab" href="T1245" aria-controls="v-Determine approach/attack vector-target selection" aria-selected="false">Determine approach/attack vector</a>
+ <a class="nav-link side" id="v-Determine highest level tactical element-target selection-tab" href="T1243" aria-controls="v-Determine highest level tactical element-target selection" aria-selected="false">Determine highest level tactical element</a>
+ <a class="nav-link side" id="v-Determine operational element-target selection-tab" href="T1242" aria-controls="v-Determine operational element-target selection" aria-selected="false">Determine operational element</a>
+ <a class="nav-link side" id="v-Determine secondary level tactical element-target selection-tab" href="T1244" aria-controls="v-Determine secondary level tactical element-target selection" aria-selected="false">Determine secondary level tactical element</a>
+ <a class="nav-link side" id="v-Determine strategic target-target selection-tab" href="T1241" aria-controls="v-Determine strategic target-target selection" aria-selected="false">Determine strategic target</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-technical information gathering-tab" data-toggle="collapse" href="pre#technical information gathering" role="tab" aria-expanded="false" aria-controls="technical information gathering"><span id="technical_information_gathering-tooltip" title="技术信息收集"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术信息 ...</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="technical information gathering" aria-labelledby="v-technical information gathering-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Acquire OSINT data sets and information-technical information gathering-tab" href="T1247" aria-controls="v-Acquire OSINT data sets and information-technical information gathering" aria-selected="false">Acquire OSINT data sets and information</a>
+ <a class="nav-link side" id="v-Conduct active scanning-technical information gathering-tab" href="T1254" aria-controls="v-Conduct active scanning-technical information gathering" aria-selected="false">Conduct active scanning</a>
+ <a class="nav-link side" id="v-Conduct passive scanning-technical information gathering-tab" href="T1253" aria-controls="v-Conduct passive scanning-technical information gathering" aria-selected="false">Conduct passive scanning</a>
+ <a class="nav-link side" id="v-Conduct social engineering-technical information gathering-tab" href="T1249" aria-controls="v-Conduct social engineering-technical information gathering" aria-selected="false">Conduct social engineering</a>
+ <a class="nav-link side" id="v-Determine 3rd party infrastructure services-technical information gathering-tab" href="T1260" aria-controls="v-Determine 3rd party infrastructure services-technical information gathering" aria-selected="false">Determine 3rd party infrastructure services</a>
+ <a class="nav-link side" id="v-Determine domain and IP address space-technical information gathering-tab" href="T1250" aria-controls="v-Determine domain and IP address space-technical information gathering" aria-selected="false">Determine domain and IP address space</a>
+ <a class="nav-link side" id="v-Determine external network trust dependencies-technical information gathering-tab" href="T1259" aria-controls="v-Determine external network trust dependencies-technical information gathering" aria-selected="false">Determine external network trust dependencies</a>
+ <a class="nav-link side" id="v-Determine firmware version-technical information gathering-tab" href="T1258" aria-controls="v-Determine firmware version-technical information gathering" aria-selected="false">Determine firmware version</a>
+ <a class="nav-link side" id="v-Discover target logon/email address format-technical information gathering-tab" href="T1255" aria-controls="v-Discover target logon/email address format-technical information gathering" aria-selected="false">Discover target logon/email address format</a>
+ <a class="nav-link side" id="v-Enumerate client configurations-technical information gathering-tab" href="T1262" aria-controls="v-Enumerate client configurations-technical information gathering" aria-selected="false">Enumerate client configurations</a>
+ <a class="nav-link side" id="v-Enumerate externally facing software applications technologies, languages, and dependencies-technical information gathering-tab" href="T1261" aria-controls="v-Enumerate externally facing software applications technologies, languages, and dependencies-technical information gathering" aria-selected="false">Enumerate externally facing software applications technologies, languages, and dependencies</a>
+ <a class="nav-link side" id="v-Identify job postings and needs/gaps-technical information gathering-tab" href="T1248" aria-controls="v-Identify job postings and needs/gaps-technical information gathering" aria-selected="false">Identify job postings and needs/gaps</a>
+ <a class="nav-link side" id="v-Identify security defensive capabilities-technical information gathering-tab" href="T1263" aria-controls="v-Identify security defensive capabilities-technical information gathering" aria-selected="false">Identify security defensive capabilities</a>
+ <a class="nav-link side" id="v-Identify supply chains-technical information gathering-tab" href="T1246" aria-controls="v-Identify supply chains-technical information gathering" aria-selected="false">Identify supply chains</a>
+ <a class="nav-link side" id="v-Identify technology usage patterns-technical information gathering-tab" href="T1264" aria-controls="v-Identify technology usage patterns-technical information gathering" aria-selected="false">Identify technology usage patterns</a>
+ <a class="nav-link side" id="v-Identify web defensive services-technical information gathering-tab" href="T1256" aria-controls="v-Identify web defensive services-technical information gathering" aria-selected="false">Identify web defensive services</a>
+ <a class="nav-link side" id="v-Map network topology-technical information gathering-tab" href="T1252" aria-controls="v-Map network topology-technical information gathering" aria-selected="false">Map network topology</a>
+ <a class="nav-link side" id="v-Mine technical blogs/forums-technical information gathering-tab" href="T1257" aria-controls="v-Mine technical blogs/forums-technical information gathering" aria-selected="false">Mine technical blogs/forums</a>
+ <a class="nav-link side" id="v-Obtain domain/IP registration information-technical information gathering-tab" href="T1251" aria-controls="v-Obtain domain/IP registration information-technical information gathering" aria-selected="false">Obtain domain/IP registration information</a>
+ <a class="nav-link side" id="v-Spearphishing for Information-technical information gathering-tab" href="T1397" aria-controls="v-Spearphishing for Information-technical information gathering" aria-selected="false">Spearphishing for Information</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-people information gathering-tab" data-toggle="collapse" href="pre#people information gathering" role="tab" aria-expanded="false" aria-controls="people information gathering"><span id="people_information_gathering-tooltip" title="人民信息收集"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人民信息Gat ......</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="people information gathering" aria-labelledby="v-people information gathering-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Acquire OSINT data sets and information-people information gathering-tab" href="T1266" aria-controls="v-Acquire OSINT data sets and information-people information gathering" aria-selected="false">Acquire OSINT data sets and information</a>
+ <a class="nav-link side" id="v-Aggregate individual's digital footprint-people information gathering-tab" href="T1275" aria-controls="v-Aggregate individual's digital footprint-people information gathering" aria-selected="false">Aggregate individual's digital footprint</a>
+ <a class="nav-link side" id="v-Conduct social engineering-people information gathering-tab" href="T1268" aria-controls="v-Conduct social engineering-people information gathering" aria-selected="false">Conduct social engineering</a>
+ <a class="nav-link side" id="v-Identify business relationships-people information gathering-tab" href="T1272" aria-controls="v-Identify business relationships-people information gathering" aria-selected="false">Identify business relationships</a>
+ <a class="nav-link side" id="v-Identify groups/roles-people information gathering-tab" href="T1270" aria-controls="v-Identify groups/roles-people information gathering" aria-selected="false">Identify groups/roles</a>
+ <a class="nav-link side" id="v-Identify job postings and needs/gaps-people information gathering-tab" href="T1267" aria-controls="v-Identify job postings and needs/gaps-people information gathering" aria-selected="false">Identify job postings and needs/gaps</a>
+ <a class="nav-link side" id="v-Identify people of interest-people information gathering-tab" href="T1269" aria-controls="v-Identify people of interest-people information gathering" aria-selected="false">Identify people of interest</a>
+ <a class="nav-link side" id="v-Identify personnel with an authority/privilege-people information gathering-tab" href="T1271" aria-controls="v-Identify personnel with an authority/privilege-people information gathering" aria-selected="false">Identify personnel with an authority/privilege</a>
+ <a class="nav-link side" id="v-Identify sensitive personnel information-people information gathering-tab" href="T1274" aria-controls="v-Identify sensitive personnel information-people information gathering" aria-selected="false">Identify sensitive personnel information</a>
+ <a class="nav-link side" id="v-Identify supply chains-people information gathering-tab" href="T1265" aria-controls="v-Identify supply chains-people information gathering" aria-selected="false">Identify supply chains</a>
+ <a class="nav-link side" id="v-Mine social media-people information gathering-tab" href="T1273" aria-controls="v-Mine social media-people information gathering" aria-selected="false">Mine social media</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-organizational information gathering-tab" data-toggle="collapse" href="pre#organizational information gathering" role="tab" aria-expanded="false" aria-controls="organizational information gathering"><span id="organizational_information_gathering-tooltip" title="组织信息收集"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组织信息......</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="organizational information gathering" aria-labelledby="v-organizational information gathering-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Acquire OSINT data sets and information-organizational information gathering-tab" href="T1277" aria-controls="v-Acquire OSINT data sets and information-organizational information gathering" aria-selected="false">Acquire OSINT data sets and information</a>
+ <a class="nav-link side" id="v-Conduct social engineering-organizational information gathering-tab" href="T1279" aria-controls="v-Conduct social engineering-organizational information gathering" aria-selected="false">Conduct social engineering</a>
+ <a class="nav-link side" id="v-Determine 3rd party infrastructure services-organizational information gathering-tab" href="T1284" aria-controls="v-Determine 3rd party infrastructure services-organizational information gathering" aria-selected="false">Determine 3rd party infrastructure services</a>
+ <a class="nav-link side" id="v-Determine centralization of IT management-organizational information gathering-tab" href="T1285" aria-controls="v-Determine centralization of IT management-organizational information gathering" aria-selected="false">Determine centralization of IT management</a>
+ <a class="nav-link side" id="v-Determine physical locations-organizational information gathering-tab" href="T1282" aria-controls="v-Determine physical locations-organizational information gathering" aria-selected="false">Determine physical locations</a>
+ <a class="nav-link side" id="v-Dumpster dive-organizational information gathering-tab" href="T1286" aria-controls="v-Dumpster dive-organizational information gathering" aria-selected="false">Dumpster dive</a>
+ <a class="nav-link side" id="v-Identify business processes/tempo-organizational information gathering-tab" href="T1280" aria-controls="v-Identify business processes/tempo-organizational information gathering" aria-selected="false">Identify business processes/tempo</a>
+ <a class="nav-link side" id="v-Identify business relationships-organizational information gathering-tab" href="T1283" aria-controls="v-Identify business relationships-organizational information gathering" aria-selected="false">Identify business relationships</a>
+ <a class="nav-link side" id="v-Identify job postings and needs/gaps-organizational information gathering-tab" href="T1278" aria-controls="v-Identify job postings and needs/gaps-organizational information gathering" aria-selected="false">Identify job postings and needs/gaps</a>
+ <a class="nav-link side" id="v-Identify supply chains-organizational information gathering-tab" href="T1276" aria-controls="v-Identify supply chains-organizational information gathering" aria-selected="false">Identify supply chains</a>
+ <a class="nav-link side" id="v-Obtain templates/branding materials-organizational information gathering-tab" href="T1281" aria-controls="v-Obtain templates/branding materials-organizational information gathering" aria-selected="false">Obtain templates/branding materials</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-technical weakness identification-tab" data-toggle="collapse" href="pre#technical weakness identification" role="tab" aria-expanded="false" aria-controls="technical weakness identification"><span id="technical_weakness_identification-tooltip" title="技术弱点识别"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术弱点想法......</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="technical weakness identification" aria-labelledby="v-technical weakness identification-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Analyze application security posture-technical weakness identification-tab" href="T1293" aria-controls="v-Analyze application security posture-technical weakness identification" aria-selected="false">Analyze application security posture</a>
+ <a class="nav-link side" id="v-Analyze architecture and configuration posture-technical weakness identification-tab" href="T1288" aria-controls="v-Analyze architecture and configuration posture-technical weakness identification" aria-selected="false">Analyze architecture and configuration posture</a>
+ <a class="nav-link side" id="v-Analyze data collected-technical weakness identification-tab" href="T1287" aria-controls="v-Analyze data collected-technical weakness identification" aria-selected="false">Analyze data collected</a>
+ <a class="nav-link side" id="v-Analyze hardware/software security defensive capabilities-technical weakness identification-tab" href="T1294" aria-controls="v-Analyze hardware/software security defensive capabilities-technical weakness identification" aria-selected="false">Analyze hardware/software security defensive capabilities</a>
+ <a class="nav-link side" id="v-Analyze organizational skillsets and deficiencies-technical weakness identification-tab" href="T1289" aria-controls="v-Analyze organizational skillsets and deficiencies-technical weakness identification" aria-selected="false">Analyze organizational skillsets and deficiencies</a>
+ <a class="nav-link side" id="v-Identify vulnerabilities in third-party software libraries-technical weakness identification-tab" href="T1389" aria-controls="v-Identify vulnerabilities in third-party software libraries-technical weakness identification" aria-selected="false">Identify vulnerabilities in third-party software libraries</a>
+ <a class="nav-link side" id="v-Research relevant vulnerabilities/CVEs-technical weakness identification-tab" href="T1291" aria-controls="v-Research relevant vulnerabilities/CVEs-technical weakness identification" aria-selected="false">Research relevant vulnerabilities/CVEs</a>
+ <a class="nav-link side" id="v-Research visibility gap of security vendors-technical weakness identification-tab" href="T1290" aria-controls="v-Research visibility gap of security vendors-technical weakness identification" aria-selected="false">Research visibility gap of security vendors</a>
+ <a class="nav-link side" id="v-Test signature detection-technical weakness identification-tab" href="T1292" aria-controls="v-Test signature detection-technical weakness identification" aria-selected="false">Test signature detection</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-people weakness identification-tab" data-toggle="collapse" href="pre#people weakness identification" role="tab" aria-expanded="false" aria-controls="people weakness identification"><span id="people_weakness_identification-tooltip" title="人的弱点识别"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人民弱点认同......</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="people weakness identification" aria-labelledby="v-people weakness identification-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Analyze organizational skillsets and deficiencies-people weakness identification-tab" href="T1297" aria-controls="v-Analyze organizational skillsets and deficiencies-people weakness identification" aria-selected="false">Analyze organizational skillsets and deficiencies</a>
+ <a class="nav-link side" id="v-Analyze social and business relationships, interests, and affiliations-people weakness identification-tab" href="T1295" aria-controls="v-Analyze social and business relationships, interests, and affiliations-people weakness identification" aria-selected="false">Analyze social and business relationships, interests, and affiliations</a>
+ <a class="nav-link side" id="v-Assess targeting options-people weakness identification-tab" href="T1296" aria-controls="v-Assess targeting options-people weakness identification" aria-selected="false">Assess targeting options</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-organizational weakness identification-tab" data-toggle="collapse" href="pre#organizational weakness identification" role="tab" aria-expanded="false" aria-controls="organizational weakness identification"><span id="organizational_weakness_identification-tooltip" title="组织弱点识别"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组织弱点......</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="organizational weakness identification" aria-labelledby="v-organizational weakness identification-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Analyze business processes-organizational weakness identification-tab" href="T1301" aria-controls="v-Analyze business processes-organizational weakness identification" aria-selected="false">Analyze business processes</a>
+ <a class="nav-link side" id="v-Analyze organizational skillsets and deficiencies-organizational weakness identification-tab" href="T1300" aria-controls="v-Analyze organizational skillsets and deficiencies-organizational weakness identification" aria-selected="false">Analyze organizational skillsets and deficiencies</a>
+ <a class="nav-link side" id="v-Analyze presence of outsourced capabilities-organizational weakness identification-tab" href="T1303" aria-controls="v-Analyze presence of outsourced capabilities-organizational weakness identification" aria-selected="false">Analyze presence of outsourced capabilities</a>
+ <a class="nav-link side" id="v-Assess opportunities created by business deals-organizational weakness identification-tab" href="T1299" aria-controls="v-Assess opportunities created by business deals-organizational weakness identification" aria-selected="false">Assess opportunities created by business deals</a>
+ <a class="nav-link side" id="v-Assess security posture of physical locations-organizational weakness identification-tab" href="T1302" aria-controls="v-Assess security posture of physical locations-organizational weakness identification" aria-selected="false">Assess security posture of physical locations</a>
+ <a class="nav-link side" id="v-Assess vulnerability of 3rd party vendors-organizational weakness identification-tab" href="T1298" aria-controls="v-Assess vulnerability of 3rd party vendors-organizational weakness identification" aria-selected="false">Assess vulnerability of 3rd party vendors</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-adversary opsec-tab" data-toggle="collapse" href="pre#adversary opsec" role="tab" aria-expanded="false" aria-controls="adversary opsec"><span id="adversary_opsec-tooltip" title="对手OPSEC"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对手OPSEC</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="adversary opsec" aria-labelledby="v-adversary opsec-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Acquire and/or use 3rd party infrastructure services-adversary opsec-tab" href="T1307" aria-controls="v-Acquire and/or use 3rd party infrastructure services-adversary opsec" aria-selected="false">Acquire and/or use 3rd party infrastructure services</a>
+ <a class="nav-link side" id="v-Acquire and/or use 3rd party software services-adversary opsec-tab" href="T1308" aria-controls="v-Acquire and/or use 3rd party software services-adversary opsec" aria-selected="false">Acquire and/or use 3rd party software services</a>
+ <a class="nav-link side" id="v-Acquire or compromise 3rd party signing certificates-adversary opsec-tab" href="T1310" aria-controls="v-Acquire or compromise 3rd party signing certificates-adversary opsec" aria-selected="false">Acquire or compromise 3rd party signing certificates</a>
+ <a class="nav-link side" id="v-Anonymity services-adversary opsec-tab" href="T1306" aria-controls="v-Anonymity services-adversary opsec" aria-selected="false">Anonymity services</a>
+ <a class="nav-link side" id="v-Common, high volume protocols and software-adversary opsec-tab" href="T1321" aria-controls="v-Common, high volume protocols and software-adversary opsec" aria-selected="false">Common, high volume protocols and software</a>
+ <a class="nav-link side" id="v-Compromise 3rd party infrastructure to support delivery-adversary opsec-tab" href="T1312" aria-controls="v-Compromise 3rd party infrastructure to support delivery-adversary opsec" aria-selected="false">Compromise 3rd party infrastructure to support delivery</a>
+ <a class="nav-link side" id="v-Data Hiding-adversary opsec-tab" href="T1320" aria-controls="v-Data Hiding-adversary opsec" aria-selected="false">Data Hiding</a>
+ <a class="nav-link side" id="v-DNSCalc-adversary opsec-tab" href="T1324" aria-controls="v-DNSCalc-adversary opsec" aria-selected="false">DNSCalc</a>
+ <a class="nav-link side" id="v-Domain Generation Algorithms (DGA)-adversary opsec-tab" href="T1323" aria-controls="v-Domain Generation Algorithms (DGA)-adversary opsec" aria-selected="false">Domain Generation Algorithms (DGA)</a>
+ <a class="nav-link side" id="v-Dynamic DNS-adversary opsec-tab" href="T1311" aria-controls="v-Dynamic DNS-adversary opsec" aria-selected="false">Dynamic DNS</a>
+ <a class="nav-link side" id="v-Fast Flux DNS-adversary opsec-tab" href="T1325" aria-controls="v-Fast Flux DNS-adversary opsec" aria-selected="false">Fast Flux DNS</a>
+ <a class="nav-link side" id="v-Host-based hiding techniques-adversary opsec-tab" href="T1314" aria-controls="v-Host-based hiding techniques-adversary opsec" aria-selected="false">Host-based hiding techniques</a>
+ <a class="nav-link side" id="v-Misattributable credentials-adversary opsec-tab" href="T1322" aria-controls="v-Misattributable credentials-adversary opsec" aria-selected="false">Misattributable credentials</a>
+ <a class="nav-link side" id="v-Network-based hiding techniques-adversary opsec-tab" href="T1315" aria-controls="v-Network-based hiding techniques-adversary opsec" aria-selected="false">Network-based hiding techniques</a>
+ <a class="nav-link side" id="v-Non-traditional or less attributable payment options-adversary opsec-tab" href="T1316" aria-controls="v-Non-traditional or less attributable payment options-adversary opsec" aria-selected="false">Non-traditional or less attributable payment options</a>
+ <a class="nav-link side" id="v-Obfuscate infrastructure-adversary opsec-tab" href="T1309" aria-controls="v-Obfuscate infrastructure-adversary opsec" aria-selected="false">Obfuscate infrastructure</a>
+ <a class="nav-link side" id="v-Obfuscate operational infrastructure-adversary opsec-tab" href="T1318" aria-controls="v-Obfuscate operational infrastructure-adversary opsec" aria-selected="false">Obfuscate operational infrastructure</a>
+ <a class="nav-link side" id="v-Obfuscate or encrypt code-adversary opsec-tab" href="T1319" aria-controls="v-Obfuscate or encrypt code-adversary opsec" aria-selected="false">Obfuscate or encrypt code</a>
+ <a class="nav-link side" id="v-Obfuscation or cryptography-adversary opsec-tab" href="T1313" aria-controls="v-Obfuscation or cryptography-adversary opsec" aria-selected="false">Obfuscation or cryptography</a>
+ <a class="nav-link side" id="v-OS-vendor provided communication channels-adversary opsec-tab" href="T1390" aria-controls="v-OS-vendor provided communication channels-adversary opsec" aria-selected="false">OS-vendor provided communication channels</a>
+ <a class="nav-link side" id="v-Private whois services-adversary opsec-tab" href="T1305" aria-controls="v-Private whois services-adversary opsec" aria-selected="false">Private whois services</a>
+ <a class="nav-link side" id="v-Proxy/protocol relays-adversary opsec-tab" href="T1304" aria-controls="v-Proxy/protocol relays-adversary opsec" aria-selected="false">Proxy/protocol relays</a>
+ <a class="nav-link side" id="v-Secure and protect infrastructure-adversary opsec-tab" href="T1317" aria-controls="v-Secure and protect infrastructure-adversary opsec" aria-selected="false">Secure and protect infrastructure</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-establish &amp; maintain infrastructure-tab" data-toggle="collapse" href="pre#establish &amp; maintain infrastructure" role="tab" aria-expanded="false" aria-controls="establish &amp; maintain infrastructure"><span id="establish_&amp;_maintain_infrastructure-tooltip" title="建立和维护基础设施"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建立和维护我......</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="establish &amp; maintain infrastructure" aria-labelledby="v-establish &amp; maintain infrastructure-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Acquire and/or use 3rd party infrastructure services-establish &amp; maintain infrastructure-tab" href="T1329" aria-controls="v-Acquire and/or use 3rd party infrastructure services-establish &amp; maintain infrastructure" aria-selected="false">Acquire and/or use 3rd party infrastructure services</a>
+ <a class="nav-link side" id="v-Acquire and/or use 3rd party software services-establish &amp; maintain infrastructure-tab" href="T1330" aria-controls="v-Acquire and/or use 3rd party software services-establish &amp; maintain infrastructure" aria-selected="false">Acquire and/or use 3rd party software services</a>
+ <a class="nav-link side" id="v-Acquire or compromise 3rd party signing certificates-establish &amp; maintain infrastructure-tab" href="T1332" aria-controls="v-Acquire or compromise 3rd party signing certificates-establish &amp; maintain infrastructure" aria-selected="false">Acquire or compromise 3rd party signing certificates</a>
+ <a class="nav-link side" id="v-Buy domain name-establish &amp; maintain infrastructure-tab" href="T1328" aria-controls="v-Buy domain name-establish &amp; maintain infrastructure" aria-selected="false">Buy domain name</a>
+ <a class="nav-link side" id="v-Compromise 3rd party infrastructure to support delivery-establish &amp; maintain infrastructure-tab" href="T1334" aria-controls="v-Compromise 3rd party infrastructure to support delivery-establish &amp; maintain infrastructure" aria-selected="false">Compromise 3rd party infrastructure to support delivery</a>
+ <a class="nav-link side" id="v-Create backup infrastructure-establish &amp; maintain infrastructure-tab" href="T1339" aria-controls="v-Create backup infrastructure-establish &amp; maintain infrastructure" aria-selected="false">Create backup infrastructure</a>
+ <a class="nav-link side" id="v-Domain registration hijacking-establish &amp; maintain infrastructure-tab" href="T1326" aria-controls="v-Domain registration hijacking-establish &amp; maintain infrastructure" aria-selected="false">Domain registration hijacking</a>
+ <a class="nav-link side" id="v-Dynamic DNS-establish &amp; maintain infrastructure-tab" href="T1333" aria-controls="v-Dynamic DNS-establish &amp; maintain infrastructure" aria-selected="false">Dynamic DNS</a>
+ <a class="nav-link side" id="v-Install and configure hardware, network, and systems-establish &amp; maintain infrastructure-tab" href="T1336" aria-controls="v-Install and configure hardware, network, and systems-establish &amp; maintain infrastructure" aria-selected="false">Install and configure hardware, network, and systems</a>
+ <a class="nav-link side" id="v-Obfuscate infrastructure-establish &amp; maintain infrastructure-tab" href="T1331" aria-controls="v-Obfuscate infrastructure-establish &amp; maintain infrastructure" aria-selected="false">Obfuscate infrastructure</a>
+ <a class="nav-link side" id="v-Obtain booter/stressor subscription-establish &amp; maintain infrastructure-tab" href="T1396" aria-controls="v-Obtain booter/stressor subscription-establish &amp; maintain infrastructure" aria-selected="false">Obtain booter/stressor subscription</a>
+ <a class="nav-link side" id="v-Procure required equipment and software-establish &amp; maintain infrastructure-tab" href="T1335" aria-controls="v-Procure required equipment and software-establish &amp; maintain infrastructure" aria-selected="false">Procure required equipment and software</a>
+ <a class="nav-link side" id="v-Shadow DNS-establish &amp; maintain infrastructure-tab" href="T1340" aria-controls="v-Shadow DNS-establish &amp; maintain infrastructure" aria-selected="false">Shadow DNS</a>
+ <a class="nav-link side" id="v-SSL certificate acquisition for domain-establish &amp; maintain infrastructure-tab" href="T1337" aria-controls="v-SSL certificate acquisition for domain-establish &amp; maintain infrastructure" aria-selected="false">SSL certificate acquisition for domain</a>
+ <a class="nav-link side" id="v-SSL certificate acquisition for trust breaking-establish &amp; maintain infrastructure-tab" href="T1338" aria-controls="v-SSL certificate acquisition for trust breaking-establish &amp; maintain infrastructure" aria-selected="false">SSL certificate acquisition for trust breaking</a>
+ <a class="nav-link side" id="v-Use multiple DNS infrastructures-establish &amp; maintain infrastructure-tab" href="T1327" aria-controls="v-Use multiple DNS infrastructures-establish &amp; maintain infrastructure" aria-selected="false">Use multiple DNS infrastructures</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-persona development-tab" data-toggle="collapse" href="pre#persona development" role="tab" aria-expanded="false" aria-controls="persona development"><span id="persona_development-tooltip" title="角色发展"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">角色发展</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="persona development" aria-labelledby="v-persona development-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Build social network persona-persona development-tab" href="T1341" aria-controls="v-Build social network persona-persona development" aria-selected="false">Build social network persona</a>
+ <a class="nav-link side" id="v-Choose pre-compromised mobile app developer account credentials or signing keys-persona development-tab" href="T1391" aria-controls="v-Choose pre-compromised mobile app developer account credentials or signing keys-persona development" aria-selected="false">Choose pre-compromised mobile app developer account credentials or signing keys</a>
+ <a class="nav-link side" id="v-Choose pre-compromised persona and affiliated accounts-persona development-tab" href="T1343" aria-controls="v-Choose pre-compromised persona and affiliated accounts-persona development" aria-selected="false">Choose pre-compromised persona and affiliated accounts</a>
+ <a class="nav-link side" id="v-Develop social network persona digital footprint-persona development-tab" href="T1342" aria-controls="v-Develop social network persona digital footprint-persona development" aria-selected="false">Develop social network persona digital footprint</a>
+ <a class="nav-link side" id="v-Friend/Follow/Connect to targets of interest-persona development-tab" href="T1344" aria-controls="v-Friend/Follow/Connect to targets of interest-persona development" aria-selected="false">Friend/Follow/Connect to targets of interest</a>
+ <a class="nav-link side" id="v-Obtain Apple iOS enterprise distribution key pair and certificate-persona development-tab" href="T1392" aria-controls="v-Obtain Apple iOS enterprise distribution key pair and certificate-persona development" aria-selected="false">Obtain Apple iOS enterprise distribution key pair and certificate</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-build capabilities-tab" data-toggle="collapse" href="pre#build capabilities" role="tab" aria-expanded="false" aria-controls="build capabilities"><span id="build_capabilities-tooltip" title="建立能力"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建立能力</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="build capabilities" aria-labelledby="v-build capabilities-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Build and configure delivery systems-build capabilities-tab" href="T1347" aria-controls="v-Build and configure delivery systems-build capabilities" aria-selected="false">Build and configure delivery systems</a>
+ <a class="nav-link side" id="v-Build or acquire exploits-build capabilities-tab" href="T1349" aria-controls="v-Build or acquire exploits-build capabilities" aria-selected="false">Build or acquire exploits</a>
+ <a class="nav-link side" id="v-C2 protocol development-build capabilities-tab" href="T1352" aria-controls="v-C2 protocol development-build capabilities" aria-selected="false">C2 protocol development</a>
+ <a class="nav-link side" id="v-Compromise 3rd party or closed-source vulnerability/exploit information-build capabilities-tab" href="T1354" aria-controls="v-Compromise 3rd party or closed-source vulnerability/exploit information-build capabilities" aria-selected="false">Compromise 3rd party or closed-source vulnerability/exploit information</a>
+ <a class="nav-link side" id="v-Create custom payloads-build capabilities-tab" href="T1345" aria-controls="v-Create custom payloads-build capabilities" aria-selected="false">Create custom payloads</a>
+ <a class="nav-link side" id="v-Create infected removable media-build capabilities-tab" href="T1355" aria-controls="v-Create infected removable media-build capabilities" aria-selected="false">Create infected removable media</a>
+ <a class="nav-link side" id="v-Discover new exploits and monitor exploit-provider forums-build capabilities-tab" href="T1350" aria-controls="v-Discover new exploits and monitor exploit-provider forums-build capabilities" aria-selected="false">Discover new exploits and monitor exploit-provider forums</a>
+ <a class="nav-link side" id="v-Identify resources required to build capabilities-build capabilities-tab" href="T1348" aria-controls="v-Identify resources required to build capabilities-build capabilities" aria-selected="false">Identify resources required to build capabilities</a>
+ <a class="nav-link side" id="v-Obtain/re-use payloads-build capabilities-tab" href="T1346" aria-controls="v-Obtain/re-use payloads-build capabilities" aria-selected="false">Obtain/re-use payloads</a>
+ <a class="nav-link side" id="v-Post compromise tool development-build capabilities-tab" href="T1353" aria-controls="v-Post compromise tool development-build capabilities" aria-selected="false">Post compromise tool development</a>
+ <a class="nav-link side" id="v-Remote access tool development-build capabilities-tab" href="T1351" aria-controls="v-Remote access tool development-build capabilities" aria-selected="false">Remote access tool development</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-test capabilities-tab" data-toggle="collapse" href="pre#test capabilities" role="tab" aria-expanded="false" aria-controls="test capabilities"><span id="test_capabilities-tooltip" title="测试能力"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试能力</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="test capabilities" aria-labelledby="v-test capabilities-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Review logs and residual traces-test capabilities-tab" href="T1358" aria-controls="v-Review logs and residual traces-test capabilities" aria-selected="false">Review logs and residual traces</a>
+ <a class="nav-link side" id="v-Test ability to evade automated mobile application security analysis performed by app stores-test capabilities-tab" href="T1393" aria-controls="v-Test ability to evade automated mobile application security analysis performed by app stores-test capabilities" aria-selected="false">Test ability to evade automated mobile application security analysis performed by app stores</a>
+ <a class="nav-link side" id="v-Test callback functionality-test capabilities-tab" href="T1356" aria-controls="v-Test callback functionality-test capabilities" aria-selected="false">Test callback functionality</a>
+ <a class="nav-link side" id="v-Test malware in various execution environments-test capabilities-tab" href="T1357" aria-controls="v-Test malware in various execution environments-test capabilities" aria-selected="false">Test malware in various execution environments</a>
+ <a class="nav-link side" id="v-Test malware to evade detection-test capabilities-tab" href="T1359" aria-controls="v-Test malware to evade detection-test capabilities" aria-selected="false">Test malware to evade detection</a>
+ <a class="nav-link side" id="v-Test physical access-test capabilities-tab" href="T1360" aria-controls="v-Test physical access-test capabilities" aria-selected="false">Test physical access</a>
+ <a class="nav-link side" id="v-Test signature detection for file upload/email filters-test capabilities-tab" href="T1361" aria-controls="v-Test signature detection for file upload/email filters-test capabilities" aria-selected="false">Test signature detection for file upload/email filters</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-stage capabilities-tab" data-toggle="collapse" href="pre#stage capabilities" role="tab" aria-expanded="false" aria-controls="stage capabilities"><span id="stage_capabilities-tooltip" title="舞台功能"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">舞台功能</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="stage capabilities" aria-labelledby="v-stage capabilities-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Disseminate removable media-stage capabilities-tab" href="T1379" aria-controls="v-Disseminate removable media-stage capabilities" aria-selected="false">Disseminate removable media</a>
+ <a class="nav-link side" id="v-Distribute malicious software development tools-stage capabilities-tab" href="T1394" aria-controls="v-Distribute malicious software development tools-stage capabilities" aria-selected="false">Distribute malicious software development tools</a>
+ <a class="nav-link side" id="v-Friend/Follow/Connect to targets of interest-stage capabilities-tab" href="T1364" aria-controls="v-Friend/Follow/Connect to targets of interest-stage capabilities" aria-selected="false">Friend/Follow/Connect to targets of interest</a>
+ <a class="nav-link side" id="v-Hardware or software supply chain implant-stage capabilities-tab" href="T1365" aria-controls="v-Hardware or software supply chain implant-stage capabilities" aria-selected="false">Hardware or software supply chain implant</a>
+ <a class="nav-link side" id="v-Port redirector-stage capabilities-tab" href="T1363" aria-controls="v-Port redirector-stage capabilities" aria-selected="false">Port redirector</a>
+ <a class="nav-link side" id="v-Upload, install, and configure software/tools-stage capabilities-tab" href="T1362" aria-controls="v-Upload, install, and configure software/tools-stage capabilities" aria-selected="false">Upload, install, and configure software/tools</a>
+</div>
+</div>
+    </div>
+    <!--<span class="heading"  aria-selected="false">&nbsp;TECHNIQUES<span class="btn"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Expand all"></span></span></span>-->
+<!--startindex-->
+
+             
+            <div class="tab-content col-xl-10 col-lg-10 col-md-9 pt-4" id="v-tabContent">
+                <div class="tab-pane fade show active" id="v-attckmatrix" role="tabpanel" aria-labelledby="v-attckmatrix-tab">
+<!--stopindex-->
+<ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">家</font></font></a></li>
+        <li class="breadcrumb-item"><a href="pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></a></li>
+        <li class="breadcrumb-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK</font></font></li>
+    </ol>
+    <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
+    <div class="row">
+       <div class="col-xl-12">
+          <div class="jumbotron jumbotron-fluid bg-white">
+             <div class="container-fluid">
+                <div style="overflow-x: auto">
+                    <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                      PRE-ATT和CK技术
+                    </font></font></h1>
+                    <h6 class="table-statistics"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK技术：174</font></font></h6>
+                    <table class="table table-bordered table-light mt-2">
+                        <thead>
+                          <tr>
+                            <th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></th>
+                            <th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">名称</font></font></th>
+                            <th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述</font></font></th>
+                          </tr>
+                        </thead>
+                        <tbody class="bg-white">
+                          
+<tr><td><a href="T1307"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1307</font></font></a></td>
+<td><a href="T1307"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取和/或使用第三方基础架构服务</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供各种云，虚拟专用服务，托管，计算和存储解决方案。</font><font style="vertical-align: inherit;">此外，僵尸网络可供出租或购买。</font><font style="vertical-align: inherit;">使用这些解决方案可以让攻击者从基础设施进行攻击，发起和执行攻击，这些攻击不会物理连接到它们，并且可以快速配置，修改和关闭。</font></font></p></td></tr>
+
+<tr><td><a href="T1329"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1329</font></font></a></td>
+<td><a href="T1329"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取和/或使用第三方基础架构服务</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供各种云，虚拟专用服务，托管，计算和存储解决方案。</font><font style="vertical-align: inherit;">此外，僵尸网络可供出租或购买。</font><font style="vertical-align: inherit;">使用这些解决方案可以让攻击者从基础设施进行攻击，发起和执行攻击，这些攻击不会物理连接到它们，并且可以快速配置，修改和关闭。</font></font></p></td></tr>
+
+<tr><td><a href="T1330"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1330</font></font></a></td>
+<td><a href="T1330"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取和/或使用第三方软件服务</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供各种第三方软件服务（例如，</font></font><a href="https://twitter.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Twitter</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://www.dropbox.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dropbox</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://www.google.com/docs/about"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GoogleDocs</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">使用这些解决方案可以让攻击者从基础设施进行攻击，发起和执行攻击，这些攻击不会物理连接到它们，并且可以快速配置，修改和关闭。</font></font></p></td></tr>
+
+<tr><td><a href="T1308"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1308</font></font></a></td>
+<td><a href="T1308"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取和/或使用第三方软件服务</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供各种第三方软件服务（例如，</font></font><a href="https://twitter.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Twitter</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://www.dropbox.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dropbox</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://www.google.com/docs/about"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GoogleDocs</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">使用这些解决方案可以让攻击者从基础设施进行攻击，发起和执行攻击，这些攻击不会物理连接到它们，并且可以快速配置，修改和关闭。  </font></font></p></td></tr>
+
+<tr><td><a href="T1310"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1310</font></font></a></td>
+<td><a href="T1310"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取或妥协第三方签名证书</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码签名是对可执行文件或脚本进行数字签名以确认软件作者并确保代码未被更改或损坏的过程。</font><font style="vertical-align: inherit;">即使用户不知道谁颁发了证书或者作者是谁，用户也可以信任签名的代码而不是未签名的代码。</font></font></p></td></tr>
+
+<tr><td><a href="T1332"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1332</font></font></a></td>
+<td><a href="T1332"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取或妥协第三方签名证书</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码签名是对可执行文件和脚本进行数字签名以确认软件作者并确保代码未被更改或损坏的过程。</font><font style="vertical-align: inherit;">即使用户不知道谁颁发了证书或者作者是谁，用户也可以信任签名的代码而不是未签名的代码。</font></font></p></td></tr>
+
+<tr><td><a href="T1247"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1247</font></font></a></td>
+<td><a href="T1247"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取OSINT数据集和信息</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源智能（OSINT）是从公开来源收集的情报。</font><font style="vertical-align: inherit;">这可以包括在线收集的信息，例如来自搜索引擎的信息，以及物理世界中的信息。</font></font></p></td></tr>
+
+<tr><td><a href="T1266"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1266</font></font></a></td>
+<td><a href="T1266"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取OSINT数据集和信息</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源智能（OSINT）提供有关目标的免费，随时可用的信息，同时为目标提供他们感兴趣的指示。</font><font style="vertical-align: inherit;">这些信息可以帮助对手制定成功的妥协方法。</font></font></p></td></tr>
+
+<tr><td><a href="T1277"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1277</font></font></a></td>
+<td><a href="T1277"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取OSINT数据集和信息</font></font></a></td>
+<td><p>Data sets can be anything from Security Exchange Commission (SEC) filings to public phone numbers. Many datasets are now either publicly available for free or can be purchased from a variety of data vendors.  Open source intelligence (OSINT) is intelligence gathered from publicly available sources. This can include both information gathered on-line as well as in the physical world.   </p></td></tr>
+
+<tr><td><a href="T1275">T1275</a></td>
+<td><a href="T1275">Aggregate individual's digital footprint</a></td>
+<td><p>In addition to a target's social media presence may exist a larger digital footprint, such as accounts and credentials on e-commerce sites or usernames and logins for email.  An adversary familiar with a target's username can mine to determine the target's larger digital footprint via publicly available sources.  </p></td></tr>
+
+<tr><td><a href="T1293">T1293</a></td>
+<td><a href="T1293">Analyze application security posture</a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者可以探测受害者的网络以确定配置。</font><font style="vertical-align: inherit;">这些配置可以提供以未检测到或不太可检测的方式通过网络路由流量的机会。  </font></font></p></td></tr>
+
+<tr><td><a href="T1288"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1288</font></font></a></td>
+<td><a href="T1288"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析架构和配置状态</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者可以分析技术扫描结果以识别受害者网络的配置或体系结构中的弱点。</font><font style="vertical-align: inherit;">这些弱点可能包括架构缺陷，错误配置或不正确的安全控制。</font></font></p></td></tr>
+
+<tr><td><a href="T1301"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1301</font></font></a></td>
+<td><a href="T1301"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析业务流程</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">业务流程，例如谁通常与谁或某个特定部分的供应链进行通信，为社会工程或其他方面提供了机会  </font></font></p></td></tr>
+
+<tr><td><a href="T1287"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1287</font></font></a></td>
+<td><a href="T1287"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析收集的数据</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者将评估收集的信息，如软件/硬件版本，漏洞，补丁级别等。他们将分析技术扫描结果，以确定确认或体系结构中的弱点。    </font></font></p></td></tr>
+
+<tr><td><a href="T1294"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1294</font></font></a></td>
+<td><a href="T1294"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析硬件/软件安全防御能力</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者可以探测受害者的网络以确定配置。</font><font style="vertical-align: inherit;">这些配置可以提供以未检测到或不太可检测的方式通过网络路由流量的机会。</font></font></p></td></tr>
+
+<tr><td><a href="T1289"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1289</font></font></a></td>
+<td><a href="T1289"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析组织技能组合和缺陷</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析目标的优势和劣势，以便在哪些地方集中妥协工作。 </font></font></p></td></tr>
+
+<tr><td><a href="T1300"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1300</font></font></a></td>
+<td><a href="T1300"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析组织技能组合和缺陷</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析目标的优势和劣势，以便在哪些地方集中妥协工作。 </font></font></p></td></tr>
+
+<tr><td><a href="T1297"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1297</font></font></a></td>
+<td><a href="T1297"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析组织技能组合和缺陷</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解组织技能组合和缺陷可以提供对防御软弱或剥削机会的洞察力。 </font></font></p></td></tr>
+
+<tr><td><a href="T1303"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1303</font></font></a></td>
+<td><a href="T1303"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析外包能力的存在</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">外包，一家向另一家公司提供商品或服务的公司的安排，可以在内部完成，这为对手提供了另一种目标。</font><font style="vertical-align: inherit;">企业通常在其自身与可被利用的外包/合作伙伴组织之间拥有网络，门户或其他技术连接。</font><font style="vertical-align: inherit;">此外，外包/合作伙伴组织信息可以提供网络钓鱼的机会。  </font></font></p></td></tr>
+
+<tr><td><a href="T1295"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1295</font></font></a></td>
+<td><a href="T1295"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析社交和业务关系，兴趣和从属关系</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社交媒体可以深入了解目标与团体和组织的关系。</font><font style="vertical-align: inherit;">认证信息可以解释他们的技术协会和专业协会。</font><font style="vertical-align: inherit;">个人信息可以提供利用甚至敲诈勒索的数据。</font></font></p></td></tr>
+
+<tr><td><a href="T1306"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1306</font></font></a></td>
+<td><a href="T1306"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">匿名服务</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">匿名服务减少了可用于跟踪对手活动的可用信息量。</font><font style="vertical-align: inherit;">有多个选项可用于隐藏活动，限制跟踪和增加匿名性。  </font></font></p></td></tr>
+
+<tr><td><a href="T1236"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1236</font></font></a></td>
+<td><a href="T1236"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评估当前的持股，需求和需求</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析师根据需求评估当前可用信息，这些需求概述了需求和愿望，作为开始满足要求的研究基线过程的一部分。    </font></font></p></td></tr>
+
+<tr><td><a href="T1229"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1229</font></font></a></td>
+<td><a href="T1229"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评估KITs / KIQs的好处</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键情报主题（KITs）和关键情报问题（KIQs）可以进一步细分为关注政治，经济，外交，军事，金融或知识产权类别。</font><font style="vertical-align: inherit;">攻击者可以以这种方式指定KIT或KIQ，以便了解他们所追求的信息如何具有多种用途，并考虑他们为特定目的所需的信息类型的所有方面。</font><font style="vertical-align: inherit;">KIT。</font></font></p></td></tr>
+
+<tr><td><a href="T1224"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1224</font></font></a></td>
+<td><a href="T1224"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评估感兴趣的领导领域</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">领导层评估他们最感兴趣的领域，并生成关键情报主题（KIT）或关键情报问题（KIQ）。</font><font style="vertical-align: inherit;">例如，攻击者知道开源和封闭源报告网络是有意义的，从而导致它成为KIT。</font></font></p></td></tr>
+
+<tr><td><a href="T1299"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1299</font></font></a></td>
+<td><a href="T1299"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评估商业交易创造的机会</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在合并，资产剥离或联合基础设施或业务流程的其他变更期间，可能存在剥削机会。</font><font style="vertical-align: inherit;">在这种类型的流失期间，不寻常的请求或其他非标准做法可能不那么明显。  </font></font></p></td></tr>
+
+<tr><td><a href="T1302"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1302</font></font></a></td>
+<td><a href="T1302"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评估物理位置的安全状况</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">某些类型的对抗操作可能需要物理访问。  </font></font></p></td></tr>
+
+<tr><td><a href="T1296"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1296</font></font></a></td>
+<td><a href="T1296"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评估定位选项</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者可以评估目标的操作安全性（OPSEC）实践，以识别目标选项。</font><font style="vertical-align: inherit;">目标可以在不同的环境中共享不同的信息，或者在不同的环境中更不谨慎。  </font></font></p></td></tr>
+
+<tr><td><a href="T1298"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1298</font></font></a></td>
+<td><a href="T1298"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评估第三方供应商的漏洞</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一旦第三方供应商被确定为感兴趣，就可以像主要目标一样探测漏洞。  </font></font></p></td></tr>
+
+<tr><td><a href="T1238"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1238</font></font></a></td>
+<td><a href="T1238"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分配KIT，KIQ和/或情报要求</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成后，关键情报主题（KIT），关键情报问题（KIQ）和/或情报要求将分配给适用的机构和/或人员。</font><font style="vertical-align: inherit;">例如，对手可以决定核能需求应根据其任务分配给特定组织。  </font></font></p></td></tr>
+
+<tr><td><a href="T1228"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1228</font></font></a></td>
+<td><a href="T1228"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将KIT / KIQ分配到类别中</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">领导层将关键情报主题（KIT）和关键情报问题（KIQ）组织成三种类别，并在必要时创建更多类别。</font><font style="vertical-align: inherit;">关键球员KIT的描述的一个例子是当对手评估民族国家威胁演员的网络防御能力时。</font></font></p></td></tr>
+
+<tr><td><a href="T1381"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1381</font></font></a></td>
+<td><a href="T1381"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">验证尝试</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1386"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1386</font></font></a></td>
+<td><a href="T1386"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">授权用户执行请求的网络操作</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1384"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1384</font></font></a></td>
+<td><a href="T1384"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动化系统执行请求的操作</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1347"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1347</font></font></a></td>
+<td><a href="T1347"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建和配置交付系统</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">交付系统是攻击者用来托管恶意软件或在利用过程中使用的其他工具的基础架构。</font><font style="vertical-align: inherit;">构建和配置传递系统可以包括多个活动，例如注册域名，租用主机空间或配置先前利用的环境。</font></font></p></td></tr>
+
+<tr><td><a href="T1349"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1349</font></font></a></td>
+<td><a href="T1349"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建立或获取漏洞利用</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">利用漏洞利用漏洞或漏洞可能会导致计算机硬件或软件出现意外或意外的行为。</font><font style="vertical-align: inherit;">当攻击者仍然与他们试图妥协的环境相关时，攻击者可以使用或修改现有攻击。  </font></font></p></td></tr>
+
+<tr><td><a href="T1341"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1341</font></font></a></td>
+<td><a href="T1341"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建立社交网络角色</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于包含社会工程的攻击，在线角色的使用很重要。</font><font style="vertical-align: inherit;">这些人物角色可能是虚构的或模仿真实的人。</font><font style="vertical-align: inherit;">角色可能存在于单个站点上或跨多个站点（</font></font><a href="https://www.facebook.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Facebook</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://www.linkedin.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LinkedIn</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://twitter.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Twitter</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://plus.google.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google +</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等）。   </font></font></p></td></tr>
+
+<tr><td><a href="T1328"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1328</font></font></a></td>
+<td><a href="T1328"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">购买域名</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">域名是用于表示一个或多个IP地址的人类可读名称。</font><font style="vertical-align: inherit;">他们可以购买，或者在某些情况下，免费获得。</font></font></p></td></tr>
+
+<tr><td><a href="T1352"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1352</font></font></a></td>
+<td><a href="T1352"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C2协议开发</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令和控制（C2或C＆C）是攻击者与恶意软件通信的一种方法。</font><font style="vertical-align: inherit;">攻击者可以使用各种协议和方法来执行C2，例如集中式服务器，对等，IRC，受损网站，甚至社交媒体。</font></font></p></td></tr>
+
+<tr><td><a href="T1391"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1391</font></font></a></td>
+<td><a href="T1391"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选择预先泄露的移动应用开发者帐户凭据或签名密钥</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者可以使用现有移动应用程序开发人员的帐户凭据或签名密钥将现有移动应用程序的恶意更新发布到应用程序商店，或滥用开发人员的身份和声誉来发布新的恶意应用程序。</font><font style="vertical-align: inherit;">许多移动设备配置为自动安装已安装应用程序的新版本。</font></font></p></td></tr>
+
+<tr><td><a href="T1343"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1343</font></font></a></td>
+<td><a href="T1343"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选择预先妥协的角色和附属帐户</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于包含社会工程的攻击，在线角色的使用很重要。</font><font style="vertical-align: inherit;">利用帐户被盗用的现有角色，如果他们与被入侵者有关系或知情，则可能会对潜在受害者产生一定程度的信任。  </font></font></p></td></tr>
+
+<tr><td><a href="T1321"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1321</font></font></a></td>
+<td><a href="T1321"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常见的高容量协议和软件</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">某些类型的流量（例如，Twitter14，HTTP）比其他流量更常用。</font><font style="vertical-align: inherit;">利用更常见的协议和软件可能会使对手的流量更难以与合法流量区分开来。</font></font></p></td></tr>
+
+<tr><td><a href="T1312"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1312</font></font></a></td>
+<td><a href="T1312"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">妥协第三方基础设施以支持交付</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对手可能会破坏基础设施并将其用于部分或全部攻击周期，而不是购买，租赁或租用基础设施。  </font></font></p></td></tr>
+
+<tr><td><a href="T1334"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1334</font></font></a></td>
+<td><a href="T1334"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">妥协第三方基础设施以支持交付</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对手可能会破坏基础设施并将其用于部分或全部攻击周期，而不是购买，租赁或租用基础设施。  </font></font></p></td></tr>
+
+<tr><td><a href="T1354"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1354</font></font></a></td>
+<td><a href="T1354"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">妥协第三方或封闭源漏洞/漏洞利用信息</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从漏洞或漏洞被发现到公开之间通常会有一段延迟。</font><font style="vertical-align: inherit;">攻击者可以针对已知研究漏洞的系统进行攻击，以获取在不同攻击期间使用的知识。</font></font></p></td></tr>
+
+<tr><td><a href="T1388"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1388</font></font></a></td>
+<td><a href="T1388"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">面向外部系统的妥协</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1254"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1254</font></font></a></td>
+<td><a href="T1254"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行主动扫描</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主动扫描是向终端节点发送传输并分析响应的行为，以便识别关于通信系统的信息。 </font></font></p></td></tr>
+
+<tr><td><a href="T1226"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1226</font></font></a></td>
+<td><a href="T1226"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行成本/效益分析</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">领导层进行成本/收益分析，产生迫切需要的信息收集，触发关键智能主题（KIT）或关键情报问题（KIQ）。</font><font style="vertical-align: inherit;">例如，攻击者将网络入侵的成本与网络对手增加情报收集的预期收益进行比较。  </font></font></p></td></tr>
+
+<tr><td><a href="T1253"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1253</font></font></a></td>
+<td><a href="T1253"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行被动扫描</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">被动扫描是查看现有网络流量以识别有关通信系统的信息的行为。  </font></font></p></td></tr>
+
+<tr><td><a href="T1279"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1279</font></font></a></td>
+<td><a href="T1279"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行社会工程</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社会工程是操纵人们以使他们泄露信息或采取行动的做法。  </font></font></p></td></tr>
+
+<tr><td><a href="T1249"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1249</font></font></a></td>
+<td><a href="T1249"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行社会工程</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社会工程是操纵人们以使他们泄露信息或采取行动的做法。  </font></font></p></td></tr>
+
+<tr><td><a href="T1268"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1268</font></font></a></td>
+<td><a href="T1268"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行社会工程</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社会工程是操纵人们以使他们泄露信息或采取行动的做法。  </font></font></p></td></tr>
+
+<tr><td><a href="T1376"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1376</font></font></a></td>
+<td><a href="T1376"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行社会工程或HUMINT操作</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1383"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1383</font></font></a></td>
+<td><a href="T1383"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确认已实现的已达成妥协</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1339"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1339</font></font></a></td>
+<td><a href="T1339"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建备份基础架构</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">备份基础架构允许攻击者从环境和系统故障中恢复。</font><font style="vertical-align: inherit;">如果发现主要基础设施或不再可行，它还有助于恢复或移动到其他基础设施。</font></font></p></td></tr>
+
+<tr><td><a href="T1345"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1345</font></font></a></td>
+<td><a href="T1345"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建自定义有效负载</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有效负载是执行恶意操作的恶意软件的一部分。</font><font style="vertical-align: inherit;">当对手不存在具有所需功能或定向特定环境时，攻击者可以创建自定义有效负载。</font></font></p></td></tr>
+
+<tr><td><a href="T1232"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1232</font></font></a></td>
+<td><a href="T1232"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制定实施计划</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实施计划规定了如何执行战略计划的目标。  </font></font></p></td></tr>
+
+<tr><td><a href="T1355"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1355</font></font></a></td>
+<td><a href="T1355"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建受感染的可移动媒</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在启动阶段使用可移动媒体需要攻击者确定媒体和相关恶意软件的类型，格式和内容。 </font></font></p></td></tr>
+
+<tr><td><a href="T1231"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1231</font></font></a></td>
+<td><a href="T1231"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制定战略计划</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">战略计划概述了对手在与对手执行的关键合作伙伴，主题和职能相关的高级别任务，愿景和目标。   </font></font></p></td></tr>
+
+<tr><td><a href="T1374"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1374</font></font></a></td>
+<td><a href="T1374"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">凭证药物</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1320"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1320</font></font></a></td>
+<td><a href="T1320"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据隐藏</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">某些类型的流量（例如，DNS隧道，报头注入）允许用户定义的字段。</font><font style="vertical-align: inherit;">然后可以使用这些字段隐藏数据。</font><font style="vertical-align: inherit;">除了将数据隐藏在网络协议中之外，隐写术技术还可用于隐藏图像或其他文件格式的数据。</font><font style="vertical-align: inherit;">除非已知特定签名，否则检测可能很困难。   </font></font></p></td></tr>
+
+<tr><td><a href="T1380"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1380</font></font></a></td>
+<td><a href="T1380"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用广告部署漏洞利用</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1230"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1230</font></font></a></td>
+<td><a href="T1230"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">得出情报要求</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">领导或关键决策者可以从关键情报主题（KIT）或关键情报问题（KIQ）中获得特定的情报要求。</font><font style="vertical-align: inherit;">特定的情报要求有助于分析人员收集信息，以建立关于主题或问题的信息基线，以及收集管理者，以澄清为满足要求而应收集的信息类型。  </font></font></p></td></tr>
+
+<tr><td><a href="T1284"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1284</font></font></a></td>
+<td><a href="T1284"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定第三方基础架构服务</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可提供各种云，虚拟专用服务，托管，计算和存储解决方案作为第三方基础架构服务。</font><font style="vertical-align: inherit;">这些服务可以为对手提供另一种接近或妥协的途径。   </font></font></p></td></tr>
+
+<tr><td><a href="T1260"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1260</font></font></a></td>
+<td><a href="T1260"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定第三方基础架构服务</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基础设施服务包括操作通信环境所需的硬件，软件和网络资源。</font><font style="vertical-align: inherit;">此基础架构可由第三方管理，而不是由拥有组织管理。  </font></font></p></td></tr>
+
+<tr><td><a href="T1245"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1245</font></font></a></td>
+<td><a href="T1245"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定进近/攻击向量</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法或攻击向量概述了攻击者如何攻击目标背后的具体细节。</font><font style="vertical-align: inherit;">由于通过PRE-ATT和CK的其他阶段已知其他信息，攻击者可以更新进近或攻击向量。     </font></font></p></td></tr>
+
+<tr><td><a href="T1285"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1285</font></font></a></td>
+<td><a href="T1285"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定IT管理的集中化</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定是否存在“公司”服务台，其访问和控制程度，以及是否存在可能具有不同支持流程和标准的“边缘”单元。 </font></font></p></td></tr>
+
+<tr><td><a href="T1250"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1250</font></font></a></td>
+<td><a href="T1250"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定域和IP地址空间</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">域名是用于表示一个或多个IP地址的人类可读名称。</font><font style="vertical-align: inherit;">IP地址是网络上计算设备的唯一标识符。</font><font style="vertical-align: inherit;">这两条信息对于想要了解网络结构的对手来说都很有价值。</font></font></p></td></tr>
+
+<tr><td><a href="T1259"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1259</font></font></a></td>
+<td><a href="T1259"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定外部网络信任依赖关系</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络信任允许具有特定访问和权限的不同网络之间的通信。</font><font style="vertical-align: inherit;">网络信任可以包括域信任的实现或虚拟专用网络（VPN）的使用。   </font></font></p></td></tr>
+
+<tr><td><a href="T1258"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1258</font></font></a></td>
+<td><a href="T1258"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定固件版本</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">固件是永久性软件，编程到设备的只读存储器中。</font><font style="vertical-align: inherit;">与其他类型的软件一样，固件可能会随着时间的推移而更新并具有多个版本。</font></font></p></td></tr>
+
+<tr><td><a href="T1243"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1243转录本</font></font></a></td>
+<td><a href="T1243"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定最高级别的战术要素</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从战术角度来看，对手可能具有主要和次要目标。</font><font style="vertical-align: inherit;">主要目标代表对手希望攻击的最高级别战术要素。</font><font style="vertical-align: inherit;">例如，公司内的公司网络或代理机构内的部门。    </font></font></p></td></tr>
+
+<tr><td><a href="T1242"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1242</font></font></a></td>
+<td><a href="T1242"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定操作元素</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果从战略到战术再到战术，反之亦然，对手接下来会考虑运营要素。</font><font style="vertical-align: inherit;">例如，政府内的行业或机构内的特定公司。    </font></font></p></td></tr>
+
+<tr><td><a href="T1282"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1282</font></font></a></td>
+<td><a href="T1282"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定物理位置</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对手可以使用物理位置信息来形成社会工程尝试（语言，文化，事件，天气等）或计划诸如垃圾箱潜水或试图进入设施的物理行为。 </font></font></p></td></tr>
+
+<tr><td><a href="T1244"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1244</font></font></a></td>
+<td><a href="T1244"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定二级战术要素</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者试图攻击的二级战术要素是易受攻击的特定网络或网络区域。</font><font style="vertical-align: inherit;">在企业网络示例中，辅助级别战术元素可能是SQL服务器或具有已知漏洞的域控制器。    </font></font></p></td></tr>
+
+<tr><td><a href="T1241"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1241</font></font></a></td>
+<td><a href="T1241"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定战略目标</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对手经历了一个迭代的目标选择过程，可以从广义开始，缩小到具体的战略（从策略到战术），或者从狭隘开始向外扩展（战术到战略）。</font><font style="vertical-align: inherit;">作为此过程的一部分，攻击者可以确定他们希望攻击的高级别目标。</font><font style="vertical-align: inherit;">其中一个例子可能是特定的国家，政府或商业部门。    </font></font></p></td></tr>
+
+<tr><td><a href="T1227"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1227</font></font></a></td>
+<td><a href="T1227"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发KITs / KIQs</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">领导力从他们最感兴趣的领域中获得关键情报主题（KIT）和关键情报问题（KIQ）。</font><font style="vertical-align: inherit;">KIT表达了管理层在早期预警，战略和运营决策，了解竞争以及了解竞争情况方面的情报需求。</font><font style="vertical-align: inherit;">KIQ是由KIT统一的关键问题，它为收集计划提供基础，为分析工作创建背景，和/或识别必要的外部操作。</font></font></p></td></tr>
+
+<tr><td><a href="T1342"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1342</font></font></a></td>
+<td><a href="T1342"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发社交网络人物数字足迹</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新建的角色和预先妥协的角色都可能需要开发额外的文档才能使它们看起来真实。</font><font style="vertical-align: inherit;">这可能包括填写个人资料信息，开发社交网络或合并照片。   </font></font></p></td></tr>
+
+<tr><td><a href="T1350"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1350</font></font></a></td>
+<td><a href="T1350"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发现新漏洞并监控漏洞利用程序提供商论坛</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">利用漏洞利用漏洞或漏洞可能会导致计算机硬件或软件出现意外或意外的行为。</font><font style="vertical-align: inherit;">当现有漏洞不再与他们试图妥协的环境相关时，攻击者可能需要发现新漏洞。</font><font style="vertical-align: inherit;">攻击者可以监视漏洞利用程序提供者论坛，以了解现有漏洞以及新发现的攻击漏洞。</font></font></p></td></tr>
+
+<tr><td><a href="T1255"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1255</font></font></a></td>
+<td><a href="T1255"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发现目标登录/电子邮件地址格式</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">电子邮件地址，登录凭据和其他形式的在线标识通常共享一种通用格式。</font><font style="vertical-align: inherit;">这使得在同一域中猜测其他凭据更容易。</font><font style="vertical-align: inherit;">例如，如果已知的电子邮件地址是first.last@company.com，则公司中的其他人可能会以相同的格式发送电子邮件。</font></font></p></td></tr>
+
+<tr><td><a href="T1379"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1379</font></font></a></td>
+<td><a href="T1379"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">传播可移动媒体</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含恶意软件的可移动介质可以大规模或小规模注入供应链。</font><font style="vertical-align: inherit;">它也可以物理放置，供有人查找或以更有针对性的方式发送给某人。</font><font style="vertical-align: inherit;">目的是让用户在攻击者试图获得访问权的系统上使用可移动媒体。   </font></font></p></td></tr>
+
+<tr><td><a href="T1394"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1394</font></font></a></td>
+<td><a href="T1394"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分发恶意软件开发工具</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者可以分发恶意软件开发工具（例如，编译器），隐藏使用这些工具构建的软件中的恶意行为。  </font></font></p></td></tr>
+
+<tr><td><a href="T1382"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1382</font></font></a></td>
+<td><a href="T1382"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DNS中毒</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1324"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1324</font></font></a></td>
+<td><a href="T1324"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DNSCalc</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DNS Calc是一种技术，其中IP地址的八位字节用于从初始DNS请求计算命令和控制服务器的端口。   </font></font></p></td></tr>
+
+<tr><td><a href="T1323"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1323</font></font></a></td>
+<td><a href="T1323"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">域生成算法（DGA）</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在恶意软件中使用算法来定期生成大量域名，这些域名用作恶意软件命令和控制服务器的集合点。  </font></font></p></td></tr>
+
+<tr><td><a href="T1326"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1326</font></font></a></td>
+<td><a href="T1326"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">域名注册劫持</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">域名注册劫持是指未经原注册人许可而更改域名注册的行为。 </font></font></p></td></tr>
+
+<tr><td><a href="T1286"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1286</font></font></a></td>
+<td><a href="T1286"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">垃圾箱潜水</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dumpster潜水正在寻找有关技术，人员和/或感兴趣的组织项目的信息。 </font></font></p></td></tr>
+
+<tr><td><a href="T1333"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1333</font></font></a></td>
+<td><a href="T1333"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">动态DNS</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">动态DNS是一种快速更新主机名到IP的域名系统映射的自动方法。 </font></font></p></td></tr>
+
+<tr><td><a href="T1311"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1311</font></font></a></td>
+<td><a href="T1311"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">动态DNS</font></font></a></td>
+<td><p>Dynamic DNS is a method of automatically updating a name in the DNS system. Providers offer this rapid reconfiguration of IPs to hostnames as a service. </p></td></tr>
+
+<tr><td><a href="T1262">T1262</a></td>
+<td><a href="T1262">Enumerate client configurations</a></td>
+<td><p>Client configurations information such as the operating system and web browser, along with additional information such as version or language, are often transmitted as part of web browsing communications.  This can be accomplished in several ways including use of a compromised web site to collect details on visiting computers.  </p></td></tr>
+
+<tr><td><a href="T1261">T1261</a></td>
+<td><a href="T1261">Enumerate externally facing software applications technologies, languages, and dependencies</a></td>
+<td><p>Software applications will be built using different technologies, languages, and dependencies. This information may reveal vulnerabilities or opportunities to an adversary.   </p></td></tr>
+
+<tr><td><a href="T1377">T1377</a></td>
+<td><a href="T1377">Exploit public-facing application</a></td>
+<td><font color="red">****Deprecation Warning****</font><br /><p>This technique has been deprecated. Please see ATT&amp;CK's Initial Access and Execution tactics for replacement techniques.</p></td></tr>
+
+<tr><td><a href="T1325">T1325</a></td>
+<td><a href="T1325">Fast Flux DNS</a></td>
+<td><p>A technique in which a fully qualified domain name has multiple IP addresses assigned to it which are swapped with extreme frequency, using a combination of round robin IP address and short Time-To-Live (TTL) for a DNS resource record.    </p></td></tr>
+
+<tr><td><a href="T1344">T1344</a></td>
+<td><a href="T1344">Friend/Follow/Connect to targets of interest</a></td>
+<td><p>Once a persona has been developed an adversary will use it to create connections to targets of interest. These connections may be direct or may include trying to connect through others.  </p></td></tr>
+
+<tr><td><a href="T1364">T1364</a></td>
+<td><a href="T1364">Friend/Follow/Connect to targets of interest</a></td>
+<td><p>A form of social engineering designed build trust and to lay the foundation for future interactions or attacks. </p></td></tr>
+
+<tr><td><a href="T1234">T1234</a></td>
+<td><a href="T1234">Generate analyst intelligence requirements</a></td>
+<td><p>Analysts may receive Key Intelligence Topics (KITs) and Key Intelligence Questions (KIQs) from leadership or key decision makers and generate intelligence requirements to articulate intricacies of information required on a topic or question. </p></td></tr>
+
+<tr><td><a href="T1365">T1365</a></td>
+<td><a href="T1365">Hardware or software supply chain implant</a></td>
+<td><p>During production and distribution, the placement of software, firmware, or a CPU chip in a computer, handheld, or other electronic device that enables an adversary to gain illegal entrance.  </p></td></tr>
+
+<tr><td><a href="T1314">T1314</a></td>
+<td><a href="T1314">Host-based hiding techniques</a></td>
+<td><p>Host based hiding techniques are designed to allow an adversary to remain undetected on a machine upon which they have taken action. They may do this through the use of  static linking of binaries, polymorphic code, exploiting weakness in file formats, parsers, or self-deleting code. </p></td></tr>
+
+<tr><td><a href="T1385">T1385</a></td>
+<td><a href="T1385">Human performs requested action of physical nature</a></td>
+<td><font color="red">****Deprecation Warning****</font><br /><p>This technique has been deprecated. Please see ATT&amp;CK's Initial Access and Execution tactics for replacement techniques.</p></td></tr>
+
+<tr><td><a href="T1233">T1233</a></td>
+<td><a href="T1233">Identify analyst level gaps</a></td>
+<td><p>Analysts identify gap areas that generate a compelling need to generate a Key Intelligence Topic (KIT) or Key Intelligence Question (KIQ).   </p></td></tr>
+
+<tr><td><a href="T1280">T1280</a></td>
+<td><a href="T1280">Identify business processes/tempo</a></td>
+<td><p>Understanding an organizations business processes and tempo may allow an adversary to more effectively craft social engineering attempts or to better hide technical actions, such as those that generate network traffic.  </p></td></tr>
+
+<tr><td><a href="T1272">T1272</a></td>
+<td><a href="T1272">Identify business relationships</a></td>
+<td><p>Business relationship information includes the associates of a target and may be discovered via social media sites such as <a href="https://www.linkedin.com">LinkedIn</a> or public press releases announcing new partnerships between organizations or people (such as key hire announcements in industry articles).  This information may be used by an adversary to shape social engineering attempts (exploiting who a target expects to hear from) or to plan for technical actions such as exploiting network trust relationship.  </p></td></tr>
+
+<tr><td><a href="T1283">T1283</a></td>
+<td><a href="T1283">Identify business relationships</a></td>
+<td><p>Business relationship information may be used by an adversary to shape social engineering attempts (exploiting who a target expects to hear from) or to plan for technical actions such as exploiting network trust relationship. </p></td></tr>
+
+<tr><td><a href="T1225">T1225</a></td>
+<td><a href="T1225">Identify gap areas</a></td>
+<td><p>Leadership identifies gap areas that generate a compelling need to generate a Key Intelligence Topic (KIT) or Key Intelligence Question (KIQ).  </p></td></tr>
+
+<tr><td><a href="T1270">T1270</a></td>
+<td><a href="T1270">Identify groups/roles</a></td>
+<td><p>Personnel internally to a company may belong to a group or maintain a role with  electronic specialized access, authorities, or privilege that make them an attractive target for an adversary.  One example of this is a system administrator. </p></td></tr>
+
+<tr><td><a href="T1248">T1248</a></td>
+<td><a href="T1248">Identify job postings and needs/gaps</a></td>
+<td><p>Job postings, on either company sites, or in other forums, provide information on organizational structure and often provide contact information for someone within the organization. This may give an adversary  information on technologies within the organization which could be valuable in attack or provide insight in to possible security weaknesses or limitations in detection or protection mechanisms. </p></td></tr>
+
+<tr><td><a href="T1267">T1267</a></td>
+<td><a href="T1267">Identify job postings and needs/gaps</a></td>
+<td><p>Job postings, on either company sites, or in other forums, provide information on organizational structure and often provide contact information for someone within the organization. This may give an adversary  information on people within the organization which could be valuable in social engineering attempts. </p></td></tr>
+
+<tr><td><a href="T1278">T1278</a></td>
+<td><a href="T1278">Identify job postings and needs/gaps</a></td>
+<td><p>Job postings, on either company sites, or in other forums, provide information on organizational structure, needs, and gaps in an organization. This may give an adversary an indication of weakness in an organization (such as under-resourced IT shop). Job postings can also provide information on an organizations structure which could be valuable in social engineering attempts.  </p></td></tr>
+
+<tr><td><a href="T1269">T1269</a></td>
+<td><a href="T1269">Identify people of interest</a></td>
+<td><p>The attempt to identify people of interest or with an inherent weakness for direct or indirect targeting to determine an approach to compromise a person or organization.  Such targets may include individuals with poor OPSEC practices or those who have a trusted relationship with the intended target.  </p></td></tr>
+
+<tr><td><a href="T1271">T1271</a></td>
+<td><a href="T1271">Identify personnel with an authority/privilege</a></td>
+<td><p>Personnel internally to a company may have non-electronic specialized access, authorities, or privilege that make them an attractive target for an adversary.  One example of this is an individual with financial authority to authorize large transactions.  An adversary who compromises this individual might be able to subvert large dollar transfers. </p></td></tr>
+
+<tr><td><a href="T1348">T1348</a></td>
+<td><a href="T1348">Identify resources required to build capabilities</a></td>
+<td><p>As with legitimate development efforts, different skill sets may be required for different phases of an attack. The skills needed may be located in house, can be developed, or may need to be contracted out. </p></td></tr>
+
+<tr><td><a href="T1263">T1263</a></td>
+<td><a href="T1263">Identify security defensive capabilities</a></td>
+<td><p>Security defensive capabilities are designed to stop or limit unauthorized network traffic or other types of accesses.  </p></td></tr>
+
+<tr><td><a href="T1274">T1274</a></td>
+<td><a href="T1274">Identify sensitive personnel information</a></td>
+<td><p>An adversary may identify sensitive personnel information not typically posted on a social media site, such as address, marital status, financial history, and law enforcement infractions. This could be conducted by searching public records that are frequently available for free or at a low cost online. </p></td></tr>
+
+<tr><td><a href="T1246">T1246</a></td>
+<td><a href="T1246">Identify supply chains</a></td>
+<td><p>Supply chains include the people, processes, and technologies used to move a product or service from a supplier to a consumer. Understanding supply chains may provide an adversary with opportunities to exploit the technology or interconnections that are part of the supply chain.   </p></td></tr>
+
+<tr><td><a href="T1276">T1276</a></td>
+<td><a href="T1276">Identify supply chains</a></td>
+<td><p>Supply chains include the people, processes, and technologies used to move a product or service from a supplier to a consumer. Understanding supply chains may provide an adversary with opportunities to exploit organizational relationships.  </p></td></tr>
+
+<tr><td><a href="T1265">T1265</a></td>
+<td><a href="T1265">Identify supply chains</a></td>
+<td><p>Supply chains include the people, processes, and technologies used to move a product or service from a supplier to a consumer. Understanding supply chains may provide an adversary with opportunities to exploit the people, their positions, and relationships, that are part of the supply chain.  </p></td></tr>
+
+<tr><td><a href="T1264">T1264</a></td>
+<td><a href="T1264">Identify technology usage patterns</a></td>
+<td><p>Technology usage patterns include identifying if users work offsite, connect remotely, or other possibly less restricted/secured access techniques. </p></td></tr>
+
+<tr><td><a href="T1389">T1389</a></td>
+<td><a href="T1389">Identify vulnerabilities in third-party software libraries</a></td>
+<td><p>Many applications use third-party software libraries, often without full knowledge of the behavior of the libraries by the application developer. For example, mobile applications often incorporate advertising libraries to generate revenue for the application developer. Vulnerabilities in these third-party libraries could potentially be exploited in any application that uses the library, and even if the vulnerabilities are fixed, many applications may still use older, vulnerable versions of the library.   </p></td></tr>
+
+<tr><td><a href="T1256">T1256</a></td>
+<td><a href="T1256">Identify web defensive services</a></td>
+<td><p>An adversary can attempt to identify web defensive services as <a href="https://www.cloudflare.com">CloudFlare</a>, <a href="https://github.com/jjxtra/Windows-IP-Ban-Service">IPBan</a>, and <a href="https://www.snort.org">Snort</a>. This may be done by passively detecting services, like <a href="https://www.cloudflare.com">CloudFlare</a> routing, or actively, such as by purposefully tripping security defenses. </p></td></tr>
+
+<tr><td><a href="T1336">T1336</a></td>
+<td><a href="T1336">Install and configure hardware, network, and systems</a></td>
+<td><p>An adversary needs the necessary skills to set up procured equipment and software to create their desired infrastructure. </p></td></tr>
+
+<tr><td><a href="T1375">T1375</a></td>
+<td><a href="T1375">Leverage compromised 3rd party resources</a></td>
+<td><font color="red">****Deprecation Warning****</font><br /><p>This technique has been deprecated. Please see ATT&amp;CK's Initial Access and Execution tactics for replacement techniques.</p></td></tr>
+
+<tr><td><a href="T1252">T1252</a></td>
+<td><a href="T1252">Map network topology</a></td>
+<td><p>A network topology is the arrangement of the various elements of a network (e.g., servers, workstations, printers, routers, firewalls, etc.). Mapping a network allows an adversary to understand how the elements are connected or related.  </p></td></tr>
+
+<tr><td><a href="T1273">T1273</a></td>
+<td><a href="T1273">Mine social media</a></td>
+<td><p>An adversary may research available open source information about a target commonly found on social media sites such as <a href="https://www.facebook.com">Facebook</a>, <a href="https://www.instagram.com">Instagram</a>, or <a href="https://www.pinterest.com">Pinterest</a>.  Social media is public by design and provides insight into the interests and potentially inherent weaknesses of a target for exploitation by the adversary. </p></td></tr>
+
+<tr><td><a href="T1257">T1257</a></td>
+<td><a href="T1257">Mine technical blogs/forums</a></td>
+<td><p>Technical blogs and forums provide a way for technical staff to ask for assistance or troubleshoot problems. In doing so they may reveal information such as operating system (OS), network devices, or applications in use. </p></td></tr>
+
+<tr><td><a href="T1322">T1322</a></td>
+<td><a href="T1322">Misattributable credentials</a></td>
+<td><p>The use of credentials by an adversary with the intent to hide their true identity and/or portray them self as another person or entity.  An adversary may use misattributable credentials in an attack to convince a victim that credentials are legitimate and trustworthy when this is not actually the case. </p></td></tr>
+
+<tr><td><a href="T1315">T1315</a></td>
+<td><a href="T1315">Network-based hiding techniques</a></td>
+<td><p>Technical network hiding techniques are methods of modifying traffic to evade network signature detection or to utilize misattribution techniques. Examples include channel/IP/VLAN hopping, mimicking legitimate operations, or seeding with misinformation. </p></td></tr>
+
+<tr><td><a href="T1316">T1316</a></td>
+<td><a href="T1316">Non-traditional or less attributable payment options</a></td>
+<td><p>Using alternative payment options allows an adversary to hide their activities. Options include crypto currencies, barter systems, pre-paid cards or shell accounts. </p></td></tr>
+
+<tr><td><a href="T1309">T1309</a></td>
+<td><a href="T1309">Obfuscate infrastructure</a></td>
+<td><p>Obfuscation is hiding the day-to-day building and testing of new tools, chat servers, etc. </p></td></tr>
+
+<tr><td><a href="T1331">T1331</a></td>
+<td><a href="T1331">Obfuscate infrastructure</a></td>
+<td><p>Obfuscation is hiding the day-to-day building and testing of new tools, chat servers, etc. </p></td></tr>
+
+<tr><td><a href="T1318">T1318</a></td>
+<td><a href="T1318">Obfuscate operational infrastructure</a></td>
+<td><p>Obfuscation is hiding the day-to-day building and testing of new tools, chat servers, etc. </p></td></tr>
+
+<tr><td><a href="T1319">T1319</a></td>
+<td><a href="T1319">Obfuscate or encrypt code</a></td>
+<td><p>Obfuscation is the act of creating code that is more difficult to understand. Encoding transforms the code using a publicly available format. Encryption transforms the code such that it requires a key to reverse the encryption. </p></td></tr>
+
+<tr><td><a href="T1313">T1313</a></td>
+<td><a href="T1313">Obfuscation or cryptography</a></td>
+<td><p>Obfuscation is the act of creating communications that are more difficult to understand.  Encryption transforms the communications such that it requires a key to reverse the encryption. </p></td></tr>
+
+<tr><td><a href="T1392">T1392</a></td>
+<td><a href="T1392">Obtain Apple iOS enterprise distribution key pair and certificate</a></td>
+<td><p>The adversary can obtain an Apple iOS enterprise distribution key pair and certificate and use it to distribute malicious apps directly to Apple iOS devices without the need to publish the apps to the Apple App Store (where the apps could potentially be detected).    </p></td></tr>
+
+<tr><td><a href="T1396">T1396</a></td>
+<td><a href="T1396">Obtain booter/stressor subscription</a></td>
+<td><p>Configure and setup booter/stressor services, often intended for server stress testing, to enable denial of service attacks.   </p></td></tr>
+
+<tr><td><a href="T1251">T1251</a></td>
+<td><a href="T1251">Obtain domain/IP registration information</a></td>
+<td><p>For a computing resource to be accessible to the public, domain names and IP addresses must be registered with an authorized organization.   </p></td></tr>
+
+<tr><td><a href="T1281">T1281</a></td>
+<td><a href="T1281">Obtain templates/branding materials</a></td>
+<td><p>Templates and branding materials may be used by an adversary to add authenticity to social engineering message. </p></td></tr>
+
+<tr><td><a href="T1346">T1346</a></td>
+<td><a href="T1346">Obtain/re-use payloads</a></td>
+<td><p>A payload is the part of the malware which performs a malicious action. The adversary may re-use payloads when the needed capability is already available. </p></td></tr>
+
+<tr><td><a href="T1390">T1390</a></td>
+<td><a href="T1390">OS-vendor provided communication channels</a></td>
+<td><p>Google and Apple provide Google Cloud Messaging and Apple Push Notification Service, respectively, services designed to enable efficient communication between third-party mobile app backend servers and the mobile apps running on individual devices. These services maintain an encrypted connection between every mobile device and Google or Apple that cannot easily be inspected and must be allowed to traverse networks as part of normal device operation. These services could be used by adversaries for communication to compromised mobile devices.  </p></td></tr>
+
+<tr><td><a href="T1363">T1363</a></td>
+<td><a href="T1363">Port redirector</a></td>
+<td><p>Redirecting a communication request from one address and port number combination to another. May be set up to obfuscate the final location of communications that will occur in later stages of an attack. </p></td></tr>
+
+<tr><td><a href="T1353">T1353</a></td>
+<td><a href="T1353">Post compromise tool development</a></td>
+<td><p>After compromise, an adversary may utilize additional tools to facilitate their end goals. This may include tools to further explore the system, move laterally within a network, exfiltrate data, or destroy data. </p></td></tr>
+
+<tr><td><a href="T1305">T1305</a></td>
+<td><a href="T1305">Private whois services</a></td>
+<td><p>Every domain registrar maintains a publicly viewable database that displays contact information for every registered domain. Private 'whois' services display alternative information, such as their own company data, rather than the owner of the domain. </p></td></tr>
+
+<tr><td><a href="T1335">T1335</a></td>
+<td><a href="T1335">Procure required equipment and software</a></td>
+<td><p>An adversary will require some physical hardware and software. They may only need a lightweight set-up if most of their activities will take place using on-line infrastructure. Or, they may need to build extensive infrastructure if they want to test, communicate, and control other aspects of their activities on their own systems. </p></td></tr>
+
+<tr><td><a href="T1304">T1304</a></td>
+<td><a href="T1304">Proxy/protocol relays</a></td>
+<td><p>Proxies act as an intermediary for clients seeking resources from other systems. Using a proxy may make it more difficult to track back the origin of a network communication. </p></td></tr>
+
+<tr><td><a href="T1373">T1373</a></td>
+<td><a href="T1373">Push-notification client-side exploit</a></td>
+<td><font color="red">****Deprecation Warning****</font><br /><p>This technique has been deprecated. Please see ATT&amp;CK's Initial Access and Execution tactics for replacement techniques.</p></td></tr>
+
+<tr><td><a href="T1239">T1239</a></td>
+<td><a href="T1239">Receive KITs/KIQs and determine requirements</a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适用的机构和/或人员接收情报要求并对其进行评估，以确定与主题，问题或要求相关的子要求。</font><font style="vertical-align: inherit;">例如，对手的核能需求可能进一步分为核设施与核弹头能力。</font></font></p></td></tr>
+
+<tr><td><a href="T1235"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1235</font></font></a></td>
+<td><a href="T1235"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接收运营商KITs / KIQs任务</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析师可能会收到领导层的情报要求，并开始研究过程以满足要求。</font><font style="vertical-align: inherit;">这个过程的一部分可能包括在需求和需求之间划分界限，并思考与满足需求相关的所有可能方面。</font></font></p></td></tr>
+
+<tr><td><a href="T1351"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1351</font></font></a></td>
+<td><a href="T1351"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">远程访问工具开发</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">远程访问工具（RAT）是一种软件，允许远程用户控制系统，就好像他们可以物理访问该系统一样。</font><font style="vertical-align: inherit;">攻击者可以利用现有的RAT，修改现有的RAT或创建自己的RAT。</font></font></p></td></tr>
+
+<tr><td><a href="T1378"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1378</font></font></a></td>
+<td><a href="T1378"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用恶意软件替换合法二进制文件</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1291"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1291</font></font></a></td>
+<td><a href="T1291"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">研究相关漏洞/ CVE</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常见漏洞枚举（CVE）是一个关于安全漏洞和暴露的公知信息的字典。</font><font style="vertical-align: inherit;">攻击者可以使用此信息来定位可能易受攻击的特定软件。  </font></font></p></td></tr>
+
+<tr><td><a href="T1290"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1290</font></font></a></td>
+<td><a href="T1290"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">研究安全厂商的可见性差距</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果攻击者可以识别受害者正在使用哪些安全工具，他们可能能够识别出这些工具的方法。 </font></font></p></td></tr>
+
+<tr><td><a href="T1358"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1358</font></font></a></td>
+<td><a href="T1358"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看日志和剩余痕迹</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码和网络通信的执行经常导致记录或其他系统或网络取证伪像。</font><font style="vertical-align: inherit;">攻击者可以运行他们的代码来识别在不同条件下记录的内容。</font><font style="vertical-align: inherit;">这可能会导致更改其代码或将其他操作（例如从日志中删除记录）添加到代码中。  </font></font></p></td></tr>
+
+<tr><td><a href="T1395"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1395</font></font></a></td>
+<td><a href="T1395"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行时代码下载和执行</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1317"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1317</font></font></a></td>
+<td><a href="T1317"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">保护和保护基础设施</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对手可以像防御者那样保护和保护他们的基础设施。</font><font style="vertical-align: inherit;">这可能包括使用VPN，安全软件，记录和监控，密码或其他防御措施。</font></font></p></td></tr>
+
+<tr><td><a href="T1340"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1340</font></font></a></td>
+<td><a href="T1340"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">影子DNS</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">收集域帐户凭据以静默创建指向恶意服务器的子域而不会剥夺实际所有者的过程。  </font></font></p></td></tr>
+
+<tr><td><a href="T1367"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1367</font></font></a></td>
+<td><a href="T1367"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">带有恶意附件的鱼叉式网络钓鱼邮件</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1369"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1369</font></font></a></td>
+<td><a href="T1369"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">带有恶意链接的鱼叉式网络钓鱼邮件</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1368"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1368</font></font></a></td>
+<td><a href="T1368"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅限带文本的鱼叉式网络钓鱼邮件</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1397"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1397</font></font></a></td>
+<td><a href="T1397"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">针对信息的鱼叉式网页钓鱼</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于信息的鱼叉式网页钓鱼是鱼叉式钓鱼的特定变体。</font><font style="vertical-align: inherit;">针对信息的鱼叉式网页钓鱼不同于其他形式的鱼叉式网络钓鱼，因为它不利用恶意代码。</font><font style="vertical-align: inherit;">所有形式的鱼叉式网页钓鱼都是针对特定个人，公司或行业的电子社交工程。</font><font style="vertical-align: inherit;">针对信息的鱼叉式网页钓鱼试图诱骗目标泄露信息，通常是凭据，而不涉及恶意代码。</font><font style="vertical-align: inherit;">针对信息的鱼叉式网页钓鱼经常涉及伪装成有理由收集信息的来源（例如系统管理员或银行）并向用户提供访问的网站链接。</font><font style="vertical-align: inherit;">给定的网站通常在外观上非常类似于合法网站，并且具有包含来自真实网站的元素的URL。</font><font style="vertical-align: inherit;">来自假网站，</font><font style="vertical-align: inherit;">信息以Web表单形式收集并发送给攻击者。</font><font style="vertical-align: inherit;">用于信息的鱼叉式网页钓鱼还可以通过交换电子邮件，即时消息或其他电子会话手段来尝试直接获取信息。</font></font></p></td></tr>
+
+<tr><td><a href="T1337"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1337</font></font></a></td>
+<td><a href="T1337"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">域名的SSL证书获取</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">证书旨在灌输信任。</font><font style="vertical-align: inherit;">它们包括有关密钥的信息，有关其所有者身份的信息，以及已验证证书内容正确的实体的数字签名。</font><font style="vertical-align: inherit;">如果签名有效，并且检查证书的人信任签名者，则他们知道他们可以使用该密钥与其所有者进行通信。</font><font style="vertical-align: inherit;">获取类似于预期受信任的域名的证书可允许攻击者欺骗用户信任域（例如，vvachovia而不是</font></font><a href="https://www.wellsfargo.com/about/corporate/wachovia"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Wachovia</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -  homoglyphs）。  </font></font></p></td></tr>
+
+<tr><td><a href="T1338"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1338</font></font></a></td>
+<td><a href="T1338"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">信任中断的SSL证书获取</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">假冒证书可以通过法律程序或强制手段获得。</font><font style="vertical-align: inherit;">或者，攻击者可以欺骗证书颁发机构颁发证书。</font><font style="vertical-align: inherit;">这些假证书可以用作中间人攻击的一部分。</font></font></p></td></tr>
+
+<tr><td><a href="T1237"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1237</font></font></a></td>
+<td><a href="T1237"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提交KIT，KIQ和情报要求</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一旦创建，情报需求，关键情报主题（KIT）和关键情报问题（KIQ）将提交到中央管理系统。  </font></font></p></td></tr>
+
+<tr><td><a href="T1371"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1371</font></font></a></td>
+<td><a href="T1371"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有针对性的客户端利用</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1366"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1366</font></font></a></td>
+<td><a href="T1366"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有针对性的社交媒体网络钓鱼</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1240"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1240</font></font></a></td>
+<td><a href="T1240"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任务要求</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一旦划分为最细粒度的部分，分析人员就会与集合管理人员一起为集合管理系统执行需求和子需求。  </font></font></p></td></tr>
+
+<tr><td><a href="T1393"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1393</font></font></a></td>
+<td><a href="T1393"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试应用程序商店执行自动移动应用程序安全性分析的能力</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许多移动设备被配置为仅允许从主流供应商应用商店（例如，Apple App Store和Google Play Store）安装应用。</font><font style="vertical-align: inherit;">攻击者可以向这些商店提交多个代码样本，专门用于探测商店的安全分析功能，目的是确定将恶意应用程序放置在商店中的有效技术，然后将其传送到目标设备。    </font></font></p></td></tr>
+
+<tr><td><a href="T1356"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1356</font></font></a></td>
+<td><a href="T1356"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试回调功能</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回调是寻求指令的恶意软件通信。</font><font style="vertical-align: inherit;">攻击者将测试他们的恶意软件，以确保传达适当的指令并可以访问回调软件。</font></font></p></td></tr>
+
+<tr><td><a href="T1357"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1357</font></font></a></td>
+<td><a href="T1357"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在各种执行环境中测试恶意软件</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">恶意软件可能在不同平台（计算机与手持设备）和不同操作系统（</font></font><a href="http://www.ubuntu.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ubuntu</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与</font></font><a href="http://www.apple.com/osx"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OS X</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）和版本（</font></font><a href="http://windows.microsoft.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 7与10）上的表现不同，因此恶意攻击者将在他们最期望的环境中测试他们的恶意软件被执行。</font></font></p></td></tr>
+
+<tr><td><a href="T1359"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1359</font></font></a></td>
+<td><a href="T1359"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试恶意软件以逃避检测</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者可以在具有网络安全保护的系统（例如防病毒产品）上运行其代码，以查看是否检测到其代码。</font><font style="vertical-align: inherit;">他们还可以在免费提供的公共服务上测试他们的恶意软件。</font></font></p></td></tr>
+
+<tr><td><a href="T1360"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1360</font></font></a></td>
+<td><a href="T1360"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试物理访问</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者可以测试物理访问选项以准备实际攻击。</font><font style="vertical-align: inherit;">这可能包括观察行为和注意安全预防措施，以及实际尝试访问。  </font></font></p></td></tr>
+
+<tr><td><a href="T1292"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1292</font></font></a></td>
+<td><a href="T1292"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试签名检测</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者可以使用公共服务（例如病毒总数）来检测恶意电子邮件或文件的检测，以查看其文件或电子邮件是否会引发警报。</font><font style="vertical-align: inherit;">他们还可以使用不公开的类似服务，不公开发布结果，也可以在自己的内部基础架构上进行测试。</font></font></p></td></tr>
+
+<tr><td><a href="T1361"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1361</font></font></a></td>
+<td><a href="T1361"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试文件上载/电子邮件过滤器的签名检测</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者可以针对现有安全产品（如电子邮件过滤器或入侵检测传感器（IDS））测试其计划的攻击方法。 </font></font></p></td></tr>
+
+<tr><td><a href="T1387"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1387</font></font></a></td>
+<td><a href="T1387"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未经授权的用户引入了泄密传递机制</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1372"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1372</font></font></a></td>
+<td><a href="T1372"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无条件客户端利用/ Injected Website / Driveby</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1370"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1370</font></font></a></td>
+<td><a href="T1370"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未定向的客户端利用</font></font></a></td>
+<td><font color="red"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">****弃用警告****</font></font></font><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术已被弃用。</font><font style="vertical-align: inherit;">有关更换技术，请参阅ATT＆CK的初始访问和执行策略。</font></font></p></td></tr>
+
+<tr><td><a href="T1362"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1362</font></font></a></td>
+<td><a href="T1362"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上传，安装和配置软件/工具</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者可以在攻击的后期阶段使用软件和工具。</font><font style="vertical-align: inherit;">软件和工具可以放置在由对手合法使用的系统上，或者可以放置在先前受损的基础设施上。  </font></font></p></td></tr>
+
+<tr><td><a href="T1327"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1327</font></font></a></td>
+<td><a href="T1327"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用多个DNS基础结构</font></font></a></td>
+<td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对手使用的技术类似于动态DNS，但使用多个DNS基础结构可能具有whois记录。 </font></font></p></td></tr>
+
+                        </tbody>
+                      </table>
+                  </div>
+                
+               
+             </div>
+          </div>
+       </div>
+    </div>
+<!--startindex-->
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+<!--stopindex-->
+<footer class="footer pt-3 pb-2">
+    <div class="container-fluid text-center">
+        <a class="btn btn-primary float-right mr-4" href="https://twitter.com/MITREattack" target="_blank" rel="noopener" aria-label="Twitter">
+            <img src="../theme/images/twitter.png" class="mx-auto d-block" width="28" height="28" /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 跟着我们！</font></font></a>
+        <a href="https://www.mitre.org" target="_blank" rel="noopener" aria-label="MITRE" class="float-left ml-4">
+            <img src="../theme/images/mitrelogowhiteontrans.gif" width="144" height="66" /></a>
+        <br />
+        <p>
+            <br /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权所有©2018，MITRE Corporation。</font><font style="vertical-align: inherit;">MITRE ATT＆CK和ATT＆CK是The MITRE Corporation的商标。</font></font></p>
+        <small><a href="../resources/privacy" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐私政策</font></font></a>  <a href="../resources/terms-of-use" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用条款</font></font></a></small>
+    </div>
+</footer>
+
+    <!--SCRIPTS-->
+    <script src="../theme/scripts/jquery-3.2.1.min.js"></script>
+    <script src="../theme/scripts/popper.min.js"></script>
+    <script src="../theme/scripts/bootstrap.min.js"></script>
+    <script src="../theme/scripts/site.js"></script>
+    <script src="../theme/scripts/lunr-2.3.3.js"></script>
+    <script src="../theme/scripts/search.js"></script>
+    <script src="../theme/scripts/index.js"></script>
+
+<!--SCRIPTS-->
+<script src="../theme/scripts/techniques.js"></script>
+
+
+
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google 翻译" /></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">原文</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">提供更好的翻译建议</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;" /><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><!--startindex--><div class="goog-te-spinner-pos goog-te-spinner-pos-show"><div class="goog-te-spinner-animation goog-te-spinner-animation-show"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"/></svg></div></div></body></html>

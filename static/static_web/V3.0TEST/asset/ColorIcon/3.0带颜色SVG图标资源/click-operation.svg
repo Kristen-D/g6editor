@@ -1,0 +1,16 @@
+<svg id="态势运维" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #5292f5;
+      }
+    </style>
+  </defs>
+  <path id="bg" class="cls-1" d="M1002.1,411.85v6.1l7.04,7.048a2.921,2.921,0,1,1-4.13,4.133L998,422.1h-6.133A1.863,1.863,0,0,1,990,420.24v-6.381l0.569-.57,2.751,2.756a1.947,1.947,0,1,0,2.751-2.756l-2.751-2.755,0.548-.549h6.371A1.861,1.861,0,0,1,1002.1,411.85Z" transform="translate(-990 -410)"/>
+  <circle id="bg-2" data-name="bg" class="cls-2" cx="16.5" cy="16.5" r="1.5"/>
+</svg>

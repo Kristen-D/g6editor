@@ -1,0 +1,21 @@
+<svg id="分析视图" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ea4b3e;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #324889;
+      }
+    </style>
+  </defs>
+  <g id="bg">
+    <path id="bg-2" data-name="bg" class="cls-1" d="M414,134a10,10,0,0,1,10-10v10H414Z" transform="translate(-414 -124)"/>
+    <path id="bg-3" data-name="bg" class="cls-2" d="M427,148a11,11,0,0,1-11-11h9a2,2,0,0,0,2-2v-9A11,11,0,0,1,427,148Z" transform="translate(-414 -124)"/>
+  </g>
+</svg>

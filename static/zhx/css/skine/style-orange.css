@@ -1,0 +1,75 @@
+/*橙色*/
+/*:root{ 
+	--nav-background-color: #cd6633; 
+	--nav-li-active-bg:#bd5a2a;
+	--base-border-color:#f28550;
+	--other-base-color:#e27742;
+	}*/
+/*红色*/
+/*:root{ 
+	--nav-background-color: #c33030; 
+	--nav-li-active-bg:#b41a1a;
+	--base-border-color:#dc5151;
+	--other-base-color:#d04949;
+	}	*/
+/*绿色*/
+/*:root{ 
+	--nav-background-color: #159985; 
+	--nav-li-active-bg:#117e6d;
+	--base-border-color:#2ed3ba;
+	--other-base-color:#2abda7;
+	}*/
+/*紫色*/
+:root{ 
+	--nav-background-color: #765cad; 
+	--nav-li-active-bg:#614d94;
+	--base-border-color:#9f7fdb;
+	--other-base-color:#8a6ac5;
+	}
+/*侧边菜单栏*/
+nav.navigation,.sidebar-fold{background-color: var(--nav-background-color);}
+.sub-navigation{ background-color: var(--other-base-color);}
+.navigation > ul > li.active >a{ background: var(--nav-li-active-bg); border-color: var(--base-border-color);}
+.sidebar-subnav-head{border-color: var(--base-border-color); }
+.sidebar-subnav-list ul li.active >a,
+.sidebar-subnav-list ul li:hover >a{background:var(--base-border-color);}
+/*top breadcrumb*/
+.top-breadcrumb >.el-breadcrumb >.el-breadcrumb__item:first-child > .el-breadcrumb__item__inner,
+.el-panel-subtitle{border-color: var(--other-base-color);}
+.el-breadcrumb__item__inner a:hover, .el-breadcrumb__item__inner:hover{color: var(--other-base-color);}
+/*nav-tip*/
+[tip]:after{background-color:var(--other-base-color);}
+/*el-tabs &el-radio-button:hover*/
+.el-tabs__active-bar{background-color: var(--other-base-color);}
+.el-tabs__item.is-active,.el-tabs__item:hover, 
+.day-tabs .el-tabs__item:active, .tday-tabsabs .el-tabs__item:focus{color: var(--other-base-color) !important;}
+.el-radio-button__inner:hover{color: var(--other-base-color);}  /*问题，在安全指数页需要*/
+
+/*el-button--primary、text &el-pager*/
+.el-button--primary,.square,.el-pager li.active{border-color: var(--other-base-color);background-color:var(--other-base-color);}
+.el-button--primary.is-active,.el-button--primary:active,.el-button--primary:focus,.el-button--primary:hover{border-color: var(--base-border-color)!important;background-color:var(--base-border-color) !important;}
+.el-button--text,.el-button--text.is-active,.el-button--text:active,.el-button--text:focus,.el-button--text:hover,
+.el-button--graypink,.el-button--graypink.is-active,.el-button--graypink:active,.el-button--graypink:focus,.el-button--graypink:hover
+{color: var(--other-base-color);}
+.el-button--graypink.is-active,.el-button--graypink:active,.el-button--graypink:focus{border-color: var(--base-border-color);}
+/*el-radio、el-checkbox、el-select、el-input*/
+.el-radio-button__orig-radio:checked+.el-radio-button__inner,
+.el-radio__input.is-checked .el-radio__inner,
+.el-checkbox__input.is-focus .el-checkbox__inner,
+.el-checkbox__input.is-checked .el-checkbox__inner{border-color: var(--base-border-color)!important;background-color:var(--base-border-color) !important;}
+.el-select .el-input__inner:focus,.el-input__inner:focus,.el-checkbox__inner:hover,
+.el-radio__inner:hover{border-color: var(--base-border-color);}
+
+.processgroup-inner-content .type,.search-tag{color: var(--other-base-color);}
+.search-tag:before{border-right-color: var(--base-border-color);}
+.search-tag02:before{border-top-color: var(--base-border-color);}
+.search-tag:hover{color: var(--nav-li-active-bg);}
+
+.el-radio-button__orig-radio:checked+.el-radio-button__inner{box-shadow:-1px 0 0 0 var(--base-border-color)!important;}
+
+
+.el-date-table td.current:not(.disabled), .el-date-table td.end-date, .el-date-table td.start-date{background-color:var(--other-base-color) !important;}
+.el-date-table td.today{color: var(--other-base-color);}
+.el-date-table td.today:before{border-top-color: var(--other-base-color);}
+
+.el-subpanel-title{border-left-color: var(--other-base-color);}

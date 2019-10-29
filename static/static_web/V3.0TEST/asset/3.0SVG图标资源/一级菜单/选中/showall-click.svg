@@ -1,0 +1,16 @@
+<svg id="展开" xmlns="http://www.w3.org/2000/svg" width="12" height="18" viewBox="0 0 12 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #5292f5;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="bg" class="cls-1" x="5" width="2" height="18" rx="1" ry="1"/>
+  <path id="bg-2" data-name="bg" class="cls-2" d="M88,73a1,1,0,0,1,1,1V90a1,1,0,0,1-2,0V74A1,1,0,0,1,88,73ZM78,73a1,1,0,0,1,1,1V90a1,1,0,0,1-2,0V74A1,1,0,0,1,78,73Z" transform="translate(-77 -73)"/>
+</svg>

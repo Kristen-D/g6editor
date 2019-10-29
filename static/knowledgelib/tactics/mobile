@@ -1,0 +1,167 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" class="translated-ltr"><head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-62667723-1"></script>
+        <script src="../theme/scripts/analytics.js"></script>
+        <meta name="google-site-verification" content="2oJKLqNN62z6AOCb0A0IXGtbQuj-lev5YPAHFF_cbHQ" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="../theme/favicon.ico" type="image/x-icon" />
+        <title>Tactics: Mobile - MITRE ATT&amp;CK</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../theme/style/bootstrap.min.css" />
+        <link rel="stylesheet" href="../theme/style/bootstrap-glyphicon.min.css" />
+        <link href="../theme/style/style.css" rel="stylesheet" type="text/css" /> <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css" /></head>
+
+<body>
+<!--stopindex-->
+<header style="height: 78.5469px;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-mitre-red border-bottom">
+            <a class="navbar-brand" href="../index.html"><img src="../theme/images/mitre_attack.png" height="50px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" onclick="search('')"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav nav-tabs ml-auto">
+                            <li class="nav-item"><a href="../matrices/enterprise" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">矩阵</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="pre">PRE-ATT&amp;CK</a>
+                                        <a class="dropdown-item" href="enterprise">Enterprise</a>
+                                        <a class="dropdown-item" href="mobile">Mobile</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../techniques/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../techniques/pre">PRE-ATT&amp;CK</a>
+                                        <a class="dropdown-item" href="../techniques/enterprise">Enterprise</a>
+                                        <a class="dropdown-item" href="../techniques/mobile">Mobile</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="../groups/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组</font></font></b></a></li>
+                            <li class="nav-item"><a href="../software/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../resources.1" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="../resources.1">General</a>
+                                    <a class="dropdown-item" href="../resources/getting-started.1">Getting Started</a>
+                                    <a class="dropdown-item" href="../resources/attackcon.1">ATT&amp;CKcon</a>
+                                    <a class="dropdown-item" href="../resources/faq/index.html">FAQ</a>
+                                    <a class="dropdown-item" href="../resources/updates.1">Updates</a>
+                                    <!-- <a class="dropdown-item" href="/resources/supporters/">Supporters</a>
+                                            <a class="dropdown-item" href="/resources/industry-news/">Industry News</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="https://medium.com/mitre-attack/" target="_blank" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></b> <img src="../theme/images/external-site.svg" alt="外部网站" class="external-icon" /></a></li>
+                            <li class="nav-item"><a href="../contact/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系</font></font></b></a></li>
+                </ul>
+                <ul class="navbar-nav flex-row d-md-flex" style="float: right">  <!-- ml-md-auto d-none-->
+                    <li>
+                        <form class="form-inline pl-2">
+                            <input class="form-control" type="text" placeholder="Search site" aria-label="Search" id="search" autocomplete="off" />
+                        </form>
+                        <div class="search-results"></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+            <div class="container-fluid under-development"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                在</font></font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">attackevals.mitre.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们第一轮ATT和CK评估的</font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;">结果</font></a><font style="vertical-align: inherit;">！
+            </font></font></div>
+        <!--startindex-->
+<div id="content">    <div class="container-fluid">
+        <div class="row">
+ 
+             
+    <div class="nav flex-column col-xl-2 col-lg-2 col-md-3  sidebar nav pt-5 pb-3 pl-3 border-right" id="v-tab" role="tablist" aria-orientation="vertical">
+        <button class="btn btn-default dropdown-toggle heading-dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></button><br />
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="enterprise">ENTERPRISE</a>
+                <a class="dropdown-item" href="mobile">MOBILE</a>
+                <a class="dropdown-item" href="pre">PRE-ATT&amp;CK</a>
+        </div>
+        <span class="heading" id="v-home-tab" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TACTICS </font></font></span>
+        <!-- <a class="nav-link side active show" id="v-overview-tab" data-toggle="tab" href="#v-overview" role="tab" aria-controls="v-overview" aria-selected="false">Overview</a> -->
+       <a class="nav-link side active show" id="v-overview-tab" href="mobile" aria-controls="v-overview" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有</font></font></a><a class="nav-link side" id="v-initial-access-tab" href="TA0027" aria-controls="v-initial-access" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">初始访问</font></font></a><a class="nav-link side" id="v-persistence-tab" href="TA0028" aria-controls="v-persistence" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">持久性</font></font></a><a class="nav-link side" id="v-privilege-escalation-tab" href="TA0029" aria-controls="v-privilege-escalation" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">权限升级</font></font></a><a class="nav-link side" id="v-defense-evasion-tab" href="TA0030" aria-controls="v-defense-evasion" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">防御逃避</font></font></a><a class="nav-link side" id="v-credential-access-tab" href="TA0031" aria-controls="v-credential-access" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">凭证访问</font></font></a><a class="nav-link side" id="v-discovery-tab" href="TA0032" aria-controls="v-discovery" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发现</font></font></a><a class="nav-link side" id="v-lateral-movement-tab" href="TA0033" aria-controls="v-lateral-movement" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">横向移动</font></font></a><a class="nav-link side" id="v-effects-tab" href="TA0034" aria-controls="v-effects" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">效果</font></font></a><a class="nav-link side" id="v-collection-tab" href="TA0035" aria-controls="v-collection" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集合</font></font></a><a class="nav-link side" id="v-exfiltration-tab" href="TA0036" aria-controls="v-exfiltration" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Exfiltration </font></font></a><a class="nav-link side" id="v-command-and-control-tab" href="TA0037" aria-controls="v-command-and-control" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令和控制</font></font></a><a class="nav-link side" id="v-network-effects-tab" href="TA0038" aria-controls="v-network-effects" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络效果</font></font></a><a class="nav-link side" id="v-remote-service-effects-tab" href="TA0039" aria-controls="v-remote-service-effects" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">远程服务效果</font></font></a>
+    </div>
+
+             
+            <div class="tab-content col-xl-10 col-lg-10 col-md-9 pt-4" id="v-tabContent">
+                <div class="tab-pane fade show active" id="v-attckmatrix" role="tabpanel" aria-labelledby="v-attckmatrix-tab">
+<ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">家</font></font></a></li>
+        <li class="breadcrumb-item"><a href="mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略</font></font></a></li>
+        <li class="breadcrumb-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></li>
+    </ol>
+    <div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
+    <div class="row">
+       <div class="col-xl-12">
+          <div class="jumbotron jumbotron-fluid bg-white">
+             <div class="container-fluid">
+                <div style="overflow-x: auto">
+                    <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                      移动策略
+                    </font></font></h1>
+                    <h6 class="table-statistics"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动策略：13</font></font></h6>
+                    <table class="table table-bordered table-light mt-2">
+                        <thead>
+                          <tr>
+                            <th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></th>
+                            <th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">名称</font></font></th>
+                            <th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述</font></font></th>
+                          </tr>
+                        </thead>
+                        <tbody class="bg-white">
+                          <tr><td><a href="TA0027"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TA0027</font></font></a></td><td><a href="TA0027"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">初始访问</font></font></a></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">初始访问策略表示对手用于在移动设备上获得初始立足点的向量。</font></font></td></tr><tr><td><a href="TA0028"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TA0028</font></font></a></td><td><a href="TA0028"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">坚持</font></font></a></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">持久性是对移动设备的任何访问，操作或配置更改，使攻击者在设备上持久存在。</font><font style="vertical-align: inherit;">攻击者通常需要通过设备重启等中断来维持对移动设备的访问，甚至可能需要重置工厂数据。</font></font></td></tr><tr><td><a href="TA0029"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TA0029</font></font></a></td><td><a href="TA0029"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特权升级</font></font></a></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">权限提升包括允许攻击者在移动设备上获得更高级别权限的技术。</font><font style="vertical-align: inherit;">攻击者可能以非常有限的权限进入移动设备，并且可能需要利用设备弱点来获得成功执行其任务目标所需的更高权限。</font></font></td></tr><tr><td><a href="TA0030"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TA0030</font></font></a></td><td><a href="TA0030"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">防御逃跑</font></font></a></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">防御逃避包括对手可能用来逃避侦查或避免其他防御的技术。</font><font style="vertical-align: inherit;">有时，这些行为与其他类别的技术相同或不同，这些技术具有颠覆特定防御或缓解的额外好处。</font><font style="vertical-align: inherit;">防御逃避可被视为对手应用于操作的所有其他阶段的一组属性。</font></font></td></tr><tr><td><a href="TA0031"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TA0031</font></font></a></td><td><a href="TA0031"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">凭证访问</font></font></a></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">凭据访问表示攻击者可以使用的技术来获取或控制密码，令牌，加密密钥或其他可以被攻击者用来获取对资源的未授权访问的值。</font><font style="vertical-align: inherit;">凭据访问权限允许攻击者承担帐户的身份，并拥有该帐户在系统和网络上的所有权限，并使防御者更难以检测到攻击者。</font><font style="vertical-align: inherit;">通过在网络内充分访问，攻击者可以创建帐户以供以后在环境中使用。</font></font></td></tr><tr><td><a href="TA0032"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TA0032</font></font></a></td><td><a href="TA0032"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发现</font></font></a></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发现包括允许对手获得有关移动设备和可能的其他网络系统的特征的知识的技术。</font><font style="vertical-align: inherit;">当攻击者获得对新系统的访问权限时，他们必须将自己定位于他们现在可以控制的内容，以及在该入侵期间该系统的操作带来的当前目标或总体目标的好处。</font><font style="vertical-align: inherit;">操作系统可以提供有助于这种折衷后信息收集阶段的能力。</font></font></td></tr><tr><td><a href="TA0033"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TA0033</font></font></a></td><td><a href="TA0033"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">横向运动</font></font></a></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">横向移动包括使对手能够访问和控制网络上的远程系统的技术，并且可以但不一定包括在远程系统上执行工具。</font><font style="vertical-align: inherit;">横向移动技术可以允许对手从系统收集信息而无需额外的工具，例如远程访问工具。</font></font></td></tr><tr><td><a href="TA0034"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TA0034</font></font></a></td><td><a href="TA0034"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">效果</font></font></a></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">效果包括对手用来执行其任务目标但不能完全适合其他类别（如Collection）的技术。</font><font style="vertical-align: inherit;">任务目标根据每个对手的目标而有所不同，但例子包括收费欺诈，设备数据销毁，或者在支付赎金之前将用户锁定在他或她的设备之外。</font></font></td></tr><tr><td><a href="TA0035"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TA0035</font></font></a></td><td><a href="TA0035"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">采集</font></font></a></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集合包括用于在渗透之前从目标网络识别和收集信息（例如敏感文件）的技术。</font><font style="vertical-align: inherit;">此类别还包括系统或网络上的位置，攻击者可能会在这些位置查找要泄露的信息。</font></font></td></tr><tr><td><a href="TA0036"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TA0036</font></font></a></td><td><a href="TA0036"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">渗出</font></font></a></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">泄漏指的是导致或帮助攻击者从目标移动设备移除文件和信息的技术和属性。</font></font></td></tr><tr><td><a href="TA0037"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TA0037</font></font></a></td><td><a href="TA0037"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令与控制</font></font></a></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令和控制策略表示攻击者如何与目标网络内的其控制下的系统进行通信。</font><font style="vertical-align: inherit;">根据系统配置和网络拓扑，攻击者可以通过多种方式建立具有各种隐蔽级别的命令和控制。</font><font style="vertical-align: inherit;">由于网络级别对手可以获得的广泛变化，只有最常见的因素被用来描述命令和控制的差异。</font><font style="vertical-align: inherit;">在所记录的方法中仍然有许多特定的技术，主要是由于定义新协议和使用现有的合法协议和网络服务进行通信是多么容易。</font></font></td></tr><tr><td><a href="TA0038"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TA0038</font></font></a></td><td><a href="TA0038"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络效应</font></font></a></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此类别是指对手可以使用的基于网络的技术，无需访问移动设备本身即可实现其目标。</font><font style="vertical-align: inherit;">这些包括拦截或操纵进出移动设备的网络流量的技术。</font></font></td></tr><tr><td><a href="TA0039"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TA0039</font></font></a></td><td><a href="TA0039"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">远程服务效果</font></font></a></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此类别涉及涉及远程服务的技术，例如供应商提供的云服务（例如Google Drive，Google Find My Device或Apple iCloud），或对手可能提供的企业移动管理（EMM）/移动设备管理（MDM）服务能够用来实现他或她的目标而无需访问移动设备本身。</font></font></td></tr>
+                        </tbody>
+                      </table>
+                  </div>
+                
+               
+             </div>
+          </div>
+       </div>
+    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+<!--stopindex-->
+<footer class="footer pt-3 pb-2">
+    <div class="container-fluid text-center">
+        <a class="btn btn-primary float-right mr-4" href="https://twitter.com/MITREattack" target="_blank" rel="noopener" aria-label="Twitter">
+            <img src="../theme/images/twitter.png" class="mx-auto d-block" width="28" height="28" /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 跟着我们！</font></font></a>
+        <a href="https://www.mitre.org" target="_blank" rel="noopener" aria-label="MITRE" class="float-left ml-4">
+            <img src="../theme/images/mitrelogowhiteontrans.gif" width="144" height="66" /></a>
+        <br />
+        <p>
+            <br /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权所有©2018，MITRE Corporation。</font><font style="vertical-align: inherit;">MITRE ATT＆CK和ATT＆CK是The MITRE Corporation的商标。</font></font></p>
+        <small><a href="../resources/privacy" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐私政策</font></font></a>  <a href="../resources/terms-of-use" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用条款</font></font></a></small>
+    </div>
+</footer>
+
+    <!--SCRIPTS-->
+    <script src="../theme/scripts/jquery-3.2.1.min.js"></script>
+    <script src="../theme/scripts/popper.min.js"></script>
+    <script src="../theme/scripts/bootstrap.min.js"></script>
+    <script src="../theme/scripts/site.js"></script>
+    <script src="../theme/scripts/lunr-2.3.3.js"></script>
+    <script src="../theme/scripts/search.js"></script>
+    <script src="../theme/scripts/index.js"></script>
+
+<!--SCRIPTS-->
+<script src="../theme/scripts/techniques.js"></script>
+
+
+
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google 翻译" /></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">原文</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">提供更好的翻译建议</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;" /><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><!--startindex--><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"/></svg></div></div></body></html>

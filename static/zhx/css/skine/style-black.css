@@ -1,0 +1,80 @@
+/*黑色*/
+/*:root{ 
+	--nav-background-color: #cd6633; 
+	--nav-li-active-bg:#bd5a2a;
+	--base-border-color:#f28550;
+	--other-base-color:#e27742;
+	}*/
+body{color: #fff;background-color: #222529;}	
+.el-dropdown-menu{background-color: #2d3136;border-color: #2d3136;}
+.el-dropdown-menu__item:not(.is-disabled):hover{background-color:#393e44;color:#fff;}
+header{background-color: #2d3136;border-bottom-color: #2d3136;}
+header .logo-text,.el-dropdown,.el-tabs__item,.el-tabs__item:hover,
+.el-breadcrumb__item__inner, .el-breadcrumb__item__inner a,
+.top-breadcrumb >.el-breadcrumb >.el-breadcrumb__item:last-child .el-breadcrumb__item__inner,
+.top-breadcrumb .el-breadcrumb__separator{color: #fff;}
+
+.SI > .font,ul.safe-mark-content > li{color: #fff;}
+
+.content{background-color: #222529;}
+
+nav.navigation,.sidebar-fold{background-color:#222529;}
+.navigation > ul > li.active >a{background-color:#000;}
+.sub-navigation{background-color: #2d3136;}
+.sidebar-subnav-list ul li.active >a,
+.sidebar-subnav-list ul li:hover >a{background:#393e44;}
+.sidebar-subnav-head{border-bottom-color: #000;}
+
+.el-panel,.el-subpanel{background-color: #393E44;}
+.el-panel-heading,.el-tabs__header,ul.work_tabs_cont li,
+ul.SI-head,.el-subpanel-heading,
+ul.safe-mark-content > li,ul.safe-mark-content > li:first-child
+{border-bottom-color: #4c5259;}
+
+ul.SI-inner li{border-color: #4c5259;}
+
+ul.safe-mark-content > li:first-child{border-top-color: #4c5259;}
+
+.el-table{background-color: transparent;}
+.el-table,.el-table__footer-wrapper thead div, 
+.el-table__header-wrapper thead div{color: #fff !important;}
+.el-table th,.el-table__footer-wrapper thead div, 
+.el-table__header-wrapper thead div{background-color: #2d3136;}
+.el-table tr{background-color: #393e44;}
+.el-table td, .el-table th.is-leaf{border-bottom-color: #4c5259;}
+.el-table--enable-row-hover .el-table__body tr:hover>td{background-color: #4c5259;}
+
+
+.el-form-item__label,.data >.data-right .figure{color: #fff;}
+
+.top-tabs > .el-tabs__header .el-tabs__nav > .el-tabs__item{background-color: #41464b;color: #fff;}
+.top-tabs > .el-tabs__header .el-tabs__nav > .el-tabs__item.is-active{background-color:#2d3136;border-color: #41464b;}
+.processgroupname,.processgroup-inner >.el-checkbox,
+.processgroup-inner-content .type-pause,.el-checkbox{color: #fff;border-bottom-color: #4c5259;}
+.processgroup-classify{background-color: #222529;border-bottom-color: #4c5259;}
+.search{border-bottom-color: #4c5259;}
+.el-select .el-input .el-input__icon,.el-select-dropdown__item,.el-radio-button__inner{color: #fff;}
+.el-input__inner,.el-select-dropdown,.el-textarea__inner,.el-radio-button__inner{background-color: #41464b;border-color: #4c5259;}
+.el-radio-button:first-child .el-radio-button__inner{border-left-color: #4c5259;}
+
+.el-select-dropdown.is-multiple .el-select-dropdown__item.selected.hover, 
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover,
+.el-date-table td.available:hover{background-color: #222529;}
+.el-picker-panel{color: #fff;background-color: #41464b;border-color: #4c5259;box-shadow: none;}
+.el-date-range-picker__content.is-left{border-right-color: #4c5259;}
+.el-date-table td.in-range{background-color: #20A0FF;}
+
+
+.el-pagination,.el-radio{color: #fff;}
+.el-pagination__sizes .el-input .el-input__inner{border-color: #4c5259;color: #fff;}
+.el-pagination .btn-next, .el-pagination .btn-prev{background-color: #41464b !important;border-color: #4c5259;}
+.el-pager li{background-color: #41464b;border-color: #4c5259;}
+.el-pager li:last-child{border-right-color: #4c5259;}
+.el-pagination__editor{background-color: #41464b;border-color: #4c5259;color: #fff;}
+.tree-panel{background-color: #2d3136;}
+.tree.el-tree{background-color: #41464b;border-color: #4c5259;}
+.el-tree-node__content:hover{background-color: #222529;}
+
+.rule-condition{background-color: #222529;}
+.el-button--graypink{background-color: #222529;color: #fff;border-color: #222529;}
+.el-button--graypink.is-active, .el-button--graypink:active,.el-button--graypink:hover{background-color: #4A5258;border-color: #4A5258;}

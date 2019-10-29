@@ -1,0 +1,237 @@
+<div class="search_main">
+
+
+    <div class="search_log"><img src="/resource/images/logo.png" alt=""/></div>
+    <div class="search_cont">
+     <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr class="search_tr">
+          <td>
+          <div>
+          	<div class="queryCon_div s_input_bg s_left s_pad" style="z-index:1">
+          		<div class="search_input s_left s_right"><span class="search_icon"></span>
+          			<div class="">
+                		<textarea  id="queryCon"  class="search_input_text" placeholder="日志查询..." autocomplete="off" style="background-color:rgba(255,255,255,9)" >*</textarea>
+                	</div>
+       			</div>
+        </div>
+        <!----搜索下拉框开始------>
+              <ul class="status-search-result hide">
+                <h1 class="splFont-cidi">匹配搜索</h1>
+                <div class="status-cont">    
+                   <div  class="saHeadRor">
+                  <h1 class="splFont-mono">如何搜索</h1>
+                  <span class="introstep">步骤 1：检索事件</span>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>术语：</td>
+                        <td><code class="splFont-mono">error login</code></td>
+                      </tr>
+                      <tr>
+                        <td>加引号的短语：</td>
+                        <td><code class="splFont-mono">"database error"</code></td>
+                      </tr>
+                      <tr>
+                        <td>布尔运算符：</td>
+                        <td><code class="splFont-mono">login NOT (error OR fail)</code></td>
+                      </tr>
+                      <tr>
+                        <td>通配符：</td>
+                        <td><code class="splFont-mono">fail*</code></td>
+                      </tr>
+                      <tr>
+                        <td>字段值：</td>
+                        <td><code class="splFont-mono">status=404</code>, <code class="splFont-mono">status!=404</code>, 或 <code class="splFont-mono">status&gt;200</code></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <span class="introstep">步骤 2：使用搜索命令</span> 更多高级搜索使用命令来转换、过滤以及报告检索的事件。 使用竖线 "|" 或管道符将命令应用到检索的事件。 <code class="splFont-mono"> "|" </code>或管道符将命令应用到检索的事件。 </div>
+                 </div>
+              </ul> 
+              <!----搜索下拉结束------>
+       	  </td>
+       	   <td width="30" style="vertical-align: top;"><div class="s_input_bg time_l_n"><a class="search_button" id="time"> 时间 <span class="icon-dm"></span> </a> 
+        	<!----时间弹出框开始------>
+            <div id="d_datetimepicker" data-view="/search/component/datetimepicker" style="display:none">
+           <!----时间弹出结束------>
+       </div></td>
+           <td width="45" id="td_index">
+              <div class="s_input_bg  b_l_n index_l_n">
+                  <a class="search_button"><span id="select_index">索引库</span>&nbsp;&nbsp;<span class="icon-dm"></span></a>
+                  <div  class="popdown-dialog options-wrap dialog-k" id='popdown_index'>
+                      <div class="arrow"></div>
+                      <div class="init-index-dialog">
+                      <ul id="s_main_index" class="li_collection">
+                      </ul>
+                       </div>
+                  </div>
+               </div>
+           </td>
+       <td width="30"><div class="s_input_bg s_right b_l_n"><a class="search_button s_right" id="search"> 搜索</a></div></td>
+       </tr>
+      </table>
+      </div>
+      
+    <div class="search_words" id="words"><span id='search_main_num'></span>&nbsp;&nbsp;&nbsp;&nbsp;<span id='search_main_time'></span></div>
+   
+    <div class="search_icons" id="search_icons">
+    <div class="search_icons_grounp"><a class="btn-pill" href="/activity/taskhistory.html">任务<!--<span class="caret"></span>--> </a> 
+      
+      <a id="task_start" title="开始" class="btn-square" style="background: url(/resource/images/icon-start-h.png) no-repeat 0px 3px;display:none" href="#">
+      <div class="hide-text">开始<span class="hide-text-icon"></span></div>
+      </a> 
+      
+      <a id="task_square" title="暂停" class="btn-square" href="#">
+      <div class="hide-text">暂停<span class="hide-text-icon"></span></div>
+      </a> 
+      
+       <a id="task_square_over" class="btn-square" href="#" style="background: url('/resource/images/icon_search_other.png')-64px -28px;display:none;"></a>
+      
+      <a  id="task_end" title="停止" class="btn-stop" href="#">    
+      <div class="hide-text">停止<span class="hide-text-icon"></span></div>
+      </a> 
+      
+      <a id="task_end_over" class="btn-stop" href="#" style="background: url('/resource/images/icon_search_other.png')-92px -28px;display:none;"> </a> 
+      
+     <!-- <a class="btn-pill" title="共享" href="#"><i class="icon-share"></i>
+      <div class="hide-text hide-text-posl">共享<span class="hide-text-icon"></span></div>
+      </a> <a class="btn-pill" title="导出" href="#"><i class="icon-export"></i>
+      <div class="hide-text hide-text-posl">导出<span class="hide-text-icon"></span></div>
+      </a> <a class="btn-pill" title="打印" href="#"><i class="icon-print"></i>
+      <div class="hide-text hide-text-posl">打印<span class="hide-text-icon"></span></div>
+      </a> --> </div>
+ </div>
+ 
+    
+ <div class="othercont" id="othercont">
+                  <div class="btn-group">
+                          <button class="btn_s btn_small" data-field-name="host" id="editorR">另存为<i class="icon_tit"></i></button>
+                          <button class="btn_s cother btn_small" data-field-name="host"  id="editorM">关闭</i></button>
+                  </div>
+                  <!----编辑------>
+                    <div class="editor-bg edit-wrap7 edit-saveas hide">
+                      <div class="arrow"></div>
+                      <div class="edit-dialog2 draghandle_b">
+                        <ul>
+                          <li class="save_create"><a href="#">报表</a></li>
+                          <!--<li><a id="a_dashboard" href="#">仪表板面板</a></li>
+                          <li><a href="#">告警</a></li>-->
+                        </ul>
+                      </div>
+                  <!----<div class="draghandle_b">
+                        <ul>
+                          <li><a href="#">事件类型</a></li>
+                        </ul>
+                      </div>------>
+                    </div>
+<!----编辑结束------>
+                 </div>
+	  
+	   <!----事件另存为报表开始------>
+  <div id="b_dialog" class="modal" style="display:none;min-width:200px;background-color:white;">
+     <div class="modal-header">
+        <a class="close" href="#"><i class="icon-close"></i></a>
+        <h4>另存为报表</h4>
+     </div>
+     <div class="modal-body">
+          <span id="event_title_msg"></span>
+         <table border="0">
+              <tr>
+                <td class="modal-left">标题</td>
+                <td><input name="label" type="text" placeholder="optional" id="event_title"></td>
+              </tr>
+              <tr>
+                <td class="modal-left">描述</td>
+                <td><textarea name="description" type="text" id="saveet_descrip"></textarea></td>
+              </tr>
+               <!----   <tr>
+                <td class="modal-left">时间范围挑选器</td>
+                <td><div class="btn-group mod_w1">
+          <button class="btn_s active mod_w btn_save_yes" data-field-name="host">是</button>
+          <button class="btn_s cother mod_w btn_save_no" data-field-name="host">否</button>
+        </div></td>
+              </tr>------>
+            </table>
+
+     </div>
+     <div class="modal-footer">
+          <a href="#" class="btn_cancel_bg modal-btn-cancel">取消</a> 
+          <a href="#" class="btn_cj_bg btn_ce_bg">保存</a>
+     </div>
+</div>
+	
+ <!----事件另存为报表结束------>
+ 
+   <!----统计另存为报表开始------>
+  <div id="bf_dialog" class="modal" style="display:none;min-width:200px;background-color:white;">
+     <div class="modal-header">
+        <a class="close" href="#"><i class="icon-close"></i></a>
+        <h4>另存为报表</h4>
+     </div>
+     <div class="modal-body">
+          <span id="facet_title_msg"></span>
+         <table border="0">
+              <tr>
+                <td class="modal-left">标题</td>
+                <td><input name="label" type="text" placeholder="optional" id="facet_title"></td>
+              </tr>
+              <tr>
+                <td class="modal-left">描述</td>
+                <td><textarea name="description" type="text" id="saveft_descrip"></textarea></td>
+              </tr>
+     <!----   <tr>
+                <td class="modal-left">可视化</td>
+                <td><div class="btn-group mod_w1">
+                    <button class="btn_s active mod_w btn_save_visual" data-field-name="host" id="button_type"><span class="icon-chart-pie"></span><span id="button_text">饼图</span></button>
+                    <button class="btn_s cother mod_w btn_save_unvisual" data-field-name="host">无</button>
+                    </div></td>
+              </tr>
+              <tr>
+                <td class="modal-left">时间范围挑选器</td>
+                <td><div class="btn-group mod_w1">
+                    <button class="btn_s active mod_w btn_save_yes" data-field-name="host">是</button>
+                    <button class="btn_s cother mod_w btn_save_no" data-field-name="host">否</button>
+                    </div></td>
+              </tr>------>
+            </table>
+
+     </div>
+     <div class="modal-footer">
+          <a href="#" class="btn_cancel_bg modal-btn-cancel">取消</a> 
+          <a href="#" class="btn_cj_bg btn_cf_bg">保存</a>
+     </div>
+</div>
+	
+ <!----统计另存为报表结束------>
+ 
+ 
+  <!----已创建报表开始------>
+ <div id="e_dialog" class="modal" style="display:none;min-width:200px;background-color:white;">
+     <div class="modal-header">
+        <a class="close" href="#"><i class="icon-close"></i></a>
+        <h4>已创建报表</h4>
+     </div>
+    <div class="modal-body">
+    <p>您现在可以查看您的报表。</p>
+    <!----<p>您现在可以查看您的报表、将报表添加到仪表板、更改其他设置或继续编辑报表。</p>
+        <p>其他设置:</p>                    
+         <ul class="modal-list">   
+         <li><a href="#" class="modal-power">权限</a></li>
+         <li><a href="#" class="modal-plan">计划</a></li>    
+         <li><a href="#" class="modal-quick">加速</a></li>                                                                       
+         </ul>------>
+     </div>
+     <div class="modal-footer">
+    <!----<a href="#" class="btn_cancel_bg modal-btn-cancel">继续编辑</a>
+          <a href="#" class="btn_cancel_bg" id="a_add_dashboard">添加到仪表板</a>------>
+          <a href="#" class="btn_cj_bg btn_cj_report">查看</a>
+     </div>
+  </div>
+   <!----已创建报表结束------>
+   
+    </div>
+
+
+ <div  class="progressbar">
+ <div id="progressbar"></div>
+ <div>

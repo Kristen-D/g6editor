@@ -1,0 +1,342 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" class="translated-ltr"><head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-62667723-1"></script>
+        <script src="../theme/scripts/analytics.js"></script>
+        <meta name="google-site-verification" content="2oJKLqNN62z6AOCb0A0IXGtbQuj-lev5YPAHFF_cbHQ" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="../theme/favicon.ico" type="image/x-icon" />
+        <title>技术：麦克风或摄像机录音 -  MITRE ATT＆CK™</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../theme/style/bootstrap.min.css" />
+        <link rel="stylesheet" href="../theme/style/bootstrap-glyphicon.min.css" />
+        <link href="../theme/style/style.css" rel="stylesheet" type="text/css" /> <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css" /></head>
+
+<body>
+<!--stopindex-->
+<header style="height: 86.1875px;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-mitre-red border-bottom">
+            <a class="navbar-brand" href="../index.html"><img src="../theme/images/mitre_attack.png" height="50px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" onclick="search('')"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav nav-tabs ml-auto">
+                            <li class="nav-item"><a href="../matrices/enterprise" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">矩阵</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../tactics/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../tactics/pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="../tactics/enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="../tactics/mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="../groups/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组</font></font></b></a></li>
+                            <li class="nav-item"><a href="../software/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../resources.1" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="../resources.1">General</a>
+                                    <a class="dropdown-item" href="../resources/getting-started.1">Getting Started</a>
+                                    <a class="dropdown-item" href="../resources/attackcon.1">ATT&amp;CKcon</a>
+                                    <a class="dropdown-item" href="../resources/faq/index.html">FAQ</a>
+                                    <a class="dropdown-item" href="../resources/updates.1">Updates</a>
+                                    <!-- <a class="dropdown-item" href="/resources/supporters/">Supporters</a>
+                                            <a class="dropdown-item" href="/resources/industry-news/">Industry News</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="https://medium.com/mitre-attack/" target="_blank" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></b> <img src="../theme/images/external-site.svg" alt="外部网站" class="external-icon" /></a></li>
+                            <li class="nav-item"><a href="../contact/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系</font></font></b></a></li>
+                </ul>
+                <ul class="navbar-nav flex-row d-md-flex" style="float: right">  <!-- ml-md-auto d-none-->
+                    <li>
+                        <form class="form-inline pl-2">
+                            <input class="form-control" type="text" placeholder="Search site" aria-label="Search" id="search" autocomplete="off" />
+                        </form>
+                        <div class="search-results"></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+            <div class="container-fluid under-development"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                在</font></font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">attackevals.mitre.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们第一轮ATT和CK评估的</font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;">结果</font></a><font style="vertical-align: inherit;">！
+            </font></font></div>
+        <!--startindex-->
+<div id="content">    <div class="container-fluid">
+        <div class="row">
+ 
+             
+<!--stopindex-->
+    <div class="nav flex-column col-xl-2 col-lg-2 col-md-3  sidebar nav pt-5 pb-3 pl-3 border-right" id="v-tab" role="tablist" aria-orientation="vertical">
+        <button class="btn btn-default dropdown-toggle heading-dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></button><br />
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="enterprise">ENTERPRISE</a>
+            <a class="dropdown-item" href="mobile">MOBILE</a>
+            <a class="dropdown-item" href="pre">PRE-ATT&amp;CK</a>
+        </div>
+        <span class="heading" id="v-home-tab" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></span>
+        <!-- <a class="nav-link side active show" id="v-overview-tab" data-toggle="tab" href="#v-overview" role="tab" aria-controls="v-overview" aria-selected="false">Overview</a> -->
+        <a class="nav-link side expand-title " id="v-{}-tab" href="mobile" role="tab" aria-expanded="false" aria-controls="{}"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有</font></font></a> <a class="nav-link side expand-title" id="v-initial access-tab" data-toggle="collapse" href="T1429#initial access" role="tab" aria-expanded="false" aria-controls="initial access"><span id="initial_access-tooltip" title="初始访问"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">初始访问</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="initial access" aria-labelledby="v-initial access-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Deliver Malicious App via Authorized App Store-initial access-tab" href="T1475" aria-controls="v-Deliver Malicious App via Authorized App Store-initial access" aria-selected="false">Deliver Malicious App via Authorized App Store</a>
+ <a class="nav-link side" id="v-Deliver Malicious App via Other Means-initial access-tab" href="T1476" aria-controls="v-Deliver Malicious App via Other Means-initial access" aria-selected="false">Deliver Malicious App via Other Means</a>
+ <a class="nav-link side" id="v-Drive-by Compromise-initial access-tab" href="T1456" aria-controls="v-Drive-by Compromise-initial access" aria-selected="false">Drive-by Compromise</a>
+ <a class="nav-link side" id="v-Exploit via Charging Station or PC-initial access-tab" href="T1458" aria-controls="v-Exploit via Charging Station or PC-initial access" aria-selected="false">Exploit via Charging Station or PC</a>
+ <a class="nav-link side" id="v-Exploit via Radio Interfaces-initial access-tab" href="T1477" aria-controls="v-Exploit via Radio Interfaces-initial access" aria-selected="false">Exploit via Radio Interfaces</a>
+ <a class="nav-link side" id="v-Install Insecure or Malicious Configuration-initial access-tab" href="T1478" aria-controls="v-Install Insecure or Malicious Configuration-initial access" aria-selected="false">Install Insecure or Malicious Configuration</a>
+ <a class="nav-link side" id="v-Lockscreen Bypass-initial access-tab" href="T1461" aria-controls="v-Lockscreen Bypass-initial access" aria-selected="false">Lockscreen Bypass</a>
+ <a class="nav-link side" id="v-Repackaged Application-initial access-tab" href="T1444" aria-controls="v-Repackaged Application-initial access" aria-selected="false">Repackaged Application</a>
+ <a class="nav-link side" id="v-Supply Chain Compromise-initial access-tab" href="T1474" aria-controls="v-Supply Chain Compromise-initial access" aria-selected="false">Supply Chain Compromise</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-persistence-tab" data-toggle="collapse" href="T1429#persistence" role="tab" aria-expanded="false" aria-controls="persistence"><span id="persistence-tooltip" title="坚持"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">坚持</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="persistence" aria-labelledby="v-persistence-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Abuse Device Administrator Access to Prevent Removal-persistence-tab" href="T1401" aria-controls="v-Abuse Device Administrator Access to Prevent Removal-persistence" aria-selected="false">Abuse Device Administrator Access to Prevent Removal</a>
+ <a class="nav-link side" id="v-App Auto-Start at Device Boot-persistence-tab" href="T1402" aria-controls="v-App Auto-Start at Device Boot-persistence" aria-selected="false">App Auto-Start at Device Boot</a>
+ <a class="nav-link side" id="v-Modify cached executable code-persistence-tab" href="T1403" aria-controls="v-Modify cached executable code-persistence" aria-selected="false">Modify cached executable code</a>
+ <a class="nav-link side" id="v-Modify OS Kernel or Boot Partition-persistence-tab" href="T1398" aria-controls="v-Modify OS Kernel or Boot Partition-persistence" aria-selected="false">Modify OS Kernel or Boot Partition</a>
+ <a class="nav-link side" id="v-Modify System Partition-persistence-tab" href="T1400" aria-controls="v-Modify System Partition-persistence" aria-selected="false">Modify System Partition</a>
+ <a class="nav-link side" id="v-Modify Trusted Execution Environment-persistence-tab" href="T1399" aria-controls="v-Modify Trusted Execution Environment-persistence" aria-selected="false">Modify Trusted Execution Environment</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-privilege escalation-tab" data-toggle="collapse" href="T1429#privilege escalation" role="tab" aria-expanded="false" aria-controls="privilege escalation"><span id="privilege_escalation-tooltip" title="特权升级"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特权升级</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="privilege escalation" aria-labelledby="v-privilege escalation-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Exploit OS Vulnerability-privilege escalation-tab" href="T1404" aria-controls="v-Exploit OS Vulnerability-privilege escalation" aria-selected="false">Exploit OS Vulnerability</a>
+ <a class="nav-link side" id="v-Exploit TEE Vulnerability-privilege escalation-tab" href="T1405" aria-controls="v-Exploit TEE Vulnerability-privilege escalation" aria-selected="false">Exploit TEE Vulnerability</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-defense evasion-tab" data-toggle="collapse" href="T1429#defense evasion" role="tab" aria-expanded="false" aria-controls="defense evasion"><span id="defense_evasion-tooltip" title="防御逃跑"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">防御逃跑</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="defense evasion" aria-labelledby="v-defense evasion-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Application Discovery-defense evasion-tab" href="T1418" aria-controls="v-Application Discovery-defense evasion" aria-selected="false">Application Discovery</a>
+ <a class="nav-link side" id="v-Disguise Root/Jailbreak Indicators-defense evasion-tab" href="T1408" aria-controls="v-Disguise Root/Jailbreak Indicators-defense evasion" aria-selected="false">Disguise Root/Jailbreak Indicators</a>
+ <a class="nav-link side" id="v-Download New Code at Runtime-defense evasion-tab" href="T1407" aria-controls="v-Download New Code at Runtime-defense evasion" aria-selected="false">Download New Code at Runtime</a>
+ <a class="nav-link side" id="v-Install Insecure or Malicious Configuration-defense evasion-tab" href="T1478" aria-controls="v-Install Insecure or Malicious Configuration-defense evasion" aria-selected="false">Install Insecure or Malicious Configuration</a>
+ <a class="nav-link side" id="v-Modify OS Kernel or Boot Partition-defense evasion-tab" href="T1398" aria-controls="v-Modify OS Kernel or Boot Partition-defense evasion" aria-selected="false">Modify OS Kernel or Boot Partition</a>
+ <a class="nav-link side" id="v-Modify System Partition-defense evasion-tab" href="T1400" aria-controls="v-Modify System Partition-defense evasion" aria-selected="false">Modify System Partition</a>
+ <a class="nav-link side" id="v-Modify Trusted Execution Environment-defense evasion-tab" href="T1399" aria-controls="v-Modify Trusted Execution Environment-defense evasion" aria-selected="false">Modify Trusted Execution Environment</a>
+ <a class="nav-link side" id="v-Obfuscated or Encrypted Payload-defense evasion-tab" href="T1406" aria-controls="v-Obfuscated or Encrypted Payload-defense evasion" aria-selected="false">Obfuscated or Encrypted Payload</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-credential access-tab" data-toggle="collapse" href="T1429#credential access" role="tab" aria-expanded="false" aria-controls="credential access"><span id="credential_access-tooltip" title="凭证访问"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">凭证访问</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="credential access" aria-labelledby="v-credential access-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Abuse Accessibility Features-credential access-tab" href="T1453" aria-controls="v-Abuse Accessibility Features-credential access" aria-selected="false">Abuse Accessibility Features</a>
+ <a class="nav-link side" id="v-Access Sensitive Data in Device Logs-credential access-tab" href="T1413" aria-controls="v-Access Sensitive Data in Device Logs-credential access" aria-selected="false">Access Sensitive Data in Device Logs</a>
+ <a class="nav-link side" id="v-Access Sensitive Data or Credentials in Files-credential access-tab" href="T1409" aria-controls="v-Access Sensitive Data or Credentials in Files-credential access" aria-selected="false">Access Sensitive Data or Credentials in Files</a>
+ <a class="nav-link side" id="v-Android Intent Hijacking-credential access-tab" href="T1416" aria-controls="v-Android Intent Hijacking-credential access" aria-selected="false">Android Intent Hijacking</a>
+ <a class="nav-link side" id="v-Capture Clipboard Data-credential access-tab" href="T1414" aria-controls="v-Capture Clipboard Data-credential access" aria-selected="false">Capture Clipboard Data</a>
+ <a class="nav-link side" id="v-Capture SMS Messages-credential access-tab" href="T1412" aria-controls="v-Capture SMS Messages-credential access" aria-selected="false">Capture SMS Messages</a>
+ <a class="nav-link side" id="v-Exploit TEE Vulnerability-credential access-tab" href="T1405" aria-controls="v-Exploit TEE Vulnerability-credential access" aria-selected="false">Exploit TEE Vulnerability</a>
+ <a class="nav-link side" id="v-Malicious Third Party Keyboard App-credential access-tab" href="T1417" aria-controls="v-Malicious Third Party Keyboard App-credential access" aria-selected="false">Malicious Third Party Keyboard App</a>
+ <a class="nav-link side" id="v-Network Traffic Capture or Redirection-credential access-tab" href="T1410" aria-controls="v-Network Traffic Capture or Redirection-credential access" aria-selected="false">Network Traffic Capture or Redirection</a>
+ <a class="nav-link side" id="v-URL Scheme Hijacking-credential access-tab" href="T1415" aria-controls="v-URL Scheme Hijacking-credential access" aria-selected="false">URL Scheme Hijacking</a>
+ <a class="nav-link side" id="v-User Interface Spoofing-credential access-tab" href="T1411" aria-controls="v-User Interface Spoofing-credential access" aria-selected="false">User Interface Spoofing</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-discovery-tab" data-toggle="collapse" href="T1429#discovery" role="tab" aria-expanded="false" aria-controls="discovery"><span id="discovery-tooltip" title="发现"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发现</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="discovery" aria-labelledby="v-discovery-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Application Discovery-discovery-tab" href="T1418" aria-controls="v-Application Discovery-discovery" aria-selected="false">Application Discovery</a>
+ <a class="nav-link side" id="v-Device Type Discovery-discovery-tab" href="T1419" aria-controls="v-Device Type Discovery-discovery" aria-selected="false">Device Type Discovery</a>
+ <a class="nav-link side" id="v-File and Directory Discovery-discovery-tab" href="T1420" aria-controls="v-File and Directory Discovery-discovery" aria-selected="false">File and Directory Discovery</a>
+ <a class="nav-link side" id="v-Local Network Configuration Discovery-discovery-tab" href="T1422" aria-controls="v-Local Network Configuration Discovery-discovery" aria-selected="false">Local Network Configuration Discovery</a>
+ <a class="nav-link side" id="v-Local Network Connections Discovery-discovery-tab" href="T1421" aria-controls="v-Local Network Connections Discovery-discovery" aria-selected="false">Local Network Connections Discovery</a>
+ <a class="nav-link side" id="v-Network Service Scanning-discovery-tab" href="T1423" aria-controls="v-Network Service Scanning-discovery" aria-selected="false">Network Service Scanning</a>
+ <a class="nav-link side" id="v-Process Discovery-discovery-tab" href="T1424" aria-controls="v-Process Discovery-discovery" aria-selected="false">Process Discovery</a>
+ <a class="nav-link side" id="v-System Information Discovery-discovery-tab" href="T1426" aria-controls="v-System Information Discovery-discovery" aria-selected="false">System Information Discovery</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-lateral movement-tab" data-toggle="collapse" href="T1429#lateral movement" role="tab" aria-expanded="false" aria-controls="lateral movement"><span id="lateral_movement-tooltip" title="横向运动"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">横向运动</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="lateral movement" aria-labelledby="v-lateral movement-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Attack PC via USB Connection-lateral movement-tab" href="T1427" aria-controls="v-Attack PC via USB Connection-lateral movement" aria-selected="false">Attack PC via USB Connection</a>
+ <a class="nav-link side" id="v-Exploit Enterprise Resources-lateral movement-tab" href="T1428" aria-controls="v-Exploit Enterprise Resources-lateral movement" aria-selected="false">Exploit Enterprise Resources</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-effects-tab" data-toggle="collapse" href="T1429#effects" role="tab" aria-expanded="false" aria-controls="effects"><span id="effects-tooltip" title="效果"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">效果</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="effects" aria-labelledby="v-effects-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Encrypt Files for Ransom-effects-tab" href="T1471" aria-controls="v-Encrypt Files for Ransom-effects" aria-selected="false">Encrypt Files for Ransom</a>
+ <a class="nav-link side" id="v-Generate Fraudulent Advertising Revenue-effects-tab" href="T1472" aria-controls="v-Generate Fraudulent Advertising Revenue-effects" aria-selected="false">Generate Fraudulent Advertising Revenue</a>
+ <a class="nav-link side" id="v-Lock User Out of Device-effects-tab" href="T1446" aria-controls="v-Lock User Out of Device-effects" aria-selected="false">Lock User Out of Device</a>
+ <a class="nav-link side" id="v-Manipulate App Store Rankings or Ratings-effects-tab" href="T1452" aria-controls="v-Manipulate App Store Rankings or Ratings-effects" aria-selected="false">Manipulate App Store Rankings or Ratings</a>
+ <a class="nav-link side" id="v-Premium SMS Toll Fraud-effects-tab" href="T1448" aria-controls="v-Premium SMS Toll Fraud-effects" aria-selected="false">Premium SMS Toll Fraud</a>
+ <a class="nav-link side" id="v-Wipe Device Data-effects-tab" href="T1447" aria-controls="v-Wipe Device Data-effects" aria-selected="false">Wipe Device Data</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-collection-tab" data-toggle="collapse" href="T1429#collection" role="tab" aria-expanded="false" aria-controls="collection"><span id="collection-tooltip" title="采集"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">采集</font></font></span><span class="glyphicon glyphicon-minus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse show" id="collection" aria-labelledby="v-collection-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Abuse Accessibility Features-collection-tab" href="T1453" aria-controls="v-Abuse Accessibility Features-collection" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">滥用辅助功能</font></font></a>
+ <a class="nav-link side" id="v-Access Calendar Entries-collection-tab" href="T1435" aria-controls="v-Access Calendar Entries-collection" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问日历条目</font></font></a>
+ <a class="nav-link side" id="v-Access Call Log-collection-tab" href="T1433" aria-controls="v-Access Call Log-collection" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问呼叫日志</font></font></a>
+ <a class="nav-link side" id="v-Access Contact List-collection-tab" href="T1432" aria-controls="v-Access Contact List-collection" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问联系人列表</font></font></a>
+ <a class="nav-link side" id="v-Access Sensitive Data in Device Logs-collection-tab" href="T1413" aria-controls="v-Access Sensitive Data in Device Logs-collection" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问设备日志中的</font></font></a>
+ <a class="nav-link side" id="v-Access Sensitive Data or Credentials in Files-collection-tab" href="T1409" aria-controls="v-Access Sensitive Data or Credentials in Files-collection" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">敏感数据访问文件中的敏感数据或凭据</font></font></a>
+ <a class="nav-link side" id="v-Capture Clipboard Data-collection-tab" href="T1414" aria-controls="v-Capture Clipboard Data-collection" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">捕获剪贴板数据</font></font></a>
+ <a class="nav-link side" id="v-Capture SMS Messages-collection-tab" href="T1412" aria-controls="v-Capture SMS Messages-collection" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">捕获SMS消息</font></font></a>
+ <a class="nav-link side" id="v-Location Tracking-collection-tab" href="T1430" aria-controls="v-Location Tracking-collection" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">位置跟踪</font></font></a>
+ <a class="nav-link side" id="v-Malicious Third Party Keyboard App-collection-tab" href="T1417" aria-controls="v-Malicious Third Party Keyboard App-collection" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">恶意第三方键盘应用</font></font></a>
+ <a class="nav-link side active show" id="v-Microphone or Camera Recordings-collection-tab" href="T1429" aria-controls="v-Microphone or Camera Recordings-collection" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">麦克风或摄像头录制</font></font></a>
+ <a class="nav-link side" id="v-Network Traffic Capture or Redirection-collection-tab" href="T1410" aria-controls="v-Network Traffic Capture or Redirection-collection" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络流量捕获或重定向</font></font></a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-exfiltration-tab" data-toggle="collapse" href="T1429#exfiltration" role="tab" aria-expanded="false" aria-controls="exfiltration"><span id="exfiltration-tooltip" title="渗出"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">渗出</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="exfiltration" aria-labelledby="v-exfiltration-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Alternate Network Mediums-exfiltration-tab" href="T1438" aria-controls="v-Alternate Network Mediums-exfiltration" aria-selected="false">Alternate Network Mediums</a>
+ <a class="nav-link side" id="v-Commonly Used Port-exfiltration-tab" href="T1436" aria-controls="v-Commonly Used Port-exfiltration" aria-selected="false">Commonly Used Port</a>
+ <a class="nav-link side" id="v-Standard Application Layer Protocol-exfiltration-tab" href="T1437" aria-controls="v-Standard Application Layer Protocol-exfiltration" aria-selected="false">Standard Application Layer Protocol</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-command and control-tab" data-toggle="collapse" href="T1429#command and control" role="tab" aria-expanded="false" aria-controls="command and control"><span id="command_and_control-tooltip" title="命令与控制"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令与控制</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="command and control" aria-labelledby="v-command and control-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Alternate Network Mediums-command and control-tab" href="T1438" aria-controls="v-Alternate Network Mediums-command and control" aria-selected="false">Alternate Network Mediums</a>
+ <a class="nav-link side" id="v-Commonly Used Port-command and control-tab" href="T1436" aria-controls="v-Commonly Used Port-command and control" aria-selected="false">Commonly Used Port</a>
+ <a class="nav-link side" id="v-Standard Application Layer Protocol-command and control-tab" href="T1437" aria-controls="v-Standard Application Layer Protocol-command and control" aria-selected="false">Standard Application Layer Protocol</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-network effects-tab" data-toggle="collapse" href="T1429#network effects" role="tab" aria-expanded="false" aria-controls="network effects"><span id="network_effects-tooltip" title="网络效应"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络效应</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="network effects" aria-labelledby="v-network effects-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Downgrade to Insecure Protocols-network effects-tab" href="T1466" aria-controls="v-Downgrade to Insecure Protocols-network effects" aria-selected="false">Downgrade to Insecure Protocols</a>
+ <a class="nav-link side" id="v-Eavesdrop on Insecure Network Communication-network effects-tab" href="T1439" aria-controls="v-Eavesdrop on Insecure Network Communication-network effects" aria-selected="false">Eavesdrop on Insecure Network Communication</a>
+ <a class="nav-link side" id="v-Exploit SS7 to Redirect Phone Calls/SMS-network effects-tab" href="T1449" aria-controls="v-Exploit SS7 to Redirect Phone Calls/SMS-network effects" aria-selected="false">Exploit SS7 to Redirect Phone Calls/SMS</a>
+ <a class="nav-link side" id="v-Exploit SS7 to Track Device Location-network effects-tab" href="T1450" aria-controls="v-Exploit SS7 to Track Device Location-network effects" aria-selected="false">Exploit SS7 to Track Device Location</a>
+ <a class="nav-link side" id="v-Jamming or Denial of Service-network effects-tab" href="T1464" aria-controls="v-Jamming or Denial of Service-network effects" aria-selected="false">Jamming or Denial of Service</a>
+ <a class="nav-link side" id="v-Manipulate Device Communication-network effects-tab" href="T1463" aria-controls="v-Manipulate Device Communication-network effects" aria-selected="false">Manipulate Device Communication</a>
+ <a class="nav-link side" id="v-Rogue Cellular Base Station-network effects-tab" href="T1467" aria-controls="v-Rogue Cellular Base Station-network effects" aria-selected="false">Rogue Cellular Base Station</a>
+ <a class="nav-link side" id="v-Rogue Wi-Fi Access Points-network effects-tab" href="T1465" aria-controls="v-Rogue Wi-Fi Access Points-network effects" aria-selected="false">Rogue Wi-Fi Access Points</a>
+ <a class="nav-link side" id="v-SIM Card Swap-network effects-tab" href="T1451" aria-controls="v-SIM Card Swap-network effects" aria-selected="false">SIM Card Swap</a>
+</div>
+</div> <a class="nav-link side expand-title" id="v-remote service effects-tab" data-toggle="collapse" href="T1429#remote service effects" role="tab" aria-expanded="false" aria-controls="remote service effects"><span id="remote_service_effects-tooltip" title="远程服务效果"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">远程服务效果......</font></font></span><span class="glyphicon glyphicon-plus float-right expand-icon" aria-hidden="true"></span></a>
+ <div class="collapse" id="remote service effects" aria-labelledby="v-remote service effects-tab">
+ <div class="nav flex-column nav pl-3" id="v-tab" role="tablist" aria-orientation="vertical">
+ <a class="nav-link side" id="v-Obtain Device Cloud Backups-remote service effects-tab" href="T1470" aria-controls="v-Obtain Device Cloud Backups-remote service effects" aria-selected="false">Obtain Device Cloud Backups</a>
+ <a class="nav-link side" id="v-Remotely Track Device Without Authorization-remote service effects-tab" href="T1468" aria-controls="v-Remotely Track Device Without Authorization-remote service effects" aria-selected="false">Remotely Track Device Without Authorization</a>
+ <a class="nav-link side" id="v-Remotely Wipe Data Without Authorization-remote service effects-tab" href="T1469" aria-controls="v-Remotely Wipe Data Without Authorization-remote service effects" aria-selected="false">Remotely Wipe Data Without Authorization</a>
+</div>
+</div>
+    </div>
+<!--startindex-->
+
+             
+            <div class="tab-content col-xl-10 col-lg-10 col-md-9 pt-4" id="v-tabContent">
+                <div class="tab-pane fade show active" id="v-attckmatrix" role="tabpanel" aria-labelledby="v-attckmatrix-tab">
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="../index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">家</font></font></a></li>
+      <li class="breadcrumb-item"><a href="mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></a></li>
+  <li class="breadcrumb-item"><a href="mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a></li>
+  <li class="breadcrumb-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">麦克风或相机录音</font></font></li>
+</ol>
+<div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
+<div class="row">
+   <div class="col-xl-12">
+      <div class="jumbotron jumbotron-fluid bg-white">
+         <div class="container-fluid">
+            <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+               麦克风或相机录音
+            </font></font></h1>            
+            <div class="row">
+               <div class="col-md-8 description-body">
+                  <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者可以使用恶意或被利用的应用程序通过使用标准操作系统API，使用设备麦克风和/或摄像头秘密记录活动。</font></font></p>
+               </div>
+              
+               <div class="col-md-4">
+                  <div class="card">
+                     <div class="card-body">
+                        <div class="card-data"><span class="h5 card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：T1429</font></font><br /></div>
+                        <div class="card-data"><span class="h5 card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">战术类型： </font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后对手设备访问</font></font><br /></div>
+                        <div class="card-data"><span class="h5 card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">战术</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：收集</font></font><br /></div>
+                        <div class="card-data"><span class="h5 card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">平台： </font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Android，iOS</font></font><br /></div>
+                        <div class="card-data"><span class="h5 card-title"></span> </div>
+                        <div class="card-data"><span class="h5 card-title"></span> </div>
+                        <div class="card-data"><span class="h5 card-title"></span> </div>
+                        <div class="card-data"><span class="h5 card-title"></span> </div>
+                        <div class="card-data"><span class="h5 card-title"></span> </div>
+                        <div class="card-data"><span class="h5 card-title"></span> </div>
+                        <div class="card-data"><span class="h5 card-title"></span> </div>
+                        <div class="card-data"><span class="h5 card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MTC ID：  </font></font></span> <a href="https://pages.nist.gov/mobile-threat-catalogue/application-threats/APP-19.html" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">APP-19</font></font></a><br /></div>
+                        <div class="card-data"><span class="h5 card-title"></span> </div>
+                        <div class="card-data"><span class="h5 card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：1.0</font></font></div>
+                      </div>
+                  </div>
+               </div>
+            </div>
+            <h2 class="pt-3" id="mitigations"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">缓解措施</font></font></h2><table class="table table-bordered table-light mt-2"><thead><tr> <th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">减轻</font></font></th><th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述</font></font></th></tr></thead><tbody class="bg-white"><tr><td><a href="../mitigations/M1005"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">申请审核</font></font></a></td><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Android上，应用程序必须请求RECORD_AUDIO访问麦克风的权限和CAMERA访问摄像头的权限。</font><font style="vertical-align: inherit;">可以对请求这些权限的应用程序进行额外的审查。</font><font style="vertical-align: inherit;">在iOS上，在审查过程中可以检测到对相关API的调用。</font></font></td></tr></tbody></table>
+            
+            <h2 class="pt-3" id="examples"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例子</font></font></h2><table class="table table-bordered table-light mt-2"><thead><tr> <th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">名称</font></font></th><th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述</font></font></th></tr></thead><tbody class="bg-white"><tr><td><a href="../software/S0292.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AndroRAT</font></font></a></td><td><p><a href="../software/S0292.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AndroRAT</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从麦克风收集音频。</font></font><span onclick="scrollToRef('scite-1')" id="scite-ref-1-a" class="scite-citeref-number" data-reference="Lookout-EnterpriseApps"><sup><a href="https://blog.lookout.com/blog/2016/05/25/spoofed-apps/" target="_blank" data-hasqtip="0" aria-describedby="qtip-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[1]</font></font></a></sup></span></p></td></tr><tr><td><a href="../software/S0301.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">树枝状</font></font></a></td><td><p><a href="../software/S0301.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dendroid</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以使用手机的相机拍摄照片以及录制音频和视频。</font></font><span onclick="scrollToRef('scite-2')" id="scite-ref-2-a" class="scite-citeref-number" data-reference="Lookout-Dendroid"><sup><a href="https://blog.lookout.com/blog/2014/03/06/dendroid/" target="_blank" data-hasqtip="1" aria-describedby="qtip-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2]</font></font></a></sup></span></p></td></tr><tr><td><a href="../software/S0320.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DroidJack</font></font></a></td><td><p><a href="../software/S0320.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DroidJack RAT</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执行呼叫录制和视频捕获。</font></font><span onclick="scrollToRef('scite-3')" id="scite-ref-3-a" class="scite-citeref-number" data-reference="Zscaler-SuperMarioRun"><sup><a href="https://www.zscaler.com/blogs/research/super-mario-run-malware-2-–-droidjack-rat" target="_blank" data-hasqtip="2" aria-describedby="qtip-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[3]</font></font></a></sup></span></p></td></tr><tr><td><a href="../software/S0316.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适用于Android的Pegasus</font></font></a></td><td><p><a href="../software/S0316.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pegasus for Android</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有使用设备相机录制音频和拍照的功能。</font></font><span onclick="scrollToRef('scite-4')" id="scite-ref-4-a" class="scite-citeref-number" data-reference="Lookout-PegasusAndroid"><sup><a href="https://blog.lookout.com/blog/2017/04/03/pegasus-android/" target="_blank" data-hasqtip="3" aria-describedby="qtip-3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[4]</font></font></a></sup></span></p></td></tr><tr><td><a href="../software/S0289.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适用于iOS的Pegasus</font></font></a></td><td><p><a href="../software/S0289.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适用于iOS的Pegasus</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有录制音频的功能。</font></font><span onclick="scrollToRef('scite-5')" id="scite-ref-5-a" class="scite-citeref-number" data-reference="Lookout-Pegasus"><sup><a href="https://info.lookout.com/rs/051-ESQ-475/images/lookout-pegasus-technical-analysis.pdf" target="_blank" data-hasqtip="4" aria-describedby="qtip-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[5]</font></font></a></sup></span></p></td></tr><tr><td><a href="../software/S0295.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RCSAndroid</font></font></a></td><td><p><a href="../software/S0295.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RCSAndroid</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以使用麦克风进行录制，也可以使用前后摄像头拍摄照片。</font></font><span onclick="scrollToRef('scite-6')" id="scite-ref-6-a" class="scite-citeref-number" data-reference="TrendMicro-RCSAndroid"><sup><a href="http://blog.trendmicro.com/trendlabs-security-intelligence/hacking-team-rcsandroid-spying-tool-listens-to-calls-roots-devices-to-get-in/" target="_blank" data-hasqtip="5" aria-describedby="qtip-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[6]</font></font></a></sup></span></p></td></tr><tr><td><a href="../software/S0326.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RedDrop</font></font></a></td><td><p><a href="../software/S0326.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RedDrop可以对</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本地保存的文件（包括照片）进行渗透，也可以对设备周围环境进行现场录制。</font></font><span onclick="scrollToRef('scite-7')" id="scite-ref-7-a" class="scite-citeref-number" data-reference="Wandera-RedDrop"><sup><a href="https://www.wandera.com/reddrop-malware/" target="_blank" data-hasqtip="6" aria-describedby="qtip-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[7]</font></font></a></sup></span></p></td></tr><tr><td><a href="../software/S0327.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Skygofree</font></font></a></td><td><p><a href="../software/S0327.1"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当受感染的设备位于指定位置以及录制视频或拍摄照片时，</font><a href="../software/S0327.1"><font style="vertical-align: inherit;">Skygofree</font></a><font style="vertical-align: inherit;">可以通过麦克风录制音频。</font></font><span onclick="scrollToRef('scite-8')" id="scite-ref-8-a" class="scite-citeref-number" data-reference="Kaspersky-Skygofree"><sup><a href="https://securelist.com/skygofree-following-in-the-footsteps-of-hackingteam/83603/" target="_blank" data-hasqtip="7" aria-describedby="qtip-7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[8]</font></font></a></sup></span></p></td></tr><tr><td><a href="../software/S0324.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SpyDealer</font></font></a></td><td><p><a href="../software/S0324.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SpyDealer</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以录制电话和周围的音频和视频，以及通过前后摄像头拍摄照片。</font></font><span onclick="scrollToRef('scite-9')" id="scite-ref-9-a" class="scite-citeref-number" data-reference="PaloAlto-SpyDealer"><sup><a href="https://researchcenter.paloaltonetworks.com/2017/07/unit42-spydealer-android-trojan-spying-40-apps/" target="_blank" data-hasqtip="8" aria-describedby="qtip-8"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[9]</font></font></a></sup></span></p></td></tr><tr><td><a href="../software/S0305.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SpyNote RAT</font></font></a></td><td><p><a href="../software/S0305.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SpyNote RAT</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以激活受害者的麦克风。</font></font><span onclick="scrollToRef('scite-10')" id="scite-ref-10-a" class="scite-citeref-number" data-reference="Zscaler-SpyNote"><sup><a href="https://www.zscaler.com/blogs/research/spynote-rat-posing-netflix-app" target="_blank" data-hasqtip="9" aria-describedby="qtip-9"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[10]</font></font></a></sup></span></p></td></tr><tr><td><a href="../software/S0328.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐形芒果</font></font></a></td><td><p><a href="../software/S0328.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Stealth Mango</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以从相机或麦克风录制，也可以从前后摄像头拍摄照片。</font></font><span onclick="scrollToRef('scite-11')" id="scite-ref-11-a" class="scite-citeref-number" data-reference="Lookout-StealthMango"><sup><a href="https://info.lookout.com/rs/051-ESQ-475/images/lookout-stealth-mango-srr-us.pdf" target="_blank" data-hasqtip="10" aria-describedby="qtip-10"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[11]</font></font></a></sup></span></p></td></tr><tr><td><a href="../software/S0329.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">桔柚</font></font></a></td><td><p><a href="../software/S0329.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tangelo</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含记录呼叫以及受害者设备环境的功能。</font></font><span onclick="scrollToRef('scite-11')" id="scite-ref-11-a" class="scite-citeref-number" data-reference="Lookout-StealthMango"><sup><a href="https://info.lookout.com/rs/051-ESQ-475/images/lookout-stealth-mango-srr-us.pdf" target="_blank" data-hasqtip="10" aria-describedby="qtip-10"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[11]</font></font></a></sup></span></p></td></tr><tr><td><a href="../software/S0318.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XLoader</font></font></a></td><td><p><a href="../software/S0318.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XLoader</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐蔽地记录了电话。</font></font><span onclick="scrollToRef('scite-12')" id="scite-ref-12-a" class="scite-citeref-number" data-reference="TrendMicro-XLoader"><sup><a href="https://blog.trendmicro.com/trendlabs-security-intelligence/xloader-android-spyware-and-banking-trojan-distributed-via-dns-spoofing/" target="_blank" data-hasqtip="11" aria-describedby="qtip-11"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[12]</font></font></a></sup></span></p></td></tr></tbody></table>
+            
+            
+            <h2 class="pt-3" id="detection"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发现</font></font></h2>
+            <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Android（6.0及更高版本）和iOS上，用户可以通过设备设置屏幕查看哪些应用程序有权使用麦克风或摄像头，用户可以选择撤消权限。</font></font></p>
+            
+            
+            
+            
+            
+            
+            <h2 class="pt-3" id="references"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考</font></font></h2><div class="row"><div class="col"><ol><li><span id="scite-1" class="scite-citation"><span class="scite-citation-text"><a rel="nofollow" class="external text" name="scite-1" href="https://blog.lookout.com/blog/2016/05/25/spoofed-apps/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小心。</font><font style="vertical-align: inherit;">（2016年5月25日）。</font><font style="vertical-align: inherit;">5个活跃的移动威胁欺骗企业应用程序。</font><font style="vertical-align: inherit;">检索2016年12月19日。</font></font></a></span></span></li><li><span id="scite-2" class="scite-citation"><span class="scite-citation-text"><a rel="nofollow" class="external text" name="scite-2" href="https://blog.lookout.com/blog/2014/03/06/dendroid/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">马克罗杰斯。</font><font style="vertical-align: inherit;">（2014年3月6日）。</font><font style="vertical-align: inherit;">Dendroid恶意软件可以接管您的相机，录制音频并潜入Google Play。</font><font style="vertical-align: inherit;">检索2016年12月22日。</font></font></a></span></span></li><li><span id="scite-3" class="scite-citation"><span class="scite-citation-text"><a rel="nofollow" class="external text" name="scite-3" href="https://www.zscaler.com/blogs/research/super-mario-run-malware-2-–-droidjack-rat" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">病毒甘地。</font><font style="vertical-align: inherit;">（2017年1月12日）。</font><font style="vertical-align: inherit;">超级马里奥跑恶意软件＃2  -  DroidJack RAT。</font><font style="vertical-align: inherit;">检索2017年1月20日。</font></font></a></span></span></li><li><span id="scite-4" class="scite-citation"><span class="scite-citation-text"><a rel="nofollow" class="external text" name="scite-4" href="https://blog.lookout.com/blog/2017/04/03/pegasus-android/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">迈克默里。</font><font style="vertical-align: inherit;">（2017年4月3日）。</font><font style="vertical-align: inherit;">Pegasus for Android：故事的另一面出现了。</font><font style="vertical-align: inherit;">检索2017年4月16日。</font></font></a></span></span></li><li><span id="scite-5" class="scite-citation"><span class="scite-citation-text"><a rel="nofollow" class="external text" name="scite-5" href="https://info.lookout.com/rs/051-ESQ-475/images/lookout-pegasus-technical-analysis.pdf" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小心。</font><font style="vertical-align: inherit;">（2016）。</font><font style="vertical-align: inherit;">Pegasus间谍软件技术分析。</font><font style="vertical-align: inherit;">检索2016年12月12日。</font></font></a></span></span></li><li><span id="scite-6" class="scite-citation"><span class="scite-citation-text"><a rel="nofollow" class="external text" name="scite-6" href="http://blog.trendmicro.com/trendlabs-security-intelligence/hacking-team-rcsandroid-spying-tool-listens-to-calls-roots-devices-to-get-in/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">张伟。</font><font style="vertical-align: inherit;">（2015年7月21日）。</font><font style="vertical-align: inherit;">黑客团队RCSAndroid间谍工具收听电话; </font><font style="vertical-align: inherit;">根源设备进入。</font><font style="vertical-align: inherit;">检索2016年12月22日。</font></font></a></span></span></li></ol> </div><div class="col"><ol start="7.0"><li><span id="scite-7" class="scite-citation"><span class="scite-citation-text"><a rel="nofollow" class="external text" name="scite-7" href="https://www.wandera.com/reddrop-malware/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内尔坎贝尔。</font><font style="vertical-align: inherit;">（2018年2月27日）。</font><font style="vertical-align: inherit;">RedDrop：潜伏在应用程序商店中的勒索移动恶意软件系列。</font><font style="vertical-align: inherit;">检索2018年9月18日。</font></font></a></span></span></li><li><span id="scite-8" class="scite-citation"><span class="scite-citation-text"><a rel="nofollow" class="external text" name="scite-8" href="https://securelist.com/skygofree-following-in-the-footsteps-of-hackingteam/83603/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nikita Buchka和Alexey Firsh。</font><font style="vertical-align: inherit;">（2018年1月16日）。</font><font style="vertical-align: inherit;">Skygofree：跟随HackingTeam的脚步。</font><font style="vertical-align: inherit;">检索2018年9月24日。</font></font></a></span></span></li><li><span id="scite-9" class="scite-citation"><span class="scite-citation-text"><a rel="nofollow" class="external text" name="scite-9" href="https://researchcenter.paloaltonetworks.com/2017/07/unit42-spydealer-android-trojan-spying-40-apps/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">胡文君，丛征，徐志。</font><font style="vertical-align: inherit;">（2017年7月6日）。</font><font style="vertical-align: inherit;">间谍软件：Android特洛伊木马窥探超过40个应用程序。</font><font style="vertical-align: inherit;">检索2018年9月18日。</font></font></a></span></span></li><li><span id="scite-10" class="scite-citation"><span class="scite-citation-text"><a rel="nofollow" class="external text" name="scite-10" href="https://www.zscaler.com/blogs/research/spynote-rat-posing-netflix-app" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Shivang Desai。</font><font style="vertical-align: inherit;">（2017年1月23日）。</font><font style="vertical-align: inherit;">SpyNote RAT冒充Netflix应用程序。</font><font style="vertical-align: inherit;">检索2017年1月26日。</font></font></a></span></span></li><li><span id="scite-11" class="scite-citation"><span class="scite-citation-text"><a rel="nofollow" class="external text" name="scite-11" href="https://info.lookout.com/rs/051-ESQ-475/images/lookout-stealth-mango-srr-us.pdf" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小心。</font><font style="vertical-align: inherit;">（ND）。</font><font style="vertical-align: inherit;">Stealth芒果和Tangelo。</font><font style="vertical-align: inherit;">检索2018年9月27日。</font></font></a></span></span></li><li><span id="scite-12" class="scite-citation"><span class="scite-citation-text"><a rel="nofollow" class="external text" name="scite-12" href="https://blog.trendmicro.com/trendlabs-security-intelligence/xloader-android-spyware-and-banking-trojan-distributed-via-dns-spoofing/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">罗林吴 </font><font style="vertical-align: inherit;">（2018年4月19日）。</font><font style="vertical-align: inherit;">通过DNS欺骗分发的XLoader Android间谍软件和银行木马。</font><font style="vertical-align: inherit;">检索2018年7月6日。</font></font></a></span></span></li></ol> </div></div>
+          
+         </div>
+      </div>
+   </div>
+   <!-- <div class="col-xl-2 col-lg-2 col-md-0 d-block d-sm-none d-md-none d-lg-block">
+      <p>Content</p>
+      <div><a href="#description">Description</a></div>
+      <div><a href="#examples">Examples</a></div>
+      <div><a href="#techniques"></a></div>
+      <div><a href="#mitigation">Mitigations</a></div>
+      <div><a href="#detection">Detection</a></div>
+      <div><a href="#detectable"></a></div>
+      <div><a href="#difficulty"></a></div>
+      <div><a href="#references">References</a></div>
+   </div> -->
+</div>
+</div>
+
+                </div>
+            </div>
+        </div>  
+    </div>
+
+<!--stopindex-->
+<footer class="footer pt-3 pb-2">
+    <div class="container-fluid text-center">
+        <a class="btn btn-primary float-right mr-4" href="https://twitter.com/MITREattack" target="_blank" rel="noopener" aria-label="Twitter">
+            <img src="../theme/images/twitter.png" class="mx-auto d-block" width="28" height="28" /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 跟着我们！</font></font></a>
+        <a href="https://www.mitre.org" target="_blank" rel="noopener" aria-label="MITRE" class="float-left ml-4">
+            <img src="../theme/images/mitrelogowhiteontrans.gif" width="144" height="66" /></a>
+        <br />
+        <p>
+            <br /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权所有©2018，MITRE Corporation。</font><font style="vertical-align: inherit;">MITRE ATT＆CK和ATT＆CK是The MITRE Corporation的商标。</font></font></p>
+        <small><a href="../resources/privacy" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐私政策</font></font></a>  <a href="../resources/terms-of-use" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用条款</font></font></a></small>
+    </div>
+</footer>
+
+    <!--SCRIPTS-->
+    <script src="../theme/scripts/jquery-3.2.1.min.js"></script>
+    <script src="../theme/scripts/popper.min.js"></script>
+    <script src="../theme/scripts/bootstrap.min.js"></script>
+    <script src="../theme/scripts/site.js"></script>
+    <script src="../theme/scripts/lunr-2.3.3.js"></script>
+    <script src="../theme/scripts/search.js"></script>
+    <script src="../theme/scripts/index.js"></script>
+
+<!--SCRIPTS-->
+<script src="../theme/scripts/techniques.js"></script>
+
+
+
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google 翻译" /></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">原文</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">提供更好的翻译建议</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;" /><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><!--startindex--><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"/></svg></div></div></body></html>

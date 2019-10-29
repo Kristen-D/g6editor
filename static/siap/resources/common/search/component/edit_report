@@ -1,0 +1,261 @@
+<!----编辑描述开始------>
+<div class="edit_report">
+  <div id="descrip_dialog" class="modal" style="display:none;min-width:200px;background-color:white;">
+     <div class="modal-header">
+        <a class="close" href="#"><i class="icon-close"></i></a>
+        <h4>编辑描述</h4>
+     </div>
+     <div class="modal-body">
+         <table border="0">
+              <tr>
+                <td class="modal-left">标题</td>
+                <td class="descrip-modal-title"></td>
+              </tr>
+              <tr>
+                <td class="modal-left">描述</td>
+                <td><textarea name="description" type="text" class="descrip-modal-descrip"></textarea></td>
+              </tr>
+            </table>
+
+     </div>
+     <div class="modal-footer">
+          <a href="#" class="btn_cancel_bg modal-btn-cancel">取消</a> 
+          <a href="#" class="btn_cj_bg btn_sure_descrip">确定</a>
+     </div>
+</div>	
+ <!----编辑描述结束------>
+ 
+  <!----编辑权限开始------>
+  <div id="power_dialog" class="modal" style="display:none;min-width:200px;background-color:white;">
+     <div class="modal-header">
+        <a class="close" href="#"><i class="icon-close"></i></a>
+        <h4>编辑权限</h4>
+     </div>
+     <div class="modal-body">
+         <table border="0">
+              <tr>
+                <td class="modal-left">报表</td>
+                <td class="power-modal-title"></td>
+              </tr>
+              <tr>
+                <td class="modal-left">所有者</td>
+                <td class="power-modal-owner"></td>
+              </tr>
+              <tr>
+                <td class="modal-left">应用</td>
+                <td class="power-modal-apply"></td>
+              </tr>
+               <tr>
+                <td class="modal-left">显示</td>
+                <td><div class="btn-group mod_w1">
+          <button class="btn_s active mod_w2 btn_power_owner" data-field-name="host">所有者</button>
+          <button class="btn_s cother mod_w2 btn_power_apply" data-field-name="host">应用</button>
+           <button class="btn_s cother mod_w2 btn_power_allapply" data-field-name="host">所有应用</button>
+        </div></td>
+              </tr>
+            </table>
+
+     </div>
+     <div class="modal-footer">
+          <a href="#" class="btn_cancel_bg modal-btn-cancel">取消</a> 
+          <a href="#" class="btn_cj_bg btn_sure_power">确定</a>
+     </div>
+</div>	
+ <!----编辑权限结束------>
+ 
+ 
+ <!----编辑计划开始------>
+  <div id="plan_dialog" class="modal" style="display:none;min-width:200px;background-color:white;">
+     <div class="modal-header">
+        <a class="close" href="#"><i class="icon-close"></i></a>
+        <h4>编辑计划</h4>
+     </div>
+     <div class="modal-body">
+         <table border="0">
+              <tr>
+                <td class="modal-left">报表</td>
+                <td class="plan-modal-title"></td>
+              </tr>
+              <tr>
+                <td class="modal-left">计划报表</td>
+                <td class="plan-modal-owner"></td>
+              </tr>
+            </table>
+
+     </div>
+     <div class="modal-footer">
+          <a href="#" class="btn_cancel_bg modal-btn-cancel">取消</a> 
+          <a href="#" class="btn_cj_bg btn_plan_power">确定</a>
+     </div>
+</div>	
+ <!----编辑计划结束------>
+
+
+<!----编辑加速开始------>
+  <div id="quick_dialog" class="modal" style="display:none;min-width:200px;background-color:white;">
+     <div class="modal-header">
+        <a class="close" href="#"><i class="icon-close"></i></a>
+        <h4>编辑加速</h4>
+     </div>
+     <div class="modal-body">
+         <table border="0">
+              <tr>
+                <td class="modal-left">报表</td>
+                <td class="quick-modal-title"></td>
+              </tr>
+              <tr>
+                <td class="modal-left">加速报表</td>
+                <td class="quick-modal-owner"></td>
+              </tr>
+            </table>
+
+     </div>
+     <div class="modal-footer">
+          <a href="#" class="btn_cancel_bg modal-btn-cancel">取消</a> 
+          <a href="#" class="btn_cj_bg btn_sure_quick">确定</a>
+     </div>
+</div>	
+ <!----编辑加速结束------>
+ 
+ <!----复制开始------>
+  <div id="copy_dialog" class="modal" style="display:none;min-width:200px;background-color:white;">
+     <div class="modal-header">
+        <a class="close" href="#"><i class="icon-close"></i></a>
+        <h4>复制</h4>
+     </div>
+     <div class="modal-body">
+        <span id="modal_title_msg"></span>
+         <table border="0">
+              <tr>
+                <td class="modal-left">新标题</td>
+                <td><textarea name="title" type="text" class="modal-new-title"></textarea></td>
+              </tr>
+              <tr>
+                <td class="modal-left">新描述</td>
+                <td><textarea name="description" type="text" class="modal-new-descrip"></textarea></td>
+              </tr>
+            </table>
+
+     </div>
+     <div class="modal-footer">
+          <a href="#" class="btn_cancel_bg modal-btn-cancel">取消</a> 
+          <a href="#" class="btn_cj_bg btn_sure_copy">复制报表</a>
+     </div>
+</div>	
+ <!----复制结束------>
+ 
+ <!----已完成复制开始------>
+ <div id="e_dialog" class="modal" style="display:none;min-width:200px;background-color:white;">
+     <div class="modal-header">
+        <a class="report_copy_close" href="#"><i class="icon-close"></i></a>
+        <h4>已创建报表</h4>
+     </div>
+     <div class="modal-body">
+         <p>
+         您现在可以查看您的报表、将报表添加到仪表板、更改其他设置或继续编辑报表。</p>
+         <p>其他设置:</p>                    
+         <ul class="modal-list">   
+         <li><a href="#" class="e-modal-power">权限</a></li>
+         <li><a href="#" class="e-modal-plan">计划</a></li>    
+         <li><a href="#" class="e-modal-quick">加速</a></li>                                                                       
+         </ul>
+     </div>
+     <div class="modal-footer">
+          <a href="#" id="a_add_dashboard" class="btn_cancel_bg modal-btn-cancel">添加到仪表板</a>
+           <a href="#" class="btn_cancel_bg modal-btn-cancel modal-btn-open" >在搜索中打开</a>
+          <a href="#" class="btn_cj_bg btn_cj_report">查看</a>
+     </div>
+  </div>
+   <!----已完成复制结束------>
+   
+   <!----删除报表开始------>
+   <div id="del_dialog" class="modal" style="display:none;min-width:200px;background-color:white;">
+     <div class="modal-header">
+        <a class="close" href="#"><i class="icon-close"></i></a>
+        <h4>删除</h4>
+     </div>
+     <div class="modal-body">
+                  确定要删除<span class="del_title"></span>吗？
+     </div>
+     <div class="modal-footer">
+          <a href="#" class="btn_cancel_bg modal-btn-cancel">取消</a> 
+          <a href="#" class="btn_cj_bg btn_sure_del">删除</a>
+     </div>
+   </div>
+   <!----删除报表结束------>
+   
+    <!----编辑任务设置开始------>
+  <div id="work_dialog" class="modal" style="display:none;min-width:200px;background-color:white;">
+     <div class="modal-header">
+        <a class="close" href="#"><i class="icon-close"></i></a>
+        <h4>任务设置</h4>
+     </div>
+     <div class="modal-body">
+         <table border="0">
+              <tr>
+                <td class="modal-left">所有者</td>
+                <td class="modal-owner"></td>
+              </tr>
+              <tr>
+                <td class="modal-left">应用</td>
+                <td class="modal-apply"></td>
+              </tr>
+               <tr>
+                <td class="modal-left">读取权限</td>
+                <td><div class="btn-group mod_w1">
+          <button class="btn_s active mod_w btn_work_only" data-field-name="host">专用</button>
+          <button class="btn_s cother mod_w btn_work_all" data-field-name="host">每个人</button>
+        </div></td>
+              </tr>
+               <tr>
+                <td class="modal-left">生存期</td>
+                <td><div class="btn-group mod_w1">
+          <button class="btn_s active mod_w btn_alive_minute" data-field-name="host">10分钟</button>
+          <button class="btn_s cother mod_w btn_alive_day" data-field-name="host">7天</button>
+        </div></td>
+              </tr>
+            </table>
+
+     </div>
+     <div class="modal-footer">
+          <a href="#" class="btn_cancel_bg modal-btn-cancel">取消</a> 
+          <a href="#" class="btn_cj_bg btn_sure_work">保存</a>
+     </div>
+</div>	
+ <!----编辑任务设置结束------>	
+ 
+ 
+  <!----导出开始------>
+  <div id="export_dialog" class="modal" style="display:none;min-width:200px;background-color:white;">
+     <div class="modal-header">
+        <a class="close" href="#"><i class="icon-close"></i></a>
+        <h4>导出结果</h4>
+     </div>
+     <div class="modal-body">
+         <table border="0">
+               <tr>
+                <td class="modal-left">格式</td>
+                <td><div class="btn-group mod_w1">
+               <button class="btn_s active mod_w" data-field-name="host">PDF</button>
+               </div></td>
+              </tr>
+                 <tr>
+                <td class="modal-left">文件名称</td>
+                <td><textarea name="title" type="text" placeholder="optional" id="file_name"></textarea></td>
+              </tr>
+               <tr>
+                <td class="modal-left">结果数</td>
+                <td><div class="btn-group mod_w1">
+          <button class="btn_s active mod_w btn_export_free" data-field-name="host">无限制</button>
+          <button class="btn_s cother mod_w btn_export_unfree" data-field-name="host">限制</button>
+        </div></td>
+              </tr>
+            </table>
+     </div>
+     <div class="modal-footer">
+          <a href="#" class="btn_cancel_bg modal-btn-cancel">取消</a> 
+          <a href="#" class="btn_cj_bg btn_sure_export">导出</a>
+     </div>
+</div>	
+ <!----导出结束------>
+ </div>

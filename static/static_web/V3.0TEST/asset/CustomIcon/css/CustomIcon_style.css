@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?u0zse0');
+  src:  url('../fonts/icomoon.eot?u0zse0#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?u0zse0') format('truetype'),
+    url('../fonts/icomoon.woff?u0zse0') format('woff'),
+    url('../fonts/icomoon.svg?u0zse0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pagination-right:before {
+  content: "\e900";
+}
+.icon-pagination-left:before {
+  content: "\e901";
+}
+.icon-link:before {
+  content: "\e903";
+}
+.icon-danger:before {
+  content: "\e905";
+}
+.icon-error:before {
+  content: "\e906";
+}
+.icon-success:before {
+  content: "\e907";
+}
+.icon-caret-bottom:before {
+  content: "\e908";
+}
+.icon-caret-left:before {
+  content: "\e909";
+}
+.icon-caret-next:before {
+  content: "\e90a";
+}
+.icon-caret-pre:before {
+  content: "\e90b";
+}
+.icon-caret-right:before {
+  content: "\e90c";
+}
+.icon-caret-top:before {
+  content: "\e90d";
+}
+.icon-arrow-point:before {
+  content: "\e90e";
+}
+.icon-alarm:before {
+  content: "\e926";
+}
+.icon-asset:before {
+  content: "\e927";
+}
+.icon-audit:before {
+  content: "\e928";
+}
+.icon-bigscreen:before {
+  content: "\e929";
+}
+.icon-configuration:before {
+  content: "\e92a";
+}
+.icon-data:before {
+  content: "\e92b";
+}
+.icon-intelligence:before {
+  content: "\e92c";
+}
+.icon-model:before {
+  content: "\e92d";
+}
+.icon-monitoring:before {
+  content: "\e92e";
+}
+.icon-operation:before {
+  content: "\e92f";
+}
+.icon-permission:before {
+  content: "\e930";
+}
+.icon-portal:before {
+  content: "\e931";
+}
+.icon-report:before {
+  content: "\e932";
+}
+.icon-review:before {
+  content: "\e933";
+}
+.icon-status:before {
+  content: "\e936";
+}
+.icon-refresh:before {
+  content: "\e93c";
+}
+.icon-set:before {
+  content: "\e93e";
+}
+.icon-left:before {
+  content: "\e941";
+}
+.icon-point:before {
+  content: "\e942";
+}
+.icon-down:before {
+  content: "\e945";
+}
+.icon-edit:before {
+  content: "\e946";
+}
+.icon-exit:before {
+  content: "\e947";
+}
+.icon-message:before {
+  content: "\e948";
+}
+.icon-search:before {
+  content: "\e94a";
+}
+.icon-skin:before {
+  content: "\e94b";
+}
+.icon-version:before {
+  content: "\e94c";
+}
+.icon-Time:before {
+  content: "\e952";
+}
