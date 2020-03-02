@@ -12,7 +12,7 @@
     "test": "npm run unit && npm run e2e"
   },
   "dependencies": {
-    "axios": "^0.15.3",
+    "axios": "^0.18.1",
     "babel-runtime": "^6.0.0",
     "bcrypt-pbkdf": "^1.0.2",
     "bootstrap": "^3.3.0",
