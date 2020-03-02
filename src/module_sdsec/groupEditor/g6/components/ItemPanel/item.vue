@@ -20,7 +20,7 @@
 <script>
 import eventBus from "../../utils/eventBus";
 import okSvg from "../../assets/icons/ok.svg";
-import bgImg from "../../assets/icons/ok.svg";
+import bgImg from "../../assets/icons/bg.jpg";
 import startImg from "../../assets/start.svg";
 import endImg from "../../assets/end.svg";
 import conditionImg from "../../assets/condition.svg";
