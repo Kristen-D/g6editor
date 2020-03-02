@@ -1,0 +1,80 @@
+/* CSS Document */
+*{ margin:0; padding: 0;}
+header, section, footer, aside, nav, main, article, figure { display: block; }
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 ,textarea,table{
+    font-family: "Microsoft YaHei", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti; color: #3E4956; font-size: 14px;
+}
+a:link, a:visited, a:active { color: #FCFCFC; text-decoration: none }
+a:hover { color: #84bfea; text-decoration: none }
+ol, ul { list-style: none; }
+:focus { outline: 0; }
+input[type=text], input[type=password], textarea { font-size: 14px;padding-left: 8px;}
+
+body{min-width: 720px;}
+
+
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.clearfloat{zoom:1} 
+.hidden{ display: none;}
+.float-l{ float: left !important;}
+.float-r{ float: right !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**更改placeholder 字符的颜色*/
+/*
+		input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+		color: #48576a !important; 
+		} 
+		input:-moz-placeholder , textarea:-moz-placeholder{ 
+		color: #48576a !important; 
+		} 
+		input::-moz-placeholder, textarea::-moz-placeholder {
+		color: #48576a !important; 
+		} 
+		input:-ms-input-placeholder,textarea:-ms-input-placeholder {
+		color: #48576a !important; 
+		} 
+*/
+/*针对填写完整页面的输入框中字体颜色加深*/
+		.inputfont input::-webkit-input-placeholder, .inputfont textarea::-webkit-input-placeholder { 
+		color: #000 !important; 
+		} 
+		.inputfont input:-moz-placeholder , .inputfont textarea:-moz-placeholder{ 
+		color: #000 !important; 
+		} 
+		.inputfont input::-moz-placeholder, .inputfont textarea::-moz-placeholder {
+		color: #000 !important; 
+		} 
+		.inputfont input:-ms-input-placeholder,.inputfont textarea:-ms-input-placeholder {
+		color: #000 !important;
+		} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

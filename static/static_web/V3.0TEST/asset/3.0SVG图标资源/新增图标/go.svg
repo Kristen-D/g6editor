@@ -1,0 +1,19 @@
+<svg id="展开" xmlns="http://www.w3.org/2000/svg" width="17" height="23" viewBox="0 0 17 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #324889;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="bg" class="cls-1" d="M257,93h13a4,4,0,0,0,4-4V74a4,4,0,0,0-4-4H257V93Z" transform="translate(-257 -70)"/>
+  <path id="bg-2" data-name="bg" class="cls-2" d="M265.023,81.986l-2.633,2.775a1.357,1.357,0,0,0,0,1.85,1.2,1.2,0,0,0,1.755,0l3.511-3.7a1.358,1.358,0,0,0,0-1.85l-3.511-3.7a1.2,1.2,0,0,0-1.755,0,1.357,1.357,0,0,0,0,1.85Z" transform="translate(-257 -70)"/>
+</svg>

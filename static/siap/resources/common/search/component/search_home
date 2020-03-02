@@ -1,0 +1,70 @@
+ <div class="m_page">
+     <div class="m_search_title">搜索</div>
+     <div class="m_search_cont">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr class="search_tr">
+          <td><div class="queryCon_div s_input_bg s_left s_pad g_input_bg">
+              <div class="search_input s_left s_right g_search_input"><span class="search_icon"></span>
+                <textarea id="queryCon" value="*" class="search_input_text" placeholder="日志查询..." autocomplete="off">*</textarea>
+              </div>
+            </div>
+             <!----搜索下拉框开始------>
+              <ul class="status-search-result hide">
+                <h1 class="splFont-cidi">匹配搜索</h1>
+                <div class="status-cont">    
+                   <div  class="saHeadRor">
+                  <h1 class="splFont-mono">如何搜索</h1>
+                  <span class="introstep">步骤 1：检索事件</span>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>术语：</td>
+                        <td><code class="splFont-mono">error login</code></td>
+                      </tr>
+                      <tr>
+                        <td>加引号的短语：</td>
+                        <td><code class="splFont-mono">"database error"</code></td>
+                      </tr>
+                      <tr>
+                        <td>布尔运算符：</td>
+                        <td><code class="splFont-mono">login NOT (error OR fail)</code></td>
+                      </tr>
+                      <tr>
+                        <td>通配符：</td>
+                        <td><code class="splFont-mono">fail*</code></td>
+                      </tr>
+                      <tr>
+                        <td>字段值：</td>
+                        <td><code class="splFont-mono">status=404</code>, <code class="splFont-mono">status!=404</code>, 或 <code class="splFont-mono">status&gt;200</code></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <span class="introstep">步骤 2：使用搜索命令</span> 更多高级搜索使用命令来转换、过滤以及报告检索的事件。 使用竖线 "|" 或管道符将命令应用到检索的事件。 <code class="splFont-mono"> "|" </code>或管道符将命令应用到检索的事件。 </div>
+                 </div>
+              </ul> 
+              <!----搜索下拉结束------>
+            
+            
+            </td>
+          <td width="30"><div class="s_input_bg g_input_bg time_l_n "><a class="search_button search_button_g"> 时间 <span class="icon-dm2"></span> </a> 
+              <!----时间弹出框开始------>
+              <div id="d_datetimepicker" data-view="/search/component/datetimepicker" style="display:none">
+              <!----时间弹出结束------> 
+            </div></td>
+             <td width="45">
+              <div class="s_input_bg g_input_bg b_l_n index_l_n">
+                  <a class="search_button search_button_g"><span id="select_index">索引库</span>&nbsp;&nbsp;<span class="icon-dm2"></span></a>
+                  <div  class="popdown-dialog options-wrap dialog-k" id='popdown_index'>
+                      <div class="arrow"></div>
+                      <div class="init-index-dialog">
+                      <ul id="s_main_index" class="li_collection">
+                      </ul>
+                       </div>
+                  </div>
+               </div>
+           </td>
+          <td width="30"><div class="s_input_bg s_right g_input_bg b_l_n"><a class="search_button  s_right search_button_g" id="search"> 搜索</a></div></td>
+        </tr>
+      </table>
+    </div>
+  </div>

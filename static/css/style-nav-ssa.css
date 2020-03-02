@@ -1,0 +1,215 @@
+/* CSS Document */
+
+/***** background css****/
+.bg-blue{ background-color: #007be8;}
+
+
+
+/*******header css******/
+.top-head{position: fixed; width: 100%; height: 50px; background: #002750; z-index: 999;}
+.top-topbar{ position:relative; clear:both; height:40px; color:#FCFCFC; font-size: 12px; min-width: 990px;}
+.top-topbar-l{ float: left;}
+.top-topbar-r{ float:right;}
+.topbar-logo{ height: 100%;}
+.topbar-logo-title{
+	margin-top:9px;
+	padding-left:20px;
+	font-size:16px !important;
+	text-align:center;
+	vertical-align:middle;
+}
+.topbar-info { background:#002750; position: absolute; top: 0; right: 0; margin-right: 20px;}
+.topbar-input-search{
+	background-color: rgba(0,26,54,0.84);
+	width: 200px;
+	border: 1px solid #001a36;
+	margin: 5px auto;
+	margin-right: 32px;
+	padding: 4px;
+	padding-left: 8px;
+}
+.topbar-search {position: relative;}
+.topbar-search:before {
+    content: "\f002";
+    position: absolute;
+    right: 18px;
+    top: 5px;
+    bottom: 4px;
+    padding: 4px;
+    padding-right: 10px;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: rgba(0,26,54,0.84);
+}
+.topbar-user { padding: 0 20px; display: inline-block; height: 40px; cursor: pointer;}
+.topbar-user span{text-rendering:optimizeLegibility; -webkit-font-smoothing: antialiased;  letter-spacing:0.02em;}
+.badge.up {position: relative; top: -12px; padding: 3px 6px; margin-left: -7px; margin-top: 5px;}
+.topbar-info-right{position:relative; top:12px; margin-left:0px; margin-right:4px;}
+.i-size{ font-size: 16px !important;}
+.badge-sm{ font-size: 10px !important;}
+
+/*************** 2、Left Panel (aside) *************/
+  /****2.1、一级菜单 *****/
+.viewFramework-sidebar { position:fixed; top:50px; left:0; bottom:0; z-index:102; background-color:#132142;}
+.viewFramework-sidebar .sidebar-content {width: 156px; height: 100%;}
+.sidebar-nav >ul.sidebar-trans{
+	-webkit-transition: all .12s ease,.12s ease;
+    -moz-transition: all .12s ease,.12s ease;
+    -o-transition: all .12s ease,.12s ease;
+    -ms-transition: all .12s ease,.12s ease
+}
+.sidebar-nav > ul > li { position: relative; margin-left: 0px;}
+.sidebar-nav > ul > li > a {
+  display: block;
+  padding: 14px 20px;
+  padding-left: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  outline: none !important;
+}
+.sidebar-nav > ul > li:hover{ background-color: #121a2c;}
+.nav-label-one { overflow: hidden; margin-left: 10px;text-overflow: ellipsis;white-space: nowrap}
+.sidebar-bottom-icon{ display: block; padding: 10px; text-align: center; border-bottom: 1px solid #002750; background-color:#132142;}
+     /***一级菜单伸张/收缩***/
+.viewFramework-sidebar-full{overflow: auto;}
+.viewFramework-sidebar-full .viewFramework-sidebar .sidebar-content{display:block; width:156px;}
+.viewFramework-sidebar-mini .viewFramework-sidebar .sidebar-content{display:block; width:54px;}
+.viewFramework-sidebar-mini .viewFramework-sidebar .sidebar-content .sidebar-bottom-icon .nav-label-one,
+.viewFramework-sidebar-mini .viewFramework-sidebar .sidebar-content .sidebar-nav .nav-label-one{ display:none;}
+.viewFramework-sidebar-full .viewFramework-product { left: 156px;}
+.viewFramework-sidebar-mini .viewFramework-product {left: 54px}
+  /****2.2、二级菜单内容 *****/
+.viewFramework-product{position:absolute; top:0; right:0; bottom:0; left:0;  width:auto; background: #fff;}
+.viewFramework-product-navbar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    float: left;
+    overflow: hidden;
+    width: 200px;
+	background-color: #003056;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -ms-transition: all .2s ease
+}
+.viewFramework-product-navbar .product-nav-list {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.product-nav-list .product-nav-title{
+    overflow: hidden;
+	border-bottom: 1px solid #335978;
+    text-indent: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	font-size: 18px;
+    line-height: 60px;
+	color:#8C9FCD;
+}
+.product-nav-list ul { margin: 0; padding: 0;list-style: none;}
+.product-nav-list > ul > li a{ display: block; color:fff;line-height: 46px; font-size:14px; text-indent: 26px;}
+.product-nav-list > ul > li:hover {background-color: #00A0FE;}
+.product-nav-list > ul > li a:hover{ color:#fff !important;}
+.product-nav-list > ul > li:first-child:hover{background-color: #003056;}
+.product-nav-list  ul  li.active-navsecd{ background-color: #00A0FE;}
+.act{background-color: #002A4B;}
+.product-nav-list > ul > li > ul > li:hover{ background-color: #00A0FE; }
+
+
+
+/******* 2.2.2二级展开收起图标 ******/
+.viewFramework-product-navbar-collapse {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    z-index: 3;
+    width: 10px;
+    height: 50px;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -ms-transition: all .2s ease
+}
+.viewFramework-product-navbar-collapse .product-navbar-collapse-bg {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 0;
+    height: 32px;
+    border: 8px solid transparent;
+	background-color: #132142;
+    -webkit-transition: all .1s ease,.1s ease;
+    -moz-transition: all .1s ease,.1s ease;
+    -o-transition: all .1s ease,.1s ease;
+    -ms-transition: all .1s ease,.1s ease;
+
+}
+.viewFramework-product-navbar-collapse:hover .product-navbar-collapse-bg {
+    border: 10px solid transparent;
+	background-color: #132142;
+}
+.viewFramework-product-navbar-collapse .product-navbar-collapse {
+    position: relative;
+	top:10px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all .1s ease,.1s ease;
+    -moz-transition: all .1s ease,.1s ease;
+    -o-transition: all .1s ease,.1s ease;
+    -ms-transition: all .1s ease,.1s ease;
+
+}
+.viewFramework-product-navbar-collapse:hover .product-navbar-collapse {left: 0;}
+.viewFramework-product-navbar-collapse .icon-collapse-left {display: none;}
+.viewFramework-product-navbar-collapse .icon-collapse-right {display: inline;}
+
+/********* 2.2.3二级菜单伸张/收缩 *******/
+.viewFramework-product-col-1 .viewFramework-product-navbar-collapse {left: 160px; padding-left: 4px;}
+.viewFramework-product-col-1 .viewFramework-product-navbar-collapse .product-navbar-collapse-bg {
+	border: 8px solid transparent;
+	background-color: #132142;
+}
+.viewFramework-product-col-1 .viewFramework-product-navbar-collapse .icon-collapse-left {display: inline;}
+.viewFramework-product-col-1 .viewFramework-product-navbar-collapse .icon-collapse-right {display: none;}
+
+
+.viewFramework-product-col-1 .viewFramework-product-navbar,.viewFramework-product-col-1 .viewFramework-product-navbar-bg {width: 176px;}
+
+  /****2.3、三级菜单 *****/
+.product-nav-list .nav-title-three{ font-size:14px; text-indent: 42px;}
+ul.nav-three{ background-color: #002A4B;}
+
+
+
+/**主体部分*/
+.viewFramework-product-body {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    overflow-y: auto;
+
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -ms-transition: all .2s ease
+}
+
+.viewFramework-product-col-1 .viewFramework-product-body {left: 200px}

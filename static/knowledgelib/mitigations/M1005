@@ -1,0 +1,163 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" class="translated-ltr"><head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-62667723-1"></script>
+        <script src="../theme/scripts/analytics.js"></script>
+        <meta name="google-site-verification" content="2oJKLqNN62z6AOCb0A0IXGtbQuj-lev5YPAHFF_cbHQ" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="../theme/favicon.ico" type="image/x-icon" />
+        <title>缓解：应用程序审核 - 移动攻击 -  MITRE ATT＆CK™</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../theme/style/bootstrap.min.css" />
+        <link rel="stylesheet" href="../theme/style/bootstrap-glyphicon.min.css" />
+        <link href="../theme/style/style.css" rel="stylesheet" type="text/css" /> <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css" /></head>
+
+<body>
+<!--stopindex-->
+<header style="height: 86.1875px;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-mitre-red border-bottom">
+            <a class="navbar-brand" href="../index.html"><img src="../theme/images/mitre_attack.png" height="50px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" onclick="search('')"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav nav-tabs ml-auto">
+                            <li class="nav-item"><a href="../matrices/enterprise" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">矩阵</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../tactics/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../tactics/pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="../tactics/enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="../tactics/mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../techniques/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../techniques/pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="../techniques/enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="../techniques/mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="../groups/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组</font></font></b></a></li>
+                            <li class="nav-item"><a href="../software/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../resources.1" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="../resources.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一般</font></font></a>
+                                    <a class="dropdown-item" href="../resources/getting-started.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></a>
+                                    <a class="dropdown-item" href="../resources/attackcon.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT和CKcon </font></font></a>
+                                    <a class="dropdown-item" href="../resources/faq/index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常见问题解答</font></font></a>
+                                    <a class="dropdown-item" href="../resources/updates.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></a>
+                                    <!-- <a class="dropdown-item" href="/resources/supporters/">Supporters</a>
+                                            <a class="dropdown-item" href="/resources/industry-news/">Industry News</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="https://medium.com/mitre-attack/" target="_blank" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></b> <img src="../theme/images/external-site.svg" alt="外部网站" class="external-icon" /></a></li>
+                            <li class="nav-item"><a href="../contact/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系</font></font></b></a></li>
+                </ul>
+                <ul class="navbar-nav flex-row d-md-flex" style="float: right">  <!-- ml-md-auto d-none-->
+                    <li>
+                        <form class="form-inline pl-2">
+                            <input class="form-control" type="text" placeholder="Search site" aria-label="Search" id="search" autocomplete="off" />
+                        </form>
+                        <div class="search-results"></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+            <div class="container-fluid under-development"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                在</font></font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">attackevals.mitre.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们第一轮ATT和CK评估的</font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;">结果</font></a><font style="vertical-align: inherit;">！
+            </font></font></div>
+        <!--startindex-->
+<div id="content">    <div class="container-fluid">
+        <div class="row">
+ 
+             
+<!--stopindex-->
+    <div class="nav flex-column col-xl-2 col-lg-2 col-md-3  sidebar nav pt-5 pb-3 pl-3 border-right" id="v-tab" role="tablist" aria-orientation="vertical">
+        <span class="heading" id="v-home-tab" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">缓解</font></font></span>
+        <!-- <a class="nav-link side active show" id="v-overview-tab" data-toggle="tab" href="#v-overview" role="tab" aria-controls="v-overview" aria-selected="false">Overview</a> -->
+       <a class="nav-link side" id="v-All-tab" href="../mitigations.1" aria-controls="v-All" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有</font></font></a><a class="nav-link side" id="v-Application Developer Guidance-tab" href="M1013" aria-controls="v-Application Developer Guidance" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用程序开发人员指南</font></font></a><a class="nav-link side active show" id="v-Application Vetting-tab" href="M1005" aria-controls="v-Application Vetting" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用程序</font></font></a><font style="vertical-align: inherit;"><a class="nav-link side" id="v-Caution with Device Administrator Access-tab" href="M1007" aria-controls="v-Caution with Device Administrator Access" aria-selected="false"><font style="vertical-align: inherit;">使用设备管理员访问进行</font></a></font><a class="nav-link side" id="v-Attestation-tab" href="M1002" aria-controls="v-Attestation" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">认证</font></font></a><a class="nav-link side" id="v-Caution with Device Administrator Access-tab" href="M1007" aria-controls="v-Caution with Device Administrator Access" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意</font></font></a><a class="nav-link side" id="v-Deploy Compromised Device Detection Method-tab" href="M1010" aria-controls="v-Deploy Compromised Device Detection Method" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部署受损设备检测方法</font></font></a><a class="nav-link side" id="v-Encrypt Network Traffic-tab" href="M1009" aria-controls="v-Encrypt Network Traffic" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加密网络流量</font></font></a><a class="nav-link side" id="v-Enterprise Policy-tab" href="M1012" aria-controls="v-Enterprise Policy" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业策略</font></font></a><a class="nav-link side" id="v-Interconnection Filtering-tab" href="M1014" aria-controls="v-Interconnection Filtering" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">互连过滤</font></font></a><a class="nav-link side" id="v-Lock Bootloader-tab" href="M1003" aria-controls="v-Lock Bootloader" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">锁定引导加载程序</font></font></a><a class="nav-link side" id="v-Security Updates-tab" href="M1001" aria-controls="v-Security Updates" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安全更新</font></font></a><a class="nav-link side" id="v-System Partition Integrity-tab" href="M1004" aria-controls="v-System Partition Integrity" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">系统分区完整性</font></font></a><a class="nav-link side" id="v-Use Device-Provided Credential Storage-tab" href="M1008" aria-controls="v-Use Device-Provided Credential Storage" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用设备提供的凭据存储</font></font></a><a class="nav-link side" id="v-Use Recent OS Version-tab" href="M1006" aria-controls="v-Use Recent OS Version" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用最近的操作系统版本</font></font></a><a class="nav-link side" id="v-User Guidance-tab" href="M1011" aria-controls="v-User Guidance" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户指南</font></font></a>
+    </div>
+<!--startindex-->
+
+             
+            <div class="tab-content col-xl-10 col-lg-10 col-md-9 pt-4" id="v-tabContent">
+                <div class="tab-pane fade show active" id="v-attckmatrix" role="tabpanel" aria-labelledby="v-attckmatrix-tab">
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="../index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">家</font></font></a></li>
+  <li class="breadcrumb-item"><a href="../mitigations.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">缓解措施</font></font></a></li>
+  <li class="breadcrumb-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">申请审核</font></font></li>
+</ol>
+<div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
+<div class="row">
+   <div class="col-xl-12">
+      <div class="jumbotron jumbotron-fluid bg-white">
+         <div class="container-fluid">
+            <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+               申请审核
+            </font></font></h1>
+            <div class="row">
+                <div class="col-md-8">
+                    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业可以审查可利用漏洞或不需要的（侵犯隐私或恶意）行为的应用程序。</font><font style="vertical-align: inherit;">企业可以自己检查应用程序或使用第三方服务。</font></font></p><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业可能会施加策略，只允许在其设备上安装预先批准的应用程序，或者可能会施加策略来阻止已知存在问题的特定应用程序的使用。</font><font style="vertical-align: inherit;">在自带设备（BYOD）环境中，企业可能只能将这些策略强加于设备的企业管理部分。</font></font></p><br /><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用程序审核不是一个完整的缓解措施。</font><font style="vertical-align: inherit;">存在</font></font><a href="../techniques/T1440"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检测应用程序分析环境</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等技术</font><font style="vertical-align: inherit;">，可以使攻击者绕过审查。</font></font></p>
+                </div>
+                <div class="col-md-4">
+                   <div class="card">
+                    <div class="card-body">
+                        <div class="card-data"><span class="h5 card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：M1005</font></font></div>
+                        <div class="card-data"><span class="h5 card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：1.0</font></font></div>
+                     </div>
+                    </div>
+                </div>
+            </div>
+            
+            <table class="table table-bordered table-light table-mitigations table-nowrap"><thead><tr><th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></th><th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">名称</font></font></th></tr></thead><tbody class="bg-white"><tr><td><a href="../techniques/T1453"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1453</font></font></a></td><td><a href="../techniques/T1453"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">滥用辅助功能</font></font></a></td></tr><tr><td><a href="../techniques/T1401"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1401</font></font></a></td><td><a href="../techniques/T1401"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">滥用设备管理员访问以防止删除</font></font></a></td></tr><tr><td><a href="../techniques/T1435"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1435</font></font></a></td><td><a href="../techniques/T1435"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问日历条目</font></font></a></td></tr><tr><td><a href="../techniques/T1433"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1433</font></font></a></td><td><a href="../techniques/T1433"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问呼叫日志</font></font></a></td></tr><tr><td><a href="../techniques/T1432"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1432</font></font></a></td><td><a href="../techniques/T1432"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问联系人列表</font></font></a></td></tr><tr><td><a href="../techniques/T1413"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1413</font></font></a></td><td><a href="../techniques/T1413"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问设备日志中的敏感数据</font></font></a></td></tr><tr><td><a href="../techniques/T1409"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1409</font></font></a></td><td><a href="../techniques/T1409"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问文件中的敏感数据或凭据</font></font></a></td></tr><tr><td><a href="../techniques/T1416"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1416</font></font></a></td><td><a href="../techniques/T1416"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Android意图劫持</font></font></a></td></tr><tr><td><a href="../techniques/T1402"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1402</font></font></a></td><td><a href="../techniques/T1402"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用程序自动启动设备启动</font></font></a></td></tr><tr><td><a href="../techniques/T1418"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1418</font></font></a></td><td><a href="../techniques/T1418"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Application Discovery</font></font></a></td></tr><tr><td><a href="../techniques/T1414"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1414</font></font></a></td><td><a href="../techniques/T1414"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">捕获剪贴板数据</font></font></a></td></tr><tr><td><a href="../techniques/T1412"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1412</font></font></a></td><td><a href="../techniques/T1412"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">捕获短信</font></font></a></td></tr><tr><td><a href="../techniques/T1475"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1475</font></font></a></td><td><a href="../techniques/T1475"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过授权的App Store提供恶意应用程序</font></font></a></td></tr><tr><td><a href="../techniques/T1419"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1419</font></font></a></td><td><a href="../techniques/T1419"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设备类型发现</font></font></a></td></tr><tr><td><a href="../techniques/T1407"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1407</font></font></a></td><td><a href="../techniques/T1407"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在运行时下载新代码</font></font></a></td></tr><tr><td><a href="../techniques/T1471"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1471</font></font></a></td><td><a href="../techniques/T1471"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加密赎金文件</font></font></a></td></tr><tr><td><a href="../techniques/T1404"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1404</font></font></a></td><td><a href="../techniques/T1404"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">利用操作系统漏洞</font></font></a></td></tr><tr><td><a href="../techniques/T1405"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1405</font></font></a></td><td><a href="../techniques/T1405"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">利用TEE漏洞</font></font></a></td></tr><tr><td><a href="../techniques/T1472"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1472</font></font></a></td><td><a href="../techniques/T1472"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">产生欺诈性广告收入</font></font></a></td></tr><tr><td><a href="../techniques/T1422"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1422</font></font></a></td><td><a href="../techniques/T1422"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本地网络配置发现</font></font></a></td></tr><tr><td><a href="../techniques/T1421"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1421</font></font></a></td><td><a href="../techniques/T1421"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本地网络连接发现</font></font></a></td></tr><tr><td><a href="../techniques/T1430"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1430</font></font></a></td><td><a href="../techniques/T1430"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">位置跟踪</font></font></a></td></tr><tr><td><a href="../techniques/T1446"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1446</font></font></a></td><td><a href="../techniques/T1446"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">锁定用户的设备</font></font></a></td></tr><tr><td><a href="../techniques/T1417"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1417</font></font></a></td><td><a href="../techniques/T1417"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">恶意第三方键盘应用程序</font></font></a></td></tr><tr><td><a href="../techniques/T1463"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1463</font></font></a></td><td><a href="../techniques/T1463"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">操纵设备通信</font></font></a></td></tr><tr><td><a href="../techniques/T1429"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1429</font></font></a></td><td><a href="../techniques/T1429"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">麦克风或相机录音</font></font></a></td></tr><tr><td><a href="../techniques/T1410"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1410</font></font></a></td><td><a href="../techniques/T1410"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络流量捕获或重定向</font></font></a></td></tr><tr><td><a href="../techniques/T1406"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1406</font></font></a></td><td><a href="../techniques/T1406"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">混淆或加密的有效载荷</font></font></a></td></tr><tr><td><a href="../techniques/T1448"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1448</font></font></a></td><td><a href="../techniques/T1448"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">高级短信收费欺诈</font></font></a></td></tr><tr><td><a href="../techniques/T1424"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1424</font></font></a></td><td><a href="../techniques/T1424"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">流程发现</font></font></a></td></tr><tr><td><a href="../techniques/T1415"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1415</font></font></a></td><td><a href="../techniques/T1415"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">URL方案劫持</font></font></a></td></tr><tr><td><a href="../techniques/T1411"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1411</font></font></a></td><td><a href="../techniques/T1411"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户界面欺骗</font></font></a></td></tr><tr><td><a href="../techniques/T1447"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1447</font></font></a></td><td><a href="../techniques/T1447"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">擦除设备数据</font></font></a></td></tr></tbody></table>
+            
+
+         </div>
+      </div>
+   </div>
+</div>
+</div>
+
+                </div>
+            </div>
+        </div>  
+    </div>
+
+<!--stopindex-->
+<footer class="footer pt-3 pb-2">
+    <div class="container-fluid text-center">
+        <a class="btn btn-primary float-right mr-4" href="https://twitter.com/MITREattack" target="_blank" rel="noopener" aria-label="Twitter">
+            <img src="../theme/images/twitter.png" class="mx-auto d-block" width="28" height="28" /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 跟着我们！</font></font></a>
+        <a href="https://www.mitre.org" target="_blank" rel="noopener" aria-label="MITRE" class="float-left ml-4">
+            <img src="../theme/images/mitrelogowhiteontrans.gif" width="144" height="66" /></a>
+        <br />
+        <p>
+            <br /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权所有©2018，MITRE Corporation。</font><font style="vertical-align: inherit;">MITRE ATT＆CK和ATT＆CK是The MITRE Corporation的商标。</font></font></p>
+        <small><a href="../resources/privacy" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐私政策</font></font></a>  <a href="../resources/terms-of-use" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用条款</font></font></a></small>
+    </div>
+</footer>
+
+    <!--SCRIPTS-->
+    <script src="../theme/scripts/jquery-3.2.1.min.js"></script>
+    <script src="../theme/scripts/popper.min.js"></script>
+    <script src="../theme/scripts/bootstrap.min.js"></script>
+    <script src="../theme/scripts/site.js"></script>
+    <script src="../theme/scripts/lunr-2.3.3.js"></script>
+    <script src="../theme/scripts/search.js"></script>
+    <script src="../theme/scripts/index.js"></script>
+
+
+
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google 翻译" /></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">原文</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">提供更好的翻译建议</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;" /><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><!--startindex--><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"/></svg></div></div></body></html>

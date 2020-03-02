@@ -1,0 +1,174 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" class="translated-ltr"><head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-62667723-1"></script>
+        <script src="../theme/scripts/analytics.js"></script>
+        <meta name="google-site-verification" content="2oJKLqNN62z6AOCb0A0IXGtbQuj-lev5YPAHFF_cbHQ" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="../theme/favicon.ico" type="image/x-icon" />
+        <title>策略：建立和维护基础设施 -  MITER ATT＆CK™</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../theme/style/bootstrap.min.css" />
+        <link rel="stylesheet" href="../theme/style/bootstrap-glyphicon.min.css" />
+        <link href="../theme/style/style.css" rel="stylesheet" type="text/css" /> <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css" /></head>
+
+<body>
+<!--stopindex-->
+<header style="height: 78.5469px;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-mitre-red border-bottom">
+            <a class="navbar-brand" href="../index.html"><img src="../theme/images/mitre_attack.png" height="50px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" onclick="search('')"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav nav-tabs ml-auto">
+                            <li class="nav-item"><a href="../matrices/enterprise" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">矩阵</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../techniques/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../techniques/pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="../techniques/enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="../techniques/mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="../groups/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组</font></font></b></a></li>
+                            <li class="nav-item"><a href="../software/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../resources.1" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="../resources.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一般</font></font></a>
+                                    <a class="dropdown-item" href="../resources/getting-started.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></a>
+                                    <a class="dropdown-item" href="../resources/attackcon.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT和CKcon </font></font></a>
+                                    <a class="dropdown-item" href="../resources/faq/index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常见问题解答</font></font></a>
+                                    <a class="dropdown-item" href="../resources/updates.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></a>
+                                    <!-- <a class="dropdown-item" href="/resources/supporters/">Supporters</a>
+                                            <a class="dropdown-item" href="/resources/industry-news/">Industry News</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="https://medium.com/mitre-attack/" target="_blank" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></b> <img src="../theme/images/external-site.svg" alt="外部网站" class="external-icon" /></a></li>
+                            <li class="nav-item"><a href="../contact/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系</font></font></b></a></li>
+                </ul>
+                <ul class="navbar-nav flex-row d-md-flex" style="float: right">  <!-- ml-md-auto d-none-->
+                    <li>
+                        <form class="form-inline pl-2">
+                            <input class="form-control" type="text" placeholder="Search site" aria-label="Search" id="search" autocomplete="off" />
+                        </form>
+                        <div class="search-results"></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+            <div class="container-fluid under-development"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                在</font></font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">attackevals.mitre.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们第一轮ATT和CK评估的</font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;">结果</font></a><font style="vertical-align: inherit;">！
+            </font></font></div>
+        <!--startindex-->
+<div id="content">    <div class="container-fluid">
+        <div class="row">
+ 
+             
+<!--stopindex-->
+    <div class="nav flex-column col-xl-2 col-lg-2 col-md-3  sidebar nav pt-5 pb-3 pl-3 border-right" id="v-tab" role="tablist" aria-orientation="vertical">
+        <button class="btn btn-default dropdown-toggle heading-dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK</font></font></button><br />
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="enterprise">ENTERPRISE</a>
+            <a class="dropdown-item" href="mobile">MOBILE</a>
+            <a class="dropdown-item" href="pre">PRE-ATT&amp;CK</a>
+        </div>
+        <span class="heading" id="v-home-tab" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">战术</font></font></span>
+        <!-- <a class="nav-link side active show" id="v-overview-tab" data-toggle="tab" href="#v-overview" role="tab" aria-controls="v-overview" aria-selected="false">Overview</a> -->
+       <a class="nav-link side" id="v-overview-tab" href="pre" aria-controls="v-overview" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有</font></font></a><a class="nav-link side" id="v-priority-definition-planning-tab" href="TA0012" aria-controls="v-priority-definition-planning" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">优先级定义计划</font></font></a><a class="nav-link side" id="v-priority-definition-direction-tab" href="TA0013" aria-controls="v-priority-definition-direction" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">优先级定义方向</font></font></a><a class="nav-link side" id="v-target-selection-tab" href="TA0014" aria-controls="v-target-selection" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目标选择</font></font></a><a class="nav-link side" id="v-technical-information-gathering-tab" href="TA0015" aria-controls="v-technical-information-gathering" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术信息收集</font></font></a><a class="nav-link side" id="v-people-information-gathering-tab" href="TA0016" aria-controls="v-people-information-gathering" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人员信息收集</font></font></a><a class="nav-link side" id="v-organizational-information-gathering-tab" href="TA0017" aria-controls="v-organizational-information-gathering" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组织信息收集</font></font></a><a class="nav-link side" id="v-technical-weakness-identification-tab" href="TA0018" aria-controls="v-technical-weakness-identification" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术弱点识别</font></font></a><a class="nav-link side" id="v-people-weakness-identification-tab" href="TA0019" aria-controls="v-people-weakness-identification" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人员弱点识别</font></font></a><a class="nav-link side" id="v-organizational-weakness-identification-tab" href="TA0020" aria-controls="v-organizational-weakness-identification" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组织弱点识别</font></font></a><a class="nav-link side" id="v-adversary-opsec-tab" href="TA0021" aria-controls="v-adversary-opsec" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对手OPSEC </font></font></a><a class="nav-link side active show" id="v-establish-&amp;-maintain-infrastructure-tab" href="TA0022" aria-controls="v-establish-&amp;-maintain-infrastructure" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建立和维护基础设施</font></font></a><a class="nav-link side" id="v-persona-development-tab" href="TA0023" aria-controls="v-persona-development" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">角色开发</font></font></a><a class="nav-link side" id="v-build-capabilities-tab" href="TA0024" aria-controls="v-build-capabilities" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建能力</font></font></a><a class="nav-link side" id="v-test-capabilities-tab" href="TA0025" aria-controls="v-test-capabilities" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试能力</font></font></a><a class="nav-link side" id="v-stage-capabilities-tab" href="TA0026" aria-controls="v-stage-capabilities" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阶段能力</font></font></a>
+    </div>
+<!--startindex-->
+
+             
+            <div class="tab-content col-xl-10 col-lg-10 col-md-9 pt-4" id="v-tabContent">
+                <div class="tab-pane fade show active" id="v-attckmatrix" role="tabpanel" aria-labelledby="v-attckmatrix-tab">
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="../index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">家</font></font></a></li>
+      <li class="breadcrumb-item"><a href="pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略</font></font></a></li>
+  <li class="breadcrumb-item"><a href="pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预</font></font></a></li>
+  <li class="breadcrumb-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建立和维护基础设施</font></font></li>
+</ol>
+<div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
+<div class="row">
+   <div class="col-xl-12">
+      <div class="jumbotron jumbotron-fluid bg-white">
+         <div class="container-fluid">
+            <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+               建立和维护基础设施
+            </font></font></h1>
+            <div class="row">
+                <div class="col-md-8 description-body"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                   建立和维护基础设施包括构建，购买，选择和维护用于进行网络操作的系统和服务。</font><font style="vertical-align: inherit;">攻击者需要建立用于与整个运营过程中使用的资产进行通信和控制的基础设施。
+                </font></font></div>
+                <div class="col-md-4">
+                   <div class="card">
+                      <div class="card-body">
+                         <div class="card-data"><span class="h5 card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：TA0022</font></font></div>                  
+                      </div>
+                   </div>
+                </div>
+            </div>
+            <h2 class="pt-3" id="techniques"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></h2><h6 class="table-statistics"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技巧：16</font></font></h6><table class="table table-bordered table-light mt-2"><thead><tr><th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></th><th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">名称</font></font></th><th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述</font></font></th></tr></thead><tbody class="bg-white"><tr><td><a class="technique-mapping" id="v-Acquire and/or use 3rd party infrastructure services-establish &amp; maintain infrastructure-tab" href="../techniques/T1329"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1329</font></font></a></td><td><a class="technique-mapping" id="v-Acquire and/or use 3rd party infrastructure services-establish &amp; maintain infrastructure-tab" href="../techniques/T1329"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取和/或使用第三方基础架构服务</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供各种云，虚拟专用服务，托管，计算和存储解决方案。</font><font style="vertical-align: inherit;">此外，僵尸网络可供出租或购买。</font><font style="vertical-align: inherit;">使用这些解决方案可以让攻击者从基础设施进行攻击，发起和执行攻击，这些攻击不会物理连接到它们，并且可以快速配置，修改和关闭。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Acquire and/or use 3rd party software services-establish &amp; maintain infrastructure-tab" href="../techniques/T1330"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1330</font></font></a></td><td><a class="technique-mapping" id="v-Acquire and/or use 3rd party software services-establish &amp; maintain infrastructure-tab" href="../techniques/T1330"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取和/或使用第三方软件服务</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供各种第三方软件服务（例如，</font></font><a href="https://twitter.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Twitter</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://www.dropbox.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dropbox</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://www.google.com/docs/about"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GoogleDocs</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">使用这些解决方案可以让攻击者从基础设施进行攻击，发起和执行攻击，这些攻击不会物理连接到它们，并且可以快速配置，修改和关闭。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Acquire or compromise 3rd party signing certificates-establish &amp; maintain infrastructure-tab" href="../techniques/T1332"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1332</font></font></a></td><td><a class="technique-mapping" id="v-Acquire or compromise 3rd party signing certificates-establish &amp; maintain infrastructure-tab" href="../techniques/T1332"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取或妥协第三方签名证书</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码签名是对可执行文件和脚本进行数字签名以确认软件作者并确保代码未被更改或损坏的过程。</font><font style="vertical-align: inherit;">即使用户不知道谁颁发了证书或者作者是谁，用户也可以信任签名的代码而不是未签名的代码。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Buy domain name-establish &amp; maintain infrastructure-tab" href="../techniques/T1328"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1328</font></font></a></td><td><a class="technique-mapping" id="v-Buy domain name-establish &amp; maintain infrastructure-tab" href="../techniques/T1328"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">购买域名</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">域名是用于表示一个或多个IP地址的人类可读名称。</font><font style="vertical-align: inherit;">他们可以购买，或者在某些情况下，免费获得。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Compromise 3rd party infrastructure to support delivery-establish &amp; maintain infrastructure-tab" href="../techniques/T1334"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1334</font></font></a></td><td><a class="technique-mapping" id="v-Compromise 3rd party infrastructure to support delivery-establish &amp; maintain infrastructure-tab" href="../techniques/T1334"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">妥协第三方基础设施以支持交付</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对手可能会破坏基础设施并将其用于部分或全部攻击周期，而不是购买，租赁或租用基础设施。  </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Create backup infrastructure-establish &amp; maintain infrastructure-tab" href="../techniques/T1339"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1339</font></font></a></td><td><a class="technique-mapping" id="v-Create backup infrastructure-establish &amp; maintain infrastructure-tab" href="../techniques/T1339"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建备份基础架构</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">备份基础架构允许攻击者从环境和系统故障中恢复。</font><font style="vertical-align: inherit;">如果发现主要基础设施或不再可行，它还有助于恢复或移动到其他基础设施。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Domain registration hijacking-establish &amp; maintain infrastructure-tab" href="../techniques/T1326"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1326</font></font></a></td><td><a class="technique-mapping" id="v-Domain registration hijacking-establish &amp; maintain infrastructure-tab" href="../techniques/T1326"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">域名注册劫持</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">域名注册劫持是指未经原注册人许可而更改域名注册的行为。 </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Dynamic DNS-establish &amp; maintain infrastructure-tab" href="../techniques/T1333"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1333</font></font></a></td><td><a class="technique-mapping" id="v-Dynamic DNS-establish &amp; maintain infrastructure-tab" href="../techniques/T1333"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">动态DNS</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">动态DNS是一种快速更新主机名到IP的域名系统映射的自动方法。 </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Install and configure hardware, network, and systems-establish &amp; maintain infrastructure-tab" href="../techniques/T1336"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1336</font></font></a></td><td><a class="technique-mapping" id="v-Install and configure hardware, network, and systems-establish &amp; maintain infrastructure-tab" href="../techniques/T1336"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装和配置硬件，网络和系统</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者需要必要的技能来设置采购的设备和软件，以创建他们想要的基础设施。 </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Obfuscate infrastructure-establish &amp; maintain infrastructure-tab" href="../techniques/T1331"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1331</font></font></a></td><td><a class="technique-mapping" id="v-Obfuscate infrastructure-establish &amp; maintain infrastructure-tab" href="../techniques/T1331"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">混淆基础设施</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">混淆隐藏了日常构建和新工具，聊天服务器等的测试。 </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Obtain booter/stressor subscription-establish &amp; maintain infrastructure-tab" href="../techniques/T1396"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1396</font></font></a></td><td><a class="technique-mapping" id="v-Obtain booter/stressor subscription-establish &amp; maintain infrastructure-tab" href="../techniques/T1396"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获得booter / stressor订阅</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置和设置通常用于服务器压力测试的启动器/压力源服务，以启用拒绝服务攻击。   </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Procure required equipment and software-establish &amp; maintain infrastructure-tab" href="../techniques/T1335"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1335</font></font></a></td><td><a class="technique-mapping" id="v-Procure required equipment and software-establish &amp; maintain infrastructure-tab" href="../techniques/T1335"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">采购所需的设备和软件</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">攻击者需要一些物理硬件和软件。</font><font style="vertical-align: inherit;">如果他们的大多数活动都是使用在线基础设施进行的，他们可能只需要一个轻量级的设置。</font><font style="vertical-align: inherit;">或者，如果他们想要在自己的系统上测试，沟通和控制其活动的其他方面，他们可能需要构建广泛的基础架构。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Shadow DNS-establish &amp; maintain infrastructure-tab" href="../techniques/T1340"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1340</font></font></a></td><td><a class="technique-mapping" id="v-Shadow DNS-establish &amp; maintain infrastructure-tab" href="../techniques/T1340"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">影子DNS</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">收集域帐户凭据以静默创建指向恶意服务器的子域而不会剥夺实际所有者的过程。  </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-SSL certificate acquisition for domain-establish &amp; maintain infrastructure-tab" href="../techniques/T1337"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1337</font></font></a></td><td><a class="technique-mapping" id="v-SSL certificate acquisition for domain-establish &amp; maintain infrastructure-tab" href="../techniques/T1337"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">域名的SSL证书获取</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">证书旨在灌输信任。</font><font style="vertical-align: inherit;">它们包括有关密钥的信息，有关其所有者身份的信息，以及已验证证书内容正确的实体的数字签名。</font><font style="vertical-align: inherit;">如果签名有效，并且检查证书的人信任签名者，则他们知道他们可以使用该密钥与其所有者进行通信。</font><font style="vertical-align: inherit;">获取类似于预期受信任的域名的证书可允许攻击者欺骗用户信任域（例如，vvachovia而不是</font></font><a href="https://www.wellsfargo.com/about/corporate/wachovia"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Wachovia</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> -  homoglyphs）。  </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-SSL certificate acquisition for trust breaking-establish &amp; maintain infrastructure-tab" href="../techniques/T1338"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1338</font></font></a></td><td><a class="technique-mapping" id="v-SSL certificate acquisition for trust breaking-establish &amp; maintain infrastructure-tab" href="../techniques/T1338"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">信任中断的SSL证书获取</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">假冒证书可以通过法律程序或强制手段获得。</font><font style="vertical-align: inherit;">或者，攻击者可以欺骗证书颁发机构颁发证书。</font><font style="vertical-align: inherit;">这些假证书可以用作中间人攻击的一部分。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Use multiple DNS infrastructures-establish &amp; maintain infrastructure-tab" href="../techniques/T1327"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1327</font></font></a></td><td><a class="technique-mapping" id="v-Use multiple DNS infrastructures-establish &amp; maintain infrastructure-tab" href="../techniques/T1327"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用多个DNS基础结构</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对手使用的技术类似于动态DNS，但使用多个DNS基础结构可能具有whois记录。 </font></font></p></td></tr></tbody></table>
+         </div>
+      </div>
+   </div>
+   <!-- <div class="col-xl-2 col-lg-2 col-md-0 d-block d-sm-none d-md-none d-lg-block">
+      <p>Content</p>
+      <div><a href="#description">Description</a></div>
+      <div><a href="#techniques">Techniques</a></div>
+   </div> -->
+</div>
+</div>
+
+                </div>
+            </div>
+        </div>  
+    </div>
+
+<!--stopindex-->
+<footer class="footer pt-3 pb-2">
+    <div class="container-fluid text-center">
+        <a class="btn btn-primary float-right mr-4" href="https://twitter.com/MITREattack" target="_blank" rel="noopener" aria-label="Twitter">
+            <img src="../theme/images/twitter.png" class="mx-auto d-block" width="28" height="28" /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 跟着我们！</font></font></a>
+        <a href="https://www.mitre.org" target="_blank" rel="noopener" aria-label="MITRE" class="float-left ml-4">
+            <img src="../theme/images/mitrelogowhiteontrans.gif" width="144" height="66" /></a>
+        <br />
+        <p>
+            <br /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权所有©2018，MITRE Corporation。</font><font style="vertical-align: inherit;">MITRE ATT＆CK和ATT＆CK是The MITRE Corporation的商标。</font></font></p>
+        <small><a href="../resources/privacy" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐私政策</font></font></a>  <a href="../resources/terms-of-use" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用条款</font></font></a></small>
+    </div>
+</footer>
+
+    <!--SCRIPTS-->
+    <script src="../theme/scripts/jquery-3.2.1.min.js"></script>
+    <script src="../theme/scripts/popper.min.js"></script>
+    <script src="../theme/scripts/bootstrap.min.js"></script>
+    <script src="../theme/scripts/site.js"></script>
+    <script src="../theme/scripts/lunr-2.3.3.js"></script>
+    <script src="../theme/scripts/search.js"></script>
+    <script src="../theme/scripts/index.js"></script>
+
+<!--SCRIPTS-->
+<script src="../theme/scripts/techniques.js"></script>
+
+
+
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google 翻译" /></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">原文</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">提供更好的翻译建议</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;" /><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><!--startindex--><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"/></svg></div></div></body></html>

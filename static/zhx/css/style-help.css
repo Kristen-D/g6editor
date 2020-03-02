@@ -1,0 +1,52 @@
+/* CSS Document */
+
+/******** 1 @font ********/
+
+
+/******** 2. Echarts Size ********/
+.echartmapbox1{height: 450px;}
+.echartbox{height: 429px;}
+.echartbox1{height: 465px;}
+.echartbox2{ height: 315px;}
+.echartbox3{ height: 260px;}
+.echartbox4{height: 300px;}
+.echartbox5{height: 336px;}
+.echartbox6{height: 425px;}
+.echartbox7{height: 234px;}
+.echartbox8{height: 210px;}
+.echartbox9{height: 190px;}
+.echartbox10{height: 370px;}
+.echartbox11{height: 240px;}
+
+
+/********* 3. Padding - Margin *********/
+.p-0{ padding: 0; }
+.p-t-1{ padding-top: 1px; }
+.p-b-1{padding: 0 0 1px 0;}
+.m-r-8{ margin-right: 8px;}
+.m-l-10{ margin-left: 10px !important; }
+.m-t-7{ margin-top: 7px; }
+.m-15{margin: 15px;}
+.m-b-15{ margin-bottom: 15px; }
+.m-tb-30{ margin: 30px 0; }
+.m-t--13{ margin-top: -13px; }
+.m-r--30{ margin-right: -30px; }
+
+
+/**  4. triangle icon**/
+.triangle{
+	display: inline-block;
+	margin-left: 5px;
+	width: 0;
+	height: 0;
+	border-width: 8px;
+	border-style: solid;
+	border-color: transparent transparent #FF0000 transparent;
+}
+
+.del-operator{ margin-bottom: -8px;border-color: #2ecc71 transparent transparent transparent; }
+
+.square{padding:0px 3px;color:#fff;font-size:10px; font-weight: 500; border:1px solid #0065ba; margin-right: 10px; background-color: #0065ba;}
+
+/******** 5.text sizes **********/
+.text-xs { font-size: 12px; }

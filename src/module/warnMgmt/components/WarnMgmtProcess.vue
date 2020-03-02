@@ -1,0 +1,33 @@
+<template>
+<el-tabs  v-model="activeName" @tab-click="handleClick" type="card">
+  <el-tab-pane label="我收到的" name="first">
+    <warnMgmtRcvProcess></warnMgmtRcvProcess>
+  </el-tab-pane>
+  <el-tab-pane label="我发布的" name="second">
+    <warnMgmtPubProcess></warnMgmtPubProcess>
+  </el-tab-pane>
+</el-tabs>
+</template>
+<script>
+//我收到的流程
+import warnMgmtRcvProcess from './WarnMgmtRcvProcess'
+//我发布的流程
+import warnMgmtPubProcess from './WarnMgmtPubProcess'
+
+export default {
+  components: {
+    warnMgmtRcvProcess,
+    warnMgmtPubProcess
+  },
+  data() {
+    return {
+      activeName: 'first',
+    };
+  },
+  methods: {
+    handleClick(tab, event) {
+      console.log(tab, event);
+    }
+  }
+};
+</script>

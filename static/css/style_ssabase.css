@@ -1,0 +1,103 @@
+/* CSS Document */
+
+
+/*******************基础组件*********************/
+
+.el-button{ border-radius: 0;}
+.el-button--white {color: #4A5258; background-color: #ffffff; border-color: #D8D8D8;}
+.el-button--gray{ background-color: #4A5258; color:#fff; border-color: #4A5258; }
+.el-button--gray:hover,.el-button--gray:focus { background: #656b70;border-color: #656b70;color: #fff;}
+.el-button--gray.is-active, .el-button--gray:active {background: #4A5258; border-color: #4A5258; color: #fff; }
+
+.el-button--graypink{ background-color:#EEF1F6; color: #007BE8; border-color:#EEF1F6;}
+.el-button--graypink:hover{ background-color: #e2e4e7; border-color:#e2e4e7;}
+
+
+/*******************Form*********************/
+/*---------Radio单选框---------*/
+/*---------Checkbox 多选框--------*/
+.el-checkbox__inner{border-radius: 0;}
+/*---------Input 输入框--------*/
+.el-input__inner {border-radius: 0;}
+/*.el-input__icon+.el-input__inner {padding-top: 12px;padding-bottom: 12px;padding-left: 18px; padding-right: 35px;}*/
+/*.el-input__inner { height: 40px; line-height: 40px;}*/
+.el-textarea__inner {border-radius: 0;}
+
+/*---------InputNumber 计数器-------*/
+/*----------Select 选择器-------*/
+/*---------Cascader 级联选择器--------*/
+/*---------Switch 开关-------*/
+/*----------Slider 滑块-------*/
+/*---------TimePicker 时间选择器-------*/
+/*---------DatePicker 日期选择器--------*/
+/*---------Upload 上传--------*/
+/*---------Rate 评分-------*/
+/*---------ColorPicker 颜色选择器------*/
+/*----------Form 表单------*/
+
+/*
+.el-form-item__label{ color: #323232; font-weight: inherit;}
+.el-textarea__inner{ border-radius:none;}
+*/
+
+
+/*******************Data********************/
+/*---------Table 表格-------*/
+/*---------Tag 标签-------*/
+/*----------Progress 进度条------*/
+/*---------Tree 树形控件--------*/
+/*---------Pagination 分页------*/
+/*----------Badge 标记-------*/
+
+
+
+/*******************Notice********************/
+/*---------Alert 警告------*/
+/*---------Loading 加载-------*/
+/*----------Message 消息提示------*/
+/*---------MessageBox 弹框--------*/
+/*---------Notification 通知-----*/
+
+
+
+
+
+/*******************Navigation********************/
+/*---------NavMenu 导航菜单------*/
+/*---------Tabs 标签页------*/
+
+/*----------Breadcrumb 面包屑------*/
+/*.el-breadcrumb__separator {margin: 0 10px; color: #4A5258; }*/
+/*---------Dropdown 下拉菜单-------*/
+/*---------Steps 步骤条----*/
+
+
+
+/*******************other********************/
+
+
+
+
+
+/*.el-dialog__body {padding: 25px 32px; color: #323232; font-size: 16px;}*/
+
+
+
+.el-panel{
+	margin-bottom: 20px;
+    background-color:#fff;;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.el-panel-heading {padding: 10px 25px; border-bottom: 1px solid transparent;}
+.el-panel-title {margin-top: 0;margin-bottom: 0;font-size: 16px; font-weight: 500; color: inherit;}
+.el-panel-body {padding: 15px;}
+.el-panel-scenario{ background-color:rgba(14,21,24,1);border: 1px solid rgba(255,255,255,0.04);}
+.el-panel-scenario > .el-panel-heading {color: #9ea3b4;line-height: 34px;}
+.el-table thead  th {
+    background:#eef1f6;
+} 
+.el-table thead div{
+    color: #000;
+}

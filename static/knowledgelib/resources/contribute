@@ -1,0 +1,158 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" class="translated-ltr"><head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-62667723-1"></script>
+        <script src="../theme/scripts/analytics.js"></script>
+        <meta name="google-site-verification" content="2oJKLqNN62z6AOCb0A0IXGtbQuj-lev5YPAHFF_cbHQ" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="../theme/favicon.ico" type="image/x-icon" />
+        <title>资源：贡献 -  MITER ATT＆CK™</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../theme/style/bootstrap.min.css" />
+        <link rel="stylesheet" href="../theme/style/bootstrap-glyphicon.min.css" />
+        <link href="../theme/style/style.css" rel="stylesheet" type="text/css" /> <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css" /></head>
+
+<body>
+<!--stopindex-->
+<header style="height: 78.5469px;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-mitre-red border-bottom">
+            <a class="navbar-brand" href="../index.html"><img src="../theme/images/mitre_attack.png" height="50px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" onclick="search('')"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav nav-tabs ml-auto">
+                            <li class="nav-item"><a href="../matrices/enterprise" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">矩阵</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../tactics/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../tactics/pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="../tactics/enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="../tactics/mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../techniques/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../techniques/pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="../techniques/enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="../techniques/mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="../groups/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组</font></font></b></a></li>
+                            <li class="nav-item"><a href="../software/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../resources.1" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="../resources.1">General</a>
+                                    <a class="dropdown-item" href="getting-started.1">Getting Started</a>
+                                    <a class="dropdown-item" href="attackcon.1">ATT&amp;CKcon</a>
+                                    <a class="dropdown-item" href="faq/index.html">FAQ</a>
+                                    <a class="dropdown-item" href="updates.1">Updates</a>
+                                    <!-- <a class="dropdown-item" href="/resources/supporters/">Supporters</a>
+                                            <a class="dropdown-item" href="/resources/industry-news/">Industry News</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="https://medium.com/mitre-attack/" target="_blank" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></b> <img src="../theme/images/external-site.svg" alt="外部网站" class="external-icon" /></a></li>
+                            <li class="nav-item"><a href="../contact/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系</font></font></b></a></li>
+                </ul>
+                <ul class="navbar-nav flex-row d-md-flex" style="float: right">  <!-- ml-md-auto d-none-->
+                    <li>
+                        <form class="form-inline pl-2">
+                            <input class="form-control" type="text" placeholder="Search site" aria-label="Search" id="search" autocomplete="off" />
+                        </form>
+                        <div class="search-results"></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+            <div class="container-fluid under-development"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                在</font></font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">attackevals.mitre.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们第一轮ATT和CK评估的</font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;">结果</font></a><font style="vertical-align: inherit;">！
+            </font></font></div>
+        <!--startindex-->
+<div id="content">      
+<div class="container">
+    <div class="container-fluid">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">家</font></font></a></li>
+            <li class="breadcrumb-item"><a href="../resources.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></a></li>
+            <li class="breadcrumb-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有助于</font></font></li>
+        </ol>
+        <div class="blog-post p-3">
+            <h1 class="blog-post-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有助于</font></font></h1><br />
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你可以帮助ATT和CK做出贡献。</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT和CK处于不断发展的状态。</font><font style="vertical-align: inherit;">我们一直在寻找新的信息，以帮助改进和扩展所涵盖的内容。</font><font style="vertical-align: inherit;">如果您有其他技术，了解已经涵盖的变体，使用的技术示例或其他相关信息，那么我们希望收到您的来信。</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们正在寻找以下领域的贡献，但如果您认为其他信息可能有用，请通过</font></font><a href="mailto:attack@mitre.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">attack@mitre.org与</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们</font><a href="mailto:attack@mitre.org"><font style="vertical-align: inherit;">联系</font></a><font style="vertical-align: inherit;">。</font></font></p>
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为ATT和CK做贡献</font></font></h4>
+<div class="bs-callout bs-callout-success"><h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></h5><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢您的帮助，让我们了解对手和红色专家正在使用的新技术和技术变化。</font><font style="vertical-align: inherit;">您可以首先通过电子邮件向我们发送技术名称，简要说明以及有关对手或红队如何使用它的参考或知识。</font><font style="vertical-align: inherit;">我们建议您仔细查看我们网站上已有的内容，注意技术的抽象级别。</font><font style="vertical-align: inherit;">由于我们正在不断添加新的技术细节，因此我们将使用我们正在处理的内容消除您发送的内容。</font><font style="vertical-align: inherit;">我们将提供反馈并与您合作以添加内容。</font></font></p></div>
+
+<div class="bs-callout bs-callout-primary"><h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">macOS和Linux</font></font></h5><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当我们正在寻找适用于Windows，macOS和Linux的新技术时，我们特别感兴趣的是macOS和Linux技术，因为对于那些系统使用的技术缺乏公开可用的威胁。</font><font style="vertical-align: inherit;">这会导致您可以帮助填补知识库中的空白。</font></font></p></div>
+
+<div class="bs-callout bs-callout-info"><h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">威胁情报</font></font></h5><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们在我们的网站上绘制了群组和软件示例，并且有太多的开源威胁情报报告让我们能够跟上一切。</font><font style="vertical-align: inherit;">感谢您对有关如何使用ATT和CK技术的群组和软件样本的参考信息的帮助。</font><font style="vertical-align: inherit;">当我们使用我们网站上的特定格式时，威胁情报贡献对我们最有帮助，包括引用技术和公开可用参考的组别名。</font><font style="vertical-align: inherit;">我们要求您提供技术名称，技术实施方式的简要说明以及公开可用的参考。</font></font></p></div>
+
+<div class="bs-callout bs-callout-warning"><h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据源</font></font></h5><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们通常无法直接访问端点或网络日志数据，以便在事件中使用技术。</font><font style="vertical-align: inherit;">我们一直在寻找有兴趣从日志中分享相关数据的合作伙伴，这些日志显示了攻击者如何使用ATT和CK技术，而不仅仅是威胁报告中出现的技术。</font></font></p></div>
+
+<div class="bs-callout bs-callout-danger"><h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你的用例</font></font></h5><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解您如何在组织中使用ATT和CK，这对我们总是有帮助的。</font><font style="vertical-align: inherit;">我们非常感谢您可以与我们分享有关您的特定用例或ATT＆CK应用的任何信息，特别是您所获得的任何成功案例。</font></font></p></div>
+
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献示例</font></font></h4>
+<div class="new-examples"><h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新技术实例</font></font></h5><div class="example-container"><div class="examples-div"><h6><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术名称：</font></font></h6><p class="examples-p p-first"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">COM，ROM和GONE </font></font></p><h6 class="margin-contribute-a"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略：</font></font></h6> <p class="examples-p"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">坚持</font></font></p></div><div class="examples-div"><h6><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">平台：</font></font></h6><p class="examples-p p-first"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视窗 </font></font></p><h6 class="margin-contribute-b"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所需权限：</font></font></h6><p class="examples-p p-first"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户</font></font></p></div><p class="examples-p p-first" style="margin-left: 0px;"><span style="font-weight: 600;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据源：</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Windows API，进程监视或可用于检测此活动的其他源</font></font></p><p class="examples-p p-first" style="margin-left: 0px;"><span style="font-weight: 600;">Description:</span> Component Object Model (COM) servers associated with Graphics Interchange Format (GIF) image viewers can be abused to corrupt arbitrary memory banks. Adversaries may leverage this opportunity to modify, mux, and maliciously annoy (MMA) read-only memory (ROM) regularly accessed during normal system operations.</p><p class="examples-p p-first" style="margin-left: 0px;"><span style="font-weight: 600;">Detection:</span> Monitor the JIF viewers for muxing and malicious annoyance. Use event ID 423420 and 234222 to detect changes.</p><p class="examples-p p-first" style="margin-left: 0px;"><span style="font-weight: 600;">Mitigation:</span> Configure the Registry key HKLM\SYSTEM\ControlSet\001\Control\WindowsJIFControl\ to 0 to disable MMA access if not needed within the environment.</p><p class="examples-p p-first" style="margin-left: 0px;"><span style="font-weight: 600;">Adversary Use:</span> Here is a publicly-available reference about FUZZYSNUGGLYDUCK using this technique: (www[.]awesomeThreatReports[.]org/FUZZYSNUGGLYDUCK_NOMS _ON_ROM_VIA_COM). Additionally, our red team uses this in our operations.</p><p class="examples-p p-first" style="margin-left: 0px;"><span style="font-weight: 600;">Additional References:</span> Here is a reference from the researcher who discovered this technique: (www[.]crazySmartResearcher[.]net/POC_DETECTIONS_&amp;_MITIGATIONS_4_WHEN_COM_RAMS_ROM)</p></div></div>
+
+<div class="new-examples second-example"><h5>Group &amp; Software Example</h5><div class="example-container"><p class="examples-p p-first" style="margin-left: 0px;"><span style="font-weight: 600;">Group Name:</span> FUZZYSNUGGLYDUCK (www[.]sourceX[.]com)</p><p class="examples-p p-first" style="margin-left: 0px;"><span style="font-weight: 600;">Group Alias:</span> APT1337 (www[.]sourceY[.]com)</p><div class="nested-examples-div"><p class="examples-p p-first" style="margin-left: 0px;"><span style="font-weight: 600;">Description:</span> FUZZYSNUGGLYDUCK is a Great Lakes-based threat group that has been active since at least May 2018. The group focuses on targeting the aviation sector. (www[.]sourceY[.]com)</p></div><h6 class="nested-examples-div">Techniques:</h6><ul style="padding-left: 100px;"><li>Spearphishing Attachment (T1193) – FUZZYSNUGGLYDUCK has used spearphishing email attachments containing images of stale bread to deliver malware. (www[.]sourceX[.]com)</li><li>File and Directory Discovery (T1083) – FUZZYSNUGGLYDUCK has searched files and directories for the string *quack*. (www[.]sourceY[.]com)</li></ul><p class="examples-p p-first" style="margin-left: 0px;"><span style="font-weight: 600;">Software Name:</span> FLYINGV (www[.]sourceX[.]com) (wwwVsourceZ[.]com)</p><div class="nested-examples-div"><p class="examples-p p-first" style="margin-left: 0px;"><span style="font-weight: 600;">Group Association:</span> FLYINGV has been used by FUZZYSNUGGLYDUCK. (www[.]sourceZ[.]com)</p></div><div class="nested-examples-div"><p class="examples-p p-first" style="margin-left: 0px;"><span style="font-weight: 600;">Description:</span> FLYINGV is custom malware used by FUZZYSNUGGLYDUCK as a second-stage RAT. (www[.]sourceZ[.]com)</p></div><div class="nested-examples-div"><p class="examples-p p-first" style="margin-left: 0px;"><span style="font-weight: 600;">Platform:</span> Windows</p></div><h6>Techniques:</h6><ul style="padding-left: 100px;"><li>Registry Run Keys / Start Folder (T1060) – FLYINGV has added the Registry Run key “HueyDeweyLouie” to establish persistence. (www[.]sourceX[.]com)</li><li>File and Directory Discovery (T1083) – FLYINGV has used rundll32.exe to load its malicious dll file, estevez.dll. (www[.]sourceX[.]com)</li></ul></div></div>
+
+<h4>Content Errors on the Website</h4>
+<p>If you find errors or typos on the site related to content, please let us know by sending an email to <a href="mailto:attack@mitre.org?subject=Website Content Error">attack@mitre.org</a> with the subject <strong>Website Content Error</strong>.</p>
+<p>Please let us know the following:</p>
+<ol>
+<li>The url where you found the error.</li>
+<li>A short description of the error.</li>
+</ol>
+<p>Examples of errors:</p>
+<ul>
+<li>Typos and syntax errors</li>
+<li>Improperly formatted web pages</li>
+<li>404 errors when links are clicked</li>
+</ul>
+<h4>Contributors</h4>
+<p>The following individuals or organizations have contributed information regarding the existence of a technique, details on how to detect and/or mitigate use of a technique, or threat intelligence on adversary use:</p>
+<div><div class="row"><div class="col"><ul><li>Alain Homewood, Insomnia Security</li><li>Alan Neville, @abnev</li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anastasios Pingios</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安德鲁史密斯，@ jakx_</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">巴托斯·杰兹曼</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">布莱恩李</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">凯西史密斯</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Christiaan Beek，@ ChristiaanBeek</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cody Thomas，SpectreOps</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">丹尼尔奥克利</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">达伦斯普鲁尔</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大卫路，Tripwire</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大卫罗顿</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ed Williams，Trustwave，SpiderLabs</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">爱德华米林顿</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Elger Vinicius S. Rodrigues，@ elgervinicius，CYBINT中心</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结束游戏</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Palo Alto Networks的Erye Hernandez</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FS-ISAC</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Itzik Kotler，SafeBreach</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jan Miller，CrowdStrike</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jared Atkinson，@ jaredcatkinson</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">杰里米加洛韦</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">微软威胁情报中心John Lambert</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">约翰斯特兰德</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">乔希亚伯拉罕</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贾斯汀华纳，ICEBRG</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Leo Loobeek，@ leoloobeek</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Loic Jaquemet</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Matt Graeber，@ mattifestation，SpecterOps</font></font></li></ul></div><div class="col"><ul><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Matt Kelly，@ breakersall</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Matthew Demaske，Adaptforward</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">迈克菲</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">迈克尔考克斯</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mike Kemmerer</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">米洛斯·斯托贾迪诺维奇</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nik Seetharaman，Palantir</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oddvar Moe，@ ovvarmoe</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Patrick Campbell，@ pjcampbe11</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paul Speulstra，AECOM全球安全运营中心</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">佩德罗哈里森</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">禁卫军</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rahmat Nurfauzi，@ infosecn1nja，PT Xynexis International</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">红色金丝雀</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">里卡多迪亚斯</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Richard Gold，Digital Shadows</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Robby Winchester，@ robwinchester3</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">罗伯特法尔科内</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">瑞恩贝尔瓦尔</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Scott Lundgren，@ 5twenty9，Carbon Black</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Stefan Kanthak</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sudhanshu Chauhan，@ Sudhanshu_C</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Teodor Cimpoesu</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tim MalcomVetter</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tom Ueltschi @c_APT_ure</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特拉维斯史密斯，Tripwire</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Valerii Marchuk，网络安全帮助sro</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vincent Le Toux</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">沃克约翰逊</font></font></li><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">星展银行进攻性安全小组Ye Yint Min Thu Htut</font></font></li></ul></div></div></div>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢那些为ATT和CK做出贡献的人！</font></font></p>
+        </div>
+    </div>
+</div>
+</div>
+<!--stopindex-->
+<footer class="footer pt-3 pb-2">
+    <div class="container-fluid text-center">
+        <a class="btn btn-primary float-right mr-4" href="https://twitter.com/MITREattack" target="_blank" rel="noopener" aria-label="Twitter">
+            <img src="../theme/images/twitter.png" class="mx-auto d-block" width="28" height="28" /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 跟着我们！</font></font></a>
+        <a href="https://www.mitre.org" target="_blank" rel="noopener" aria-label="MITRE" class="float-left ml-4">
+            <img src="../theme/images/mitrelogowhiteontrans.gif" width="144" height="66" /></a>
+        <br />
+        <p>
+            <br /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权所有©2018，MITRE Corporation。</font><font style="vertical-align: inherit;">MITRE ATT＆CK和ATT＆CK是The MITRE Corporation的商标。</font></font></p>
+        <small><a href="privacy" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐私政策</font></font></a>  <a href="terms-of-use" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用条款</font></font></a></small>
+    </div>
+</footer>
+
+     <!--SCRIPTS-->
+    <script src="../theme/scripts/jquery-3.2.1.min.js"></script>
+    <script src="../theme/scripts/popper.min.js"></script>
+    <script src="../theme/scripts/bootstrap.min.js"></script>
+    <script src="../theme/scripts/site.js"></script>
+    <script src="../theme/scripts/lunr-2.3.3.js"></script>
+    <script src="../theme/scripts/search.js"></script>
+    <script src="../theme/scripts/index.js"></script>
+
+<script src="../theme/scripts/tables.js"></script>
+
+
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google 翻译" /></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">原文</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">提供更好的翻译建议</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;" /><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><!--startindex--><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"/></svg></div></div></body></html>

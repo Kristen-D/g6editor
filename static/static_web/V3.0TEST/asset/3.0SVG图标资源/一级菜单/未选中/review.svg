@@ -1,0 +1,11 @@
+<svg id="态势视图" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3a7ab;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="bg" class="cls-1" d="M931,237h16a2,2,0,0,1,2,2v9a2,2,0,0,1-2,2H931a2,2,0,0,1-2-2v-9A2,2,0,0,1,931,237Zm5,3h6v3h-6v-3Zm10-5H932a1,1,0,0,1-1-1h0a1,1,0,0,1,1-1h14a1,1,0,0,1,1,1h0A1,1,0,0,1,946,235Zm-3-4h-8a1,1,0,0,1-1-1h0a1,1,0,0,1,1-1h8a1,1,0,0,1,1,1h0A1,1,0,0,1,943,231Z" transform="translate(-929 -229)"/>
+</svg>

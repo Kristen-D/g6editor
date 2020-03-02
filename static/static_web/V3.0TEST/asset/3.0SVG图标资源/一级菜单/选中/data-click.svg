@@ -1,0 +1,19 @@
+<svg id="数据中心" xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #5292f5;
+      }
+    </style>
+  </defs>
+  <path id="bg" class="cls-1" d="M1008,599H992a2,2,0,0,1-2-2v-4a2,2,0,0,1,2-2h16a2,2,0,0,1,2,2v4A2,2,0,0,1,1008,599Zm0,10H992a2,2,0,0,1-2-2v-4a2,2,0,0,1,2-2h16a2,2,0,0,1,2,2v4A2,2,0,0,1,1008,609Z" transform="translate(-990 -591)"/>
+  <path id="bg-2" data-name="bg" class="cls-2" d="M1002,595a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1v2h-4v-2Zm0,10a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1v2h-4v-2Z" transform="translate(-990 -591)"/>
+</svg>

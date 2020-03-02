@@ -1,0 +1,18 @@
+<svg id="全局视图" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ea4b3e;
+      }
+
+      .cls-2 {
+        fill: #324889;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="bg">
+    <rect id="bg-2" data-name="bg" class="cls-1" width="11" height="11" rx="2" ry="2"/>
+    <path id="bg-3" data-name="bg" class="cls-2" d="M533,137h7a2,2,0,0,1,2,2v7a2,2,0,0,1-2,2h-7a2,2,0,0,1-2-2v-7A2,2,0,0,1,533,137Zm20,11h-7a2,2,0,0,1-2-2v-7a2,2,0,0,1,2-2h7a2,2,0,0,1,2,2v7A2,2,0,0,1,553,148Zm0-13h-7a2,2,0,0,1-2-2v-7a2,2,0,0,1,2-2h7a2,2,0,0,1,2,2v7A2,2,0,0,1,553,135Z" transform="translate(-531 -124)"/>
+  </g>
+</svg>

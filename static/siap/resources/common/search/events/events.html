@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+	<div id ="time_bar" style="width:100%;height:60px;position:absolute;"></div>
+	<div id ="tips">
+		<span id ="tips_left" style="float: left;margin-left: 10px"></span>
+		<span id ="tips_center"></span>
+		<span id ="tips_right" style="float: right;margin-right: 10px;"></span>
+	</div>
+	
+	<div class="main_cont" id="d_mian_cont">
+		<ul class="timeBar">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+
+		<div id="float" class="tabList">
+			<table id="float_table" width="100%" border="0" cellpadding="0"
+				cellspacing="0">
+				<tr>
+					<td></td>
+					<td colspan="3">
+						<div class="float_left">
+							<a href="javascript:void(0)" id="float_list" class="usertable_list"><label>列表</label><img class="list_caret tab_caret" src="/resource/images/tab_caret.jpg"></a> 
+							<a href="javascript:void(0)" id="float_format" class="usertable_format"><label>格式</label><img class="format_caret tab_caret" src="/resource/images/tab_caret.jpg"></a> 
+							<a href="javascript:void(0)" id="float_perpagecount" class="usertable_perpagecount"><label>每页10个</label><img class="eachpage_caret tab_caret" src="/resource/images/tab_caret.jpg"></a> 
+						    <a href="javascript:void(0)" id="float_export" class="usertable_export"><label>导出</label></a>
+						</div>
+						<div class="float_right">
+							<a href="javascript:void(0)" data-offset="0" class="page_pre" id="float_page_pre">上一页</a> 
+							<a href="javascript:void(0)" data-offset="0" id="fpage_1" class="page_1">1</a> 
+							<a href="javascript:void(0)" data-offset="0" id="fpage_2" class="page_2">2</a> 
+							<a href="javascript:void(0)" data-offset="0" id="fpage_3" class="page_3">3</a> 
+							<a href="javascript:void(0)" data-offset="0" id="fpage_4" class="page_4">4</a> 
+							<a href="javascript:void(0)" data-offset="0" id="fpage_5" class="page_5">5</a> 
+							<a href="javascript:void(0)" data-offset="0" id="fpage_6" class="page_6">6</a> 
+							<a href="javascript:void(0)" data-offset="0" id="fpage_7" class="page_7">7</a> 
+							<a href="javascript:void(0)" data-offset="0" id="fpage_8" class="page_8">8</a> 
+							<a href="javascript:void(0)" data-offset="0" id="fpage_9" class="page_9">9</a> 
+							<a href="javascript:void(0)" data-offset="0" id="fpage_10" class="page_10">10</a> 
+							<a href="javascript:void(0)" data-offset="0" class="page_next" id="float_page_next">下一页</a>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="3" valign="top" width="200" class="bor_l_n"
+						id="float_bor_l_n">隐藏字段 所有字段</td>
+					<th width="36px">i</th>
+					<th id="float_time" width="103px">时间</th>
+					<th id="float_event">事件</th>
+				</tr>
+			</table>
+		</div>
+		<!-- 閹剚璇炵悰銊ャ仈閸欏﹥鎼锋担锟界紒鎾存将-->
+		<!----table瀵拷顫�----->
+		<div class="tabList">
+			<div id="usertabList">
+				<div class="float_format_left">
+					<a href="javascript:void(0)" id="usertable_list" class="usertable_set usertable_list"><label>列表</label><img class="list_caret tab_caret" src="/resource/images/tab_caret.jpg"></a>
+					<a href="javascript:void(0)" id="usertable_format" class="usertable_set usertable_format"><label>格式</label><img class="format_caret tab_caret" src="/resource/images/tab_caret.jpg"></a> 
+					<a href="javascript:void(0)" id="usertable_perpagecount" class="usertable_set usertable_perpagecount"><label>每页10个</label><img class="eachpage_caret tab_caret" src="/resource/images/tab_caret.jpg"></a>
+				    <a href="javascript:void(0)" id="usertable_export" class="usertable_export"><label>导出</label></a>
+				</div>
+				<div class="float_page_right">
+					<a href="javascript:void(0)" data-offset="0" class="page_pre" id="usertable_page_pre">上一页</a> 
+					<a href="javascript:void(0)" data-offset="0" id="page_1" class="page_1">1</a> 
+					<a href="javascript:void(0)" data-offset="0" id="page_2" class="page_2">2</a> 
+					<a href="javascript:void(0)" data-offset="0" id="page_3" class="page_3">3</a>
+				    <a href="javascript:void(0)" data-offset="0" id="page_4" class="page_4">4</a> 
+				    <a href="javascript:void(0)" data-offset="0" id="page_5" class="page_5">5</a> 
+					<a href="javascript:void(0)" data-offset="0" id="page_6" class="page_6">6</a> 
+					<a href="javascript:void(0)" data-offset="0" id="page_7" class="page_7">7</a> 
+					<a href="javascript:void(0)" data-offset="0" id="page_8" class="page_8">8</a> 
+					<a href="javascript:void(0)" data-offset="0" id="page_9" class="page_9">9</a> 
+					<a href="javascript:void(0)" data-offset="0" id="page_10" class="page_10">10</a> 
+					<a href="javascript:void(0)" data-offset="0" class="page_next" id="usertable_page_next">下一页</a>
+				</div>
+				<table id="usertable" width="100%" border="0" cellpadding="0"
+					cellspacing="0">
+					<tr style="height:30px;">
+						<td></td>
+						<td colspan="3">
+							<div class="float_left"></div>
+							<div class="float_right"></div>
+						</td>
+					</tr>
+					<tr>
+						<td rowspan="3" valign="top" width="200" class="bor_l_n"
+							id="tabList_bor_l_n">
+							<p>隐藏字段 所有字段</p>
+						</td>
+						<th width="36px" class="tr_list_i">i</th>
+						<th id="tabList_time" width="103px" class="tr_list_i">时间</th>
+						<th id="tabList_event" class="tr_list_i">事件</th>
+
+						<th width="36px" class="tr_original_i">i</th>
+						<th id="tabList_event" class="tr_original_i">事件</th>
+					</tr>
+				</table>
+			</div>
+			<div id="userDiv">当前时间范围内没有结果。</div>
+		</div>
+
+		<div
+			class="popdown-dialog shared-fieldinfo hide popdown-fieldinfo-dialog">
+			<div class="arrow right"></div>
+			<div class="timerangepicker-dialog">
+				<a class="close close_field" href="javascript:void(0)"><i
+					class="icon-close"></i></a>
+				<h4 class="field-info-header">host</h4>
+				<div class="righttanc">
+					<p>1 个值, 100% 的事件</p>
+					<div class="pull-right">
+						<label class="select-field-label">选定的<label>
+								<div class="btn-group">
+									<input type="button" class="btn_s" id="btn_y" value="是" /> <input
+										type="button" class="btn_s cother" id="btn_n" value="否" />
+								</div>
+					</div>
+					<table width="100%" border="0" class="table-condensed">
+						<tr>
+							<th class="trtext">值</th>
+							<th>计数</th>
+							<th>%</th>
+							<th>&nbsp;</th>
+						</tr>
+					</table>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="editor-table_type edit-wrap9">
+			<div class="arrow"></div>
+			<div class="draghandle_b">
+				<ul>
+					<li class="table_type_original" id="table_type_original"><img
+						class="table_icon_check"
+						src="/resource/images/table-icon-check.jpg" /><a
+						href="javascript:void(0)">原始</a></li>
+					<li class="table_type_list" id="table_type_list"><img
+						class="table_icon_check"
+						src="/resource/images/table-icon-check.jpg" /><a
+						href="javascript:void(0)">列表</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="editor-table_size edit-wrap10">
+			<div class="arrow"></div>
+			<div class="draghandle_b">
+				<ul>
+					<li id="each_page_10"><img class="table_icon_check"
+						src="/resource/images/table-icon-check.jpg" /><a
+						href="javascript:void(0)">每页10个</a></li>
+					<li id="each_page_20"><img class="table_icon_check"
+						src="/resource/images/table-icon-check.jpg" /><a
+						href="javascript:void(0)">每页20个</a></li>
+					<li id="each_page_50"><img class="table_icon_check"
+						src="/resource/images/table-icon-check.jpg" /><a
+						href="javascript:void(0)">每页50个</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<div id="d_no_data_msg"
+		style="display:none;text-align:center;font-size:12px;margin-top: 10px">没有符合条件的数据.</div>
+
+	<!----导出开始------>
+	<div id="usertable_export_dialog" class="modal"
+		style="display:none;min-width:200px;background-color:white;">
+		<div class="modal-header">
+			<a class="close usertable_close" href="#" title="关闭窗口"><i class="icon-close"></i></a>
+			<h4>导出</h4>
+		</div>
+		<div class="modal-body">
+		    <span id="usertable_export_msg"></span>
+			<table border="0">
+				<tr>
+					<td class="modal-left">格式</td>
+					<td><div class="btn-group mod_w1">
+					<select id="export_type">
+					  <option value="pdf" selected="selected">PDF</option>
+					  <option value="excel">Excel</option>
+					</select>
+					</div></td>
+				</tr>
+				<tr>
+					<td class="modal-left">文件名称</td>
+					<td><textarea name="title" type="text" placeholder="选填"
+							id="usertable_file_name"></textarea></td>
+				</tr>
+				<tr>
+					<td class="modal-left">开始条数</td>
+					<td><input type="text" id="usertable_file_startnum" placeholder="1,2,3……"/><span class="error_usertable_file_startnum"></span></td>
+				</tr>
+				<tr>
+					<td class="modal-left">结束条数</td>
+					<td><input type="text" id="usertable_file_endnum" placeholder="最多导出50000条"/><span class="error_usertable_file_startnum"></span></td>
+				</tr>
+				<tr>
+					<td class="modal-left">获取数据进度</td>
+					<td id="progress">
+					    <span id="progress-val">0%</span>
+                        <span id="progress-bar">
+                             <span id="progress-in" style="width: 0%"></span>
+                        </span>
+                    </td>
+				</tr>
+			</table>
+		</div>
+		<div class="modal-footer">
+			<a href="#" class="btn_cancel_bg usertable_modal-btn-cancel">终止任务</a> <a href="#"
+				class="btn_cj_bg usertable_btn_sure_export">导出</a>
+		</div>
+	</div>
+	<!----导出结束------>
+	<!----进度开始------>
+	<div id="progressdialog"> 
+	  <div id="progressmessage"></div> 
+	  <div id="progressloading"><div></div></div>
+	</div> 
+	<!----进度结束------>
+	<!----导出开始------> 
+  <form id="form" action="/felix/search/export" method="post" style="display:none">  
+    </form>
+  <!----导出结束------> 
+  <div id="popdown_id" class="popdown-dialog">
+	<div class="popdown_id_content"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" class="translated-ltr"><head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-62667723-1"></script>
+        <script src="../theme/scripts/analytics.js"></script>
+        <meta name="google-site-verification" content="2oJKLqNN62z6AOCb0A0IXGtbQuj-lev5YPAHFF_cbHQ" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="../theme/favicon.ico" type="image/x-icon" />
+        <title>资源：ATT＆CK for Enterprise  -  MITER ATT＆CK™</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../theme/style/bootstrap.min.css" />
+        <link rel="stylesheet" href="../theme/style/bootstrap-glyphicon.min.css" />
+        <link href="../theme/style/style.css" rel="stylesheet" type="text/css" /> <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css" /></head>
+
+<body>
+<!--stopindex-->
+<header style="height: 78.5469px;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-mitre-red border-bottom">
+            <a class="navbar-brand" href="../index.html"><img src="../theme/images/mitre_attack.png" height="50px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" onclick="search('')"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav nav-tabs ml-auto">
+                            <li class="nav-item"><a href="../matrices/enterprise" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">矩阵</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../tactics/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../tactics/pre">PRE-ATT&amp;CK</a>
+                                        <a class="dropdown-item" href="../tactics/enterprise">Enterprise</a>
+                                        <a class="dropdown-item" href="../tactics/mobile">Mobile</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../techniques/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../techniques/pre">PRE-ATT&amp;CK</a>
+                                        <a class="dropdown-item" href="../techniques/enterprise">Enterprise</a>
+                                        <a class="dropdown-item" href="../techniques/mobile">Mobile</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="../groups/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组</font></font></b></a></li>
+                            <li class="nav-item"><a href="../software/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../resources.1" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="../resources.1">General</a>
+                                    <a class="dropdown-item" href="getting-started.1">Getting Started</a>
+                                    <a class="dropdown-item" href="attackcon.1">ATT&amp;CKcon</a>
+                                    <a class="dropdown-item" href="faq/index.html">FAQ</a>
+                                    <a class="dropdown-item" href="updates.1">Updates</a>
+                                    <!-- <a class="dropdown-item" href="/resources/supporters/">Supporters</a>
+                                            <a class="dropdown-item" href="/resources/industry-news/">Industry News</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="https://medium.com/mitre-attack/" target="_blank" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></b> <img src="../theme/images/external-site.svg" alt="外部网站" class="external-icon" /></a></li>
+                            <li class="nav-item"><a href="../contact/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系</font></font></b></a></li>
+                </ul>
+                <ul class="navbar-nav flex-row d-md-flex" style="float: right">  <!-- ml-md-auto d-none-->
+                    <li>
+                        <form class="form-inline pl-2">
+                            <input class="form-control" type="text" placeholder="Search site" aria-label="Search" id="search" autocomplete="off" />
+                        </form>
+                        <div class="search-results"></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+            <div class="container-fluid under-development"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                在</font></font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">attackevals.mitre.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们第一轮ATT和CK评估的</font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;">结果</font></a><font style="vertical-align: inherit;">！
+            </font></font></div>
+        <!--startindex-->
+<div id="content">      
+<div class="container">
+    <div class="container-fluid">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">家</font></font></a></li>
+            <li class="breadcrumb-item"><a href="../resources.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></a></li>
+            <li class="breadcrumb-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT＆CK for Enterprise</font></font></li>
+        </ol>
+        <div class="blog-post p-3">
+            <h1 class="blog-post-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT＆CK for Enterprise</font></font></h1><br />
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT＆CK™for Enterprise是一种对手模型和框架，用于描述攻击者可能在企业网络中进行攻击和操作所采取的行动。</font><font style="vertical-align: inherit;">该模型可用于更好地表征和描述妥协后的对手行为。</font><font style="vertical-align: inherit;">它既可以扩展网络防御者的知识，又可以通过详细说明在网络内部运行时网络威胁用于获取访问权限和执行目标的策略，技术和程序（TTP）来帮助确定网络防御的优先级。</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT＆CK for Enterprise整合了通过MITRE研究收集的网络对手的信息，以及渗透测试和红色团队等其他学科的信息，以建立一系列知识，描述攻击者对企业网络使用的活动。</font><font style="vertical-align: inherit;">虽然对初始开发和周边防御的使用进行了大量研究，但在获得初始访问后，对手过程的核心知识存在差距。</font><font style="vertical-align: inherit;">ATT＆CK for Enterprise专注于用于制定决策，扩展访问和执行目标的TTP攻击者。</font><font style="vertical-align: inherit;">它旨在描述对手在足够高的级别上的步骤，以便在各个平台上广泛应用，但仍然保持足够的细节以在技术上有用。</font></font></p>
+<p></p><center>
+<img alt="企业策略" src="../theme/images/enterprise-pre-lifecycle.png" />
+</center><p></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT和CK for Enterprise中的11个策略类别来自七阶段网络攻击生命周期的后期阶段（利用，控制，维护和执行）</font></font><sup><a href="https://www.mitre.org/capabilities/cybersecurity/threat-based-defense" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[1]</font></font></a></sup><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（洛克希德马丁公司首次将其作为Cyber​​ KillChain® </font></font><sup><a href="https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2]</font></font></a></sup><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">这在描述入侵期间可能发生的情况时提供了更深层次的粒度。</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个类别都包含一个对手可用于执行该策略的技术列表。</font><font style="vertical-align: inherit;">分解技术以提供技术描述，指标，有用的防御传感器数据，检测分析和潜在的缓解。</font><font style="vertical-align: inherit;">将入侵数据应用于模型然后有助于将防御集中在跨活动组的常用技术上，并帮助识别安全漏洞。</font><font style="vertical-align: inherit;">维护者和决策者可以将ATT和CK for Enterprise中的信息用于各种目的，而不仅仅是特定对抗技术的清单。</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT＆CK for Enterprise整合了企业网络中常见的多种操作系统平台的详细信息，包括Microsoft Windows，macOS和Linux。</font><font style="vertical-align: inherit;">框架和更高级别的类别也可以应用于其他平台和环境。</font><font style="vertical-align: inherit;">要查看ATT＆CK for Enterprise的内容，请使用左侧导航窗格，该窗格按策略类别划分技术或查看</font></font><a href="../techniques/enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">All Techniques</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目的</font></font></h4>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT＆CK for Enterprise是对抗行为的不断增长的共同参考，可以更好地了解企业网络入侵期间可能出现的行为。</font><font style="vertical-align: inherit;">它可以针对常见的企业对手模型全面评估计算机网络防御（CND）技术，流程和策略。</font><font style="vertical-align: inherit;">我们并不认为它是一个全面的技术清单，只是对公众所知的近似; </font><font style="vertical-align: inherit;">因此，它还邀请社区提供更多细节和信息，以继续发展知识体系。</font><font style="vertical-align: inherit;">贡献可包括新技术，行动类别，澄清信息，示例，其他平台或环境，检测或缓解方法以及数据源。</font><font style="vertical-align: inherit;">请参阅</font></font><a href="contribute"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contribute</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 有关如何参与的说明页面。</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结果将有助于将社区工作集中在当前防御技术和最佳实践尚未充分理解或涵盖的领域。</font><font style="vertical-align: inherit;">当前防御工具和政策的开发人员可以确定他们的价值和优势与企业对手模型的ATT和CK相关的位置。</font><font style="vertical-align: inherit;">同样，网络安全研究可以使用ATT＆CK for Enterprise作为推动未来调查的基础参考点。</font></font></p>
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业用例的ATT和CK</font></font></h4>
+<ul>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">优先考虑CND功能的开发和/或采购工作</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对CND能力之间的替代方案进行分析</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定一组CND功能的“覆盖范围”</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据从头到尾使用的技术以及共同参考来描述事​​件的入侵链</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定对手贸易手段之间的共性，以及区分特征</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">连接缓解，弱点和对手</font></font></li>
+</ul>
+<p><br /></p>
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考</font></font></h4>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[1] </font></font><a href="https://www.mitre.org/capabilities/cybersecurity/threat-based-defense" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MITRE公司。</font><font style="vertical-align: inherit;">（2017年）。</font><font style="vertical-align: inherit;">基于威胁的防御 - 了解攻击者的策略和技术是成功进行网络防御的关键。</font><font style="vertical-align: inherit;">检索2017年2月8日。</font></font></a></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2] </font></font><a href="http://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-Paper-Intel-Driven-Defense.pdf" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hutchins等人（2011年）。</font><font style="vertical-align: inherit;">智能驱动的计算机网络防御通过分析对手活动和入侵杀伤链来实现。</font><font style="vertical-align: inherit;">检索2016年8月18日。</font></font></a></p>
+        </div>
+    </div>
+</div>
+</div>
+<!--stopindex-->
+<footer class="footer pt-3 pb-2">
+    <div class="container-fluid text-center">
+        <a class="btn btn-primary float-right mr-4" href="https://twitter.com/MITREattack" target="_blank" rel="noopener" aria-label="Twitter">
+            <img src="../theme/images/twitter.png" class="mx-auto d-block" width="28" height="28" /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 跟着我们！</font></font></a>
+        <a href="https://www.mitre.org" target="_blank" rel="noopener" aria-label="MITRE" class="float-left ml-4">
+            <img src="../theme/images/mitrelogowhiteontrans.gif" width="144" height="66" /></a>
+        <br />
+        <p>
+            <br /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权所有©2018，MITRE Corporation。</font><font style="vertical-align: inherit;">MITRE ATT＆CK和ATT＆CK是The MITRE Corporation的商标。</font></font></p>
+        <small><a href="privacy" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐私政策</font></font></a>  <a href="terms-of-use" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用条款</font></font></a></small>
+    </div>
+</footer>
+
+     <!--SCRIPTS-->
+    <script src="../theme/scripts/jquery-3.2.1.min.js"></script>
+    <script src="../theme/scripts/popper.min.js"></script>
+    <script src="../theme/scripts/bootstrap.min.js"></script>
+    <script src="../theme/scripts/site.js"></script>
+    <script src="../theme/scripts/lunr-2.3.3.js"></script>
+    <script src="../theme/scripts/search.js"></script>
+    <script src="../theme/scripts/index.js"></script>
+
+<script src="../theme/scripts/tables.js"></script>
+
+
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google 翻译" /></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">原文</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">提供更好的翻译建议</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;" /><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><!--startindex--><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"/></svg></div></div></body></html>

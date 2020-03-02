@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="7" height="5" viewBox="0 0 7 5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="搜索下拉" class="cls-1" d="M287.2,3125.6a0.826,0.826,0,0,1-1.4,0l-2.63-3.14a0.956,0.956,0,0,1-.065-0.96,0.839,0.839,0,0,1,.766-0.51h5.261a0.839,0.839,0,0,1,.766.51,0.956,0.956,0,0,1-.065.96Z" transform="translate(-283 -3121)"/>
+</svg>

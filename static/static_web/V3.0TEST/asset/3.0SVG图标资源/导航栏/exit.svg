@@ -1,0 +1,11 @@
+<svg id="退出平台" xmlns="http://www.w3.org/2000/svg" width="15" height="17" viewBox="0 0 15 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #666;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="bg" class="cls-1" d="M1702,102.5a7.5,7.5,0,1,1-9-7.349V94a1,1,0,0,1,1-1h1a1,1,0,0,1,1,1v1.151A7.505,7.505,0,0,1,1702,102.5Zm-6-4.42V100a1,1,0,0,1-1,1h-1a1,1,0,0,1-1-1V98.08A4.69,4.69,0,1,0,1696,98.08Z" transform="translate(-1687 -93)"/>
+</svg>

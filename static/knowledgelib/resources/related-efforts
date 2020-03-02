@@ -1,0 +1,136 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" class="translated-ltr"><head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-62667723-1"></script>
+        <script src="../theme/scripts/analytics.js"></script>
+        <meta name="google-site-verification" content="2oJKLqNN62z6AOCb0A0IXGtbQuj-lev5YPAHFF_cbHQ" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="../theme/favicon.ico" type="image/x-icon" />
+        <title>资源：相关努力 -  MITRE ATT＆CK™</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../theme/style/bootstrap.min.css" />
+        <link rel="stylesheet" href="../theme/style/bootstrap-glyphicon.min.css" />
+        <link href="../theme/style/style.css" rel="stylesheet" type="text/css" /> <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css" /></head>
+
+<body>
+<!--stopindex-->
+<header style="height: 78.5469px;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-mitre-red border-bottom">
+            <a class="navbar-brand" href="../index.html"><img src="../theme/images/mitre_attack.png" height="50px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" onclick="search('')"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav nav-tabs ml-auto">
+                            <li class="nav-item"><a href="../matrices/enterprise" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">矩阵</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../tactics/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../tactics/pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="../tactics/enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="../tactics/mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../techniques/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../techniques/pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK </font></font></a>
+                                        <a class="dropdown-item" href="../techniques/enterprise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业</font></font></a>
+                                        <a class="dropdown-item" href="../techniques/mobile"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动</font></font></a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="../groups/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组</font></font></b></a></li>
+                            <li class="nav-item"><a href="../software/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../resources.1" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="../resources.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一般</font></font></a>
+                                    <a class="dropdown-item" href="getting-started.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></a>
+                                    <a class="dropdown-item" href="attackcon.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT和CKcon </font></font></a>
+                                    <a class="dropdown-item" href="faq/index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常见问题解答</font></font></a>
+                                    <a class="dropdown-item" href="updates.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></a>
+                                    <!-- <a class="dropdown-item" href="/resources/supporters/">Supporters</a>
+                                            <a class="dropdown-item" href="/resources/industry-news/">Industry News</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="https://medium.com/mitre-attack/" target="_blank" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></b> <img src="../theme/images/external-site.svg" alt="外部网站" class="external-icon" /></a></li>
+                            <li class="nav-item"><a href="../contact/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系</font></font></b></a></li>
+                </ul>
+                <ul class="navbar-nav flex-row d-md-flex" style="float: right">  <!-- ml-md-auto d-none-->
+                    <li>
+                        <form class="form-inline pl-2">
+                            <input class="form-control" type="text" placeholder="Search site" aria-label="Search" id="search" autocomplete="off" />
+                        </form>
+                        <div class="search-results"></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+            <div class="container-fluid under-development"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                在</font></font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">attackevals.mitre.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们第一轮ATT和CK评估的</font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;">结果</font></a><font style="vertical-align: inherit;">！
+            </font></font></div>
+        <!--startindex-->
+<div id="content">      
+<div class="container">
+    <div class="container-fluid">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">家</font></font></a></li>
+            <li class="breadcrumb-item"><a href="../resources.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></a></li>
+            <li class="breadcrumb-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相关的努力</font></font></li>
+        </ol>
+        <div class="blog-post p-3">
+            <h1 class="blog-post-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相关的努力</font></font></h1><br />
+                <h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CAPEC</font></font></h4>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通用攻击模式枚举和分类（CAPEC™）旨在提供以直观方式分类的公共攻击模式的公共可用目录，以及用于描述相关攻击和共享有关这些攻击的信息的综合模式。</font><font style="vertical-align: inherit;">了解对手行为在网络安全中越来越重要。</font><font style="vertical-align: inherit;">存在两种用于组织对手行为知识的方法 -  CAPEC和ATT＆CK，每种方法都集中在一组特定的用例上。</font><font style="vertical-align: inherit;">请访问CAPEC和ATT＆CK </font></font><a href="https://capec.mitre.org/about/attack_comparison.html" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">比较页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，该</font><a href="https://capec.mitre.org/about/attack_comparison.html" target="_blank"><font style="vertical-align: inherit;">页面</font></a><font style="vertical-align: inherit;">解释了CAPEC与ATT和CK之间的相似性，差异和关系以及各自在网络安全中的作用。</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT＆CK和CAPEC正在合作制定ATT和CK技术与CAPEC攻击模式之间的相关细节。</font><font style="vertical-align: inherit;">CAPEC在版本2.8 </font></font><sup><a href="http://capec.mitre.org/news/index.html#december72015_CAPEC_List_Version_2.8_Now_Available" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[1]中</font></font></a></sup><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纳入了ATT和CK技术的初始映射，</font><font style="vertical-align: inherit;">相关的ATT和CK技术具有CAPEC ID参考。</font></font></p>
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MAEC</font></font></h4>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">恶意软件属性枚举和表征（MAEC™）是一种协作社区驱动的工作，用于定义和开发基于行为，工件和攻击模式等属性共享有关恶意软件的结构化信息的标准化语言。</font><font style="vertical-align: inherit;">使用抽象模式表征恶意软件与使用物理签名相比具有广泛的优势。</font><font style="vertical-align: inherit;">它允许准确编码恶意软件的运行方式及其执行的特定操作。</font><font style="vertical-align: inherit;">此类信息不仅可用于恶意软件检测，还可用于评估恶意软件所追求的最终目标及其所代表的相应威胁。</font><font style="vertical-align: inherit;">专注于恶意软件的属性和行为有助于检测和分析新兴的，</font><font style="vertical-align: inherit;">复杂的恶意软件威胁，绕过传统的基于签名和启发式的方法。</font><font style="vertical-align: inherit;">以标准方式表征恶意软件支持跨组织的协作以及跨恶意软件实例的常见行为，功能和代码库的识别。</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATT和CK涵盖的一些访问后技术与作为MAEC恶意软件行为标准化特征的一部分的能力和行为抽象之间存在对齐和重叠。</font><font style="vertical-align: inherit;">虽然ATT和CK采用一般方法，但仍然对攻击者可能使用的特定工具保持不可知性，但在适用的情况下，与描述恶意软件的某些属性的标准化方法相关仍然是有价值的。</font></font></p>
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">外部链接</font></font></h4>
+<ul>
+<li><a href="https://capec.mitre.org" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常见攻击模式枚举和分类</font></font></a></li>
+<li><a href="https://oasis-open.github.io/cti-documentation/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结构化威胁信息eXpression</font></font></a></li>
+<li><a href="http://maecproject.github.io" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">恶意软件属性枚举和表征</font></font></a></li>
+</ul>
+<p><br /></p>
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参考</font></font></h4>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[1] </font></font><a href="http://capec.mitre.org/news/index.html#december72015_CAPEC_List_Version_2.8_Now_Available" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“CAPEC清单版本2.8现已推出”MITRE公司</font></font></a></p>
+        </div>
+    </div>
+</div>
+</div>
+<!--stopindex-->
+<footer class="footer pt-3 pb-2">
+    <div class="container-fluid text-center">
+        <a class="btn btn-primary float-right mr-4" href="https://twitter.com/MITREattack" target="_blank" rel="noopener" aria-label="Twitter">
+            <img src="../theme/images/twitter.png" class="mx-auto d-block" width="28" height="28" /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 跟着我们！</font></font></a>
+        <a href="https://www.mitre.org" target="_blank" rel="noopener" aria-label="MITRE" class="float-left ml-4">
+            <img src="../theme/images/mitrelogowhiteontrans.gif" width="144" height="66" /></a>
+        <br />
+        <p>
+            <br /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权所有©2018，MITRE Corporation。</font><font style="vertical-align: inherit;">MITRE ATT＆CK和ATT＆CK是The MITRE Corporation的商标。</font></font></p>
+        <small><a href="privacy" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐私政策</font></font></a>  <a href="terms-of-use" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用条款</font></font></a></small>
+    </div>
+</footer>
+
+     <!--SCRIPTS-->
+    <script src="../theme/scripts/jquery-3.2.1.min.js"></script>
+    <script src="../theme/scripts/popper.min.js"></script>
+    <script src="../theme/scripts/bootstrap.min.js"></script>
+    <script src="../theme/scripts/site.js"></script>
+    <script src="../theme/scripts/lunr-2.3.3.js"></script>
+    <script src="../theme/scripts/search.js"></script>
+    <script src="../theme/scripts/index.js"></script>
+
+<script src="../theme/scripts/tables.js"></script>
+
+
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google 翻译" /></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">原文</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">提供更好的翻译建议</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;" /><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><!--startindex--><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"/></svg></div></div></body></html>

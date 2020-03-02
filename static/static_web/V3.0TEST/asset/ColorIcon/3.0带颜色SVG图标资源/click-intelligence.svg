@@ -1,0 +1,16 @@
+<svg id="威胁情报" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #5292f5;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="bg" class="cls-1" cx="10" cy="10" r="10"/>
+  <path id="bg-2" data-name="bg" class="cls-2" d="M999.159,511.313c-0.874-.873-3.164-6.328-3.164-6.328s5.455,2.29,6.325,3.164A2.236,2.236,0,1,1,999.159,511.313Z" transform="translate(-990 -500)"/>
+</svg>

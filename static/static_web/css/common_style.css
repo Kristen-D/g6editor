@@ -1,0 +1,392 @@
+  
+
+/******** General ********/
+*{margin: 0; padding: 0;box-sizing: border-box;}
+body, input, textarea {
+    font-family: 'FZLTXHK','Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+html {position:relative; min-height:100%; }
+header, section, footer, aside, nav, main, article, figure { display: block; }
+a:link, a:visited,a:hover, a:active {color: inherit;text-decoration: none;}
+ol, ul {list-style: none;}
+input::-ms-clear{display:none;}
+input::-ms-reveal { display: none;}
+
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+.hidden{ display: none;}
+.ishidden{display: block;}
+.float-l{ float: left !important;}
+.float-r{ float: right !important;}
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+
+.flex{display:flex;display: -webkit-flex; justify-content:space-around;}
+.flexCenter{display:flex;display:-webkit-flex;justify-content:center; align-items: center;}
+.flexAround{display:flex;display:-webkit-flex;justify-content:space-around;align-items:center;}
+.flexStart{display:flex;display:-webkit-flex;justify-content:start;align-items:center;}
+.flexBetween{display:flex;display:-webkit-flex;justify-content:space-between;align-items:center}
+.flexEnd{display:flex;display:-webkit-flex;justify-content:flex-end;align-items:center}
+.flexTop{display: flex;display: -webkit-flex;justify-content: center;flex-direction: column;align-items: center;}
+
+.overflowx-hidden{ overflow-x: hidden; }
+/******** 1 @font ********/
+@font-face {
+	font-family: "HATTEN";
+	src: url('../../../static/static_web/fonts/hatten-webfont.eot');
+	src: url('../../../static/static_web/fonts/hatten-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../../../static/static_web/fonts/hatten-webfont.woff') format('woff'), /* chrome, firefox */
+		 url('../../../static/static_web/fonts/HATTEN.TTF') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+		 url('../../../static/static_web/fonts/hatten-webfont.svg#HATTEN') format('svg'); /* iOS 4.1- */
+}
+
+@font-face{
+	font-family: "FZPSZHUNHJW";
+	src:url('../../../static/static_web/fonts/FZPSZHUNHJW.TTF') format('truetype');
+}
+
+@font-face{
+	font-family: "Haettenschweiler";
+	src:url('../../../static/static_web/fonts/Haettenschweiler.TTF')format('truetype');
+}
+
+@font-face{
+	font-family: "Digital";
+	src:url('../../../static/static_web/fonts/Digital.ttf')format('truetype');
+}
+@font-face {
+	font-family: "UnidreamLED";
+	src:url('../../../static/static_web/fonts/UnidreamLED.ttf') format('truetype');
+}
+@font-face {
+	font-family: "Helvetica";
+	src:url('../fonts/Helvetica.ttf')  format('truetype'),
+			url('../fonts/Helvetica.ttc') format('truetype');
+}
+@font-face {
+	font-family: "Roboto";
+	src:url('../fonts/Roboto-Bold.ttf') format('truetype')
+}
+@font-face {
+	font-family: "Roboto-Regular";
+	src:url('../fonts/Roboto-Regular.ttf') format('truetype')
+}
+@font-face {
+	font-family: "LetsgoDigital";
+	src:url('../fonts/LetsgoDigital-Regular.ttf') format('truetype')
+}
+@font-face {
+	font-family: "MicrosoftYaHeiLight";
+	src:url('../fonts/msyhl.ttc') format('truetype')
+}
+@font-face {
+	font-family: "STHeitiSC-Light";
+	src:url('../fonts/stheitisc.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "ElementalEnd";
+	src:url('../fonts/ElementalEnd.ttf') format('truetype');
+}
+@font-face {
+	font-family: "FZCQK";
+	src:url('../fonts/FZCQK.ttf') format('truetype');
+}
+@font-face {
+	font-family: "FZLTXHK";
+	src:url('../fonts/FZLTXHK.TTF') format('truetype');
+}
+@font-face {
+	font-family: "BebasNeueBold";
+	src:url('../fonts/BebasNeue Bold.otf') format('truetype');
+}
+@font-face {
+	font-family: "SourceHanSans";
+	src:url('../fonts/SourceHanSansCN-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: "SourceHanSansCN-Heavy";
+	src:url('../fonts/SourceHanSansCN-Heavy.otf') format('truetype');
+}
+@font-face {
+	font-family: "BebasNeueRegular";
+	src:url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+@font-face{
+	font-family: "big_noodle_titling";
+	src:url('../fonts/big_noodle_titling.ttf') format('truetype');
+}
+
+/******** 2. Echarts Size ********/
+
+
+/********* 3. Padding - Margin *********/
+.m-0 {
+  margin: 0 !important
+}
+.m-20{ margin:20px; }
+.m-10-a{ margin:10px auto !important; }
+.m-a-10{ margin: auto 10px !important; }
+.m-20-a{ margin:20px auto !important; }
+.m-30-a{ margin:30px auto !important; }
+.m-a-20{ margin:auto 20px !important; }
+/*.m-a-30{ margin:auto 30px !important; }*/
+
+.m-16-a{ margin:16px auto !important; }
+.m-34-a{ margin: 34px auto !important;}
+.m-10-5{ margin: 10px 5px; }
+
+.m-l-4{margin-left: 4px;}
+.m-l-10{margin-left: 10px !important;}
+.m-l-15{margin-left: 15px !important;}
+.m-l-20{margin-left: 20px !important;}
+.m-l-25{margin-left: 25px;}
+.m-l-30{margin-left: 30px;}
+.m-l-40{margin-left: 40px;}
+
+.m-t-3{margin-top:3px !important;}
+.m-t-4{margin-top: 3.5px !important;}
+.m-t-8{ margin-top: 8px !important;}
+.m-t-10{ margin-top: 10px !important;}
+.m-t-15{ margin-top: 15px !important;}
+.m-t-20{ margin-top: 20px !important;}
+.m-t-39{margin-top: 50px !important;}
+
+.m-b-0{margin-bottom: 0px !important}
+.m-b-10{ margin-bottom: 10px !important;}
+.m-b-15{ margin-bottom: 15px !important; }
+.m-b-22{ margin-bottom: 22px !important; }
+.m-b-30{ margin-bottom: 30px !important; }
+.m-b-40{ margin-bottom: 40px !important; }
+.m-b-36{ margin-bottom: 36px !important; }
+.m-b-45{ margin-bottom: 45px; }
+.m-r-5{ margin-right: 5px; }
+.m-r-6{ margin-right: 6px; }
+.m-r-10{ margin-right: 10px; }
+.m-r-15{ margin-right: 15px; }
+.m-r-20{ margin-right: 20px; }
+.m-r-30{margin-right: 30px;}
+.m-r-62{margin-right: 62px;}
+
+.m-t--5{margin-top: -5px !important;}
+.m-t--10{margin-top: -10px !important;}
+.m-t--28{margin-top: -28px;}
+.m-t--10{margin-top: -10px;}
+.m-t--20{margin-top: -20px;}
+
+
+.p-0{ padding: 0 !important; }
+.p-0-20{padding-left: 0px !important;padding-right: 0px !important;  }
+.p-20{padding: 20px;}
+.p-b-0{ padding-bottom: 0px !important; }
+.p-b-10{ padding-bottom: 10px!important; }
+.p-b-15{ padding-bottom: 15px !important; }
+.p-b-35{ padding-bottom: 35px !important; }
+.p-l-20{padding-left: 20px !important;}
+.p-l-10{padding-left: 10px !important}
+.p-l-0{padding-left: 0 !important;}
+.p-t-0{padding-top: 0px !important;}
+.p-t-15{padding-top: 15px !important}
+.p-t-40{padding-top: 40px !important;}
+.p-t-25{padding-top: 25px !important;}
+
+.m-r-b30{ margin-right: 30%; }
+.m-l--16{margin-left: -16px !important;}
+
+
+.setwidth-per25{width: 25%}
+.setwidth-per40{width: 40%}
+.inputWidth {width: 30% !important;}
+.selectWidth {width: calc((50% - 10px) / 3);}
+.areaWidth {width: 50%;}
+
+/**  4. square & circle icon**/
+.square{padding:2px 3px;color:#fff;font-size:10px; font-weight: 500; border:1px solid #2196f3; margin-right: 10px; background-color: #2196f3;}
+.ssquare { width: 5px; height: 6px; background-color: #00f6ff;}
+.xsquare { width: 2px; height: 2px; background-color: #b4b5b5;}
+.squareborder{border:1px solid #3d4e6c;width:18px;height:22px;background-color:#0a1a35;text-align:center;margin:0 auto}
+.circle{display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 10px; background-color:#b5c2ca;}
+.circle-location{margin-top: 4px; vertical-align: top;}
+.circle-high{background-color: #ff2a00;}
+.circle-medium{background-color: #ff8400;}
+.circle-low{background-color: #73610d;}
+.circle-green{ background:#acce48; }
+.circle-orange{ background: #e86b18; }
+.circle-blue{background-color: #007be8}
+.circle-lightBlue{background-color: #12cbf6}
+.circle-unknow{background-color: #4c9ee8;}
+.circle-nodanger{ background-color: #02c9a9; }
+.level-high{background-color: #f72e00}
+.level-medium{background-color:#ff8400 }
+.level-low{background-color: #f1b629}
+.grey-bg{background-color: grey !important}
+.lightGrey-bg{background-color: lightgrey}
+.white-bg{background-color: white !important}
+
+.level-square{ padding:1px 6px;text-align: center; border-radius: 2px; color: #fff;font-weight: bold;}
+.level-square2{ padding:1px 6px;text-align: center; border-radius: 2px; color: #060b48;}
+.level-square-ssas{display: inline-block;min-width:46px; text-align: center;line-height: 16px; color: #fff;}
+.level-square-ssas.circle-low{background-color:#f1b629;}
+.level-square-mi{ padding:1px 6px;text-align: center; color: #fff; }
+
+.level-high{ background-color: #f72e00; }
+.level-medium{ background-color: #ff8400; }
+.level-low{ background-color: #f1b629; }
+
+.level-h{color:#EA5200;}
+.level-m{ color: #FE983D; }
+.level-l{ color: #07B5F9; }
+
+
+/******** 5.text color **********/
+.text-weight {font-weight: bold !important;}
+.text-white  {color: #ffffff; }
+.text-danger {color:#F72E00; }
+.text-muted  {color: #98a6ad; }
+.text-primary{color:#007BE8;}
+.text-warning{color: #ebc142;}
+.text-success{color:#2ECC71;}
+.text-info 	 {color: #3bc0c3; }
+.text-info2 {color: #3deaff}
+.text-inverse{color:#14082d;}
+.text-pink   {color: #F13C6E;  }
+.text-purple {color: #615ca8;}
+.text-dark {
+  color: #797979 !important;
+}
+.text-black  {color: #000; }
+.text-blue   {color: #33deff;}
+.text-high   {color: #ff2a00;}
+.text-red    {color: #e12424; }
+.text-blue-could {
+  color: #07B5F9
+}
+.vert-bar-color {
+  color: #c9ccd0 !important;
+  margin: auto 2px;
+}
+
+
+/******** 6.text sizes **********/
+.text-xs { font-size: 12px; }
+.text-s  { font-size: 14px; }
+.text-sm { font-size: 16px !important; }
+.text-m  {font-size: 18px;}
+.text-md { font-size: 20px; }
+.text-l  { font-size: 24px; }
+.text-lg { font-size: 28px; }
+
+.text-bold{font-weight: bold;}
+.text-normalBlod{font-weight: normal}
+
+
+/******** 8.element-set **********/
+[class^=el-icon-] {font-weight: bold;}
+.el-tag,.el-input__inner{border-radius: 0;}
+.el-radio-button:first-child .el-radio-button__inner,
+.el-radio-button:last-child .el-radio-button__inner{border-radius: 0}
+
+.el-form-item { margin-bottom: 14px;}
+.el-input__inner{ height: 32px; }
+.el-input__icon{line-height: 32px;}
+.el-range-editor.el-input__inner{ padding: 3px 10px 5px; margin-top: 4px; }
+/* .dt-mod .el-range-editor.el-input__inner{ padding: 0 10px 5px; margin-top: 4px; } */
+
+/* 广东APT日期选择器样式修改 */
+.form-style .el-date-editor .el-range-separator {
+  line-height: 22px;
+  width: 8%;
+}
+.form-style .el-date-editor--daterange.el-input,
+.form-style .el-date-editor--daterange.el-input__inner,
+.form-style .el-date-editor--timerange.el-input,
+.form-style .el-date-editor--timerange.el-input__inner {
+  width: 289px;
+  border-radius: 4px;
+}
+.form-style .el-date-editor .el-range__close-icon {
+  display: none;
+}
+.form-style .el-range-editor.el-input__inner {
+  margin-top: 0;
+}
+.form-style .el-radio {
+  line-height: normal;
+}
+.form-style .el-date-editor .el-range__icon {
+  line-height: 22px;
+}
+.form-style .el-date-editor .el-range-input {
+	font-family: inherit;
+}
+
+.el-button { border-radius: 0;font-weight: 500;}
+
+
+.el-button--primary { color: #fff;background-color: #007be8; border-color:#007be8;}
+.el-button--primary:hover,.el-button--primary:focus { background: #439dec;border-color: #439dec;color: #fff;}
+.el-button--primary.is-active, .el-button--primary:active {background: #439dec; border-color: #439dec; color: #fff; }
+
+.el-button--gray { background-color: #4A5258;color: #fff;border-color: #4A5258;}
+.el-button--gray:hover,.el-button--gray:focus { background: #656b70;border-color: #656b70;color: #fff;}
+.el-button--gray.is-active, .el-button--gray:active {background: #4A5258; border-color: #4A5258; color: #fff; }
+.el-button--small, .el-button--small.is-round {padding: 9px 12px;}
+ /*.el-button--small{ padding: 9px 10px; }*/
+
+.pagination.el-pagination .el-pager li, .pagination.el-pagination .btn-prev, .pagination.el-pagination .btn-next {background-color: #fff}
+
+.el-textarea__inner{border-radius: 0;font-family: Arial;}
+
+.p-30-button .el-button{padding: 7px 30px;}
+.p-32-button .el-button{padding:8px 32px;}
+
+
+.purplr-radio .el-radio__input.is-checked .el-radio__inner{border-color: #8a6ac5;background: #8a6ac5}
+.purplr-radio .el-radio__inner:hover{border-color: #8a6ac5}
+.purplr-radio .el-radio__input.is-checked+.el-radio__label{color:#606266 }
+
+/***2行换行并且加上省略号***/
+.ellipsis{
+	display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  word-wrap:break-word;
+}
+
+.oneellipsis{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  word-wrap:break-word;
+}
+
+
+.twoellipsis{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  word-wrap:break-word;
+}
+
+.fiveline{
+	display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  word-wrap:break-word;
+}
+
+
+.cursorPit{cursor: pointer;}

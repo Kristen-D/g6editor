@@ -1,0 +1,48 @@
+<div class="modal" id="save_dialog" style="display:none">
+     <div class="modal-header">
+        <a id="btn_dash_close" class="close a_close" href="#"><i class="icon-close"></i></a>
+        <h4 id="h_save">另存为仪表板面板</h4>
+     </div>
+     <div class="modal-body">
+         <table border="0">
+         	  <tr>
+                <td class="modal-left"><span class="s_dashboard">仪表板</span></td>
+                <td><div class="btn-group mod_w1">
+        		  <button class="btn_s active mod_w" data-field-name="host" id="btn_dash_new">新建</button>
+        		  <button class="btn_s cother mod_w" data-field-name="host" id="btn_dash_old">现有</button>
+      		  </div></td>
+              </tr>
+              <tr class="dash_new">
+                <td class="modal-left"><span class="s_title" id="s_dash_title">仪表板标题</span></td>
+                <td><input name="label" type="text" id="in_dash_title"></td>
+              </tr>
+              <tr class="dash_new">
+                <td class="modal-left">仪表板id?<span class="help-block ">&nbsp;</span></td>
+                <td><input id="in_dash_id" name="label2" type="text"><span class="help-block " style="color:red">只能包含字母、数字和下划线。</span></td>
+              </tr>
+              <tr class="dash_new">
+                <td class="modal-left"><span class="s_desc">仪表板描述</span></td>
+                <td><textarea name="description" type="text" id="in_dash_desc"></textarea></td>
+              </tr>
+              <tr class="dash_new">
+                <td class="modal-left"><span class="s_permission">仪表板权限</span></td>
+                <td><div class="btn-group mod_w1">
+         			 <button class="btn_s active" data-field-name="host" id="btn_special_use">专用</button>
+        		     <button class="btn_s cother" data-field-name="host" id="btn_share_apply">应用</button>
+        		    <button class="btn_s cother" data-field-name="host" id="btn_all_use">全局</button>
+     		   </div></td>
+              </tr>
+              <tr  class="dash_old"> <td class="modal-left"></td><td><select  name="dash_select" id="dash_select"></select></td></tr>
+              <tr>
+                <td class="modal-left"><span class="s_desc">面板标题</span></td>
+               <td><input name="label" type="text" id="in_dash_panel_title"></td>
+              </tr>
+              
+            </table>
+
+     </div>
+     <div class="modal-footer">
+          <a  href="#" id="btn_dash_cancel" class="btn_cancel_bg modal-btn-cancel">取消</a>
+         <a href="#" id="btn_dash_add" class="btn_cj_bg">保存</a>
+     </div>
+</div>

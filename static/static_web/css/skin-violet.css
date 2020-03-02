@@ -1,0 +1,23 @@
+.top-breadcrumb >.el-breadcrumb >.el-breadcrumb__item:first-child > .el-breadcrumb__inner,
+.el-panel-subtitle{ border-color: #8a6ac5;}
+
+.el-tabs__active-bar{background-color: #5c43ab;}
+.el-tabs__item.is-active,.el-tabs__item:hover, 
+.day-tabs .el-tabs__item:active, .tday-tabsabs .el-tabs__item:focus{color: #5c43ab !important;}
+
+.el-panel-subtitle{font-size:14px;}
+.el-button--purple .el-button--primary{background-color: #8a6ac5;border-color:#8a6ac5 }
+.el-button--purple .el-button--primary:focus,.el-button--purple .el-button--primary:hover{background-color: #8a6ac5;border-color:#8a6ac5 }
+.el-button--purple .el-input.is-active .el-input__inner,.el-button--purple .el-input.is-focus .el-input__inner,.el-button--purple .el-input__inner:focus {border-color:#8a6ac5 }
+
+.areaFocus .el-textarea__inner:focus{border-color:#8a6ac5}
+
+/* color--purple */
+.subtitlePurple{color: #2500ae}
+.lightPurple{color: #8a6ac5}
+.el-select-dropdown__item.selected{color: #8a6ac5}
+
+.el-range-editor.is-active, .el-range-editor.is-active:hover{border-color: #8a6ac5;}
+.el-date-table td.today span,.el-date-table td.available:hover{color: #8a6ac5;}
+.el-date-table td.end-date span, .el-date-table td.start-date span,
+.el-date-table td.current:not(.disabled) span{background-color: #8a6ac5;}

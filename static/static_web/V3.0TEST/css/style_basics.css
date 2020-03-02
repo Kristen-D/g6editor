@@ -1,0 +1,91 @@
+/* CSS Document */
+
+
+/******** 1. General ********/
+*{margin: 0; padding: 0;box-sizing: border-box;}
+body {
+    font-family: 'Microsoft YaHei',
+    'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     
+    background-color: #eef5f9;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+header, section, footer, aside, nav, main, article, figure { display: block; }
+a:link, a:visited,a:hover, a:active {color: inherit;text-decoration: none;}
+ol, ul {list-style: none;}
+/*用于input在ie浏览器中在输入框中后面有图标（×与眼睛），进行清除*/
+input::-ms-clear { display: none;}
+input::-ms-reveal { display: none;}
+/*或<input type="password" class="clear" />
+.clear::-ms-clear { display: none;}
+.clear::-ms-reveal { display: none;}*/
+
+/*清除浏览器默认的textarea样式*/
+textarea {font-family: none;}
+
+/********** 2.Content Area (right) **********/
+.content {position: absolute; top: 50px; left:230px; right:0; min-width: 1200px; }
+.container-fluid { padding: 20px 24px;}
+
+
+/** 2.1 page-breadcrumb**/
+.top-breadcrumb{padding-bottom: 20px;  }
+.top-breadcrumb .el-breadcrumb__inner{font-size: 12px; }
+.top-breadcrumb .el-breadcrumb__separator{color:#3E4956;font-weight: 500; }
+.top-breadcrumb >.el-breadcrumb >.el-breadcrumb__item:first-child > .el-breadcrumb__inner{ border-left:3px solid #007BE8; padding-left: 10px;}
+.top-breadcrumb >.el-breadcrumb >.el-breadcrumb__item:last-child .el-breadcrumb__inner{ color: #3E4956; font-weight: 500; cursor: text;}
+
+
+
+
+
+
+/********** 3. Panel **********/
+.el-panel {
+  margin-bottom: 16px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.el-panel-body {padding:10px  20px;}
+.el-panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.el-panel-title {margin-top: 0;margin-bottom: 0;font-size: 16px;color: inherit;}
+
+
+.el-panel-default > .el-panel-heading {margin:0 20px; padding: 12px 0;color: #666666; border-color: #e9eef3;}
+
+
+
+
+/********** 4. Table **********/
+
+
+
+
+/********** 5. Pagination **********/
+
+
+
+
+/********** 6. Page ((Log-in,Register Etc....))**********/
+  /*加载中图片居中*/
+  .img_wrap{ position: relative; text-align: center; width: 100%; height: 100%;}
+  .img_wrap img{position: absolute;top: 50%; margin-top: -46px;margin-left: -23px;  }
+    /** 重新加载居中**/
+  .reload_wrap{ position: relative;top: 25%;text-align:center; }
+  .reload_wrap > h4{ color: #666;  font-size: 14px; font-weight: bold;}
+  .reload_wrap >p{ color: #999999; font-size: 13px; margin:10px  auto 20px; }
+
+
+/** 修改表格中排序图标的颜色 **/
+.el-table .sort-caret.ascending {border-bottom-color: #909399;}
+.el-table .sort-caret.descending {border-top-color: #909399;}
+

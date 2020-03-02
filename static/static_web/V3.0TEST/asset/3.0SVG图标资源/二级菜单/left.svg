@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dadada;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="收回" class="cls-1" d="M236.907,353.11l-4.8,5.136a0.361,0.361,0,0,0,0,.507l4.8,5.136a0.31,0.31,0,0,0,.474,0l0.515-.551a0.363,0.363,0,0,0,0-.507l-4.05-4.331,4.05-4.332a0.363,0.363,0,0,0,0-.507l-0.515-.551A0.31,0.31,0,0,0,236.907,353.11Z" transform="translate(-232 -353)"/>
+</svg>

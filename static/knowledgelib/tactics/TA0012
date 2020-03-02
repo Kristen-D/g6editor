@@ -1,0 +1,174 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" class="translated-ltr"><head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-62667723-1"></script>
+        <script src="../theme/scripts/analytics.js"></script>
+        <meta name="google-site-verification" content="2oJKLqNN62z6AOCb0A0IXGtbQuj-lev5YPAHFF_cbHQ" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="../theme/favicon.ico" type="image/x-icon" />
+        <title>Tactic: Priority Definition Planning - MITRE ATT&amp;CK™</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../theme/style/bootstrap.min.css" />
+        <link rel="stylesheet" href="../theme/style/bootstrap-glyphicon.min.css" />
+        <link href="../theme/style/style.css" rel="stylesheet" type="text/css" /> <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css" /></head>
+
+<body>
+<!--stopindex-->
+<header style="height: 78.5469px;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-mitre-red border-bottom">
+            <a class="navbar-brand" href="../index.html"><img src="../theme/images/mitre_attack.png" height="50px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" onclick="search('')"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav nav-tabs ml-auto">
+                            <li class="nav-item"><a href="../matrices/enterprise" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">矩阵</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="pre">PRE-ATT&amp;CK</a>
+                                        <a class="dropdown-item" href="enterprise">Enterprise</a>
+                                        <a class="dropdown-item" href="mobile">Mobile</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../techniques/enterprise" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="../techniques/pre">PRE-ATT&amp;CK</a>
+                                        <a class="dropdown-item" href="../techniques/enterprise">Enterprise</a>
+                                        <a class="dropdown-item" href="../techniques/mobile">Mobile</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="../groups/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组</font></font></b></a></li>
+                            <li class="nav-item"><a href="../software/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件</font></font></b></a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../resources.1" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源</font></font></b>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="../resources.1">General</a>
+                                    <a class="dropdown-item" href="../resources/getting-started.1">Getting Started</a>
+                                    <a class="dropdown-item" href="../resources/attackcon.1">ATT&amp;CKcon</a>
+                                    <a class="dropdown-item" href="../resources/faq/index.html">FAQ</a>
+                                    <a class="dropdown-item" href="../resources/updates.1">Updates</a>
+                                    <!-- <a class="dropdown-item" href="/resources/supporters/">Supporters</a>
+                                            <a class="dropdown-item" href="/resources/industry-news/">Industry News</a> -->
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="https://medium.com/mitre-attack/" target="_blank" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></b> <img src="../theme/images/external-site.svg" alt="外部网站" class="external-icon" /></a></li>
+                            <li class="nav-item"><a href="../contact/index.html" class="nav-link"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系</font></font></b></a></li>
+                </ul>
+                <ul class="navbar-nav flex-row d-md-flex" style="float: right">  <!-- ml-md-auto d-none-->
+                    <li>
+                        <form class="form-inline pl-2">
+                            <input class="form-control" type="text" placeholder="Search site" aria-label="Search" id="search" autocomplete="off" />
+                        </form>
+                        <div class="search-results"></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+            <div class="container-fluid under-development"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                在</font></font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">attackevals.mitre.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们第一轮ATT和CK评估的</font><a target="_blank" href="https://attackevals.mitre.org"><font style="vertical-align: inherit;">结果</font></a><font style="vertical-align: inherit;">！
+            </font></font></div>
+        <!--startindex-->
+<div id="content">    <div class="container-fluid">
+        <div class="row">
+ 
+             
+<!--stopindex-->
+    <div class="nav flex-column col-xl-2 col-lg-2 col-md-3  sidebar nav pt-5 pb-3 pl-3 border-right" id="v-tab" role="tablist" aria-orientation="vertical">
+        <button class="btn btn-default dropdown-toggle heading-dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRE-ATT＆CK</font></font></button><br />
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="enterprise">ENTERPRISE</a>
+            <a class="dropdown-item" href="mobile">MOBILE</a>
+            <a class="dropdown-item" href="pre">PRE-ATT&amp;CK</a>
+        </div>
+        <span class="heading" id="v-home-tab" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">战术</font></font></span>
+        <!-- <a class="nav-link side active show" id="v-overview-tab" data-toggle="tab" href="#v-overview" role="tab" aria-controls="v-overview" aria-selected="false">Overview</a> -->
+       <a class="nav-link side" id="v-overview-tab" href="pre" aria-controls="v-overview" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有</font></font></a><a class="nav-link side active show" id="v-priority-definition-planning-tab" href="TA0012" aria-controls="v-priority-definition-planning" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">优先级定义计划</font></font></a><a class="nav-link side" id="v-priority-definition-direction-tab" href="TA0013" aria-controls="v-priority-definition-direction" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">优先级定义方向</font></font></a><a class="nav-link side" id="v-target-selection-tab" href="TA0014" aria-controls="v-target-selection" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目标选择</font></font></a><a class="nav-link side" id="v-technical-information-gathering-tab" href="TA0015" aria-controls="v-technical-information-gathering" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术信息收集</font></font></a><a class="nav-link side" id="v-people-information-gathering-tab" href="TA0016" aria-controls="v-people-information-gathering" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人员信息收集</font></font></a><a class="nav-link side" id="v-organizational-information-gathering-tab" href="TA0017" aria-controls="v-organizational-information-gathering" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组织信息收集</font></font></a><a class="nav-link side" id="v-technical-weakness-identification-tab" href="TA0018" aria-controls="v-technical-weakness-identification" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术弱点识别</font></font></a><a class="nav-link side" id="v-people-weakness-identification-tab" href="TA0019" aria-controls="v-people-weakness-identification" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人员弱点识别</font></font></a><a class="nav-link side" id="v-organizational-weakness-identification-tab" href="TA0020" aria-controls="v-organizational-weakness-identification" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组织弱点识别</font></font></a><a class="nav-link side" id="v-adversary-opsec-tab" href="TA0021" aria-controls="v-adversary-opsec" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对手OPSEC </font></font></a><a class="nav-link side" id="v-establish-&amp;-maintain-infrastructure-tab" href="TA0022" aria-controls="v-establish-&amp;-maintain-infrastructure" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建立和维护基础设施</font></font></a><a class="nav-link side" id="v-persona-development-tab" href="TA0023" aria-controls="v-persona-development" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">角色开发</font></font></a><a class="nav-link side" id="v-build-capabilities-tab" href="TA0024" aria-controls="v-build-capabilities" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建能力</font></font></a><a class="nav-link side" id="v-test-capabilities-tab" href="TA0025" aria-controls="v-test-capabilities" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试能力</font></font></a><a class="nav-link side" id="v-stage-capabilities-tab" href="TA0026" aria-controls="v-stage-capabilities" aria-selected="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阶段能力</font></font></a>
+    </div>
+<!--startindex-->
+
+             
+            <div class="tab-content col-xl-10 col-lg-10 col-md-9 pt-4" id="v-tabContent">
+                <div class="tab-pane fade show active" id="v-attckmatrix" role="tabpanel" aria-labelledby="v-attckmatrix-tab">
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="../index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">家</font></font></a></li>
+      <li class="breadcrumb-item"><a href="pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">策略</font></font></a></li>
+  <li class="breadcrumb-item"><a href="pre"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预</font></font></a></li>
+  <li class="breadcrumb-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">优先级定义规划</font></font></li>
+</ol>
+<div class="tab-pane fade show active" id="v-" role="tabpanel" aria-labelledby="v--tab"></div>
+<div class="row">
+   <div class="col-xl-12">
+      <div class="jumbotron jumbotron-fluid bg-white">
+         <div class="container-fluid">
+            <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+               优先级定义规划
+            </font></font></h1>
+            <div class="row">
+                <div class="col-md-8 description-body"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                   优先级定义计划包括确定满足关键战略，运营或战术目标所需的关键智能主题（KIT）或关键智能问题（KIQ）的过程。</font><font style="vertical-align: inherit;">领导力概述了对手设计目标选择和实现计划的优先级定义（可能被视为目标）。</font><font style="vertical-align: inherit;">在确定现有KIT或KIQ的差距时，分析师可以概述优先级定义。
+                </font></font></div>
+                <div class="col-md-4">
+                   <div class="card">
+                      <div class="card-body">
+                         <div class="card-data"><span class="h5 card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：TA0012</font></font></div>                  
+                      </div>
+                   </div>
+                </div>
+            </div>
+            <h2 class="pt-3" id="techniques"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术</font></font></h2><h6 class="table-statistics"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技巧：13</font></font></h6><table class="table table-bordered table-light mt-2"><thead><tr><th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID</font></font></th><th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">名称</font></font></th><th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述</font></font></th></tr></thead><tbody class="bg-white"><tr><td><a class="technique-mapping" id="v-Assess current holdings, needs, and wants-priority definition planning-tab" href="../techniques/T1236"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1236</font></font></a></td><td><a class="technique-mapping" id="v-Assess current holdings, needs, and wants-priority definition planning-tab" href="../techniques/T1236"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评估当前的持股，需求和需求</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析师根据需求评估当前可用信息，这些需求概述了需求和愿望，作为开始满足要求的研究基线过程的一部分。    </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Assess KITs/KIQs benefits-priority definition planning-tab" href="../techniques/T1229"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1229</font></font></a></td><td><a class="technique-mapping" id="v-Assess KITs/KIQs benefits-priority definition planning-tab" href="../techniques/T1229"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评估KITs / KIQs的好处</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键情报主题（KITs）和关键情报问题（KIQs）可以进一步细分为关注政治，经济，外交，军事，金融或知识产权类别。</font><font style="vertical-align: inherit;">攻击者可以以这种方式指定KIT或KIQ，以便了解他们所追求的信息如何具有多种用途，并考虑他们为特定目的所需的信息类型的所有方面。</font><font style="vertical-align: inherit;">KIT。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Assess leadership areas of interest-priority definition planning-tab" href="../techniques/T1224"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1224</font></font></a></td><td><a class="technique-mapping" id="v-Assess leadership areas of interest-priority definition planning-tab" href="../techniques/T1224"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评估感兴趣的领导领域</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">领导层评估他们最感兴趣的领域，并生成关键情报主题（KIT）或关键情报问题（KIQ）。</font><font style="vertical-align: inherit;">例如，攻击者知道开源和封闭源报告网络是有意义的，从而导致它成为KIT。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Assign KITs/KIQs into categories-priority definition planning-tab" href="../techniques/T1228"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1228</font></font></a></td><td><a class="technique-mapping" id="v-Assign KITs/KIQs into categories-priority definition planning-tab" href="../techniques/T1228"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将KIT / KIQ分配到类别中</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">领导层将关键情报主题（KIT）和关键情报问题（KIQ）组织成三种类别，并在必要时创建更多类别。</font><font style="vertical-align: inherit;">关键球员KIT的描述的一个例子是当对手评估民族国家威胁演员的网络防御能力时。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Conduct cost/benefit analysis-priority definition planning-tab" href="../techniques/T1226"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1226</font></font></a></td><td><a class="technique-mapping" id="v-Conduct cost/benefit analysis-priority definition planning-tab" href="../techniques/T1226"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行成本/效益分析</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">领导层进行成本/收益分析，产生迫切需要的信息收集，触发关键智能主题（KIT）或关键情报问题（KIQ）。</font><font style="vertical-align: inherit;">例如，攻击者将网络入侵的成本与网络对手增加情报收集的预期收益进行比较。  </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Create implementation plan-priority definition planning-tab" href="../techniques/T1232"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1232</font></font></a></td><td><a class="technique-mapping" id="v-Create implementation plan-priority definition planning-tab" href="../techniques/T1232"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制定实施计划</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实施计划规定了如何执行战略计划的目标。  </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Create strategic plan-priority definition planning-tab" href="../techniques/T1231"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1231</font></font></a></td><td><a class="technique-mapping" id="v-Create strategic plan-priority definition planning-tab" href="../techniques/T1231"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制定战略计划</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">战略计划概述了对手在与对手执行的关键合作伙伴，主题和职能相关的高级别任务，愿景和目标。   </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Derive intelligence requirements-priority definition planning-tab" href="../techniques/T1230"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1230</font></font></a></td><td><a class="technique-mapping" id="v-Derive intelligence requirements-priority definition planning-tab" href="../techniques/T1230"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">得出情报要求</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">领导或关键决策者可以从关键情报主题（KIT）或关键情报问题（KIQ）中获得特定的情报要求。</font><font style="vertical-align: inherit;">特定的情报要求有助于分析人员收集信息，以建立关于主题或问题的信息基线，以及收集管理者，以澄清为满足要求而应收集的信息类型。  </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Develop KITs/KIQs-priority definition planning-tab" href="../techniques/T1227"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1227</font></font></a></td><td><a class="technique-mapping" id="v-Develop KITs/KIQs-priority definition planning-tab" href="../techniques/T1227"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发KITs / KIQs</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">领导力从他们最感兴趣的领域中获得关键情报主题（KIT）和关键情报问题（KIQ）。</font><font style="vertical-align: inherit;">KIT表达了管理层在早期预警，战略和运营决策，了解竞争以及了解竞争情况方面的情报需求。</font><font style="vertical-align: inherit;">KIQ是由KIT统一的关键问题，它为收集计划提供基础，为分析工作创建背景，和/或识别必要的外部操作。</font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Generate analyst intelligence requirements-priority definition planning-tab" href="../techniques/T1234"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1234</font></font></a></td><td><a class="technique-mapping" id="v-Generate analyst intelligence requirements-priority definition planning-tab" href="../techniques/T1234"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成分析师情报要求</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析师可能会从领导或关键决策者处获得关键情报主题（KIT）和关键情报问题（KIQ），并生成情报要求，以阐明主题或问题所需的信息错综复杂。 </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Identify analyst level gaps-priority definition planning-tab" href="../techniques/T1233"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1233</font></font></a></td><td><a class="technique-mapping" id="v-Identify analyst level gaps-priority definition planning-tab" href="../techniques/T1233"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定分析师级别的差距</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析师确定了产生关键情报主题（KIT）或关键情报问题（KIQ）的迫切需求的差距领域。   </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Identify gap areas-priority definition planning-tab" href="../techniques/T1225"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1225</font></font></a></td><td><a class="technique-mapping" id="v-Identify gap areas-priority definition planning-tab" href="../techniques/T1225"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确定差距领域</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">领导力确定了产生关键情报主题（KIT）或关键情报问题（KIQ）的迫切需求的差距领域。  </font></font></p></td></tr><tr><td><a class="technique-mapping" id="v-Receive operator KITs/KIQs tasking-priority definition planning-tab" href="../techniques/T1235"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T1235</font></font></a></td><td><a class="technique-mapping" id="v-Receive operator KITs/KIQs tasking-priority definition planning-tab" href="../techniques/T1235"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接收运营商KITs / KIQs任务</font></font></a></td><td><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析师可能会收到领导层的情报要求，并开始研究过程以满足要求。</font><font style="vertical-align: inherit;">这个过程的一部分可能包括在需求和需求之间划分界限，并思考与满足需求相关的所有可能方面。</font></font></p></td></tr></tbody></table>
+         </div>
+      </div>
+   </div>
+   <!-- <div class="col-xl-2 col-lg-2 col-md-0 d-block d-sm-none d-md-none d-lg-block">
+      <p>Content</p>
+      <div><a href="#description">Description</a></div>
+      <div><a href="#techniques">Techniques</a></div>
+   </div> -->
+</div>
+</div>
+
+                </div>
+            </div>
+        </div>  
+    </div>
+
+<!--stopindex-->
+<footer class="footer pt-3 pb-2">
+    <div class="container-fluid text-center">
+        <a class="btn btn-primary float-right mr-4" href="https://twitter.com/MITREattack" target="_blank" rel="noopener" aria-label="Twitter">
+            <img src="../theme/images/twitter.png" class="mx-auto d-block" width="28" height="28" /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 跟着我们！</font></font></a>
+        <a href="https://www.mitre.org" target="_blank" rel="noopener" aria-label="MITRE" class="float-left ml-4">
+            <img src="../theme/images/mitrelogowhiteontrans.gif" width="144" height="66" /></a>
+        <br />
+        <p>
+            <br /><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权所有©2018，MITRE Corporation。</font><font style="vertical-align: inherit;">MITRE ATT＆CK和ATT＆CK是The MITRE Corporation的商标。</font></font></p>
+        <small><a href="../resources/privacy" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐私政策</font></font></a>  <a href="../resources/terms-of-use" class="footer-link"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用条款</font></font></a></small>
+    </div>
+</footer>
+
+    <!--SCRIPTS-->
+    <script src="../theme/scripts/jquery-3.2.1.min.js"></script>
+    <script src="../theme/scripts/popper.min.js"></script>
+    <script src="../theme/scripts/bootstrap.min.js"></script>
+    <script src="../theme/scripts/site.js"></script>
+    <script src="../theme/scripts/lunr-2.3.3.js"></script>
+    <script src="../theme/scripts/search.js"></script>
+    <script src="../theme/scripts/index.js"></script>
+
+<!--SCRIPTS-->
+<script src="../theme/scripts/techniques.js"></script>
+
+
+
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google 翻译" /></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">原文</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">提供更好的翻译建议</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;" /><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><!--startindex--><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"/></svg></div></div></body></html>

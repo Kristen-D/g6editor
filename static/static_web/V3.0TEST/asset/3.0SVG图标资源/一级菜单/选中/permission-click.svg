@@ -1,0 +1,16 @@
+<svg id="权限中心" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #5292f5;
+      }
+    </style>
+  </defs>
+  <path id="bg" class="cls-1" d="M999.148,698.621l-8.9-9.989a0.928,0.928,0,0,1-.091-1.147l3.3-5a1.126,1.126,0,0,1,.943-0.485h11.2a1.131,1.131,0,0,1,.94.485l3.3,5a0.93,0.93,0,0,1-.09,1.147l-8.9,9.989A1.174,1.174,0,0,1,999.148,698.621Z" transform="translate(-990 -682)"/>
+  <rect id="bg-2" data-name="bg" class="cls-2" x="5" y="4" width="10" height="3" rx="1.5" ry="1.5"/>
+</svg>
