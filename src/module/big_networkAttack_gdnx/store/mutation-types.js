@@ -1,3 +1,0 @@
-export const SET_ACTIVE_SCREEN = 'SET_ACTIVE_SCREEN'
-export const SET_INFO_LIST = 'SET_INFO_LIST'
-export const SET_PARAMS = 'SET_PARAMS'
