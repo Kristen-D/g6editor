@@ -39,7 +39,7 @@
     "vue-template-compiler": "^2.5.17",
     "vuedraggable": "^2.21.0",
     "vuex": "^3.0.1",
-    "zrender": "^3.5.2",
+    "zrender": "^5.2.1",
     "@antv/l7-maps": "^2.0"
   },
   "devDependencies": {
