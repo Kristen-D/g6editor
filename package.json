@@ -27,7 +27,7 @@
     "node-glob": "^1.2.0",
     "pace": "^0.0.4",
     "popper.js": "^1.14.4",
-    "select2": "^4.0.3",
+    "select2": "^4.0.6",
     "sortablejs": "^1.5.0-rc1",
     "tweetnacl": "^1.0.0",
     "v-distpicker": "^1.2.2",
