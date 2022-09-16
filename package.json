@@ -15,7 +15,7 @@
     "axios": "^0.15.3",
     "babel-runtime": "^6.0.0",
     "bcrypt-pbkdf": "^1.0.2",
-    "bootstrap": "^3.3.0",
+    "bootstrap": "^3.4.1",
     "clipboard": "^1.7.1",
     "coffee-script": "^1.12.7",
     "element-ui": "^2.11.4",
